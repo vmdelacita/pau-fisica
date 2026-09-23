@@ -16,6 +16,7 @@ font:
   pdf_solucio: documents oficials/01_pau25_fisica_0c.pdf
   pagines_solucio: [9]
 format: nou
+curriculum: actual
 bloc: Física relativista, quàntica i nuclear
 blocs_secundaris: []
 subtemes:

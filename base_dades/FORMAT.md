@@ -35,13 +35,26 @@ Eines (a `eines/`):
 
 | part | valors |
 |---|---|
-| any | `2023`, `2024`… |
-| convocatoria | `ord` (juny), `ext` (extraordinària), `model` (examen de model), `mostra` (documents de mostra) |
+| any | `2019`, `2023`, `2024`… |
+| convocatoria | `ord` (juny), `ext` (extraordinària o de setembre), `model` (examen de model), `mostra` (documents de mostra) |
 | serie | `s1`, `s2`, `s5`… (per a les mostres: `optica`, `moment-angular`, `experiments`) |
-| exercici | Format nou: `E1`…`E4` + opció (`E1A`, `E1B`; sense lletra si no hi ha opcions: `E2`). Format antic: `P1`…`P7`. Mostres: `P1`…, `Q1`… |
+| exercici | Format nou: `E1`…`E4` + opció (`E1A`, `E1B`; sense lletra si no hi ha opcions: `E2`). Format antic: `P1`…`P8`; si el problema forma part d'una opció (A/B), la lletra hi va enganxada: `P3A`, `P3B`. Mostres: `P1`…, `Q1`… |
 | descriptor | 2–5 paraules en minúscules, sense accents, separades per guions, que identifiquin el context. Exemple: `nanosatellit-orbita-circular`, `cometa-halley-kepler`, `tub-raigs-x`. La "l·l" s'escriu `ll`. |
 
-Exemples: `2026_ord_s1_E1A_nanosatellit-orbita-circular`, `2023_ord_s5_P3_molla-mhs-energia`, `2025_mostra_optica_P1_lupa-taula`.
+Exemples: `2026_ord_s1_E1A_nanosatellit-orbita-circular`, `2023_ord_s5_P3_molla-mhs-energia`, `2025_mostra_optica_P1_lupa-taula`, `2019_ord_s1_P4B_…`.
+
+### Exàmens antics (≤2022)
+
+| Període | Estructura | Exercicis |
+|---|---|---|
+| 2020–2022 | 8 problemes, se'n responen 4; cada un val 2,5 punts | `P1`…`P8`, `opcio: null` |
+| ~2010–2019 | Part comuna (P1, P2) + opció A o B (P3, P4, P5); cada problema val 2 punts | `P1`, `P2`, `P3A`, `P3B`, `P4A`… (`opcio: A`/`B` a `font`) |
+
+- Totes són `format: antic`. La convocatòria de setembre és `ext` (`convocatoria: extraordinaria`).
+- Els PDF originals es copien a `examenes/` amb el nom actual: `pau_fisi19jl.pdf` (examen de juny de 2019) i `pau_fisi19jp.pdf` (pauta); `s` en lloc de `j` per a setembre. Un mateix PDF pot contenir diverses sèries: `pagines_enunciat` i `pagines_solucio` indiquen les de l'exercici.
+- Les **dades comunes** (constants a la portada o al final de l'examen) es copien al `\dades{…}` de cada exercici que les necessiti.
+- **PDF escanejats** (2000–2020, sense capa de text): es transcriuen visualment a partir de les pàgines renderitzades (`pagina.py render … --dpi 200`, i retalls ampliats de les zones amb fórmules petites). Les figures es retallen igual, amb `pagina.py retalla`; en un escaneig el retall ha d'anar just al voltant de la figura.
+- **Pautes breus** dels primers anys: es transcriuen tal com són i s'indica a `notes` que és una pauta resumida.
 
 L'`<conv>` de la convocatòria és el prefix: `2026_ord_s1`, `2025_model_s0`, `2025_mostra_optica`.
 
@@ -157,7 +170,8 @@ font:
   pagines_enunciat: [2]
   pdf_solucio: examenes/pau_fisi26jp.pdf
   pagines_solucio: [2]
-format: nou          # nou (2025+, 4 exercicis) | antic (≤2024, P1–P7)
+format: nou          # nou (2025+, 4 exercicis) | antic (≤2024)
+curriculum: actual   # actual | parcial | antic (vegeu més avall)
 bloc: Camps gravitatoris        # UN bloc de taxonomia.yaml
 blocs_secundaris: []            # altres blocs si l'exercici en toca més d'un
 subtemes: [...]                 # 1–4 subtemes EXACTES de taxonomia.yaml
@@ -179,6 +193,25 @@ solucio_oficial: true           # false si no hi ha pauta oficial
 revisat: false                  # el professor el posarà a true quan l'hagi revisat
 notes: ""                       # dubtes de transcripció, repartiment de punts supòsit, etc.
 ```
+
+### Currículum (`curriculum`)
+
+Indica si l'exercici encaixa en el currículum actual de 2n de batxillerat (decret 171/2022; guia oficial: `documents oficials/02_pau25_fisicaCurriculum.pdf`).
+
+| valor | quan |
+|---|---|
+| `actual` | Tots els apartats es poden demanar avui a la PAU. |
+| `parcial` | Algun apartat queda fora del currículum. A `notes` s'indica quin i per què. |
+| `antic` | L'exercici sencer tracta temes que ja no s'avaluen. A `notes` s'indica per què. |
+
+El currículum actual és gairebé igual que l'anterior (decret 142/2008). Queden **fora**, segons la guia oficial:
+- les transformacions de Lorentz i els càlculs quantitatius de dilatació del temps o contracció de la longitud (només s'avaluen de manera qualitativa);
+- els problemes quantitatius de cos negre i del principi d'incertesa;
+- la llei de Gauss i les equacions de Maxwell;
+- el tractament matemàtic per obtenir l'ona resultant d'una interferència;
+- els temes que són només de 1r de batxillerat o d'altres matèries: mecànica sense camps (xocs, plans inclinats, dinàmica de rotació, molles fora del MHS), circuits de corrent continu, termodinàmica.
+
+El currículum és obert: si l'enunciat dona el context necessari per resoldre un apartat, l'apartat compta com a `actual`. En cas de dubte, `actual` i una nota.
 
 ### Rúbrica de dificultat (relativa al nivell PAU)
 

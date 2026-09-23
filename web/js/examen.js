@@ -70,7 +70,7 @@ export function descriuFont(ex) {
   const num = `${f.tipus === 'mostra' ? (ex.id.split('_')[3] || '') : 'exercici ' + f.exercici + (f.opcio || '')}`;
   if (f.tipus === 'model') return `PAU ${f.any}, examen model, ${num}`;
   if (f.tipus === 'mostra') return `PAU ${f.any}, ${MOSTRES[f.serie] || 'mostra'}, ${num}`;
-  return `PAU ${f.any}, ${CONVOCATORIA[f.convocatoria] || f.convocatoria}, sèrie ${f.serie}, ${ex.format === 'antic' ? 'problema ' + f.exercici : num}`;
+  return `PAU ${f.any}, ${CONVOCATORIA[f.convocatoria] || f.convocatoria}, sèrie ${f.serie}, ${ex.format === 'antic' ? 'problema ' + f.exercici + (f.opcio ? ', opció ' + f.opcio : '') : num}`;
 }
 
 function omple(plantilla, marca, text) {

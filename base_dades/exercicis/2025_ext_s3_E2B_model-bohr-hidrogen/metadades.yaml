@@ -16,6 +16,7 @@ font:
   pdf_solucio: examenes/pau_fisi25sp.pdf
   pagines_solucio: [4, 5]
 format: nou
+curriculum: actual
 bloc: Camps electromagnètics
 blocs_secundaris: ["Física relativista, quàntica i nuclear"]
 subtemes:

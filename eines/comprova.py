@@ -26,9 +26,10 @@ EINES = ARREL / "eines"
 TAXO = yaml.safe_load((EINES / "taxonomia.yaml").read_text(encoding="utf-8"))
 TOTS_SUBTEMES = {s for llista in TAXO["blocs"].values() for s in llista}
 
-OBLIGATORIS = ["id", "titol", "resum", "font", "format", "bloc", "subtemes",
+OBLIGATORIS = ["id", "titol", "resum", "font", "format", "curriculum", "bloc", "subtemes",
                "paraules_clau", "tipus", "dificultat", "justificacio_dificultat",
                "punts_total", "apartats", "figures", "revisat"]
+CURRICULUM = ("actual", "parcial", "antic")
 FONT_OBLIGATORIS = ["tipus", "any", "convocatoria", "serie", "exercici", "opcio",
                     "pdf_enunciat", "pagines_enunciat", "pdf_solucio", "pagines_solucio"]
 PROHIBITS = [r"\\documentclass", r"\\begin\{document\}", r"\\usepackage",
@@ -67,6 +68,10 @@ def valida(carpeta: Path):
 
     if m["format"] not in ("nou", "antic"):
         errors.append("format ha de ser 'nou' o 'antic'")
+    if m["curriculum"] not in CURRICULUM:
+        errors.append(f"curriculum ha de ser un de {', '.join(CURRICULUM)}")
+    elif m["curriculum"] != "actual" and not (m.get("notes") or "").strip():
+        errors.append("curriculum parcial o antic: cal explicar a 'notes' què queda fora del currículum")
     if m["bloc"] not in TAXO["blocs"]:
         errors.append(f"bloc desconegut: {m['bloc']}")
     for b in m.get("blocs_secundaris") or []:

@@ -16,6 +16,7 @@ font:
   pdf_solucio: examenes/pau_fisi25jp.pdf
   pagines_solucio: [5]
 format: nou
+curriculum: actual
 bloc: Vibracions i ones
 blocs_secundaris: []
 subtemes:

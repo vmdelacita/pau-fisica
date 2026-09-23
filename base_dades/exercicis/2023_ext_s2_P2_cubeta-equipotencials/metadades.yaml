@@ -16,6 +16,7 @@ font:
   pdf_solucio: examenes/pau_fisi23sp.pdf
   pagines_solucio: [4, 5, 6]
 format: antic
+curriculum: actual
 bloc: Camps electromagnètics
 blocs_secundaris: []
 subtemes:

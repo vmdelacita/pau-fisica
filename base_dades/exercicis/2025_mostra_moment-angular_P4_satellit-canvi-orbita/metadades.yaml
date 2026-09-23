@@ -16,6 +16,7 @@ font:
   pdf_solucio: documents oficials/02_pau25_fisica_MostraExercicis_moment-angular.pdf
   pagines_solucio: [6, 7]
 format: nou
+curriculum: actual
 bloc: Camps gravitatoris
 blocs_secundaris: []
 subtemes:

@@ -4,8 +4,8 @@
   aplica_revisions.py revisions.json            aplica els canvis a metadades.yaml
   aplica_revisions.py revisions.json --prova    només mostra què canviaria
 
-Camps que es poden revisar: revisat, dificultat, bloc, subtemes, tipus,
-paraules_clau. El comentari de revisió s'afegeix al camp `notes`.
+Camps que es poden revisar: revisat, dificultat, curriculum, bloc, subtemes,
+tipus, paraules_clau. El comentari de revisió s'afegeix al camp `notes`.
 Només es reescriuen les línies d'aquests camps; la resta del fitxer es conserva.
 Després cal regenerar la web: python3 eines/construeix_web.py
 """
@@ -20,7 +20,7 @@ import yaml
 
 ARREL = Path(__file__).resolve().parent.parent
 EXERCICIS = ARREL / "base_dades" / "exercicis"
-CAMPS = ["revisat", "dificultat", "bloc", "subtemes", "tipus", "paraules_clau"]
+CAMPS = ["revisat", "dificultat", "curriculum", "bloc", "subtemes", "tipus", "paraules_clau"]
 
 
 def bloc_yaml(clau, valor):

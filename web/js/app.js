@@ -11,6 +11,7 @@ const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').re
 const norm = s => String(s ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/·/g, '').toLowerCase();
 
 const CLAU_ESTAT = 'pau-fisica/estat-v1';
+const CLAU_MODE_REVISIO = 'pau-fisica/mode-revisio';
 const INSTRUCCIONS_DEFECTE = [
   "Totes les respostes s'han de raonar i justificar. Un resultat erroni amb un raonament correcte es valora. Una resposta correcta sense raonament ni justificació pot ser valorada amb un 0.",
   "Un o més errors d'unitats o no posar-les (resultats intermedis i finals) en un problema es penalitzen amb un 20% del valor de l'exercici.",
@@ -26,10 +27,16 @@ Primer apartat.
 Segon apartat.
 \\end{apartat}
 `;
-const CAMPS_REVISIO = ['revisat', 'dificultat', 'bloc', 'subtemes', 'tipus', 'paraules_clau'];
+const CAMPS_REVISIO = ['revisat', 'dificultat', 'curriculum', 'bloc', 'subtemes', 'tipus', 'paraules_clau'];
 const NOMS_FONT = { examen: 'Exàmens', model: 'Examen model', mostra: 'Mostres' };
 const NOMS_FORMAT = { nou: 'Nou (2025+)', antic: 'Antic (≤2024)' };
-const NOMS_ESTAT = { pendents: 'Pendents', revisats: 'Revisats', modificats: 'Amb canvis', dubtes: 'Amb dubtes' };
+const NOMS_CURRICULUM = { actual: 'Dins del currículum', parcial: 'Parcialment fora', antic: 'Fora del currículum' };
+const DESC_CURRICULUM = {
+  actual: 'Tots els apartats són dins del currículum actual (decret 171/2022).',
+  parcial: 'Algun apartat queda fora del currículum actual (s\'explica a les notes).',
+  antic: 'L\'exercici tracta temes que ja no són al currículum actual.',
+};
+const NOMS_ESTAT = { pendents: 'Sense revisar', revisats: 'Revisats per un humà', modificats: 'Amb canvis', dubtes: 'Amb dubtes' };
 
 // ---------------------------------------------------------------- estat
 let BASE = null;
@@ -37,12 +44,26 @@ const EX = new Map();          // id -> exercici original
 const INDEX = new Map();       // id -> camps normalitzats per a la cerca
 let BLOCS = [];
 let estat = { examen: examenNou(), revisions: {} };
-const filtres = { q: '', blocs: new Set(), subtema: '', dificultats: new Set(), tipus: new Set(), anys: new Set(), fonts: new Set(), formats: new Set(), estats: new Set(), ordre: 'rellevancia' };
+const filtres = { q: '', blocs: new Set(), subtema: '', dificultats: new Set(), tipus: new Set(), anys: new Set(), fonts: new Set(), formats: new Set(), curriculums: new Set(), estats: new Set(), ordre: 'rellevancia' };
 let resultats = [];            // ids de l'última cerca
 let detall = { id: null, llista: [], pestanya: 'enunciat' };
 let ultimPdf = null;           // { tex, pdf, figures, nom }
 let pdfDesactualitzat = false;
 let compilant = false;
+
+// Mode revisió (només per al professor): s'activa obrint la web amb ?revisio i el navegador
+// ho recorda; ?revisio=0 el desactiva. Fora d'aquest mode no es veu la pestanya Revisió i
+// tot (etiquetes, filtres, cerca) reflecteix només la base de dades publicada.
+function llegeixModeRevisio() {
+  const p = new URLSearchParams(location.search);
+  const demanat = p.has('revisio') ? !['0', 'no'].includes(p.get('revisio')) : null;
+  try {
+    if (demanat === true) localStorage.setItem(CLAU_MODE_REVISIO, '1');
+    if (demanat === false) localStorage.removeItem(CLAU_MODE_REVISIO);
+    return localStorage.getItem(CLAU_MODE_REVISIO) === '1';
+  } catch { return !!demanat; }
+}
+const modeRevisio = llegeixModeRevisio();
 
 function examenNou(prev) {
   return {
@@ -73,10 +94,10 @@ function desa() {
   }, 200);
 }
 
-// Exercici amb les revisions aplicades.
+// Exercici amb les revisions locals aplicades (només en mode revisió).
 function ex(id) {
   const o = EX.get(id);
-  const r = estat.revisions[id];
+  const r = modeRevisio ? estat.revisions[id] : null;
   return r ? { ...o, ...r } : o;
 }
 
@@ -146,6 +167,24 @@ function puntsDificultat(d) {
   return `<span class="dificultat" title="Dificultat ${d} de 5">${'●'.repeat(d)}<span class="buit">${'●'.repeat(5 - d)}</span></span>`;
 }
 
+// «Revisat per un humà»: segons la base de dades publicada. En mode revisió, les revisions
+// locals encara no aplicades es mostren com a pendents.
+function etiquetaRevisat(e) {
+  const publicat = !!EX.get(e.id).revisat;
+  if (e.revisat && publicat) return '<span class="etiqueta ok" title="Un professor ha revisat la transcripció i les metadades d\'aquest exercici">✓ Revisat per un humà</span>';
+  if (e.revisat) return '<span class="etiqueta ok pendent" title="Revisió desada en aquest navegador; encara no s\'ha aplicat a la base de dades">✓ Revisat per un humà (pendent)</span>';
+  if (publicat) return '<span class="etiqueta modificat" title="Revisió desmarcada en aquest navegador; encara no s\'ha aplicat a la base de dades">revisió desmarcada (pendent)</span>';
+  return '';
+}
+
+const curriculum = e => e.curriculum || 'actual';
+function etiquetaCurriculum(e) {
+  const c = curriculum(e);
+  if (c === 'actual') return '';
+  const nota = e.notes ? `${DESC_CURRICULUM[c]}\n\n${e.notes}` : DESC_CURRICULUM[c];
+  return `<span class="etiqueta fora" title="${esc(nota)}">${c === 'antic' ? 'Fora del currículum' : 'Parcialment fora del currículum'}</span>`;
+}
+
 function etiquetaCurta(e) {
   const f = e.font;
   const num = e.id.split('_')[3];
@@ -182,6 +221,7 @@ function ressalta(text, termes) {
 
 // ---------------------------------------------------------------- navegació
 function mostraVista(v) {
+  if (v === 'revisio' && !modeRevisio) v = 'cerca';
   for (const b of $$('.pestanyes [data-vista]')) b.setAttribute('aria-selected', String(b.dataset.vista === v));
   for (const s of $$('.vista')) s.hidden = s.id !== `vista-${v}`;
   if (location.hash !== `#${v}`) history.replaceState(null, '', `#${v}`);
@@ -199,7 +239,7 @@ function pintaFiltres() {
   const tots = [...EX.keys()].map(ex);
   const compta = f => tots.reduce((m, e) => { for (const v of [].concat(f(e))) m.set(v, (m.get(v) || 0) + 1); return m; }, new Map());
   const cBloc = compta(e => e.bloc), cDif = compta(e => e.dificultat), cTipus = compta(e => e.tipus || []),
-    cAny = compta(e => e.font.any), cFont = compta(e => e.font.tipus), cFormat = compta(e => e.format);
+    cAny = compta(e => e.font.any), cFont = compta(e => e.font.tipus), cFormat = compta(e => e.format), cCurr = compta(curriculum);
 
   $('#f-bloc').innerHTML = BLOCS.map((b, k) => xip(b, b, filtres.blocs.has(b), cBloc.get(b) || 0).replace('class="xip"', `class="xip b${k}"`)).join('');
   $('#f-dificultat').innerHTML = [1, 2, 3, 4, 5].map(d => xip(d, String(d), filtres.dificultats.has(String(d)), cDif.get(d) || 0)).join('');
@@ -207,7 +247,8 @@ function pintaFiltres() {
   $('#f-any').innerHTML = [...cAny.keys()].sort().map(a => xip(a, String(a), filtres.anys.has(String(a)), cAny.get(a))).join('');
   $('#f-font').innerHTML = Object.keys(NOMS_FONT).map(f => xip(f, NOMS_FONT[f], filtres.fonts.has(f), cFont.get(f) || 0)).join('');
   $('#f-format').innerHTML = Object.keys(NOMS_FORMAT).map(f => xip(f, NOMS_FORMAT[f], filtres.formats.has(f), cFormat.get(f) || 0)).join('');
-  $('#f-estat').innerHTML = Object.keys(NOMS_ESTAT).map(f => xip(f, NOMS_ESTAT[f], filtres.estats.has(f))).join('');
+  $('#f-curriculum').innerHTML = Object.keys(NOMS_CURRICULUM).map(f => xip(f, NOMS_CURRICULUM[f], filtres.curriculums.has(f), cCurr.get(f) || 0)).join('');
+  $('#f-estat').innerHTML = Object.keys(NOMS_ESTAT).filter(f => modeRevisio || f !== 'modificats').map(f => xip(f, NOMS_ESTAT[f], filtres.estats.has(f))).join('');
 
   const sel = $('#f-subtema');
   const blocs = filtres.blocs.size ? BLOCS.filter(b => filtres.blocs.has(b)) : BLOCS;
@@ -233,6 +274,7 @@ function cerca() {
     if (filtres.anys.size && !filtres.anys.has(String(e.font.any))) continue;
     if (filtres.fonts.size && !filtres.fonts.has(e.font.tipus)) continue;
     if (filtres.formats.size && !filtres.formats.has(e.format)) continue;
+    if (filtres.curriculums.size && !filtres.curriculums.has(curriculum(e))) continue;
     if (filtres.estats.size) {
       const ok = [...filtres.estats].every(f =>
         f === 'pendents' ? !e.revisat : f === 'revisats' ? !!e.revisat
@@ -294,9 +336,10 @@ function pintaResultats(llista, termes) {
         <span class="etiqueta bloc">${esc(e.bloc)}</span>
         ${(e.subtemes || []).map(s => `<span class="etiqueta">${esc(s)}</span>`).join('')}
         ${e.format === 'antic' ? '<span class="etiqueta antic">format antic</span>' : ''}
-        ${e.revisat ? '<span class="etiqueta ok">✓ revisat</span>' : ''}
+        ${etiquetaCurriculum(e)}
+        ${etiquetaRevisat(e)}
         ${teDubtes(e) ? `<span class="etiqueta avis" title="La pauta original pot tenir errors">${e.dubtes.length} ${e.dubtes.length === 1 ? 'dubte' : 'dubtes'}</span>` : ''}
-        ${estat.revisions[e.id] ? '<span class="etiqueta modificat">amb canvis</span>' : ''}
+        ${modeRevisio && estat.revisions[e.id] ? '<span class="etiqueta modificat">amb canvis</span>' : ''}
       </div>
     </article>`).join('');
 }
@@ -335,6 +378,7 @@ function canviExamen() {
 // ---------------------------------------------------------------- detall
 function obreDetall(id, llista = resultats, pestanya = null) {
   detall = { id, llista: llista.includes(id) ? llista : [id], pestanya: pestanya || detall.pestanya || 'enunciat' };
+  if (detall.pestanya === 'revisio' && !modeRevisio) detall.pestanya = 'enunciat';
   const d = $('#detall');
   if (!d.open) d.showModal();
   pintaDetall();
@@ -352,7 +396,7 @@ function pintaDetall() {
   const enllac = (pdf, pags, text) => pdf ? `<a href="dades/originals/${esc(pdf.split('/').pop())}#page=${pags?.[0] || 1}" target="_blank" rel="noopener">${text}</a>` : '';
   $('#d-originals').innerHTML = [enllac(f.pdf_enunciat, f.pagines_enunciat, 'PDF original'), enllac(f.pdf_solucio, f.pagines_solucio, 'Pauta original')].filter(Boolean).join('');
   $('#d-etiquetes').innerHTML = `<span class="etiqueta bloc b${blocIdx(e.bloc)}">${esc(e.bloc)}</span>${puntsDificultat(e.dificultat)}
-    ${e.revisat ? '<span class="etiqueta ok">✓ revisat</span>' : ''}${e.format === 'antic' ? '<span class="etiqueta antic">format antic</span>' : ''}`;
+    ${etiquetaRevisat(e)}${e.format === 'antic' ? '<span class="etiqueta antic">format antic</span>' : ''}${etiquetaCurriculum(e)}`;
   $('#detall .peu-dialeg [data-afegeix]')?.remove();
   $('#d-afegeix').outerHTML = `<span id="d-afegeix">${botoAfegeix(e.id, idsExamen().has(e.id), true)}</span>`;
 
@@ -386,6 +430,10 @@ function pintaFormulariRevisio(cos, e) {
         <div class="escala">${[1, 2, 3, 4, 5].map(d => `<button type="button" class="xip" data-dificultat="${d}" aria-pressed="${e.dificultat === d}">${d}</button>`).join('')}</div>
         <div class="rubrica">${esc(tax.dificultat[e.dificultat])}</div>
         <div class="original">Justificació original (${o.dificultat}): ${esc(o.justificacio_dificultat || '')}</div></div></div>
+      <div class="fila"><div class="etq">Currículum</div><div>
+        <select name="curriculum">${Object.keys(NOMS_CURRICULUM).map(c => `<option value="${c}"${c === curriculum(e) ? ' selected' : ''}>${esc(NOMS_CURRICULUM[c])}</option>`).join('')}</select>
+        <div class="rubrica">${esc(DESC_CURRICULUM[curriculum(e)])}${curriculum(e) !== 'actual' ? ' Explica-ho al comentari.' : ''}</div>
+        ${original('curriculum', NOMS_CURRICULUM[curriculum(o)])}</div></div>
       <div class="fila"><div class="etq">Bloc</div><div>
         <select name="bloc">${BLOCS.map(b => `<option${b === e.bloc ? ' selected' : ''}>${esc(b)}</option>`).join('')}</select>
         ${original('bloc', o.bloc)}</div></div>
@@ -698,6 +746,7 @@ function pintaRevisio() {
 function connecta() {
   // Pestanyes principals
   for (const b of $$('.pestanyes [data-vista]')) b.onclick = () => mostraVista(b.dataset.vista);
+  for (const el of $$('[data-mode-revisio]')) el.hidden = !modeRevisio;
   document.addEventListener('click', ev => {
     const a = ev.target.closest('[data-vista-enllac]');
     if (a) { ev.preventDefault(); mostraVista(a.dataset.vistaEnllac); }
@@ -709,7 +758,7 @@ function connecta() {
     clearTimeout(temporitzadorQ);
     temporitzadorQ = setTimeout(() => { filtres.q = $('#q').value; cerca(); }, 120);
   });
-  const conjunts = { '#f-bloc': 'blocs', '#f-dificultat': 'dificultats', '#f-tipus': 'tipus', '#f-any': 'anys', '#f-font': 'fonts', '#f-format': 'formats', '#f-estat': 'estats' };
+  const conjunts = { '#f-bloc': 'blocs', '#f-dificultat': 'dificultats', '#f-tipus': 'tipus', '#f-any': 'anys', '#f-font': 'fonts', '#f-format': 'formats', '#f-curriculum': 'curriculums', '#f-estat': 'estats' };
   for (const [sel, clau] of Object.entries(conjunts)) {
     $(sel).addEventListener('click', ev => {
       const b = ev.target.closest('.xip');
@@ -723,7 +772,7 @@ function connecta() {
   $('#ordre').onchange = ev => { filtres.ordre = ev.target.value; cerca(); };
   $('#neteja-filtres').onclick = () => {
     filtres.q = ''; filtres.subtema = '';
-    for (const k of ['blocs', 'dificultats', 'tipus', 'anys', 'fonts', 'formats', 'estats']) filtres[k].clear();
+    for (const k of ['blocs', 'dificultats', 'tipus', 'anys', 'fonts', 'formats', 'curriculums', 'estats']) filtres[k].clear();
     $('#q').value = '';
     pintaFiltres(); cerca();
   };
@@ -771,6 +820,7 @@ function connecta() {
     const n = ev.target.name;
     if (n === 'revisat') desaRevisio(id, 'revisat', ev.target.checked);
     else if (n === 'bloc') desaRevisio(id, 'bloc', ev.target.value);
+    else if (n === 'curriculum') { desaRevisio(id, 'curriculum', ev.target.value); pintaDetall(); }
     else if (n === 'subtemes' || n === 'tipus') {
       const ordre = n === 'subtemes' ? BLOCS.flatMap(b => BASE.taxonomia.blocs[b]) : BASE.taxonomia.tipus;
       const marcats = $$(`input[name="${n}"]:checked`, form).map(i => i.value);

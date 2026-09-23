@@ -42,7 +42,7 @@ def main():
         encoding="utf-8")
 
     camps = ["id", "titol", "any", "convocatoria", "serie", "exercici", "opcio", "format",
-             "bloc", "subtemes", "tipus", "dificultat", "punts_total", "n_apartats",
+             "curriculum", "bloc", "subtemes", "tipus", "dificultat", "punts_total", "n_apartats",
              "n_figures", "paraules_clau", "revisat"]
     with open(BD / "index.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -50,7 +50,7 @@ def main():
         for m in exs:
             ft = m["font"]
             w.writerow([m["id"], m["titol"], ft["any"], ft["convocatoria"], ft["serie"],
-                        ft["exercici"], ft["opcio"] or "", m["format"], m["bloc"],
+                        ft["exercici"], ft["opcio"] or "", m["format"], m["curriculum"], m["bloc"],
                         "; ".join(m["subtemes"]), "; ".join(m["tipus"]), m["dificultat"],
                         m["punts_total"], len(m["apartats"]), len(m["figures"] or []),
                         "; ".join(m["paraules_clau"]), m["revisat"]])
@@ -67,6 +67,7 @@ def main():
         for clau, fn in [("Bloc", lambda m: m["bloc"]),
                          ("Any", lambda m: m["font"]["any"]),
                          ("Dificultat", lambda m: m["dificultat"]),
+                         ("Currículum", lambda m: m["curriculum"]),
                          ("Font", lambda m: m["font"]["tipus"])]:
             print(f"\n{clau}:")
             for k, n in sorted(collections.Counter(map(fn, exs)).items(), key=lambda x: str(x[0])):

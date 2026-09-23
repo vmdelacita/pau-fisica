@@ -16,6 +16,7 @@ font:
   pdf_solucio: examenes/pau_fisi23jp.pdf
   pagines_solucio: [17, 18]
 format: antic
+curriculum: actual
 bloc: Camps gravitatoris
 blocs_secundaris: []
 subtemes:

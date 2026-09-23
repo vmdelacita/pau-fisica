@@ -16,6 +16,7 @@ font:
   pdf_solucio: documents oficials/01_pau25_fisica_0c.pdf
   pagines_solucio: [3, 4]
 format: nou
+curriculum: actual
 bloc: Camps gravitatoris
 blocs_secundaris: []
 subtemes:

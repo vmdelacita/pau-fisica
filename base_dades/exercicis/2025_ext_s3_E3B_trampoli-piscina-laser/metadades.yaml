@@ -16,6 +16,7 @@ font:
   pdf_solucio: examenes/pau_fisi25sp.pdf
   pagines_solucio: [7, 8]
 format: nou
+curriculum: actual
 bloc: Vibracions i ones
 blocs_secundaris: []
 subtemes:

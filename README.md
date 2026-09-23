@@ -6,14 +6,31 @@ Web per cercar exercicis de les PAU de Física de Catalunya (2023–2026, examen
 
 ## Què fa la web
 
-- **Cerca**: per paraules (sense tenir en compte accents), bloc, subtema, dificultat, tipus de tasca, any, procedència i format. Per a cada exercici es pot veure l'enunciat, la solució (pauta oficial) i els PDF originals.
+- **Cerca**: per paraules (sense tenir en compte accents), bloc, subtema, dificultat, tipus de tasca, any, procedència, format, currículum i estat de revisió. Per a cada exercici es pot veure l'enunciat, la solució (pauta oficial) i els PDF originals. Els exercicis que un professor ha revisat porten l'etiqueta **«Revisat per un humà»**, i els que tracten temes que ja no són al currículum actual, **«Fora del currículum»** o **«Parcialment fora del currículum»**. Per defecte es mostren tots.
 - **Examen**: s'hi afegeixen exercicis i es poden reordenar, triar-ne els apartats, canviar els punts (o reescalar el total a 10) i editar-ne el LaTeX. Les edicions només afecten l'examen. També s'hi poden escriure exercicis propis. Els resultats possibles són:
   - el **PDF**;
   - una **carpeta .zip** amb el `.tex`, les imatges i el PDF, per retocar-la amb qualsevol LaTeX;
   - un projecte nou a **Overleaf**.
 
   Els exàmens es poden desar i tornar a obrir en format `.json`.
-- **Revisió**: per marcar exercicis com a revisats i corregir-ne la dificultat, el bloc, els subtemes, el tipus i les paraules clau. Els canvis es desen al navegador i s'exporten a `revisions.json`, que s'aplica a la base de dades amb `eines/aplica_revisions.py`.
+- **Revisió** (només per al professor): vegeu la secció següent.
+
+## Revisió de la base de dades
+
+La pestanya **Revisió** és oculta per als visitants. Per veure-la, obre la web amb `?revisio` al final de l'adreça:
+
+<https://vmdelacita.github.io/pau-fisica/?revisio>
+
+El navegador ho recorda: a partir d'aleshores la pestanya hi és sempre. Per sortir d'aquest mode, obre `?revisio=0` (també hi ha un enllaç a la mateixa pestanya).
+
+Només és una manera d'amagar-la, no una contrasenya. No hi ha cap risc: la pestanya només modifica el navegador de qui la fa servir, i la base de dades només canvia quan s'aplica `revisions.json` i es publica.
+
+En mode revisió:
+- A la fitxa de cada exercici hi ha la pestanya **Revisió**, per marcar-lo com a revisat i corregir-ne la dificultat, el currículum, el bloc, els subtemes, el tipus i les paraules clau. També s'hi poden afegir comentaris.
+- Els canvis es desen al navegador i es veuen de seguida a la cerca. Les revisions que encara no s'han aplicat surten com a **pendents** (p. ex. «Revisat per un humà (pendent)», amb vora discontínua).
+- Per fer-les permanents: **Exporta les revisions** → `python3 eines/aplica_revisions.py revisions.json` → `git push`.
+
+Els visitants només veuen el que hi ha a la base de dades publicada: l'etiqueta «Revisat per un humà» dels exercicis amb `revisat: true` i el filtre de revisió («Sense revisar», «Revisats per un humà», «Amb dubtes»).
 
 ## Estructura
 

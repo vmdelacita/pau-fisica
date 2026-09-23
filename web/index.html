@@ -30,7 +30,7 @@
   <nav class="pestanyes" role="tablist">
     <button role="tab" data-vista="cerca" aria-selected="true">Cerca</button>
     <button role="tab" data-vista="examen" aria-selected="false">Examen <span class="comptador" id="n-examen">0</span></button>
-    <button role="tab" data-vista="revisio" aria-selected="false">Revisió <span class="comptador suau" id="n-revisio">0</span></button>
+    <button role="tab" data-vista="revisio" aria-selected="false" data-mode-revisio hidden>Revisió <span class="comptador suau" id="n-revisio">0</span></button>
   </nav>
   <a id="obre-pestanya" class="enllac-extern" href="." target="_blank" rel="noopener" hidden>Obre en una pestanya nova ↗</a>
 </header>
@@ -71,6 +71,10 @@
       <div class="grup-filtre">
         <div class="titol-filtre">Format</div>
         <div class="xips" id="f-format"></div>
+      </div>
+      <div class="grup-filtre">
+        <div class="titol-filtre">Currículum</div>
+        <div class="xips" id="f-curriculum"></div>
       </div>
       <div class="grup-filtre">
         <div class="titol-filtre">Revisió</div>
@@ -168,7 +172,8 @@
     <div class="panell">
       <h2>Revisió de la base de dades</h2>
       <p>Obre qualsevol exercici i, a la pestanya <strong>Revisió</strong>, marca'l com a revisat o corregeix-ne la dificultat, els subtemes, el tipus i les paraules clau. Els canvis es veuen de seguida a la cerca i es desen en aquest navegador.</p>
-      <p>Per fer-los permanents: <strong>Exporta les revisions</strong> i, a l'ordinador del projecte, executa <code>python3 eines/aplica_revisions.py revisions.json</code> i després <code>python3 eines/construeix_web.py</code>.</p>
+      <p>Per fer-los permanents: <strong>Exporta les revisions</strong> i, a l'ordinador del projecte, executa <code>python3 eines/aplica_revisions.py revisions.json</code> i publica els canvis (<code>git push</code>).</p>
+      <p class="suau">Aquesta pestanya només es veu en mode revisió (s'hi entra obrint la web amb <code>?revisio</code> i aquest navegador ho recorda). Els visitants només veuen l'etiqueta «Revisat per un humà» dels exercicis revisats a la base de dades publicada. <a href="?revisio=0">Surt del mode revisió</a>.</p>
       <div class="progres"><div class="barra-progres"><span id="progres-barra"></span></div><span id="progres-text"></span></div>
       <div class="fila-botons">
         <button class="boto primari" id="exporta-revisions">Exporta les revisions (.json)</button>
@@ -208,7 +213,7 @@
   <div class="pestanyes-detall" role="tablist">
     <button role="tab" data-pestanya="enunciat" aria-selected="true">Enunciat</button>
     <button role="tab" data-pestanya="solucio" aria-selected="false">Solució</button>
-    <button role="tab" data-pestanya="revisio" aria-selected="false">Revisió</button>
+    <button role="tab" data-pestanya="revisio" aria-selected="false" data-mode-revisio hidden>Revisió</button>
     <span class="espai"></span>
     <span id="d-originals" class="originals"></span>
   </div>

@@ -22,6 +22,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -94,6 +95,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -187,6 +189,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -271,6 +274,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -369,6 +373,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -433,6 +438,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -497,6 +503,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -560,6 +567,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -625,6 +633,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -722,6 +731,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -798,6 +808,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -864,6 +875,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -939,6 +951,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1023,6 +1036,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1087,6 +1101,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1165,6 +1180,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1235,6 +1251,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1322,6 +1339,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1414,6 +1432,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1484,6 +1503,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1564,6 +1584,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [
     "Camps electromagnètics"
@@ -1642,6 +1663,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1710,6 +1732,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1779,6 +1802,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1858,6 +1882,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -1937,6 +1962,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2011,6 +2037,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2075,6 +2102,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2150,6 +2178,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2215,6 +2244,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2293,6 +2323,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2367,6 +2398,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2451,6 +2483,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2512,6 +2545,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [
     "Camps electromagnètics"
@@ -2582,6 +2616,7 @@
     ]
    },
    "format": "antic",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2644,6 +2679,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2710,6 +2746,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2796,6 +2833,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [
     "Física relativista, quàntica i nuclear"
@@ -2865,6 +2903,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -2945,6 +2984,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3021,6 +3061,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3098,6 +3139,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3163,6 +3205,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3228,6 +3271,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3314,6 +3358,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3393,6 +3438,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [
     "Camps electromagnètics"
@@ -3463,6 +3509,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3523,6 +3570,7 @@
     "pagines_solucio": []
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3591,6 +3639,7 @@
     "pagines_solucio": []
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3657,6 +3706,7 @@
     "pagines_solucio": []
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3724,6 +3774,7 @@
     "pagines_solucio": []
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3789,6 +3840,7 @@
     "pagines_solucio": []
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3857,6 +3909,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3921,6 +3974,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -3998,6 +4052,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4060,6 +4115,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4131,6 +4187,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4195,6 +4252,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4261,6 +4319,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4336,6 +4395,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4408,6 +4468,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4484,6 +4545,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4549,6 +4611,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4619,6 +4682,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4698,6 +4762,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4776,6 +4841,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4850,6 +4916,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4912,6 +4979,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -4977,6 +5045,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -5059,6 +5128,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [],
    "subtemes": [
@@ -5148,6 +5218,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -5216,6 +5287,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -5289,6 +5361,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -5358,6 +5431,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -5423,6 +5497,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps gravitatoris",
    "blocs_secundaris": [],
    "subtemes": [
@@ -5494,6 +5569,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Camps electromagnètics",
    "blocs_secundaris": [
     "Física relativista, quàntica i nuclear"
@@ -5572,6 +5648,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Vibracions i ones",
    "blocs_secundaris": [],
    "subtemes": [
@@ -5637,6 +5714,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [
@@ -5699,6 +5777,7 @@
     ]
    },
    "format": "nou",
+   "curriculum": "actual",
    "bloc": "Física relativista, quàntica i nuclear",
    "blocs_secundaris": [],
    "subtemes": [

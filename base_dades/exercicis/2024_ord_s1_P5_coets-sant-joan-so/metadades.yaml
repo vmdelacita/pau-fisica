@@ -16,6 +16,7 @@ font:
   pdf_solucio: examenes/pau_fisi24jp.pdf
   pagines_solucio: [8]
 format: antic
+curriculum: actual
 bloc: Vibracions i ones
 blocs_secundaris: []
 subtemes:

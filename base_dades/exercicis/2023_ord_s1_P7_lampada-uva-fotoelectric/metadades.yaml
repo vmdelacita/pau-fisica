@@ -16,6 +16,7 @@ font:
   pdf_solucio: examenes/pau_fisi23jp.pdf
   pagines_solucio: [14]
 format: antic
+curriculum: actual
 bloc: Física relativista, quàntica i nuclear
 blocs_secundaris: []
 subtemes:

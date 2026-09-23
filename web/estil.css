@@ -126,8 +126,10 @@ textarea { resize: vertical; }
 .etiqueta { font-size: .75rem; padding: .1rem .5rem; border-radius: 999px; background: #eef1f5; color: #3d4657; white-space: nowrap; }
 .etiqueta.bloc { background: var(--cc); color: var(--c); font-weight: 600; }
 .etiqueta.ok { background: var(--ok-clar); color: var(--ok); }
+.etiqueta.ok.pendent { background: transparent; outline: 1px dashed var(--ok); outline-offset: -1px; }
 .etiqueta.avis { background: var(--avis-clar); color: var(--avis); }
 .etiqueta.antic { background: #f0ecf7; color: #5b4a86; }
+.etiqueta.fora { background: #fdecea; color: #a1322a; }
 .etiqueta.modificat { background: var(--primari-clar); color: var(--primari-fosc); }
 .b0 { --c: var(--b0); --cc: var(--b0-clar); }
 .b1 { --c: var(--b1); --cc: var(--b1-clar); }
