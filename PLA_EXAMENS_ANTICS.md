@@ -9,7 +9,7 @@ Resums anteriors: `RESUM_FASE1.md`, `RESUM_FASE2.md` (base de dades) i `RESUM_FA
 - **Repositori públic:** <https://github.com/vmdelacita/pau-fisica>, branca `main`.
 - Cada `git push` a `main` executa el workflow `publica-web.yml`, que regenera `web/dades/` i torna a publicar la web en uns 30 s. Els navegadors poden trigar fins a 10 minuts a veure la versió nova, pel temps de memòria cau de GitHub Pages.
 - Prova feta sobre la web publicada amb Chrome headless: afegir 3 exercicis i generar el PDF (3,8 s, incloent-hi la descàrrega del motor). Cap error a la consola.
-- `examenes antiguos/` és al `.gitignore` fins que s'incorporin els exàmens a la base de dades (vegeu el dubte 4).
+- `examenes antiguos/` és al `.gitignore` fins que s'incorporin els exàmens a la base de dades (vegeu la secció 5, punt 4).
 
 Per publicar un canvi:
 
@@ -27,19 +27,23 @@ git add -A && git commit -m "Descripció del canvi" && git push
 
 ## 3. Exàmens antics: inventari
 
-`examenes antiguos/` conté **43 convocatòries**, cadascuna amb 2 PDF: l'examen i les respostes (la pauta de correcció).
+`examenes antiguos/` conté les **47 convocatòries** de juny i de setembre de 2000 a 2022, totes. Cadascuna té 2 PDF: l'examen i les respostes (la pauta de correcció).
 
-- **Juny:** 2000–2021.
-- **Setembre:** 2000–2020.
-- **Falten:** juny i setembre de 2022, i setembre de 2021.
+- **2000–2020 i juny de 2021:** `Examen de Física <Juny|Setembre> <any> __ Selecat.cat.pdf` i `… __ respostes.pdf`. Els va aportar el professor.
+- **Setembre de 2021 i tot 2022:** `pau_fisi21sl/sp.pdf` i `pau_fisi22jl/jp/sl/sp.pdf`, descarregats el 2026-09-23.
+  - Els de 2022 vénen del web de la Generalitat, a `…/preparat-PAU/models-examen-anys-anteriors/examens-2022/fisica/{ord,ext}/`.
+  - Els de setembre de 2021 ja no hi són. S'han baixat de les còpies dels documents oficials que va publicar betevé (`img.beteve.cat/wp-content/uploads/2021/09/`).
 
-Tots són **PDF escanejats sense capa de text**, excepte els de 2021. Cal transcriure'ls **visualment**: renderitzar cada pàgina i transcriure-la. `pagina.py` ja serveix per renderitzar les pàgines i retallar-ne les figures.
+**Com s'han de transcriure:**
+- 2000–2020: són PDF **escanejats sense capa de text**. Cal transcriure'ls **visualment**: renderitzar cada pàgina i transcriure-la. `pagina.py` ja serveix per renderitzar les pàgines i retallar-ne les figures.
+- 2021 i 2022: tenen capa de text.
+- Els PDF de 2021–2022 són més llargs perquè inclouen l'espai per respondre.
 
 Formats trobats:
 
 | Període | Estructura |
 |---|---|
-| 2021 | Format especial (8 problemes, a escollir) |
+| 2021–2022 | Format especial: 8 problemes, a escollir |
 | ~2010–2020 | Part comuna P1–P2 + opció A o B (P3–P5). Cada problema val 2 punts |
 | ~2000–2009 | Problemes i qüestions (P1, Q1–Q4), amb opcions A/B. Hi ha temes de mecànica (xocs, molles, energia) |
 
@@ -47,35 +51,43 @@ Un PDF de juny sol contenir **diverses sèries**. Les pautes de 2010 en endavant
 
 ## 4. Pla: 4 lots, un per sessió, del més recent al més antic
 
-Els lots s'han equilibrat pel nombre de pàgines d'examen, per tenir una càrrega de feina semblant a cada sessió.
+Cal fer els 4 lots i, **després**, la **Fase 4 (solucionari)**.
+
+Els lots són aproximats: es poden reajustar a l'inici de cada sessió. Els exàmens escanejats donen més feina que els que tenen text. Els exàmens de 2000–2008 són curts.
 
 | Lot | Anys | Convocatòries | Pàgines d'examen |
 |---|---|---|---|
-| 1 | 2016–2021 (+ 2022 i setembre 2021, si els aconseguim) | 11 | ~76 |
-| 2 | 2011–2015 | 10 | ~72 |
-| 3 | 2008–2010 | 6 | ~80 |
-| 4 | 2000–2007 | 16 | ~92 |
+| 1 | 2019–2022 | 8 | ~104 (moltes són espai per respondre) |
+| 2 | 2013–2018 | 12 | ~72 |
+| 3 | 2009–2012 | 8 | ~92 |
+| 4 | 2000–2008 | 19 | ~116 |
 
 Cada lot segueix el mètode de la Fase 2:
 
 1. Subagents en paral·lel, un per convocatòria, seguint `base_dades/FORMAT.md` i comparant la previsualització amb el PDF.
 2. Revisió de conjunt: `comprova.py --tot`, accents, revisió visual i índex.
 3. Comprovar que tots els exercicis compilen també **al navegador**. Si algun necessita un paquet LaTeX que el motor reduït no té, cal regenerar-lo (`eines/motor_tex/README.md`).
-4. Marcar els temes que ja no són del currículum (vegeu el dubte 1).
-5. Publicar (`git push`) i escriure `RESUM_LOTn.md`.
+4. Omplir el camp `curriculum` (vegeu la secció 5).
+5. Copiar els PDF originals de la convocatòria a `examenes/`, reanomenats amb el format actual (vegeu la secció 5).
+6. Publicar (`git push`) i escriure `RESUM_LOTn.md`.
 
-**Recordatori:** la pregunta experimental Q5 de les mostres de 2025 és el problema 4 de l'opció B de juny de 2017. En fer el lot 1, cal substituir-la per la versió oficial, que té pauta.
+**Recordatori:** la pregunta experimental Q5 de les mostres de 2025 és el problema 4 de l'opció B de juny de 2017. En fer el **lot 2**, cal substituir-la per la versió oficial, que té pauta.
 
 **Important:** no s'han de canviar mai els identificadors dels exercicis que ja existeixen. Els exàmens desats (`.json`) i les revisions fetes al navegador hi fan referència.
 
-## 5. Dubtes abans del lot 1
+## 5. Decisions del professor per als lots (2026-09-23)
 
-1. **Com es marca el que és fora del currículum.** Proposta:
-   - Afegir a `metadades.yaml` un camp `curriculum` amb tres valors: `actual`, `parcial` (només algun apartat en queda fora; s'indica a `notes`) o `antic`.
-   - Afegir a la taxonomia els subtemes antics que calguin (p. ex. xocs i conservació de l'energia mecànica).
-   - A la web, mostrar una etiqueta «Fora del currículum» i afegir un filtre. **Pregunta:** per defecte, el filtre ha de mostrar tots els exercicis o només els del currículum actual?
-2. **Convocatòries que falten** (2022 i setembre de 2021): les descarregues tu i les poses a `examenes antiguos/`, o les busco jo al web de la Generalitat a l'inici del lot 1?
-3. **Pautes breus dels primers anys:** proposta de transcriure-les tal com són i indicar a `notes` que són pautes resumides.
-4. **PDF originals a la web.** Proposta:
-   - Incloure'ls al repositori a mesura que s'incorporen, reanomenats amb el format actual (p. ex. `pau_fisi15jl.pdf`), perquè la fitxa enllaci a l'original.
-   - Són uns 109 MB en total, dins dels límits de GitHub.
+1. **Currículum:**
+   - Nou camp `curriculum` a `metadades.yaml`, amb tres valors: `actual`, `parcial` (algun apartat queda fora del currículum; s'indica a `notes`) o `antic`.
+   - Els subtemes antics que calguin s'afegeixen a la taxonomia (p. ex. xocs i conservació de l'energia mecànica).
+   - A la web: etiqueta «Fora del currículum» i filtre, que **per defecte mostra tots els exercicis**.
+   - Els 79 exercicis actuals queden com a `actual`.
+   - Al lot 1 cal adaptar `FORMAT.md`, `comprova.py`, `index.py`, `construeix_web.py`, la web i `aplica_revisions.py`, i fer que el camp també es pugui revisar des de la web.
+2. **Convocatòries que faltaven:** descarregades (secció 3).
+3. **Pautes breus dels primers anys:** es transcriuen tal com són i s'indica a `notes` que són pautes resumides.
+4. **PDF originals:** es pugen al repositori a mesura que s'incorporen, reanomenats amb el format actual (`pau_fisi15jl.pdf` per a l'examen i `pau_fisi15jp.pdf` per a la pauta, amb `s` en lloc de `j` per a setembre). Així la fitxa de cada exercici enllaça a l'original.
+5. **Ordre:** primer els 4 lots i després la Fase 4.
+
+## 6. Dubtes pendents
+
+Cap. La propera sessió comença directament pel **lot 1 (2019–2022)**.
