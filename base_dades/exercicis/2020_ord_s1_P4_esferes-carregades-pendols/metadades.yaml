@@ -1,0 +1,59 @@
+id: 2020_ord_s1_P4_esferes-carregades-pendols
+titol: Dues esferes carregades penjades de fils
+resum: >-
+  Dues esferes de 20 g amb càrregues iguals i de signe contrari pengen de fils que formen
+  15° amb la vertical: força elèctrica i valor de les càrregues a partir de l'equilibri;
+  camp elèctric extern que manté cada esfera en la mateixa posició si es retira l'altra.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - equilibri de càrregues en camps elèctrics
+  - camp elèctric i llei de Coulomb
+paraules_clau: [pèndol elèctric, esferes carregades, llei de Coulomb, condició d'equilibri, tensió del fil, diagrama de forces, camp elèctric, força elèctrica]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic d'equilibri: cal plantejar el diagrama de forces (tensió, pes i força
+  elèctrica), obtenir la força i la càrrega, i raonar el sentit del camp segons el signe
+  de la càrrega.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Mòdul de la força elèctrica entre les esferes i valor de les càrregues.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Camp elèctric que mantindria cada càrrega en la seva posició si es retirés l'altra.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Dues esferes (+ i −) penjades de fils de 50 cm que formen 15° amb la vertical, separades 10 cm
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Diagrama de forces sobre una esfera (tensió T a 15° de la vertical, força elèctrica Fe horitzontal i pes mg)
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Càrrega negativa amb la força elèctrica cap a l'esquerra i el camp E cap a la dreta
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Càrrega positiva amb el camp E i la força elèctrica del mateix sentit, cap a la dreta
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. A la pauta el diagrama de forces és al marge dret de
+  l'apartat a; s'ha col·locat després de «Condició d'equilibri:». La pauta escriu
+  «0,02 9,81» (sense signe de multiplicació) dins de l'arrel; s'ha transcrit tal com és.
+  L'alternativa de l'apartat a substitueix els tres darrers passos (0,5 + 0,25 + 0,25 p).

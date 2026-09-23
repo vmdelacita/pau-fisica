@@ -1,0 +1,50 @@
+id: 2022_ord_s5_P1_cometa-halley-afeli-periheli
+titol: El cometa Halley, la seva òrbita i el camp gravitatori del Sol
+resum: >-
+  A partir del període orbital del cometa Halley, càlcul del semieix major de la seva
+  òrbita el·líptica (tercera llei de Kepler) i esquema de l'òrbita; intensitat de camp
+  gravitatori del Sol a l'afeli i al periheli coneixent la distància del periheli.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [18]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [22, 23]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - lleis de Kepler
+  - òrbites el·líptiques i moment angular
+  - camp gravitatori i superposició
+paraules_clau: [cometa Halley, òrbita el·líptica, tercera llei de Kepler, semieix major, afeli, periheli, intensitat de camp gravitatori]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Aplicació directa de la tercera llei de Kepler per obtenir el semieix major i de la
+  llei de gravitació universal per obtenir g a dos punts de l'òrbita; l'apartat a) inclou
+  també representar esquemàticament una òrbita el·líptica amb els seus elements.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Semieix major de l'òrbita del cometa Halley i esquema de l'òrbita amb Sol, afeli i periheli.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Intensitat de camp gravitatori del Sol a l'afeli i al periheli.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema de l'òrbita el·líptica del cometa amb el Sol en un focus, el periheli i l'afeli
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'apartat b), la pauta oficial escriu per error el subíndex "A" (afeli) al
+  denominador de g també per al periheli; el resultat numèric correspon correctament a
+  r_P. Es transcriu tal com surt a l'original (vegeu % DUBTE a solucio.tex).

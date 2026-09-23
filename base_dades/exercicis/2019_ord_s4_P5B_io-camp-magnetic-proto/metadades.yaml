@@ -1,0 +1,56 @@
+id: 2019_ord_s4_P5B_io-camp-magnetic-proto
+titol: Massa d'un ió en un camp magnètic i força sobre un protó
+resum: >-
+  Trajectòria circular d'un ió en un camp magnètic, amb la força en dues posicions, i
+  massa de l'ió a partir del temps que triga a fer 7 voltes; mòdul, direcció i sentit
+  del camp magnètic que actua sobre un protó donades la força i la velocitat.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [12]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps magnètics
+  - selector de velocitats, espectròmetre i ciclotró
+paraules_clau: [força de Lorentz, ió pesant, trajectòria circular, freqüència angular, massa d'un ió, protó, regla de la mà dreta, producte vectorial]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal relacionar el nombre de voltes i el temps amb la velocitat angular i aplicar la
+  dinàmica del moviment circular amb la força magnètica; a la part b cal deduir el
+  sentit del camp a partir del producte vectorial.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Trajectòria circular de l'ió amb la força en dues posicions i massa de l'ió.
+  - etiqueta: "b"
+    punts: 1
+    resum: Mòdul, direcció i sentit del camp magnètic sobre un protó.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Protó amb la velocitat cap amunt i la força magnètica cap a l'esquerra
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Trajectòria circular de l'ió amb el vector força apuntant al centre en dues posicions
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Protó amb la velocitat, la força magnètica i el camp magnètic cap dins del paper
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta de l'apartat a les puntuacions parcials sumen 1,3 p (el dibuix de la
+  trajectòria val 0,3 p) tot i que l'apartat val 1 punt; transcrit tal com és amb un
+  comentari DUBTE. A la pauta les figures són al costat del text; aquí s'han col·locat
+  després del pas corresponent (el 0,3 p del dibuix, just davant de la figura).

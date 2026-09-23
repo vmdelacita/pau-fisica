@@ -1,0 +1,43 @@
+id: 2019_ord_s1_P5A_iter-fusio-deuteri-triti
+titol: Fusió deuteri-triti a l'ITER
+resum: >-
+  Nombre de protons i neutrons del deuteri, el triti i l'heli-4 i equació nuclear de la
+  fusió deuteri-triti; energia alliberada a partir del defecte de massa.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - fissió i fusió
+  - reaccions nuclears i defecte de massa
+paraules_clau: [ITER, fusió nuclear, deuteri, triti, heli, neutró, equació nuclear, defecte de massa, energia alliberada]
+tipus: [càlcul]
+dificultat: 1
+justificacio_dificultat: >-
+  Lectura directa de la composició dels nuclis, equació nuclear senzilla i càlcul
+  directe de l'energia amb E = Δm c² a partir de la taula de masses.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Protons i neutrons del deuteri, el triti i l'heli-4 i equació de la fusió.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia alliberada en la fusió a partir del defecte de massa.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. La taula de masses de l'enunciat es transcriu amb
+  tabular. A la pauta els símbols dels nuclis són en cursiva (H, He, n) i es mantenen així.

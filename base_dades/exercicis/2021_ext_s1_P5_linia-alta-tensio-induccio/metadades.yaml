@@ -1,0 +1,54 @@
+id: 2021_ext_s1_P5_linia-alta-tensio-induccio
+titol: Cable d'alta tensió, camp magnètic terrestre i espires
+resum: >-
+  Força magnètica sobre un tram d'un cable d'alta tensió deguda al camp magnètic
+  terrestre inclinat, amb direcció i sentit; identificació de quines de tres espires
+  (horitzontal, en el pla del dibuix i vertical est-oest) tindran un corrent induït pel
+  camp magnètic altern generat pel cable.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21sl.pdf
+  pagines_enunciat: [10]
+  pdf_solucio: examenes/pau_fisi21sp.pdf
+  pagines_solucio: [5, 6]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - força magnètica sobre corrents i entre fils
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [línia d'alta tensió, camp magnètic terrestre, força sobre un corrent, producte vectorial, corrent altern, flux magnètic, inducció electromagnètica, llei de Faraday, llei d'Ohm]
+tipus: [càlcul, qualitativa, diagrama]
+dificultat: 4
+justificacio_dificultat: >-
+  Combina el càlcul vectorial de la força sobre un corrent en una geometria 3D poc
+  habitual (camp inclinat) amb un raonament qualitatiu fi sobre en quines orientacions
+  d'espira el flux varia i s'indueix corrent, aplicant Faraday i Ohm de manera
+  encadenada.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Força magnètica sobre un tram de 100 m del cable deguda al camp magnètic terrestre, mòdul, direcció i sentit.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Determinació de en quines espires (A, B o C) el camp magnètic altern del cable indueix un corrent elèctric.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: "Figura a: camp magnètic terrestre inclinat 50° i corrent I = 200 A entrant al pla, amb l'horitzó sud-nord"
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: "Figura b: línies de camp magnètic circulars al voltant del cable de corrent altern, amb les tres espires A, B i C"
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Diagrama vectorial amb el corrent I, el camp B i la força F formant angles de 50° respecte la vertical i l'horitzontal
+solucio_oficial: true
+revisat: false
+notes: ""

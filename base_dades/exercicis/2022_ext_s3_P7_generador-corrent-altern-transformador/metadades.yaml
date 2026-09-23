@@ -1,0 +1,50 @@
+id: 2022_ext_s3_P7_generador-corrent-altern-transformador
+titol: Generador de corrent altern i transformador
+resum: >-
+  A partir del gràfic I(t) d'un generador de corrent altern, deducció de la freqüència
+  de gir, la intensitat màxima i l'expressió I(t); càlcul del nombre de voltes del
+  secundari d'un transformador ideal per obtenir una FEM eficaç donada.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22sl.pdf
+  pagines_enunciat: [13]
+  pdf_solucio: examenes/pau_fisi22sp.pdf
+  pagines_solucio: [11]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - generadors, motors i transformadors
+paraules_clau: [generador de corrent altern, gràfic intensitat-temps, freqüència de gir, intensitat màxima, transformador ideal, FEM eficaç, transformador elevador o reductor]
+tipus: [gràfic, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Apartat a) exigeix llegir amb precisió un gràfic sinusoidal i construir l'expressió
+  I(t); l'apartat b) és una aplicació directa de la relació de transformació, tot i que
+  a la pràctica no es pot resoldre amb les dades de l'enunciat (vegeu notes).
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Freqüència de gir, intensitat màxima i funció I(t) a partir del gràfic.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Nombre de voltes del secundari d'un transformador ideal per obtenir 220 V eficaços.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfic de la intensitat (A) en funció del temps (s) d'un corrent altern sinusoidal
+solucio_oficial: true
+revisat: false
+notes: >-
+  La mateixa pauta oficial indica que l'apartat (b) no es pot resoldre perquè
+  l'enunciat no dona la tensió eficaç ni la màxima del generador (només el gràfic de la
+  intensitat), i que per això qualifica tot el problema (2,5 punts) amb l'apartat (a).
+  Es transcriu aquesta indicació tal com apareix a la pauta (vegeu el comentari
+  % DUBTE a solucio.tex); és un defecte de l'enunciat original, no de la transcripció.

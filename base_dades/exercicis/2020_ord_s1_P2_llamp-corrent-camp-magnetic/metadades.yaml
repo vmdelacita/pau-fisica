@@ -1,0 +1,42 @@
+id: 2020_ord_s1_P2_llamp-corrent-camp-magnetic
+titol: Corrent i camp magnètic d'un llamp
+resum: >-
+  Càrrega elèctrica transportada per un llamp de 400 kA que dura 50 μs i camp magnètic
+  que crea a 100 m; força magnètica sobre una partícula carregada en repòs.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+  - moviment de càrregues en camps magnètics
+paraules_clau: [llamp, tempesta, intensitat de corrent, càrrega elèctrica, corrent rectilini, camp magnètic, força de Lorentz, càrrega en repòs]
+tipus: [càlcul, qualitativa]
+dificultat: 1
+justificacio_dificultat: >-
+  Aplicació directa de Q = I·t i de l'expressió del camp d'un corrent rectilini (donada a
+  l'enunciat), i raonament immediat que la força magnètica sobre una càrrega en repòs és nul·la.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Càrrega transportada pel llamp i camp magnètic a 100 m.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Força magnètica sobre una partícula carregada en repòs.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. Pauta breu (fórmules i resultats), transcrita tal com és.

@@ -1,0 +1,52 @@
+id: 2021_ord_s2_P3_bloc-molla-mhs-energia
+titol: Bloc lligat a una molla horitzontal
+resum: >-
+  Amplitud, període i equació del moviment d'un bloc que oscil·la lligat a una molla
+  horitzontal sense fricció, i representació gràfica de les energies mecànica, cinètica i
+  potencial elàstica durant un període.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi21jp.pdf
+  pagines_solucio: [7, 8]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - energia del MHS
+paraules_clau: [molla horitzontal, MHS, amplitud, període, equació del moviment, energia mecànica, energia cinètica, energia potencial elàstica, gràfica temporal]
+tipus: [càlcul, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic de MHS: cal obtenir l'amplitud i el període a partir de les
+  condicions inicials, escriure l'equació del moviment amb la fase correcta i representar
+  correctament l'evolució temporal de les tres energies.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Amplitud, període i equació del moviment de l'oscil·lació.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Gràfica de l'energia mecànica, cinètica i potencial elàstica durant un període.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Bloc de 2 kg lligat a una molla de k=300 N/m contra una paret, amb les longituds de 30 cm i 45 cm
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica de l'energia mecànica, cinètica i potencial elàstica en funció del temps
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta oficial dona dues equacions del moviment equivalents ("Primera opció" amb sinus
+  i "Alternativament" amb cosinus); es transcriuen totes dues amb \destaca, tal com
+  apareixen en color a l'original.

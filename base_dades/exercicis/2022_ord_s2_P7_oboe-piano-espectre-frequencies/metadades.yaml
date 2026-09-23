@@ -1,0 +1,52 @@
+id: 2022_ord_s2_P7_oboe-piano-espectre-frequencies
+titol: Identificació d'un instrument musical a partir del seu espectre
+resum: >-
+  A partir d'un espectre de freqüències, determinació de la freqüència fonamental,
+  identificació de si l'instrument és un oboè o un piano segons els harmònics presents,
+  i càlcul de la llargària del tub; càlcul de la potència sonora de cada instrument d'un
+  quintet a partir del nivell d'intensitat sonora conjunt.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [13]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [15, 16]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ressonància i harmònics en tubs i cordes
+  - ones sonores i nivell d'intensitat
+paraules_clau: [espectre de freqüències, harmònics, tub obert-tancat, corda amb dos extrems fixos, oboè, piano, nivell d'intensitat sonora, potència sonora, semiesfera]
+tipus: [gràfic, qualitativa, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar l'espectre per identificar la freqüència fonamental i raonar, a partir
+  de les condicions de frontera d'un tub obert-tancat i d'una corda amb els dos extrems
+  fixos, quin instrument és compatible amb els harmònics observats; l'apartat b combina
+  el nivell d'intensitat sonora amb el repartiment entre cinc fonts i l'àrea d'una
+  semiesfera.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Freqüència fonamental, identificació de l'instrument (oboè o piano) i llargària del tub.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Potència sonora de cada instrument del quintet a partir del nivell d'intensitat conjunt.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Espectre de freqüències (amplitud en funció de la freqüència) amb dos pics, a 440 Hz i 1320 Hz
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Modes n=1 a n=4 de les ones estacionàries en una corda (piano, nodes als dos extrems) i en un tub obert-tancat (oboè)
+solucio_oficial: true
+revisat: false
+notes: ""

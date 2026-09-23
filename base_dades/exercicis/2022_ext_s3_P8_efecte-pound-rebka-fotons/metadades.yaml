@@ -1,0 +1,48 @@
+id: 2022_ext_s3_P8_efecte-pound-rebka-fotons
+titol: "L'experiment de Pound-Rebka: la gravetat i la freqüència dels fotons"
+resum: >-
+  Càlcul de la freqüència, la massa efectiva i la quantitat de moviment d'un fotó a
+  partir de la seva energia, i càlcul de la variació d'energia i freqüència d'un fotó
+  entre dos punts a diferent altura aplicant la conservació de l'energia mecànica
+  (experiment de Pound-Rebka).
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 8
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22sl.pdf
+  pagines_enunciat: [15]
+  pdf_solucio: examenes/pau_fisi22sp.pdf
+  pagines_solucio: [12]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: ["Camps gravitatoris"]
+subtemes:
+  - fotons i energia de la radiació
+paraules_clau: [experiment de Pound-Rebka, fotó, massa efectiva del fotó, quantitat de moviment, energia mecànica, desplaçament gravitatori cap al vermell, GPS]
+tipus: [càlcul, context-històric]
+dificultat: 3
+justificacio_dificultat: >-
+  Aplicació encadenada de relacions estàndard (E=hf, m=E/c^2, p=mc) i, a l'apartat b),
+  un plantejament de conservació de l'energia mecànica en un context poc habitual
+  (energia potencial gravitatòria d'un fotó) que cal saber interpretar correctament.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Freqüència, massa efectiva i quantitat de moviment del fotó a partir de la seva energia (14,4 keV).
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Variació d'energia i freqüència del fotó entre dos punts separats 22,6 m, i en quin punt la freqüència és més gran.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: >-
+      Fotografia de l'experiment original de Pound-Rebka al Jefferson Physical
+      Laboratory (imatge de context, no aporta dades numèriques)
+solucio_oficial: true
+revisat: false
+notes: ""

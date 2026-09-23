@@ -1,0 +1,44 @@
+id: 2020_ord_s1_P5_carboni14-sarcofag
+titol: Datació d'un sarcòfag amb carboni 14
+resum: >-
+  Reacció de desintegració beta del carboni 14 a nitrogen 14 amb l'antineutrí; antiguitat
+  d'una fusta de sarcòfag que conserva el 58 % de la proporció atmosfèrica de carboni 14
+  (llei de desintegració radioactiva).
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [carboni 14, datació radiomètrica, desintegració beta, antineutrí, període de semidesintegració, constant de desintegració, sarcòfag, raigs còsmics]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Escriure una reacció beta estàndard i aplicar la llei de desintegració exponencial amb
+  el període de semidesintegració; dos passos encadenats i enunciat guiat.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Reacció de desintegració del carboni 14 a nitrogen 14 amb l'antineutrí.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Antiguitat d'un sarcòfag amb el 58 % de la proporció atmosfèrica de carboni 14.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. Pauta breu, transcrita tal com és (inclosos «0,25p»
+  i «enlloc de»).

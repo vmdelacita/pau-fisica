@@ -1,0 +1,50 @@
+id: 2022_ord_s2_P2_dipol-electric-linies-camp
+titol: Línies de camp i camp elèctric d'un dipol
+resum: >-
+  Representació de les línies de camp elèctric i de les superfícies equipotencials d'un
+  dipol elèctric; càlcul del camp elèctric i del potencial elèctric a l'origen de
+  coordenades a partir de la posició de les dues càrregues sobre l'eix x.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [5, 6]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - línies de camp i superfícies equipotencials
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [dipol elèctric, línies de camp elèctric, superfícies equipotencials, llei de Coulomb, potencial elèctric, superposició de camps]
+tipus: [diagrama, càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Dibuixar les línies de camp d'un dipol és un exercici estàndard, i el càlcul del camp
+  i el potencial a l'origen és una aplicació directa de la superposició amb les dues
+  càrregues alineades sobre el mateix eix.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Dibuixar les línies de camp elèctric i la projecció de les superfícies equipotencials del dipol.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Calcular el camp elèctric i el potencial elèctric a l'origen de coordenades.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula en blanc amb les càrregues + i - sobre l'eix x, per dibuixar-hi les línies de camp
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Línies de camp (vermell) i superfícies equipotencials (blau) del dipol, ja dibuixades
+solucio_oficial: true
+revisat: false
+notes: ""

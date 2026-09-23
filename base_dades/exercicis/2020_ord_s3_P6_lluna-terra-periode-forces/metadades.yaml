@@ -1,0 +1,47 @@
+id: 2020_ord_s3_P6_lluna-terra-periode-forces
+titol: Període de la Lluna i punt d'equilibri gravitatori Terra-Lluna
+resum: >-
+  Període de translació de la Lluna al voltant de la Terra i energia potencial gravitatòria
+  del sistema; punt entre la Terra i la Lluna on s'anul·len les forces gravitatòries.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [13]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - energia potencial i potencial gravitatori
+  - camp gravitatori i superposició
+  - llei de la gravitació universal
+paraules_clau: [Lluna, Terra, període de translació, energia potencial gravitatòria, punt d'equilibri, forces gravitatòries, equació de segon grau]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Combina la dinàmica orbital, l'energia potencial i la igualació de dues forces
+  gravitatòries amb la tria de la solució físicament vàlida.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Període de translació de la Lluna i energia potencial gravitatòria Terra-Lluna.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Distància a la Terra del punt on s'anul·len les forces gravitatòries de la Terra i la Lluna.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  Enunciat i pauta escanejats, transcrits visualment. A la pauta les puntuacions parcials
+  de l'apartat a apareixen a la dreta dels passos; s'han mantingut en la mateixa posició.
+  Apartat b: la solució rebutjada surt 4,32e8 m amb les dades (la pauta diu 4,31e8 m);
+  s'ha mantingut. Es manté «no es bona» i «correcte» tal com és a l'original.

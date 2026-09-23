@@ -1,0 +1,22 @@
+id: 2020_ord_s3
+any: 2020
+convocatoria: ordinaria
+serie: 3
+format: antic
+pdf_enunciat: examenes/pau_fisi20jl.pdf
+pdf_solucio: examenes/pau_fisi20jp.pdf
+# El PDF (escanejat) conté les sèries 1 i 3: la sèrie 3 és a les pàgines 5-8 de
+# l'enunciat i a les pàgines 8-15 de la pauta (criteris generals a la pàgina 8).
+instruccions: >-
+  Responeu a QUATRE dels vuit problemes següents. En el cas que respongueu a més
+  problemes, només es valoraran els quatre primers. Cada problema val 2,5 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2020_ord_s3_P1_molla-energia-potencial-grafica
+  - 2020_ord_s3_P2_fils-perpendiculars-bruixola
+  - 2020_ord_s3_P3_io-callisto-jupiter
+  - 2020_ord_s3_P4_accelerador-lineal-cilindres
+  - 2020_ord_s3_P5_cesi-137-vins
+  - 2020_ord_s3_P6_lluna-terra-periode-forces
+  - 2020_ord_s3_P7_laser-vidre-ona-electromagnetica
+  - 2020_ord_s3_P8_hidrogen-muonic-bohr

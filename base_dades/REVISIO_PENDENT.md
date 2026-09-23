@@ -104,3 +104,87 @@ Generat a partir de les `notes` de les metadades (2026-09-22).
 - Carpeta: `base_dades/exercicis/2026_ord_s1_E4A_cesi-137-txernobil/`
 - la pauta només presenta el càlcul amb lambda = 7,28e-10 s^-1 (interpretant 30,17 anys com a
 - *Notes:* La pauta anomena aquesta opció "opció 1". L'enunciat diu "vida mitjana (30,17 anys)", però 30,17 anys és en realitat el període de semidesintegració del Cs-137; la pauta accepta les dues interpretacions a l'apartat 4.1, però a l'apartat 4.2 només calcula amb λ = 7,28e-10 s^-1 (semidesintegració), que dona 121 anys (any 2107). Amb la vida mitjana sortirien ~84 anys. Es transcriu tal com és.
+
+
+# Lot 1: exàmens de 2019–2022
+
+Afegit el 2026-09-23. 19 exercicis amb comentaris `% DUBTE:`. Els altres detalls (errates menors de redacció, figures recol·locades) són a les `notes` de cada exercici.
+
+## 2019_ext_s5_P3B_gotes-oli-plaques-carregades
+
+- pauta: la pauta fa servir g = 9,80 m/s² tot i que l'enunciat dona 9,81 m/s² (el resultat no canvia).
+
+## 2019_ord_s4_P1_virus-massa-oscillador
+
+- pauta: a l'original falta el quadrat a (4π × 10^15); el resultat 3,32 × 10^13 correspon a (4π × 10^15)^2.
+
+## 2019_ord_s4_P3A_efecte-fotoelectric-sodi
+
+- pauta: a l'original hi diu «1,60×19^{-19} J» (errata per 1,60×10^{-19} J).
+
+## 2019_ord_s4_P4A_camp-electric-terra-gota
+
+- enunciat: l'original dona el camp en «N m^{-1}» (errata probable per N C^{-1} o V m^{-1}); es transcriu tal com és.
+- pauta: la pauta fa servir R_Terra = 6,40×10^6 m, però l'enunciat dona 6,37×10^6 m.
+- pauta: a l'original hi diu «2,40×10^{10}» (errata per 2,40×10^{-10}).
+
+## 2019_ord_s4_P4B_descarrega-arc-tres-electrons
+
+- enunciat: l'original dona q_e = -1,60×10^{-9} C (errata per -1,60×10^{-19} C, el valor que fa servir la pauta).
+
+## 2019_ord_s4_P5B_io-camp-magnetic-proto
+
+- pauta: les puntuacions parcials de la pauta sumen 1,3 p (0,2 + 0,2 + 0,3 + 0,2 + 0,2 + 0,2), però l'apartat val 1 punt.
+
+## 2020_ext_s4_P7_corda-espectre-harmonics
+
+- pauta: la pauta parla de «la longitud de la cavitat» tot i que l'enunciat tracta d'una corda; es transcriu tal com és.
+
+## 2020_ord_s1_P3_sonda-parker-orbita
+
+- pauta: la pauta escriu M_T (massa de la Terra) tot i que la massa central és la del Sol.
+
+## 2020_ord_s1_P7_dues-carregues-camp-potencial
+
+- pauta: la pauta escriu q_1/d_1^2 a l'expressió de E_2 (hauria de ser q_2/d_2^2); els valors numèrics sí que són els de la càrrega 2.
+
+## 2020_ord_s3_P2_fils-perpendiculars-bruixola
+
+- pauta: a la pauta diu «I com B_A i B_A són perpendiculars», per «B_A i B_B».
+
+## 2020_ord_s3_P6_lluna-terra-periode-forces
+
+- pauta: amb les dades, R_TLl/(1 - sqrt(M_Ll/M_T)) = 4,32e8 m (la pauta diu 4,31e8 m).
+
+## 2020_ord_s3_P7_laser-vidre-ona-electromagnetica
+
+- pauta: la pauta dona k en rad/s (hauria de ser rad/m).
+- pauta: la pauta escriu λ = cf; el valor 7,85e-7 m correspon a λ = c/f.
+
+## 2021_ord_s2_P2_triangle-carregues-camp-electric
+
+- pauta: a l'original el denominador és "4^2" en comptes de "r^2"; sembla una errata, es transcriu tal com surt a la pauta oficial.
+
+## 2021_ord_s2_P7_corda-violi-harmonics-so
+
+- pauta: a l'original les etiquetes de les dues figures semblen intercanviades: la figura de l'esquerra (3 ventres) és la que correspon al tercer harmònic i la de la dreta (1 ventre) al fonamental, tot i que la pauta les etiqueta a l'inrevés. Es transcriu tal com surt a l'original.
+
+## 2021_ord_s2_P8_efecte-fotoelectric-rubidi
+
+- pauta: a l'original els exponents d'aquestes dues freqüències surten com "10^{15}" (4,00×10^15 Hz i 5,45×10^15 Hz), en comptes de 10^{14} com a l'apartat a); es transcriu tal com apareix a la pauta oficial.
+
+## 2022_ext_s3_P2_carrega-puntual-equipotencials
+
+- pauta: la pauta oficial (pau_fisi22sp.pdf, pàg. 5) no conté cap text ni puntuació específics per a aquest apartat b); només tracta l'apartat a). La figura de la pauta (sol_fig1.png) sí que inclou les 8 línies de camp dibuixades radialment des de la càrrega, tallant perpendicularment les circumferències equipotencials, però no hi ha cap enunciat del criteri de correcció ni la resposta explícita sobre l'angle (que, per tractar-se de línies de camp i equipotencials, és de 90 graus).
+
+## 2022_ext_s3_P7_generador-corrent-altern-transformador
+
+- pauta: la pauta oficial (pau_fisi22sp.pdf, pàg. 11) indica explícitament que aquest apartat no es pot resoldre perquè l'enunciat no dona la tensió eficaç ni la màxima del generador (només la intensitat), i que per aquest motiu tota la qualificació del problema (2,5 punts) es concentra en l'apartat (a). No hi ha, doncs, cap solució numèrica ni criteri de correcció per a aquest apartat b) a la pauta.
+
+## 2022_ord_s5_P1_cometa-halley-afeli-periheli
+
+- pauta: a l'original, la fórmula del camp gravitatori al periheli porta per error el subíndex "A" (d'afeli) al denominador en lloc de "P" (de periheli); el resultat numèric, 1,72e-2 m/s^2, sí que correspon a r_P. Es transcriu tal com surt a la pauta oficial.
+
+## 2022_ord_s5_P5_residus-radioactius-semidesintegracio
+
+- pauta: a la via alternativa, la pauta original dona els temps t1 i t2 en segons ("s"), però els valors (60, 330, 600...) són en realitat minuts, tal com surten a la taula de l'enunciat, i tal com fa falta perquè lambda surti en min^-1. Es transcriu la unitat "s" tal com apareix a l'original.

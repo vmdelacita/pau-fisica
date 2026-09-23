@@ -1,0 +1,52 @@
+id: 2020_ext_s4_P7_corda-espectre-harmonics
+titol: Espectre d'una corda vibrant i ones estacionàries
+resum: >-
+  A partir de l'espectre de freqüències del so d'una corda de 40 cm fixada pels dos
+  extrems, representació de les ones estacionàries dels quatre primers pics amb nodes i
+  ventres, longituds d'ona i velocitat de propagació; freqüències i longituds d'ona quan
+  la corda es redueix a 20 cm.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: extraordinaria
+  serie: 4
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi20sp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones estacionàries
+  - ressonància i harmònics en tubs i cordes
+paraules_clau: [corda vibrant, espectre de freqüències, harmònics, nodes, ventres, longitud d'ona, velocitat de propagació, freqüència fonamental]
+tipus: [gràfic, diagrama, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal llegir les freqüències al gràfic de l'espectre, identificar-les com a harmònics
+  d'una corda fixada pels dos extrems i dibuixar-ne els modes; els càlculs són directes.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Esquema de les ones estacionàries A, B, C i D amb nodes i ventres, longituds d'ona i velocitat de propagació.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Freqüències i longituds d'ona dels quatre primers harmònics amb la corda de 20 cm.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Espectre del so de la corda (amplitud en funció de la freqüència) amb els pics A, B, C i D
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Ones estacionàries dels harmònics A, B, C i D amb els nodes (N) i els ventres (V)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. A l'apartat b la pauta parla de «la longitud de la
+  cavitat» tot i que l'enunciat tracta d'una corda; s'ha transcrit tal com és (DUBTE).
+  L'espectre també mostra un cinquè pic sense etiqueta a 600 Hz.

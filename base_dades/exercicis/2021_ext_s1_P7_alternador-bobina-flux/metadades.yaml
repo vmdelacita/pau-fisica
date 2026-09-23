@@ -1,0 +1,47 @@
+id: 2021_ext_s1_P7_alternador-bobina-flux
+titol: Flux i força electromotriu en un alternador
+resum: >-
+  Flux del camp magnètic a través d'una espira d'una bobina que gira dins un camp
+  magnètic uniforme, per a orientació perpendicular i per a un angle qualsevol; a
+  partir del flux, evolució temporal i valor màxim de la força electromotriu induïda
+  en la bobina d'un alternador.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21sl.pdf
+  pagines_enunciat: [13]
+  pdf_solucio: examenes/pau_fisi21sp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+  - generadors, motors i transformadors
+paraules_clau: [alternador, bobina, flux magnètic, força electromotriu induïda, llei de Faraday, corrent altern, freqüència angular]
+tipus: [càlcul, deducció]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic d'alternador: cal calcular el flux en funció de l'angle, passar
+  l'angle a funció del temps a partir de la freqüència de gir i aplicar la llei de
+  Faraday per obtenir la fem, encadenant diversos passos amb funcions trigonomètriques.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Flux del camp magnètic a través d'una espira per a θ = 0 rad i per a un angle θ qualsevol.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Evolució temporal de la força electromotriu induïda en la bobina i el seu valor màxim.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Bobina rectangular girant amb velocitat angular ω dins un camp magnètic B, amb el vector S i l'angle θ
+solucio_oficial: true
+revisat: false
+notes: ""

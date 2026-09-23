@@ -1,0 +1,50 @@
+id: 2022_ord_s2_P6_perseverance-mart-potencial-gravitatori
+titol: Aterratge del Perseverance i camp gravitatori uniforme a Mart
+resum: >-
+  A partir de la diferència de potencial gravitatori entre dos punts propers a la
+  superfície de Mart, càlcul del camp gravitatori i identificació de l'esquema correcte
+  de línies equipotencials; càlcul del treball fet per la grua que baixa el vehicle
+  Perseverance a velocitat constant.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [12]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [13, 14]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - energia potencial i potencial gravitatori
+paraules_clau: [Mart, Perseverance, camp gravitatori uniforme, diferència de potencial, línies equipotencials, treball, teorema de les forces vives, velocitat constant]
+tipus: [càlcul, qualitativa, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal aplicar la relació entre camp uniforme i diferència de potencial, raonar
+  qualitativament quin esquema de línies i superfícies equipotencials és físicament
+  correcte i per què el potencial creix amb l'alçada, i combinar el treball del camp
+  gravitatori amb el teorema de les forces vives per obtenir el treball de la grua.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Camp gravitatori a la superfície de Mart i esquema correcte de línies equipotencials.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Treball fet per la grua durant el descens a velocitat constant.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quatre esquemes (a, b, c, d) de possibles línies de camp/equipotencials sobre la superfície de Mart, amb el vehicle a 20 m d'alçada
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema c) triat, amb les línies de camp gravitatori g cap avall i les etiquetes Valt i Vbaix
+solucio_oficial: true
+revisat: false
+notes: ""

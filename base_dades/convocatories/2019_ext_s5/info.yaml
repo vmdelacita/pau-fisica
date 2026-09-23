@@ -1,0 +1,24 @@
+id: 2019_ext_s5
+any: 2019
+convocatoria: extraordinaria
+serie: 5
+format: antic
+pdf_enunciat: examenes/pau_fisi19sl.pdf
+pdf_solucio: examenes/pau_fisi19sp.pdf
+# PDF escanejats. La sèrie 5 ocupa les pàgines 1-4 de l'enunciat (tot el PDF)
+# i les pàgines 1-7 de la pauta (tot el PDF; criteris generals a la pàgina 1).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2019_ext_s5_P1_oscillador-energia-ona-corda
+  - 2019_ext_s5_P2_sonda-juno-jupiter
+  - 2019_ext_s5_P3A_carregues-triangle-equilater
+  - 2019_ext_s5_P4A_espira-rectangular-induccio
+  - 2019_ext_s5_P5A_telescopi-magic-raigs-gamma
+  - 2019_ext_s5_P3B_gotes-oli-plaques-carregades
+  - 2019_ext_s5_P4B_transformador-ideal
+  - 2019_ext_s5_P5B_fusio-proto-neutro-deuteri

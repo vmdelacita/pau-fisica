@@ -1,0 +1,50 @@
+id: 2020_ord_s1_P1_freddie-mercury-veu-so
+titol: La veu de Freddie Mercury i el concert de Rock in Rio
+resum: >-
+  Longituds d'ona dels sons més greus i més aguts del registre vocal de Freddie Mercury
+  a partir de les freqüències; nivell d'intensitat sonora a 1 km d'un concert on
+  350 000 persones canten alhora, considerat com una font puntual.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones sonores i nivell d'intensitat
+  - ones harmòniques i equació d'ona
+paraules_clau: [Freddie Mercury, Queen, registre vocal, longitud d'ona, freqüència, potència sonora, intensitat sonora, nivell d'intensitat, decibels, font puntual]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de λ = v/f i, a l'apartat b, dos passos encadenats: sumar les
+  potències i repartir-les en una esfera per obtenir la intensitat i després el nivell
+  en decibels.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Longituds d'ona dels sons més greu i més agut del registre de Mercury.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Nivell d'intensitat sonora a 1 km d'un públic de 350 000 persones cantant.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia de Freddie Mercury d'esquena a l'escenari davant d'un públic multitudinari
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. Pauta molt breu (només fórmules i resultats), transcrita
+  tal com és. A la pauta el nombre de persones s'escriu «350.000» (punt com a separador de
+  milers) i s'ha mantingut així, com a la resta de la base de dades. La pauta escriu I_persona
+  per a la potència de cada assistent.

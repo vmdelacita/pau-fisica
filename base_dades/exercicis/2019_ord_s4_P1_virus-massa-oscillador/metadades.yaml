@@ -1,0 +1,44 @@
+id: 2019_ord_s4_P1_virus-massa-oscillador
+titol: Mesura de la massa d'un virus amb un oscil·lador
+resum: >-
+  Un braç microscòpic es modelitza com una molla: constant elàstica a partir de la
+  freqüència d'oscil·lació i la massa del braç, i massa d'un virus adherit a partir del
+  canvi de freqüència.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [virus, massa d'un virus, oscil·lador, molla, constant elàstica, freqüència angular, freqüència d'oscil·lació]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació de la relació ω = √(k/m) en dues situacions encadenades; cal passar la
+  massa de grams a quilograms i restar la massa del braç.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Constant elàstica del braç a partir de la freqüència i la massa oscil·lant.
+  - etiqueta: "b"
+    punts: 1
+    resum: Massa del virus a partir de la nova freqüència d'oscil·lació.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'apartat a de la pauta falta el quadrat a (4π × 10^15) en el càlcul de k; el
+  resultat (3,32 × 10^13 N/m) sí que correspon al quadrat. S'ha transcrit tal com és
+  amb un comentari DUBTE.

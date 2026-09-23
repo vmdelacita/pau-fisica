@@ -1,0 +1,50 @@
+id: 2019_ord_s4_P2_tercera-llei-kepler-massa-sol
+titol: Kepler, Brahe i la massa del Sol
+resum: >-
+  Deducció de la tercera llei de Kepler a partir de la segona llei de Newton i la llei
+  de la gravitació universal per a òrbites circulars, i càlcul de la massa del Sol a
+  partir d'una taula de radis i períodes orbitals dels planetes.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - lleis de Kepler
+  - òrbites circulars i satèl·lits
+  - llei de la gravitació universal
+paraules_clau: [Kepler, Tycho Brahe, tercera llei de Kepler, massa del Sol, planetes, període orbital, moviment circular uniforme]
+tipus: [deducció, càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Deducció estàndard de la tercera llei de Kepler i aplicació directa amb les dades de
+  la Terra (cal passar el període d'anys a segons).
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Deducció de la tercera llei de Kepler per a òrbites circulars.
+  - etiqueta: "b"
+    punts: 1
+    resum: Massa del Sol a partir de les dades orbitals dels planetes.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Retrats de Johannes Kepler (esquerra) i Tycho Brahe (dreta)
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'original la foto és al costat del text introductori i de l'apartat a (maquetació
+  a dues columnes); aquí s'ha col·locat després del text introductori, amb el peu de
+  figura com a text. A la pauta les puntuacions de l'apartat a apareixen darrere de cada
+  pas.

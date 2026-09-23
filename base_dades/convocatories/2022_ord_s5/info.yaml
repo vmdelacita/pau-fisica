@@ -1,0 +1,24 @@
+id: 2022_ord_s5
+any: 2022
+convocatoria: ordinaria
+serie: 5
+format: antic
+pdf_enunciat: examenes/pau_fisi22jl.pdf
+pdf_solucio: examenes/pau_fisi22jp.pdf
+# El PDF de l'enunciat conté les sèries 2 i 5: la sèrie 5 és a les pàgines 17-32
+# (la sèrie 2 ocupa les pàgines 1-16). El PDF de la pauta conté les sèries 2 i 5:
+# els criteris generals i la sèrie 5 són a les pàgines 20-33 (la sèrie 2 i els seus
+# criteris generals ocupen les pàgines 1-19).
+instruccions: >-
+  Responeu a QUATRE dels vuit problemes següents. En el cas que respongueu a més
+  problemes, només es valoraran els quatre primers. Cada problema val 2,5 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2022_ord_s5_P1_cometa-halley-afeli-periheli
+  - 2022_ord_s5_P2_particula-fil-camp-electric
+  - 2022_ord_s5_P3_molla-periode-massa-mhs
+  - 2022_ord_s5_P4_espectrometre-carboni-isotops
+  - 2022_ord_s5_P5_residus-radioactius-semidesintegracio
+  - 2022_ord_s5_P6_transformador-masia
+  - 2022_ord_s5_P7_sirena-doppler-ona-harmonica
+  - 2022_ord_s5_P8_positro-electro-anihilacio

@@ -1,0 +1,44 @@
+id: 2020_ext_s4_P8_fotocellula-llum-verda
+titol: Fotocèl·lula il·luminada amb llum verda
+resum: >-
+  Energia cinètica màxima dels electrons arrencats d'un càtode alcalí (treball
+  d'extracció 1,20 eV) per llum verda de 500 nm; efecte de multiplicar per 10 el nombre
+  de fotons per segon sobre l'emissió d'electrons.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: extraordinaria
+  serie: 4
+  exercici: 8
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi20sp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [fotocèl·lula, efecte fotoelèctric, treball d'extracció, energia cinètica màxima, energia del fotó, llum verda, intensitat de la llum, corrent fotoelèctric]
+tipus: [càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de l'equació d'Einstein de l'efecte fotoelèctric amb un canvi
+  d'unitats i un raonament qualitatiu estàndard sobre la intensitat de la llum.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Energia cinètica màxima dels electrons arrencats per llum de 500 nm.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Canvis en l'emissió d'electrons si el feix és 10 vegades més intens.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. A l'apartat a les puntuacions «0,1 p» apareixen a
+  la dreta del resultat, a la mateixa línia.

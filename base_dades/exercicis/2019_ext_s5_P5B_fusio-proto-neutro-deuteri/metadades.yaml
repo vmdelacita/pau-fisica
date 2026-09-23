@@ -1,0 +1,44 @@
+id: 2019_ext_s5_P5B_fusio-proto-neutro-deuteri
+titol: Fusió d'un protó i un neutró per formar deuteri
+resum: >-
+  Identificació de l'isòtop format en la fusió d'un protó i un neutró i equació nuclear;
+  energia del fotó emès a partir del defecte de massa (en J i eV) i la seva freqüència.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi19sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi19sp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - fissió i fusió
+  - reaccions nuclears i defecte de massa
+  - fotons i energia de la radiació
+paraules_clau: [fusió nuclear, protó, neutró, deuteri, isòtops de l'hidrogen, equació nuclear, defecte de massa, energia del fotó, freqüència]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Cal ajustar una equació nuclear senzilla i calcular l'energia a partir del defecte de
+  massa amb E = Δmc², convertir-la a eV i obtenir la freqüència amb E = hf.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Isòtop format i equació nuclear del procés.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia del fotó en J i eV i la seva freqüència.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  La massa del triti és una dada distractora. A la pauta la massa de «E = Δmc²» del
+  primer pas apareix en rodona; s'ha mantingut.

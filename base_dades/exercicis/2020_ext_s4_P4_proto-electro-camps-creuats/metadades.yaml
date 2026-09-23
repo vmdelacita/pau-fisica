@@ -1,0 +1,53 @@
+id: 2020_ext_s4_P4_proto-electro-camps-creuats
+titol: Protó i electró en camps elèctric i magnètic creuats
+resum: >-
+  Un protó es mou segons l'eix Y en una regió amb un camp elèctric segons Z i un camp
+  magnètic segons X: representació de les forces i condició per no desviar-se (v = E/B);
+  estudi de si un electró amb la mateixa velocitat es desvia.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: extraordinaria
+  serie: 4
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi20sp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - selector de velocitats, espectròmetre i ciclotró
+  - moviment de càrregues en camps magnètics
+  - moviment de càrregues en camps elèctrics
+paraules_clau: [selector de velocitats, camps creuats, força de Lorentz, força elèctrica, força magnètica, producte vectorial, protó, electró]
+tipus: [diagrama, càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal determinar vectorialment en 3D les forces elèctrica i magnètica sobre una càrrega
+  positiva i una de negativa i aplicar la condició d'equilibri del selector de
+  velocitats; problema PAU típic.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Representació de les forces sobre el protó i condició (velocitat) per no desviar-se.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Forces sobre un electró amb v = 5·10⁵ j m/s i justificació de si es desvia.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Eixos x, y, z amb E, B, v i les forces elèctrica i magnètica sobre el protó
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Eixos x, y, z amb E, B, v i les forces elèctrica i magnètica sobre l'electró
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. A la pauta les figures són al costat del text
+  (dues columnes); aquí s'han posat al començament de cada apartat. A l'apartat a el
+  darrer «0,1 p» apareix a la dreta del resultat v = 5·10⁵ m/s.

@@ -1,0 +1,52 @@
+id: 2019_ext_s5_P3A_carregues-triangle-equilater
+titol: Tres càrregues als vèrtexs d'un triangle equilàter
+resum: >-
+  Camp elèctric al baricentre d'un triangle equilàter amb dues càrregues positives i una
+  negativa als vèrtexs; variació de l'energia potencial electrostàtica del sistema quan
+  el costat del triangle es duplica.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi19sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi19sp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [càrregues puntuals, triangle equilàter, baricentre, superposició de camps elèctrics, simetria, energia potencial electrostàtica d'un sistema]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal superposar vectorialment tres camps aprofitant la simetria i la geometria del
+  triangle (distància al baricentre), i calcular l'energia potencial d'un sistema de
+  tres parelles de càrregues.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Camp elèctric al baricentre del triangle.
+  - etiqueta: "b"
+    punts: 1
+    resum: Variació de l'energia potencial electrostàtica en duplicar el costat i si augmenta o disminueix.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Triangle equilàter amb −q al vèrtex superior, +q als inferiors i el baricentre G
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Camps creats per cada càrrega al baricentre i camp total vertical cap amunt
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'original la figura és al costat del text de l'enunciat (maquetació a dues
+  columnes); aquí s'ha col·locat després del paràgraf introductori. A la pauta l'esquema
+  és al costat de «0,2 p (Esquema)».

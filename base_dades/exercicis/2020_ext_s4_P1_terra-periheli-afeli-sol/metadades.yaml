@@ -1,0 +1,53 @@
+id: 2020_ext_s4_P1_terra-periheli-afeli-sol
+titol: Òrbita el·líptica de la Terra, periheli i afeli
+resum: >-
+  Dibuix de l'òrbita el·líptica de la Terra amb la posició a l'hivern, justificació
+  energètica que la velocitat és mínima a l'afeli i càlcul de la distància a l'afeli
+  (segona llei de Kepler o conservació de l'energia); camp gravitatori a la superfície
+  del Sol i pes d'una massa de 10 kg.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: extraordinaria
+  serie: 4
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20sl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi20sp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites el·líptiques i moment angular
+  - energia mecànica orbital
+  - lleis de Kepler
+  - camp gravitatori i superposició
+paraules_clau: [Terra, Sol, periheli, afeli, òrbita el·líptica, conservació del moment angular, conservació de l'energia mecànica, segona llei de Kepler, intensitat del camp gravitatori, pes]
+tipus: [diagrama, qualitativa, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic d'òrbites el·líptiques: cal raonar amb la conservació de l'energia
+  per justificar la velocitat mínima i aplicar la conservació del moment angular per a la
+  distància a l'afeli; el segon apartat és una aplicació directa.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Dibuix de l'òrbita amb el Sol i la Terra a l'hivern, justificació energètica de la velocitat mínima a l'afeli i distància a l'afeli.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Intensitat del camp gravitatori a la superfície del Sol i pes d'una massa de 10,0 kg.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Òrbita el·líptica amb el Sol en un focus i la Terra al periheli
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. A la pauta la figura és al costat del primer
+  paràgraf (dues columnes). A l'apartat b les puntuacions «0,1 p» apareixen a la dreta
+  del resultat, a la mateixa línia. A la pauta les velocitats s'escriuen en m/s amb punt
+  de milers (30.750, 28.760) i s'han mantingut així.

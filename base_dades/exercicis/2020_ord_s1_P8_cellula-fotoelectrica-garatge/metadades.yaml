@@ -1,0 +1,47 @@
+id: 2020_ord_s1_P8_cellula-fotoelectrica-garatge
+titol: Cèl·lula fotoelèctrica de la porta del garatge
+resum: >-
+  Freqüència i energia (en J i eV) de fotons de tres longituds d'ona que incideixen sobre
+  un material alcalí amb funció de treball d'1,20 eV; gràfica de l'energia cinètica màxima
+  dels electrons en funció de l'energia dels fotons i justificació de quins arrenquen electrons.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 8
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [6, 7]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [cèl·lula fotoelèctrica, porta del garatge, funció de treball, freqüència llindar, energia del fotó, energia cinètica màxima, electronvolt, fotocàtode]
+tipus: [càlcul, gràfic, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació repetida de f = c/λ i E = hf i de l'equació d'Einstein de l'efecte fotoelèctric,
+  amb la construcció d'una gràfica senzilla i la comparació amb el llindar.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Freqüència i energia (en eV) dels fotons de cada longitud d'ona.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Gràfica de l'energia cinètica màxima en funció de l'energia dels fotons i llindar fotoelèctric.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica de l'energia cinètica màxima dels electrons (eV) en funció de l'energia dels fotons incidents (eV), recta que talla l'eix a 1,2 eV
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. Les dues taules de la pauta (amb files ombrejades a
+  l'original) s'han transcrit amb tabular. «També és pot argumentar» és de l'original.

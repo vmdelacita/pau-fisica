@@ -1,0 +1,44 @@
+id: 2022_ord_s2_P1_lluna-camp-gravitatori-escapament
+titol: Camp gravitatori i escapament al sistema Terra-Lluna
+resum: >-
+  Deducció de g(R, T) per a un satèl·lit en òrbita circular i càlcul per a la Lluna;
+  deducció de l'energia cinètica mínima d'escapament i comparació entre la Terra i la
+  Lluna a partir dels seus quocients de massa i radi.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [3, 4]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - velocitat d'escapament
+paraules_clau: [Lluna, Terra, camp gravitatori, període orbital, moviment circular uniforme, energia cinètica mínima, velocitat d'escapament, energia mecànica]
+tipus: [deducció, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal deduir dues expressions generals (g en funció de R i T, i l'energia cinètica
+  d'escapament) a partir dels principis de la dinàmica i de la conservació de l'energia
+  mecànica, i després aplicar-les numèricament amb quocients de dades; problema PAU
+  típic de diversos passos encadenats.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Deduir g(R, T) per a un satèl·lit en òrbita circular i calcular-la per a la Lluna.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Deduir l'energia cinètica mínima d'escapament i comparar Terra i Lluna.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

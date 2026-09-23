@@ -1,0 +1,60 @@
+id: 2020_ext_s4_P6_imant-espira-lenz
+titol: Imant que s'acosta i s'allunya d'una espira
+resum: >-
+  Un imant es mou al llarg de l'eix Y cap a una espira en el pla XZ: dibuix de les línies
+  de camp, justificació del corrent induït (Faraday) i del seu sentit (Lenz); força entre
+  l'imant i l'espira quan l'imant s'allunya.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: extraordinaria
+  serie: 4
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi20sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+  - imants, brúixoles i experiment d'Oersted
+paraules_clau: [imant, espira, línies de camp magnètic, llei de Faraday, llei de Lenz, corrent induït, sentit del corrent, força atractiva, força repulsiva]
+tipus: [qualitativa, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema qualitatiu típic d'inducció: cal dibuixar les línies de camp d'un imant i
+  aplicar Faraday i Lenz amb la regla de la mà dreta en 3D per deduir el sentit del
+  corrent i de la força.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Línies de camp de l'imant, existència i sentit del corrent induït quan l'imant s'acosta.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Força entre l'imant i l'espira quan l'imant s'allunya i el seu sentit.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Imant (S-N) que es mou segons l'eix Y cap a una espira en el pla XZ
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Línies de camp de l'imant, algunes travessant l'espira
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Regla de la mà dreta i sentit del corrent i del camp induït quan l'imant s'acosta
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Regla de la mà dreta i sentit del corrent i del camp induït quan l'imant s'allunya
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. A la pauta les figures són al costat del text
+  (dues columnes); aquí s'han col·locat després del paràgraf corresponent. Cada figura de
+  la regla de la mà dreta inclou la foto de la mà i l'esquema de l'espira en un sol retall.
+  La paraula «atractiva» apareix en vermell a la pauta i s'ha mantingut en vermell. La
+  pauta parla de «bobina» tot i que l'enunciat parla d'una espira.

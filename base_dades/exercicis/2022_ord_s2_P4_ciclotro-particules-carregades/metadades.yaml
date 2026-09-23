@@ -1,0 +1,54 @@
+id: 2022_ord_s2_P4_ciclotro-particules-carregades
+titol: Ciclotró i acceleració de protons
+resum: >-
+  Deducció de la velocitat de partícules carregades en un ciclotró en funció de q/m, r i
+  B, del temps de recorregut dins un elèctrode (independent de v) i de la freqüència del
+  camp elèctric altern; càlcul numèric de la velocitat i la longitud d'ona de De Broglie
+  de protons accelerats, i del radi mínim per a velocitats relativistes.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [9, 10, 11]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: ["Física relativista, quàntica i nuclear"]
+subtemes:
+  - moviment de càrregues en camps magnètics
+  - selector de velocitats, espectròmetre i ciclotró
+paraules_clau: [ciclotró, força de Lorentz, moviment circular uniforme, camp elèctric altern, freqüència de ciclotró, protó, longitud d'ona de De Broglie, velocitat relativista]
+tipus: [deducció, càlcul, qualitativa]
+dificultat: 4
+justificacio_dificultat: >-
+  Combina la força magnètica, la dinàmica del MCU i el raonament amb vectors per deduir
+  v i el temps de recorregut, exigeix justificar per què el camp elèctric ha d'alternar,
+  i encara enllaça amb un càlcul de longitud d'ona de De Broglie i un llindar relativista
+  qualitatiu; diversos conceptes combinats.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Deduir v(q/m, r, B), comprovar que el temps dins una D no depèn de v, i trobar la freqüència del camp altern.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Velocitat i longitud d'ona de De Broglie dels protons, i radi mínim per a velocitats relativistes.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Esquema del ciclotró amb els dos elèctrodes en forma de D, el camp B i el camp E altern entre els elèctrodes
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Trajectòria circular dins una D amb els vectors v, B i la força magnètica Fm
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Eixos x, y, z amb els vectors B, v, Fm i la càrrega q a l'origen
+solucio_oficial: true
+revisat: false
+notes: ""

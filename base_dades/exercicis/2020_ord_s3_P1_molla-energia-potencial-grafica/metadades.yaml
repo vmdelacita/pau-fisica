@@ -1,0 +1,49 @@
+id: 2020_ord_s3_P1_molla-energia-potencial-grafica
+titol: Molla horitzontal a partir de la gràfica de l'energia potencial elàstica
+resum: >-
+  A partir de la gràfica de l'energia potencial elàstica en funció de l'elongació, càlcul de
+  la constant elàstica de la molla i, amb el període d'oscil·lació, de la massa lligada;
+  representació de l'energia cinètica i mecànica d'un MHS de 10 cm d'amplitud.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [9]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - energia del MHS
+paraules_clau: [molla, llei de Hooke, constant elàstica, energia potencial elàstica, energia cinètica, energia mecànica, període, massa oscil·lant]
+tipus: [càlcul, gràfic]
+dificultat: 2
+justificacio_dificultat: >-
+  Lectura directa d'un punt de la gràfica per obtenir k, i relació estàndard entre període,
+  k i massa; la representació de les energies és el cas típic del MHS.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Constant elàstica a partir de la gràfica i massa de l'objecte a partir del període.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Representar l'energia cinètica i la mecànica en funció de x per a una amplitud de 10 cm.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica de l'energia potencial elàstica (J) en funció de l'elongació x (cm), de -15 a 15 cm
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica amb l'energia potencial, l'energia cinètica i l'energia mecànica (0,9 J) per a A = 10 cm
+solucio_oficial: true
+revisat: false
+notes: >-
+  Enunciat i pauta escanejats (sense capa de text), transcrits visualment.

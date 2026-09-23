@@ -1,0 +1,41 @@
+id: 2022_ord_s5_P6_transformador-masia
+titol: Transformador d'una línia de mitjana tensió per a una masia
+resum: >-
+  Càlcul de la intensitat en el primari i el secundari d'un transformador amb rendiment
+  del 90 %, i del nombre mínim d'espires de cada bobina a partir de la relació de
+  transformació i d'un requisit d'espires per intensitat.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [28]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [30, 31]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - generadors, motors i transformadors
+paraules_clau: [transformador, rendiment, potència elèctrica, relació de transformació, espires, mitjana tensió]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de la relació de potències amb rendiment i de la relació de
+  transformació d'espires; dos passos encadenats sense dificultat conceptual afegida.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Intensitat elèctrica en el primari i en el secundari del transformador.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Nombre mínim d'espires de cadascuna de les dues bobines.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

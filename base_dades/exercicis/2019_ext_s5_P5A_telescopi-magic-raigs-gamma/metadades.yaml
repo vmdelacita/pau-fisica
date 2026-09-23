@@ -1,0 +1,43 @@
+id: 2019_ext_s5_P5A_telescopi-magic-raigs-gamma
+titol: Raigs gamma detectats pel telescopi MAGIC
+resum: >-
+  Freqüència i longitud d'ona de fotons gamma de 10 GeV produïts pels raigs còsmics a
+  l'atmosfera, i massa equivalent d'aquests fotons (E = mc²).
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi19sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi19sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - fotons i energia de la radiació
+  - relativitat especial
+paraules_clau: [telescopi MAGIC, raigs gamma, raigs còsmics, energia d'un fotó, freqüència, longitud d'ona, equivalència massa-energia, electronvolt]
+tipus: [càlcul]
+dificultat: 1
+justificacio_dificultat: >-
+  Aplicació directa de E = hf, λ = c/f i E = mc² després de passar els GeV a joules.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Freqüència i longitud d'ona dels raigs gamma de 10 GeV.
+  - etiqueta: "b"
+    punts: 1
+    resum: Massa equivalent dels fotons.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  L'enunciat dona 1 eV = 1,60·10⁻¹⁹ J, però la pauta fa servir 1,602·10⁻¹⁹ J (transcrit
+  tal com és; el resultat no canvia). La «massa equivalent» del fotó s'obté amb
+  l'equivalència massa-energia, que continua al currículum.

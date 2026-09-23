@@ -1,0 +1,46 @@
+id: 2020_ext_s4_P5_carboni14-datacio-elefant
+titol: Datació per carboni 14 d'ossos d'elefant
+resum: >-
+  Reacció nuclear de formació del carboni 14 a partir del nitrogen 14 per captura d'un
+  neutró i justificació, amb el defecte de massa, de si allibera o absorbeix energia;
+  edat d'una mostra òssia que conté un 23 % menys de carboni 14 que una de recent.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: extraordinaria
+  serie: 4
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi20sp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - reaccions nuclears i defecte de massa
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [carboni 14, nitrogen 14, datació radiomètrica, rajos còsmics, captura de neutrons, defecte de massa, període de semidesintegració, constant de desintegració, ossos d'elefant]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal escriure la reacció nuclear conservant nombre màssic i atòmic, calcular la
+  variació de massa per decidir si s'allibera energia i aplicar la llei de desintegració
+  interpretant correctament el percentatge; problema PAU típic.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Reacció nuclear N-14 + n → C-14 + p i justificació energètica amb la variació de massa.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Edat d'una mostra amb un 23 % menys de carboni 14 que una de recent.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. La taula de masses de l'enunciat s'ha transcrit amb
+  tabular dins de les dades.

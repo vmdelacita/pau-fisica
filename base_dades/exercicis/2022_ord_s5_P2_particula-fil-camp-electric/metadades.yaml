@@ -1,0 +1,54 @@
+id: 2022_ord_s5_P2_particula-fil-camp-electric
+titol: Partícula lligada amb un fil dins d'un camp elèctric uniforme
+resum: >-
+  Partícula carregada sobre una taula sense fricció, lligada amb un fil a un punt P,
+  dins d'un camp elèctric homogeni; càlcul de la força elèctrica i de la velocitat en
+  arribar al punt B mitjançant la conservació de l'energia i la diferència de potencial.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [20]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [23, 24, 25]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+  - línies de camp i superfícies equipotencials
+paraules_clau: [camp elèctric uniforme, força elèctrica, fil que pivota, conservació de l'energia mecànica, diferència de potencial, superfície equipotencial, treball d'una força conservativa]
+tipus: [càlcul, diagrama, qualitativa, deducció]
+dificultat: 4
+justificacio_dificultat: >-
+  L'apartat a) és un càlcul directe, però l'apartat b) exigeix un raonament geomètric no
+  guiat: triar un camí equivalent (perpendicular i després paral·lel a les línies de camp)
+  per obtenir la diferència de potencial entre A i B a partir de la geometria del
+  triangle, cosa que va més enllà d'una aplicació directa de fórmules.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Representació dels vectors força elèctrica i tensió, i càlcul del mòdul de la força elèctrica a A.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Velocitat de la partícula al punt B a partir de la conservació de l'energia mecànica.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Partícula al punt A lligada amb un fil al punt P, dins d'un camp elèctric uniforme, amb l'angle de 60° i el punt B
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Mateix esquema amb els vectors força elèctrica F_E i tensió T afegits
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Esquema amb el camí A-C-B (perpendicular i paral·lel a les línies de camp) i les distàncies L cos(60°) i L - L cos(60°)
+solucio_oficial: true
+revisat: false
+notes: ""

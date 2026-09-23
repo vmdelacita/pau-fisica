@@ -1,0 +1,50 @@
+\begin{solapartat}
+\figura[0.55]{sol_fig1.png}
+
+\punts{0,2} Escalat eixos correcte
+
+\punts{0,2} Punts correctament representats
+
+\punts{0,05} Línia de tendència ben representada
+
+\punts{0,2} Títols eixos amb unitats.
+
+\figura[0.55]{sol_fig2.png}
+
+\punts{0,2} Escalat eixos correcte
+
+\punts{0,15} Punts correctament representats
+
+\punts{0,05} Línia de tendència ben representada
+
+\punts{0,2} Títols eixos amb unitats.
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,25} L'activitat s'expressa com $A = \lambda N(t) = \lambda N_0\,e^{-\lambda t} = A_0\,e^{-\lambda t}$
+
+\punts{0,5} Poden obtenir el període de semidesintegració directament dels gràfics a partir de determinar el temps que triga l'activitat a reduir-se a la meitat del seu valor inicial. Això és el que hem representat a les figures anteriors amb les línies blaves.
+
+\punts{0,25} Per la mostra A, $A_0 = 1535\ \mathrm{Bq}$ i $A_0/2 = 768\ \mathrm{Bq}$ i per tant $T_{1/2} = 220-60 = 160\ \mathrm{min}$.
+
+\punts{0,25} Per la mostra B, $A_0 = 260\ \mathrm{Bq}$ i $A_0/2 = 130\ \mathrm{Bq}$ i per tant $T_{1/2} = 370-60 = 310\ \mathrm{min}$.
+
+\destaca{Alternativament}
+
+\punts{0,5} A partir de dos punts podem determinar $\lambda$
+\[ \frac{A_1}{A_2} = \frac{e^{-\lambda t_1}}{e^{-\lambda t_2}} = e^{\lambda(t_2-t_1)} \Rightarrow \ln\frac{A_1}{A_2} = \lambda(t_2-t_1) \Rightarrow \lambda = \frac{\ln(A_1/A_2)}{(t_2-t_1)} \]
+
+I conegut $\lambda$ podem determinar $T_{1/2}$:
+
+\punts{0,25} $\dfrac{A_0}{2} = A_0 e^{-\lambda T_{1/2}} \Longrightarrow \dfrac{1}{2} = e^{-\lambda T_{1/2}} \Longrightarrow T_{1/2} = -\dfrac{\ln 0,5}{\lambda} = \dfrac{\ln 2}{\lambda}$
+
+\punts{0,25} Per exemple, per la mostra A, $A_1 = 1535\ \mathrm{Bq}$, $t_1 = 60\ \mathrm{s}$, $A_2 = 484\ \mathrm{Bq}$ i $t_2 = 330\ \mathrm{s}$.
+Llavors $\lambda = \ln(1535/484)/(330-60) = 0,00427\ \mathrm{min}^{-1}$ i $T_{1/2} = 162\ \mathrm{min}$.
+
+\punts{0,25} Per exemple, per la mostra B, $A_1 = 260\ \mathrm{Bq}$, $t_1 = 60\ \mathrm{s}$, $A_2 = 82\ \mathrm{Bq}$ i $t_2 = 600\ \mathrm{s}$.
+Llavors $\lambda = \ln(260/82)/(600-60) = 0,00214\ \mathrm{min}^{-1}$ i $T_{1/2} = 324\ \mathrm{min}$.
+% DUBTE: a la via alternativa, la pauta original dona els temps t1 i t2 en segons
+% ("s"), però els valors (60, 330, 600...) són en realitat minuts, tal com surten a la
+% taula de l'enunciat, i tal com fa falta perquè lambda surti en min^-1. Es transcriu la
+% unitat "s" tal com apareix a l'original.
+\end{solapartat}

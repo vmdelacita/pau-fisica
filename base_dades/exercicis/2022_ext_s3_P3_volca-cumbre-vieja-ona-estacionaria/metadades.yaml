@@ -1,0 +1,49 @@
+id: 2022_ext_s3_P3_volca-cumbre-vieja-ona-estacionaria
+titol: El volcà Cumbre Vieja com a tub d'ona estacionària
+resum: >-
+  Càlcul de la longitud d'ona i de la longitud d'un tub tancat-obert (xemeneia volcànica)
+  a partir de la freqüència fonamental d'una ona estacionària, i càlcul del nivell
+  d'intensitat sonora a una altra distància del volcà.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22sl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi22sp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones estacionàries
+  - ressonància i harmònics en tubs i cordes
+  - ones sonores i nivell d'intensitat
+paraules_clau: [volcà Cumbre Vieja, ona estacionària, tub tancat-obert, freqüència fonamental, node, ventre, nivell d'intensitat sonora, atenuació amb la distància]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal relacionar la freqüència fonamental amb la longitud d'un tub tancat per un extrem
+  (un quart de longitud d'ona) i, a l'altre apartat, combinar la definició de nivell
+  d'intensitat sonora amb l'atenuació geomètrica (llei de l'invers del quadrat).
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Longitud d'ona del so, perfil de l'ona estacionària i longitud del tub (xemeneia).
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Nivell d'intensitat sonora a l'illa d'El Hierro a partir del mesurat a Todoque.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: >-
+      Perfil de l'ona estacionària dins del tub (node N en contacte amb la lava,
+      ventre V a l'extrem obert) i longitud L del tub
+solucio_oficial: true
+revisat: false
+notes: ""

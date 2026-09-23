@@ -1,0 +1,46 @@
+id: 2020_ord_s3_P7_laser-vidre-ona-electromagnetica
+titol: Feix làser dins d'un vidre
+resum: >-
+  A partir de l'equació del camp elèctric d'un feix làser dins d'un vidre, càlcul de la
+  longitud d'ona, la velocitat, l'índex de refracció i la longitud d'ona en el buit;
+  direcció de propagació i eix d'oscil·lació del camp magnètic.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [14]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones electromagnètiques i espectre
+  - ones harmòniques i equació d'ona
+  - reflexió i refracció
+paraules_clau: [làser, vidre, ona electromagnètica, camp elèctric, camp magnètic, índex de refracció, longitud d'ona, direcció de propagació]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal identificar ω i k a l'equació d'ona, encadenar diversos càlculs (λ, v, n, λ en el
+  buit) i raonar la perpendicularitat dels camps elèctric i magnètic.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Longitud d'ona i velocitat dins del vidre, índex de refracció i longitud d'ona en el buit.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Direcció de propagació i eix d'oscil·lació del camp magnètic.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  Enunciat i pauta escanejats, transcrits visualment. Errates de la pauta mantingudes:
+  k en «rad/s» (hauria de ser rad/m), «En el vuit» (buit) i «λ = cf» (hauria de ser
+  λ = c/f; el valor numèric 7,85e-7 m sí que és correcte).

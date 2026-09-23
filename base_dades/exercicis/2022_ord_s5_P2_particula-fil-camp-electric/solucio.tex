@@ -1,0 +1,42 @@
+\begin{solapartat}
+\punts{0,4} Representació correcte indicant clarament les direccions dels vectors.
+
+\figura[0.35]{sol_fig1.png}
+
+\punts{0,45} $F_e = qE = 3,00\times 10^{-6}\times 1,2\times 10^3 = 3,60\times 10^{-3}\ \mathrm{N}$
+
+\punts{0,4} Al llarg de la trajectòria des d'$A$ fins a $B$ el camp elèctric és constant i la càrrega també, així doncs la força elèctrica que és el producte $q\cdot E$ també serà constant.
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,25} El càlcul de la velocitat de la partícula en el punt $B$ es basa en el principi de la conservació de l'energia mecànica. El treball de la tensió al llarg de la trajectòria, així com el de la normal i el pes són zero, per tant la única força que fa treball és l'elèctrica, i per tant es conserva l'energia
+
+\punts{0,25} $E_{m,A} = E_{m,B} \Rightarrow E_{C,A}+U_{E,A} = E_{C,B}+U_{E,B}$
+
+A més, de les condicions inicials tenim que $E_{C,A} = 0$.
+
+Llavors: $E_{C,B} = U_{E,A}-U_{E,B} = q(V_A-V_B) = -q(V_B-V_A)$
+
+\destaca{Alternativament}, ens podem basar en el teorema de les forces vives o teorema de l'energia cinètica:
+\[ E_{C,B}-E_{C,A} = W_\mathrm{Tot} = -\Delta U = -q(V_B-V_A) \]
+
+\figura[0.3]{sol_fig2.png}
+
+\punts{0,25} Per calcular la diferència de potència $V_B-V_A$ podem seguir qualsevol trajectòria (força conservativa) i en particular seguirem al trajectòria marcada en verd al dibuix. Aquesta trajectòria té dos trams, un d'$A$ a $C$ en que ens movem perpendiculars a les línies de camp. Quan ens desplacem perpendicularment a les línies de camp seguim una superfície equipotencial, llavors, $V_C = V_A$ i per tant $V_A-V_C = 0$.
+
+En el segon tram de $C$ a $B$ ens movem paral·lels a les línies de camp. Les línies de camp indiquen la direcció en la que el potencial disminueix, per tant, el potencial a $C$ ha de ser més gran que a $B$, $V_B-V_C<0$. Per altre banda, si el camp és constant, llavors $\Delta V = Ed$ on $d$ és la distància entre $C$ i $B$ que segons el dibuix és $L(1-\cos(60°)) = 0,5\ \mathrm{m}$. (alternativament es pot justificar geomètricament que el punt $C$ es troba al centre de la base de un triangle equilàter de manera que $d = 0,5\ \mathrm{m}$). Així doncs:
+
+\punts{0,25} $V_B - V_A = -Ed = -600\ \mathrm{V}$
+
+\destaca{Alternativament}
+\[ V_B-V_A = -\int_A^B \vec{E}\cdot d\vec{l} = -\int_A^C \vec{E}\cdot d\vec{l} - \int_C^B E\,dx = 0 - E\int_A^B dx = -Ed = -600\ \mathrm{V} \]
+
+En aquest càlcul el trajecte per anar de $A$ a $C$ segueix una línia recta vertical i com que la direcció del camp elèctric és horitzontal: $\vec{E}\cdot d\vec{l} = 0$.
+
+En el trajecte per anar d'$A$ a $B$ segueix una línia recta horitzontal i tenim en compte que $E$ és constant, no depèn de la posició, per tant només cal integrar el desplaçament horitzontal que és $d$.
+
+\punts{0,15} I l'energia cinètica a $B$ és: $E_{C,B} = -q(V_B-V_A) = 1,8\times 10^{-3}\ \mathrm{J}$
+
+I finalment:
+\[ E_c = \frac{1}{2}mv^2 \Rightarrow v_B = \sqrt{\frac{2\,E_{C,B}}{m}} = 1,20\ \mathrm{m/s} \] \punts{0,1}
+\end{solapartat}

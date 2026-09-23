@@ -1,0 +1,43 @@
+id: 2022_ext_s3_P6_efecte-fotoelectric-funcio-treball
+titol: Efecte fotoelèctric i funció de treball
+resum: >-
+  Anàlisi qualitativa de com varien el nombre i l'energia dels electrons emesos per
+  efecte fotoelèctric en augmentar la freqüència dels fotons a intensitat constant, i
+  càlcul de la funció de treball a partir del potencial de frenada i la longitud d'ona
+  incident.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22sl.pdf
+  pagines_enunciat: [12]
+  pdf_solucio: examenes/pau_fisi22sp.pdf
+  pagines_solucio: [10]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+paraules_clau: [efecte fotoelèctric, funció de treball, potencial de frenada, energia cinètica dels electrons, freqüència llindar, fotons]
+tipus: [qualitativa, càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Apartat a) és un raonament qualitatiu estàndard sobre l'efecte fotoelèctric; apartat
+  b) és una aplicació directa del balanç d'energia amb dos passos encadenats (energia
+  cinètica a partir del potencial de frenada i freqüència a partir de la longitud d'ona).
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Variació del nombre i l'energia dels electrons emesos en augmentar la freqüència, a intensitat constant.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Funció de treball a partir del potencial de frenada (0,29 V) i la longitud d'ona incident (550 nm).
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

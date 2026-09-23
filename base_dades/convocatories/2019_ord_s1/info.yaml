@@ -1,0 +1,24 @@
+id: 2019_ord_s1
+any: 2019
+convocatoria: ordinaria
+serie: 1
+format: antic
+pdf_enunciat: examenes/pau_fisi19jl.pdf
+pdf_solucio: examenes/pau_fisi19jp.pdf
+# El PDF conté les sèries 1 i 4: la sèrie 1 és a les pàgines 1-4 de l'enunciat
+# i a les pàgines 1-6 de la pauta (criteris generals a la pàgina 1).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2019_ord_s1_P1_sincrotro-alba-electrons
+  - 2019_ord_s1_P2_cubecat-nanosatellit-orbita
+  - 2019_ord_s1_P3A_astronauta-molla-pendol-lluna
+  - 2019_ord_s1_P4A_carregues-quadrat-treball
+  - 2019_ord_s1_P5A_iter-fusio-deuteri-triti
+  - 2019_ord_s1_P3B_fil-espira-corrent-induit
+  - 2019_ord_s1_P4B_violoncel-tercer-harmonic
+  - 2019_ord_s1_P5B_fotoelectric-potencial-frenada

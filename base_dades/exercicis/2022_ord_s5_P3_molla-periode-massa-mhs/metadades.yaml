@@ -1,0 +1,49 @@
+id: 2022_ord_s5_P3_molla-periode-massa-mhs
+titol: Constant elàstica d'una molla a partir del període d'oscil·lació
+resum: >-
+  A partir d'un gràfic experimental de T² en funció de la massa, càlcul de la constant
+  elàstica de la molla i de la freqüència d'oscil·lació per a una massa donada; equació
+  del moviment del MHS i punts d'extensió on la velocitat i l'acceleració són màximes.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [22]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [25, 26, 27]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [molla, període d'oscil·lació, constant elàstica, gràfic T² vs massa, equació del moviment, fase inicial, velocitat màxima, acceleració màxima]
+tipus: [càlcul, gràfic, deducció, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar un gràfic experimental (linealitzar T² en funció de m) per obtenir la
+  constant elàstica, i després construir l'equació del MHS a partir de les condicions
+  inicials i raonar sobre els punts de velocitat i acceleració màximes; és un problema
+  PAU típic de diversos passos encadenats.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Constant elàstica de la molla i freqüència d'oscil·lació per a m = 5,00 kg; raó de mesurar 20 oscil·lacions.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Equació del moviment del MHS i punts on la velocitat i l'acceleració són màximes.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfic del període d'oscil·lació al quadrat en funció de la massa, amb la recta ajustada
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Massa unida a una molla sobre una taula, amb les posicions x=0 i x0 separades 15 cm
+solucio_oficial: true
+revisat: false
+notes: ""

@@ -1,0 +1,59 @@
+id: 2019_ord_s1_P3B_fil-espira-corrent-induit
+titol: Fil rectilini i espira rectangular amb corrent variable
+resum: >-
+  Direcció i sentit del camp magnètic creat per un fil rectilini infinit a la regió d'una
+  espira rectangular i si és uniforme; raonament sobre el corrent induït a l'espira en
+  tres intervals de temps a partir d'una gràfica I(t) del fil i interval de corrent induït
+  més gran.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [fil rectilini infinit, espira rectangular, regla de la mà dreta, camp no uniforme, flux magnètic, llei de Faraday, corrent induït, gràfica intensitat-temps]
+tipus: [qualitativa, diagrama, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema qualitatiu: cal aplicar la regla de la mà dreta, relacionar la variació del
+  corrent del fil amb la del flux i comparar pendents de la gràfica I(t) per decidir on
+  el corrent induït és més gran.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Direcció i sentit del camp del fil a la regió de l'espira i si és uniforme.
+  - etiqueta: "b"
+    punts: 1
+    resum: Existència de corrent induït en tres intervals de temps i interval amb el corrent induït més gran.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fil rectilini vertical amb corrent I cap avall i espira rectangular a la seva dreta (figura a)
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Gràfica de la intensitat del fil en funció del temps, de 0 a 120 s (figura b)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Camp magnètic sortint del paper a la regió de l'espira
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Regla de la mà dreta amb les línies de camp circulars al voltant del fil
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. Les etiquetes (a) i (b) de les figures de
+  l'enunciat s'escriuen com a text; a fig1.png s'ha esborrat l'etiqueta «(a)», que quedava
+  dins del retall. A la pauta les figures són a la dreta del text.

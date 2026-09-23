@@ -1,0 +1,47 @@
+id: 2019_ord_s1_P4B_violoncel-tercer-harmonic
+titol: Tercer harmònic d'una corda de violoncel
+resum: >-
+  Esquema de l'ona estacionària del tercer harmònic d'una corda de violoncel amb nodes i
+  ventres, longitud d'ona i distància entre nodes; freqüència, període i temps que triga
+  un ventre a passar del màxim al mínim.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones estacionàries
+  - ressonància i harmònics en tubs i cordes
+paraules_clau: [violoncel, corda, tercer harmònic, ona estacionària, nodes, ventres, longitud d'ona, freqüència, període]
+tipus: [càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Dibuix i aplicació directa de λ = 2L/n, f = v/λ i T = 1/f; l'únic pas conceptual és
+  veure que del màxim al mínim passa mig període.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Esquema del tercer harmònic amb nodes i ventres, longitud d'ona i distància entre nodes.
+  - etiqueta: "b"
+    punts: 1
+    resum: Temps que triga un ventre a passar de la posició màxima a la mínima.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Ona estacionària del tercer harmònic amb 4 nodes (N) i 3 ventres (V) en una corda de longitud L
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta la figura és a la dreta del text de
+  l'apartat a.

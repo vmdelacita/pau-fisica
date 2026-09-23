@@ -1,0 +1,48 @@
+id: 2019_ord_s1_P2_cubecat-nanosatellit-orbita
+titol: Òrbita del nanosatèl·lit CubeCat-1
+resum: >-
+  Període orbital d'un nanosatèl·lit de la UPC que orbita a 530 km d'altura i nombre de
+  voltes completes que fa cada dia al voltant de la Terra; pes del satèl·lit a l'òrbita.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - camp gravitatori i superposició
+paraules_clau: [CubeCat-1, nanosatèl·lit, UPC, període orbital, voltes per dia, pes a l'òrbita, intensitat del camp gravitatori, satèl·lit artificial]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Problema guiat de satèl·lits: dinàmica del moviment circular per obtenir el període,
+  divisió senzilla per a les voltes diàries i càlcul directe de g i del pes a l'òrbita.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Període orbital del CubeCat-1 i nombre de voltes completes per dia.
+  - etiqueta: "b"
+    punts: 1
+    resum: Pes del nanosatèl·lit a la seva òrbita.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia del nanosatèl·lit CubeCat-1
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'original la foto és al costat del text i de
+  l'apartat a (maquetació a dues columnes); aquí s'ha col·locat després del text
+  introductori, amb la font com a text. A la pauta les puntuacions apareixen darrere de
+  cada pas.

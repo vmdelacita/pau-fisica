@@ -1,0 +1,22 @@
+id: 2020_ext_s4
+any: 2020
+convocatoria: extraordinaria
+serie: 4
+format: antic
+pdf_enunciat: examenes/pau_fisi20sl.pdf
+pdf_solucio: examenes/pau_fisi20sp.pdf
+# PDF escanejats. La sèrie 4 és a les pàgines 1-4 de l'enunciat (pau_fisi20sl.pdf)
+# i a les pàgines 1-7 de la pauta (pau_fisi20sp.pdf; criteris generals a la pàgina 1).
+instruccions: >-
+  Responeu a QUATRE dels vuit problemes següents. En el cas que respongueu a més
+  problemes, només es valoraran els quatre primers. Cada problema val 2,5 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2020_ext_s4_P1_terra-periheli-afeli-sol
+  - 2020_ext_s4_P2_esferes-molla-electro
+  - 2020_ext_s4_P3_teranyina-aranya-mhs
+  - 2020_ext_s4_P4_proto-electro-camps-creuats
+  - 2020_ext_s4_P5_carboni14-datacio-elefant
+  - 2020_ext_s4_P6_imant-espira-lenz
+  - 2020_ext_s4_P7_corda-espectre-harmonics
+  - 2020_ext_s4_P8_fotocellula-llum-verda

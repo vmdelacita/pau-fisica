@@ -1,0 +1,45 @@
+id: 2022_ord_s5_P8_positro-electro-anihilacio
+titol: Materialització d'un fotó en un parell electró-positró i anihilació
+resum: >-
+  Càlcul de l'energia mínima, la freqüència, la longitud d'ona i la quantitat de moviment
+  d'un fotó que es materialitza en un parell electró-positró, i preguntes conceptuals
+  sobre les desintegracions beta i la conservació de la càrrega i el moment en
+  l'anihilació positró-electró.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 8
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [30]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [32, 33]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - fotons i energia de la radiació
+  - física de partícules
+paraules_clau: [equació de Dirac, positró, antimatèria, materialització, parell electró-positró, desintegració beta, anihilació, conservació de la càrrega, conservació del moment lineal]
+tipus: [càlcul, qualitativa]
+dificultat: 4
+justificacio_dificultat: >-
+  Combina un càlcul relativista (energia en repòs, freqüència, longitud d'ona i moment
+  d'un fotó) amb preguntes conceptuals sobre desintegracions beta i les lleis de
+  conservació en l'anihilació positró-electró; requereix relacionar diversos conceptes
+  de física de partícules poc habituals a la PAU.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Energia mínima, freqüència, longitud d'ona i quantitat de moviment del fotó que es materialitza en un parell electró-positró.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Partícules d'antimatèria creades en les desintegracions beta+ i beta-, i conservació del moment i la càrrega en l'anihilació positró-electró.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

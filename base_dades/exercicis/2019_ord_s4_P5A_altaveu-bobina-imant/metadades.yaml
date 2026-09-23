@@ -1,0 +1,51 @@
+id: 2019_ord_s4_P5A_altaveu-bobina-imant
+titol: Altaveu d'imant i bobina
+resum: >-
+  Raonament qualitatiu sobre el moviment del conjunt bobina-membrana d'un altaveu davant
+  d'un imant permanent amb corrent continu (sentit horari) i amb corrent altern, i efecte
+  del nombre de voltes i de la intensitat sobre el camp magnètic de la bobina.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [10]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+  - imants, brúixoles i experiment d'Oersted
+  - generadors, motors i transformadors
+paraules_clau: [altaveu, bobina, imant permanent, electroimant, pols magnètics, corrent altern, membrana, solenoide]
+tipus: [qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal determinar amb la regla de la mà dreta la polaritat de la bobina, raonar
+  l'atracció o repulsió amb l'imant i estendre-ho al corrent altern; la part b és
+  directa.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Moviment del conjunt bobina-membrana amb corrent continu (sentit horari) i amb corrent altern.
+  - etiqueta: "b"
+    punts: 1
+    resum: Efecte del nombre de voltes i de la intensitat sobre el camp magnètic de la bobina.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Esquema d'altaveu amb la membrana, la bobina i l'imant (nord a dalt, sud a baix)
+solucio_oficial: true
+revisat: false
+notes: >-
+  Cada apartat té dues preguntes de 0,5 punts, indicades a l'enunciat amb la seva
+  puntuació. A l'original la figura és al costat del text de l'apartat a. A l'apartat
+  a2 la pauta parla del «conjunt imant+membrana» (sembla que vol dir bobina+membrana);
+  transcrit tal com és.

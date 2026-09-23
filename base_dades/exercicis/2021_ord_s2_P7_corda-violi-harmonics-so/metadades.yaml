@@ -1,0 +1,54 @@
+id: 2021_ord_s2_P7_corda-violi-harmonics-so
+titol: Harmònics en la corda d'un violí i intensitat sonora
+resum: >-
+  Longituds d'ona i velocitat de propagació de l'harmònic fonamental i el tercer harmònic
+  en la corda d'un violí, i freqüència en escurçar la corda; potència sonora dels violins
+  a partir del nivell d'intensitat i variació en reduir el nombre de violinistes a la meitat.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21jl.pdf
+  pagines_enunciat: [13]
+  pdf_solucio: examenes/pau_fisi21jp.pdf
+  pagines_solucio: [13, 14]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ressonància i harmònics en tubs i cordes
+  - ones sonores i nivell d'intensitat
+paraules_clau: [ona estacionària, corda vibrant, harmònic fonamental, tercer harmònic, nodes i ventres, velocitat de propagació, nivell d'intensitat sonora, decibels, potència sonora]
+tipus: [càlcul, diagrama]
+dificultat: 4
+justificacio_dificultat: >-
+  Combina dos temes de vibracions i ones (ones estacionàries en una corda i nivell
+  d'intensitat sonora) amb un context poc habitual (context musical) i requereix dibuixar
+  correctament els harmònics abans de fer els càlculs.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Harmònic fonamental i tercer harmònic, longituds d'ona, velocitat de propagació i nova freqüència en escurçar la corda.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Potència sonora dels violins i nou nivell d'intensitat en reduir el nombre de violinistes a la meitat.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Figura amb 3 ventres, etiquetada "Harmònic fonamental" a la pauta
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Figura amb 1 ventre, etiquetada "Tercer harmònic" a la pauta
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta oficial les etiquetes de les dues figures de l'apartat a) semblen
+  intercanviades: la figura amb 3 ventres (que correspondria al tercer harmònic, d'acord
+  amb λ=2L/3 calculat al mateix apartat) apareix etiquetada "Harmònic fonamental", i la
+  figura amb 1 ventre (que correspondria al fonamental, λ=2L) apareix etiquetada "Tercer
+  harmònic". Es transcriu tal com surt a l'original, marcat amb % DUBTE a solucio.tex.

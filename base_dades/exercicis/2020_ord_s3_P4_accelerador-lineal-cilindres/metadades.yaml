@@ -1,0 +1,53 @@
+id: 2020_ord_s3_P4_accelerador-lineal-cilindres
+titol: Accelerador lineal de cilindres per a electrons
+resum: >-
+  Signes de les càrregues dels cilindres d'un accelerador lineal per accelerar un electró,
+  línies de camp entre cilindres i separació per obtenir un camp donat; nombre d'espais
+  necessaris per arribar a 1,0 MeV i velocitat clàssica resultant (superior a c).
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [11, 12]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: ["Física relativista, quàntica i nuclear"]
+subtemes:
+  - moviment de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+  - línies de camp i superfícies equipotencials
+  - relativitat especial
+paraules_clau: [accelerador lineal, electró, camp elèctric uniforme, diferència de potencial, línies de camp, electronvolt, velocitat superior a c, correcció relativista]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic de camp uniforme (E = ΔV/d) i conservació de l'energia, amb un context
+  tecnològic i un comentari qualitatiu sobre el límit de la velocitat de la llum.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Signes de les càrregues dels dos primers cilindres, línies de camp i distància entre cilindres.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Nombre d'espais per assolir 1,0 MeV, velocitat clàssica de l'electró i comentari.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Esquema d'un accelerador lineal amb cilindres connectats alternativament a una font alterna i espais A, B, C, D
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Línies de camp elèctric entre un cilindre negatiu i un de positiu, amb la força sobre l'electró i la distància d
+solucio_oficial: true
+revisat: false
+notes: >-
+  Enunciat i pauta escanejats, transcrits visualment. La pauta escriu «250.000» (V) amb punt
+  de separador de milers; s'ha mantingut. El comentari relativista de l'apartat b és
+  qualitatiu (dins del currículum actual).

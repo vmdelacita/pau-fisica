@@ -1,0 +1,53 @@
+id: 2022_ord_s2_P5_cadena-desintegracio-rado
+titol: Cadena de desintegració del radó-222
+resum: >-
+  Escriptura de les vuit reaccions nuclears de la cadena de desintegració del radó-222
+  fins al plom-206 estable; a partir d'un gràfic N(t), determinació del període de
+  semidesintegració d'un dels nuclis de la cadena i càlcul del temps necessari perquè es
+  desintegri gairebé tota la mostra.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [10]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [11, 12]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+paraules_clau: [radó, desintegració alfa, desintegració beta, cadena radioactiva, període de semidesintegració, llei de desintegració exponencial, plom estable]
+tipus: [qualitativa, gràfic, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Escriure vuit reaccions nuclears encadenades exigeix atenció però és repetitiu; la
+  lectura del període de semidesintegració en un gràfic i l'aplicació de la llei de
+  desintegració exponencial per trobar un temps a partir del nombre d'àtoms desintegrats
+  són típiques d'un problema PAU normal.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Escriure les vuit reaccions nuclears de la cadena del radó fins al plom-206.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Període de semidesintegració a partir del gràfic i temps perquè es desintegrin 7,95×10^23 àtoms.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Diagrama de la cadena de desintegració del radó-222 fins al plom-206, amb els períodes de semidesintegració
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Gràfic del nombre d'àtoms en funció del temps (dies) per a una de les desintegracions de la cadena
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Mateix gràfic amb les línies discontínues que marquen la lectura de T(1/2) = 3,5 dies
+solucio_oficial: true
+revisat: false
+notes: ""

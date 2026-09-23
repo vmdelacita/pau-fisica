@@ -1,0 +1,46 @@
+id: 2021_ord_s2_P4_regio-quadrada-camp-electric
+titol: Regió quadrada amb camp elèctric uniforme
+resum: >-
+  Diferències de potencial entre punts d'una regió quadrada amb camp elèctric uniforme, i
+  moviment, velocitat de sortida i treball del camp sobre un protó abandonat en repòs en
+  un dels vèrtexs.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi21jp.pdf
+  pagines_solucio: [9, 10]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - potencial i energia potencial elèctrica
+  - moviment de càrregues en camps elèctrics
+paraules_clau: [camp elèctric uniforme, diferència de potencial, línies de camp, superfície equipotencial, protó, moviment rectilini uniformement accelerat, treball del camp elèctric]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Combina el raonament qualitatiu sobre línies de camp i equipotencials amb el càlcul
+  quantitatiu del moviment i el treball sobre una càrrega en un camp uniforme; problema
+  PAU típic amb dues vies de resolució (forces o energies).
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Diferències de potencial V_B-V_A i V_D-V_C a partir de les línies de camp.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Moviment del protó, velocitat de sortida de la regió i treball del camp elèctric.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Regió quadrada de 12 mm de costat amb línies de camp elèctric horitzontals i els punts A, B, C, D
+solucio_oficial: true
+revisat: false
+notes: ""

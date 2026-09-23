@@ -1,0 +1,54 @@
+id: 2021_ord_s2_P2_triangle-carregues-camp-electric
+titol: Triangle de tres càrregues negatives iguals
+resum: >-
+  Camp elèctric al centre i al vèrtex superior d'un triangle equilàter amb tres càrregues
+  negatives iguals als vèrtexs, i càlcul de l'energia de formació del sistema.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi21jp.pdf
+  pagines_solucio: [4, 5, 6]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [triangle equilàter, càrregues iguals, camp elèctric nul, simetria, superposició de camps, energia de formació, energia potencial electrostàtica]
+tipus: [càlcul, qualitativa, deducció]
+dificultat: 3
+justificacio_dificultat: >-
+  Requereix raonament de simetria per justificar el punt de camp nul, suma vectorial de
+  camps amb angles de 30°/60° i el càlcul per parells de l'energia de formació; és el
+  problema PAU típic de camps elèctrics amb diverses càrregues.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Punt de camp elèctric nul dins el triangle i camp al vèrtex superior creat per les altres dues càrregues.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Energia de formació del sistema de tres càrregues.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Triangle equilàter amb tres càrregues negatives iguals als vèrtexs
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Triangle amb els vectors E1, E2, E3 al centre i la seva resultant E23
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Vèrtex superior amb els vectors E1, E2 formant 30 graus i la resultant ET
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'apartat a) la pauta oficial escriu el pas intermedi
+  $E_{23,y} = -2k\,q/4^2\cdot 1/2$ (amb "4^2" en comptes de "r^2" al denominador); es
+  transcriu tal com surt a l'original, marcat amb % DUBTE a solucio.tex.

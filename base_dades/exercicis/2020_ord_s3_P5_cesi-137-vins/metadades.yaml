@@ -1,0 +1,53 @@
+id: 2020_ord_s3_P5_cesi-137-vins
+titol: Datació de vins amb cesi 137
+resum: >-
+  A partir de la gràfica de l'activitat de Cs-137 en vins de diferents anyades, càlcul del
+  període de semidesintegració i dibuix de la corba de decaïment dels vins del 1972;
+  compleció d'una reacció de fissió de l'urani 235 que produeix Cs-137.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [12, 13]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - reaccions nuclears i defecte de massa
+  - fissió i fusió
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [cesi 137, datació, vins, activitat, període de semidesintegració, corba de decaïment, fissió de l'urani, guerra freda, Txernòbil]
+tipus: [càlcul, gràfic, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Aplicació de la llei de desintegració amb dades llegides d'una gràfica en un context
+  real, dibuix d'una nova corba de decaïment i conservació del nombre màssic i atòmic.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Període de semidesintegració del Cs-137 i corba de decaïment dels vins del 1972.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Completar la reacció nuclear (x, y, partícula) i identificar-la com a fissió.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Activitat del Cs-137 (mBq/l) dels vins segons l'anyada de la collita (1950-2020), amb la corba de decaïment dels vins del 1957
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: La mateixa gràfica amb la corba de decaïment dels vins del 1972 dibuixada
+solucio_oficial: true
+revisat: false
+notes: >-
+  Enunciat i pauta escanejats, transcrits visualment. A la pauta, a l'equació nuclear
+  completada els neutrons (n) estan en vermell; s'ha reproduït amb color. La primera
+  puntuació del gràfic (0,4 p) no porta text a la pauta: el text explicatiu és sota la figura.

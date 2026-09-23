@@ -1,0 +1,43 @@
+id: 2020_ext_s4_P3_teranyina-aranya-mhs
+titol: Vibració d'una teranyina amb una aranya i un insecte
+resum: >-
+  La teranyina es modelitza com una molla: a partir de la freqüència de vibració amb
+  l'aranya sola i amb un insecte atrapat, càlcul de la massa de l'aranya i de la constant
+  elàstica; posicions de velocitat màxima i d'acceleració màxima del MHS.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: extraordinaria
+  serie: 4
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi20sp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [teranyina, aranya, insecte, massa i molla, freqüència d'oscil·lació, constant elàstica, velocitat màxima, acceleració màxima, posició d'equilibri]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal plantejar el quocient de freqüències per a dues masses diferents amb la mateixa
+  constant elàstica i aïllar la massa desconeguda; la resta és aplicació directa i
+  raonament qualitatiu senzill sobre el MHS.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Massa de l'aranya a partir de les dues freqüències de vibració.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Constant elàstica de la teranyina i posicions de velocitat i acceleració màximes.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment.

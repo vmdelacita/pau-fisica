@@ -1,0 +1,57 @@
+id: 2020_ext_s4_P2_esferes-molla-electro
+titol: Dues esferes carregades unides per una molla i un electró
+resum: >-
+  Dues esferes amb la mateixa càrrega unides per una molla s'allunyen fins a 1 m:
+  força de la molla i càrrega de cada esfera (equilibri entre la força elàstica i la de
+  Coulomb); camp elèctric i acceleració d'un electró situat al vèrtex del triangle
+  equilàter, amb la representació dels vectors.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: extraordinaria
+  serie: 4
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi20sp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - equilibri de càrregues en camps elèctrics
+  - camp elèctric i llei de Coulomb
+  - moviment de càrregues en camps elèctrics
+paraules_clau: [llei de Coulomb, molla, llei de Hooke, esferes carregades, superposició de camps elèctrics, triangle equilàter, electró, acceleració]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal igualar la força elàstica a la de Coulomb per trobar la càrrega i després
+  superposar vectorialment dos camps elèctrics en un triangle equilàter i aplicar la
+  segona llei de Newton; problema PAU típic de diversos passos.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Força de la molla sobre cada esfera i càrrega de cada esfera.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Mòdul del camp elèctric i de l'acceleració de l'electró al vèrtex del triangle i representació dels vectors.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Dues càrregues +Q unides per una molla a 1 m i un electró al vèrtex superior del triangle equilàter
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Camps E1, E2 i ET i acceleració de l'electró al vèrtex del triangle
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. A l'apartat a les puntuacions «0,1 p» apareixen a
+  la dreta del resultat, a la mateixa línia. A la pauta la figura de l'apartat b és al
+  costat del text (dues columnes); aquí s'ha posat al començament de l'apartat.
+  Currículum: l'apartat a fa servir la força elàstica d'una molla (llei de Hooke, de 1r
+  de batxillerat) en equilibri amb la força de Coulomb; l'enunciat dona la constant de la
+  molla i es considera dins del currículum (equilibri de càrregues).

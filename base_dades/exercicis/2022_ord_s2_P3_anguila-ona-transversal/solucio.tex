@@ -1,0 +1,59 @@
+\begin{solapartat}
+\punts{0,1} La distància entre dos punts consecutius que estan en el mateix estat de vibració és la longitud d'ona: $\lambda = 0,20\ \mathrm{m}$
+
+\punts{0,1} $v = \lambda f = 0,2\cdot 0,5 = 0,1\ \mathrm{m/s}$
+
+\punts{0,1} La freqüència angular s'expressa com: $\omega = 2\pi f = \pi\ \mathrm{rad/s} = 3,14\ \mathrm{rad/s}$
+
+\punts{0,1} El nombre d'ona s'expressa com: $k = \dfrac{2\pi}{\lambda} = 10\pi\ \mathrm{m^{-1}} = 31,4\ \mathrm{m^{-1}}$
+
+\punts{0,85} L'equació d'ona s'expressa com: $y(x,t) = A\cdot\sin[kx - \omega t + \varphi_0]$
+\[ v(x,t) = \frac{dy(x,t)}{dt} = -A\omega\cdot\cos[kx - \omega t + \varphi_0] \]
+
+Condició inicial: $y(0,0) = 0 \Rightarrow \sin[\varphi_0] = 0 \Rightarrow \varphi_0 = \begin{cases}0\ \mathrm{rad}\\ \pi\ \mathrm{rad}\end{cases}$
+
+\[ v(0,0) = -A\omega\cdot\cos[\varphi_0] \Rightarrow \begin{cases}\varphi_0 = 0\ \mathrm{rad},\ v(0,0) < 0\ \text{no és la correcta}\\ \varphi_0 = \pi\ \mathrm{rad},\ v(0,0) > 0\ \text{és la correcta}\end{cases} \]
+
+I, finalment:
+
+$y(x,t) = 0,05\cdot\sin[10\pi x - \pi t + \pi]$ amb $y$ i $x$ en m i $t$ en s.
+
+També es pot expressar com: $y(x,t) = 0,05\cdot\sin[\pi t - 10\pi x]$ amb $y$ i $x$ en m i $t$ en s.
+
+Si no s'analitza la condició de posició inicial nul·la, cal restar \punts{0,25}.
+
+Si no s'analitza la condició de velocitat inicial positiva, cal restar \punts{0,25}.
+
+\destaca{Alternativament:} $y(x,t) = A\cdot\cos[kx - \omega t + \varphi_0]$
+\[ v(x,t) = \frac{dy(x,t)}{dt} = A\omega\cdot\sin[kx - \omega t + \varphi_0] \]
+
+Condició inicial: $y(0,0) = 0 \Rightarrow \cos[\varphi_0] = 0 \Rightarrow \varphi_0 = \begin{cases}\pi/2\ \mathrm{rad}\\ -\pi/2\ \mathrm{rad}\end{cases}$
+
+\[ v(0,0) = A\omega\cdot\sin[\varphi_0] \Rightarrow \begin{cases}\varphi_0 = \dfrac{\pi}{2}\ \mathrm{rad},\ v(0,0) > 0\ \text{és la correcta}\\ \varphi_0 = -\dfrac{\pi}{2}\ \mathrm{rad},\ v(0,0) < 0\ \text{no és la correcta}\end{cases} \]
+
+I, finalment:
+
+$y(x,t) = 0,05\cdot\cos[10\pi x - \pi t + \pi/2]$ amb $y$ i $x$ en m i $t$ en s.
+
+També es pot expressar com: $y(x,t) = 0,05\cdot\cos[\pi t - 10\pi x - \pi/2]$ amb $y$ i $x$ en m i $t$ en s.
+
+Encara que no estigui descrit en aquestes pautes, també s'han de considerar com a correctes resolucions basades en expressions vàlides de la fase del tipus: $\omega t - kx + \varphi_0$, $k(x - vt) + \varphi_0$, $2\pi\left(\dfrac{x}{\lambda} - \dfrac{t}{T}\right) + \varphi_0$, \ldots
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,35} $v(x,t) = \dfrac{dy(x,t)}{dt} = -A\omega\cdot\cos[kx - \omega t + \varphi_0]$
+
+La velocitat és màxima en mòdul quan $\cos[kx - \omega t + \varphi_0] = \pm 1$:
+\[ v_{\text{màx}} = A\omega = 0,05\cdot\pi = 0,157\ \mathrm{m/s} \]
+
+\punts{0,3} $a(x,t) = \dfrac{dv(x,t)}{dt} = -A\omega^2\cdot\sin[kx - \omega t + \varphi_0]$
+
+L'acceleració és màxima en mòdul quan $\sin[kx - \omega t + \varphi_0] = \pm 1$:
+\[ a_{\text{màx}} = A\omega^2 = 0,05\cdot(\pi)^2 = 0,493\ \mathrm{m/s^2} \]
+
+A l'enunciat es demana que es determinin aquests valors a partir de l'equació d'ones, per tant, no es considerarà correcte que l'estudiant doni directament les expressions de la velocitat i l'acceleració, cal que els determini a partir de considerar la primera i la segona derivades.
+
+\punts{0,3} $v(0,58,10) = -0,157\cdot\cos[10\pi\cdot 0,58 - \pi\cdot 10 + \pi] = 0,127\ \mathrm{m/s}$
+
+\punts{0,3} $a(0,58,10) = -0,493\cdot\sin[10\pi\cdot 0,58 - \pi\cdot 10 + \pi] = -0,290\ \mathrm{m/s^2}$
+\end{solapartat}

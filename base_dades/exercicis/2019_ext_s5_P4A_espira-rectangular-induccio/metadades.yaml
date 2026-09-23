@@ -1,0 +1,51 @@
+id: 2019_ext_s5_P4A_espira-rectangular-induccio
+titol: Espira rectangular que travessa un camp magnètic uniforme
+resum: >-
+  Espira rectangular que entra, travessa i surt d'una regió amb camp magnètic uniforme:
+  si hi circula corrent induït i en quin sentit (llei de Lenz) en cada situació, i
+  càlcul de la força electromotriu i la intensitat induïdes.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi19sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi19sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [espira rectangular, inducció electromagnètica, llei de Faraday, llei de Lenz, sentit del corrent induït, força electromotriu de moviment, variació de flux]
+tipus: [qualitativa, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal raonar amb la llei de Lenz en tres situacions (entrada, interior i sortida) i
+  aplicar la llei de Faraday a una espira que es mou per obtenir ε = Bav i la intensitat.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Si hi ha corrent induït en entrar, dins i en sortir del camp, i el sentit en cada cas.
+  - etiqueta: "b"
+    punts: 1
+    resum: Força electromotriu i intensitat induïdes en cada cas.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Espira rectangular de costats a i b en tres posicions (entrant, dins i sortint) d'un camp magnètic cap endins
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: La mateixa figura de l'espira en tres posicions reproduïda a la pauta
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta les puntuacions de l'apartat a apareixen entre parèntesis al final de cada
+  frase; s'han mantingut en aquesta posició. La pauta no diu explícitament que no hi ha
+  corrent quan l'espira és totalment immersa (només que la variació de flux es produeix
+  en entrar i en sortir).

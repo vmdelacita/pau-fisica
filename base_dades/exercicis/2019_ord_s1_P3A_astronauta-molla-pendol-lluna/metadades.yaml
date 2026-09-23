@@ -1,0 +1,44 @@
+id: 2019_ord_s1_P3A_astronauta-molla-pendol-lluna
+titol: Astronauta que es pesa amb una molla i pèndol a la Lluna
+resum: >-
+  Massa d'un astronauta a partir del període d'oscil·lació d'una cadira unida a una
+  molla; intensitat del camp gravitatori a la superfície de la Lluna amb un pèndol simple
+  i massa de la Lluna.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: [Camps gravitatoris]
+subtemes:
+  - moviment harmònic simple
+  - camp gravitatori i superposició
+paraules_clau: [astronauta, molla, massa en ingravidesa, pèndol simple, període d'oscil·lació, Lluna, intensitat del camp gravitatori, massa de la Lluna]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa del període del MHS d'una molla i del pèndol simple (fórmula donada)
+  i de g = GM/R²; només cal recordar restar la massa de la cadira.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Massa de l'astronauta a partir del període d'oscil·lació de la molla.
+  - etiqueta: "b"
+    punts: 1
+    resum: Intensitat del camp gravitatori a la Lluna amb un pèndol i massa de la Lluna.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta de l'apartat b els 0,4 p i els 0,2 p
+  del darrer pas apareixen a banda i banda de la mateixa línia.

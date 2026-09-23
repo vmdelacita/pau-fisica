@@ -1,0 +1,59 @@
+\begin{solapartat}
+\punts{0,2} El període s'expressa com:
+\[ T = \frac{2\pi}{\omega} \ \text{i}\ \omega = \sqrt{\frac{k}{m}}\ \text{llavors}\ T^2 = (2\pi)^2\,\frac{m}{k} \]
+
+\punts{0,3} Per tant, el pendent de la recta és $(2\pi)^2/k$, així podem determinar $k$ per exemple a partir del pendent o d'un punt qualsevol, concretament si agafem el punt $m = 1,2\ \mathrm{kg}$ i $T^2 = 0,40\ \mathrm{s}^2$, tenim:
+\[ \frac{0,4-0}{1,2-0} = \frac{1}{3} = \frac{(2\pi)^2}{k} \Rightarrow k = 118\ \mathrm{N/m} \]
+
+\punts{0,25} $\omega = \sqrt{\dfrac{k}{m}} = \sqrt{\dfrac{118}{5}} = 4,86\ \mathrm{rad/s}$.
+
+\punts{0,2} $f = \dfrac{\omega}{2\pi} = 0,774\ \mathrm{Hz}$
+
+\punts{0,3} Atès que al precisió de la mesura del període és finita, com més llarg sigui el temps de mesura més precisa serà la lectura, l'error relatiu serà menor i per tant també serà menor l'error en la determinació del període. Com l'error relatiu serà 20 vegades més petit, la incertesa en al mesura del període serà 20 vegades més petita.
+\end{solapartat}
+
+\begin{solapartat}
+$\omega = 4,86\ \mathrm{rad/s}$ i $A = 0,15\ \mathrm{m}$.
+
+\destaca{Primera opció}
+
+\punts{0,2} Equació del MHS:
+\[ x(t) = A\,\sin(\omega t+\varphi_0) \]
+
+\punts{0,2} $x_0 = x(t=0) = A$.
+\[ A = A\,\sin(\varphi_0) \Rightarrow \varphi_0 = \mathrm{ArcSin}(1) = \pi/2\ \mathrm{rad}. \]
+
+\punts{0,25} Finalment l'equació del moviment és:
+\[ x(t) = 0,15\,\sin\!\left(4,86\,t+\frac{\pi}{2}\right),\ x\ \text{en m i}\ t\ \text{en s.} \]
+
+\destaca{Alternativament:}
+
+\punts{0,2} Equació del MHS:
+\[ x(t) = A\,\cos(\omega t+\varphi_0) \]
+
+\punts{0,2} $x_0 = x(t=0) = A$.
+\[ A = A\,\cos(\varphi_0) \Rightarrow \varphi_0 = \mathrm{ArcCos}(1) = 0. \]
+
+\punts{0,25} Finalment l'equació del moviment és:
+\[ x(t) = 0,15\,\cos(4,86t),\ x\ \text{en m i}\ t\ \text{en s.} \]
+
+\destaca{Primera opció}
+\[ v(t) = \frac{dx(t)}{dt} = A\omega\,\cos(\omega t) \]
+
+\punts{0,3} El mòdul de la velocitat és màxima quan $\omega t = 0\ \text{o}\ \pi$, radians, i això correspon a la posició d'equilibri $x=0$: $\sin(0)=\sin(\pi)=0$.
+
+\[ a(t) = \frac{dv(t)}{dt} = -A\omega^2\,\sin(\omega t+\varphi_0) = -x\omega^2 \]
+
+\punts{0,3} En els punts en que $x=\pm A$ l'acceleració serà màxima (en valor absolut)
+
+\destaca{Alternativament:}
+\[ v(t) = \frac{dx(t)}{dt} = -A\omega\,\sin(\omega t+\varphi_0) \]
+
+\punts{0,3} El mòdul de la velocitat és màxima quan $\omega t = \pi/2\ \text{o}\ -\pi/2$, radians, i això correspon a la posició d'equilibri $x=0$: $\cos(\pi/2)=\cos(-\pi/2)=0$.
+
+\[ a(t) = \frac{dv(t)}{dt} = -A\omega^2\,\cos(\omega t+\varphi_0) = -x\omega^2 \]
+
+\punts{0,3} En els punts en que $x=\pm A$ l'acceleració serà màxima (en valor absolut)
+
+No cal que l'estudiant calculi les derivades temporals per determinar la velocitat i l'acceleració. També poden ser correctes altres justificacions basades en consideracions energètiques o en la segona llei de Newton.
+\end{solapartat}

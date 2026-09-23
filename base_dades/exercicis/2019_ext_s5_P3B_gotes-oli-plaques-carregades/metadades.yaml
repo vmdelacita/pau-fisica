@@ -1,0 +1,61 @@
+id: 2019_ext_s5_P3B_gotes-oli-plaques-carregades
+titol: Gotes d'oli carregades entre dues plaques
+resum: >-
+  Esquema de dues plaques horitzontals carregades amb els camps elèctric i gravitatori i
+  diferència de potencial entre elles; forces sobre una gota d'oli carregada en equilibri
+  i càlcul de la seva càrrega (experiment de Millikan).
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi19sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi19sp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - equilibri de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+paraules_clau: [gotes d'oli, experiment de Millikan, plaques paral·leles, camp elèctric uniforme, diferència de potencial, equilibri de forces, càrrega elèctrica]
+tipus: [diagrama, càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Enunciat guiat: cal dibuixar camps i forces, aplicar ΔV = Ed i igualar pes i força
+  elèctrica per obtenir la càrrega; l'únic punt delicat és el signe de les plaques.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Esquema de les plaques amb el signe i els camps elèctric i gravitatori; diferència de potencial.
+  - etiqueta: "b"
+    punts: 1
+    resum: Forces sobre una gota en equilibri i valor de la seva càrrega.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Plaques horitzontals (positiva a dalt, negativa a baix) amb el camp elèctric cap avall
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Plaques horitzontals amb el camp gravitatori cap avall
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Gota d'oli entre les plaques amb la força elèctrica cap amunt i el pes cap avall
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta les puntuacions dels esquemes són etiquetes vermelles al costat o dins de les
+  figures: «[0,3 p]» sota cada esquema de plaques (retallat fora de sol_fig1.png i
+  sol_fig2.png), «[0,2p]» al costat del text sobre el signe de la càrrega i «[0,2p]» al
+  costat del pes (aquesta última queda dins de sol_fig3.png). Totes s'han transcrit com a
+  \punts{}, les dels esquemes amb el text «(Esquema)», com fa la mateixa pauta a l'opció A.
+  El text «Com la q de les gotetes és negativa, Fe i E tenen sentits oposats» forma part
+  de la figura a l'original; aquí s'ha transcrit com a text i s'ha deixat fora del retall.
+  La figura de les forces és al costat dels càlculs de l'apartat b (maquetació a dues
+  columnes). La pauta fa servir g = 9,80 m/s² tot i que l'enunciat dona 9,81 m/s² (el
+  resultat, 4,85·10⁻¹⁹ C, no canvia).

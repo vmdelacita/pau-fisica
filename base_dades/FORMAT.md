@@ -123,6 +123,8 @@ Text de l'apartat…
 
 - **Coordenades i parells dins de fórmules:** amb `icomma`, `y(0,0)` es llegeix com el decimal "0,0". Cal escriure `y(0, 0)`, `(x, t)`, `(-2, 0, -2\pi)`, amb espai després de la coma.
 - **Accents dins de fórmules:** es perden sense cap avís (`\theta_{límit}` surt "lmit"). Cal fer servir `\theta_{\textit{límit}}` o `\text{…}`. Tampoc no es poden posar accents dins de `\mathrm{…}`.
+- **Símbol de grau:** `°` es pot escriure directament, també dins de fórmules (`\cos(60°)`); el preàmbul el converteix en `^{\circ}`.
+- **Percentatges:** `90\,\%`. Un `%` sense barra comenta la resta de la línia i el text desapareix sense cap error (`comprova.py` n'avisa).
 - **Apartats amb diversos paràgrafs:** es pot deixar una línia en blanc dins d'`apartat`, i el sagnat es conserva.
 - **"Dada:" en singular** (o una altra etiqueta): `\blocetiquetat{Dada:}{…}`.
 - **Figures una al costat de l'altra:** dues `minipage`, cadascuna amb el seu `\figura` (mai `\includegraphics`, que està prohibit).
@@ -141,6 +143,7 @@ Text de l'apartat…
   - el logo de la capçalera de les pautes.
 - Si una figura queda "enganxada" al text del costat (maquetació en dues columnes), es retalla només la figura.
 - Els **gràfics** i les **taules complexes com a imatge** a la pauta també són figures.
+- Les **quadrícules i figures en blanc** on l'alumnat ha de dibuixar la resposta («representeu dins la quadrícula adjunta») també es retallen: qui fa servir l'exercici en un examen les necessita.
 - Les imatges decoratives o de context que no calen per resoldre l'exercici (fotos) també es retallen, per fidelitat.
 - Cada figura es declara a `metadades.yaml` → `figures`.
 

@@ -1,0 +1,51 @@
+id: 2022_ord_s2_P8_efecte-fotoelectric-cesi-de-broglie
+titol: Efecte fotoelèctric en el cesi amb diferents punters làser
+resum: >-
+  Càlcul del treball d'extracció del cesi, determinació de quins punters làser produeixen
+  efecte fotoelèctric, taula i gràfic de l'energia cinètica dels electrons en funció de la
+  freqüència; càlcul de la velocitat i la longitud d'ona de De Broglie dels electrons
+  arrencats amb un làser concret.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 8
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [14]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [17, 18, 19]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - dualitat ona-partícula
+paraules_clau: [efecte fotoelèctric, cesi, freqüència llindar, treball d'extracció, energia cinètica màxima, electró-volt, longitud d'ona de De Broglie]
+tipus: [càlcul, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  Diversos càlculs encadenats (freqüència llindar, comparació amb tres làsers, energia
+  cinètica, representació gràfica) i, en el segon apartat, combinació de l'equació de
+  l'efecte fotoelèctric amb l'energia cinètica clàssica i la longitud d'ona de De Broglie;
+  típic problema PAU de diversos passos.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Treball d'extracció, quins làsers produeixen efecte fotoelèctric, taula i gràfic Ec(f).
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Velocitat i longitud d'ona de De Broglie dels electrons arrencats amb un làser de 8,00×10^14 Hz.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula en blanc per representar l'energia cinètica dels electrons (eV) en funció de la freqüència (×10^14 Hz)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfic Ec(f) amb la recta ja dibuixada i els punts corresponents als làsers blau i verd marcats
+solucio_oficial: true
+revisat: false
+notes: ""

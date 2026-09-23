@@ -1,0 +1,45 @@
+id: 2019_ord_s4_P3A_efecte-fotoelectric-sodi
+titol: Efecte fotoelèctric en una placa de sodi
+resum: >-
+  Equació del balanç energètic de l'efecte fotoelèctric, significat dels termes i
+  deducció de la longitud d'ona llindar; energia cinètica màxima dels fotoelectrons i
+  potencial de frenada per a una placa de sodi il·luminada amb radiació de 660 THz.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [9]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [efecte fotoelèctric, sodi, funció de treball, treball d'extracció, longitud d'ona llindar, energia cinètica màxima, potencial de frenada, electronvolt]
+tipus: [deducció, càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Equació d'Einstein de l'efecte fotoelèctric i aplicació directa amb conversió entre
+  eV i J; el potencial de frenada s'obté directament de l'energia cinètica.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equació del balanç energètic, significat dels termes i longitud d'ona llindar.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia cinètica màxima dels fotoelectrons i potencial de frenada.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  Errata a la pauta (apartat b): «1,60×19^{-19} J» en lloc de 1,60×10^{-19} J; s'ha
+  transcrit tal com és amb un comentari DUBTE. A la nota de l'apartat a, el parèntesi
+  obert «(en aquest cas…» no es tanca a l'original.

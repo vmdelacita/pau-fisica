@@ -1,0 +1,50 @@
+id: 2021_ord_s2_P8_efecte-fotoelectric-rubidi
+titol: Fotons de llum vermella i verda i efecte fotoelèctric al rubidi
+resum: >-
+  Freqüència i energia d'un fotó i d'un mol de fotons de llum vermella (750 nm) i verda
+  (550 nm); longitud d'ona llindar del rubidi, si les dues radiacions arrenquen electrons
+  i energia cinètica adquirida, i gràfica esquemàtica de l'energia cinètica màxima en
+  funció de l'energia dels fotons incidents.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 8
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21jl.pdf
+  pagines_enunciat: [14]
+  pdf_solucio: examenes/pau_fisi21jp.pdf
+  pagines_solucio: [15, 16]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - fotons i energia de la radiació
+  - efecte fotoelèctric
+paraules_clau: [fotó, energia d'un fotó, mol de fotons, efecte fotoelèctric, funció de treball, freqüència llindar, energia cinètica màxima, gràfica esquemàtica]
+tipus: [càlcul, gràfic, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic de física quàntica: càlculs directes d'energia de fotons i d'un mol
+  de fotons, seguits de l'aplicació de l'equació de l'efecte fotoelèctric i d'una
+  representació qualitativa de la relació lineal entre energies.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Freqüència i energia d'un fotó i d'un mol de fotons per a la llum vermella i la verda.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Longitud d'ona llindar del rubidi, si les radiacions arrenquen electrons, energia cinètica i gràfica E_C,màx vs E_fotó.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica esquemàtica de l'energia cinètica màxima en funció de l'energia dels fotons incidents, amb les zones f<f0 i f>f0
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'apartat b) la pauta oficial repeteix els valors de fr i fg amb l'exponent "10^15"
+  (havent-los calculat a l'apartat a) com a "10^14"); es transcriu tal com surt a
+  l'original, marcat amb % DUBTE a solucio.tex.

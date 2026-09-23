@@ -1,0 +1,25 @@
+id: 2022_ext_s3
+any: 2022
+convocatoria: extraordinaria
+serie: 3
+format: antic
+pdf_enunciat: examenes/pau_fisi22sl.pdf
+pdf_solucio: examenes/pau_fisi22sp.pdf
+# La sèrie 3 ocupa les pàgines 1-16 de l'enunciat (P1 a p.2, P2 a p.4, P3 a p.6,
+# P4 a p.8, P5 a p.10, P6 a p.12, P7 a p.13, P8 a p.15; la resta són pàgines de
+# capçalera o en blanc per respondre) i les pàgines 1-12 de la pauta (criteris
+# generals a les pàgines 1-2, seguits de P1 a P8 en ordre).
+instruccions: >-
+  Responeu a QUATRE dels vuit problemes següents. En el cas que respongueu a més
+  problemes, només es valoraran els quatre primers.
+  Cada problema val 2,5 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2022_ext_s3_P1_nanosatellit-orbita-circular
+  - 2022_ext_s3_P2_carrega-puntual-equipotencials
+  - 2022_ext_s3_P3_volca-cumbre-vieja-ona-estacionaria
+  - 2022_ext_s3_P4_dos-fils-parallels-camp-magnetic
+  - 2022_ext_s3_P5_rado-desintegracio-estanca
+  - 2022_ext_s3_P6_efecte-fotoelectric-funcio-treball
+  - 2022_ext_s3_P7_generador-corrent-altern-transformador
+  - 2022_ext_s3_P8_efecte-pound-rebka-fotons

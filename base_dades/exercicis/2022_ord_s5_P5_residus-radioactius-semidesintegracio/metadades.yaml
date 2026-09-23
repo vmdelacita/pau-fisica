@@ -1,0 +1,58 @@
+id: 2022_ord_s5_P5_residus-radioactius-semidesintegracio
+titol: Activitat de dues mostres de residus radioactius d'un accident de trànsit
+resum: >-
+  A partir de dades experimentals d'activitat en funció del temps de dues mostres de
+  residus nuclears, representació gràfica de l'activitat i determinació aproximada del
+  període de semidesintegració de cadascuna.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [26]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [29, 30]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+paraules_clau: [activitat radioactiva, període de semidesintegració, llei de desintegració exponencial, gràfic activitat-temps, residus nuclears, constant de desintegració]
+tipus: [gràfic, càlcul, experimental]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal representar gràficament dades experimentals amb l'escalat correcte i, a partir del
+  gràfic (o de la llei exponencial de desintegració amb dos punts), determinar el període
+  de semidesintegració de cada mostra; problema PAU típic amb component experimental.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Representació gràfica de l'activitat en funció del temps per a cada mostra, amb línia de tendència.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Període de semidesintegració aproximat de cada mostra.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula en blanc per al gràfic de la mostra A
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Quadrícula en blanc per al gràfic de la mostra B
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfic de l'activitat de la mostra A en funció del temps, amb la corba ajustada i la lectura del període de semidesintegració
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Gràfic de l'activitat de la mostra B en funció del temps, amb la corba ajustada i la lectura del període de semidesintegració
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les dues quadrícules en blanc de l'enunciat (fig1.png i fig2.png) són per dibuixar-hi
+  els gràfics de l'apartat a); a l'original van després dels dos apartats. A la via
+  alternativa de l'apartat b), la pauta dona els temps t1 i t2 en segons quan en realitat
+  són minuts (vegeu % DUBTE a solucio.tex).

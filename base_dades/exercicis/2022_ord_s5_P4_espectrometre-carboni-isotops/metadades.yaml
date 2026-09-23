@@ -1,0 +1,46 @@
+id: 2022_ord_s5_P4_espectrometre-carboni-isotops
+titol: Espectròmetre de masses per a separar ions de carboni
+resum: >-
+  Deducció del radi de la trajectòria d'un ió en un camp magnètic en funció de m, v, e i
+  B, i aplicació a la separació dels ions ¹²C⁻ i ¹⁴C⁻ en un espectròmetre de masses per
+  a datar un fòssil.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [24]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [27, 28]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps magnètics
+  - selector de velocitats, espectròmetre i ciclotró
+paraules_clau: [espectròmetre de masses, isòtops de carboni, ió, força magnètica, moviment circular uniforme, radi de la trajectòria, datació de fòssils]
+tipus: [deducció, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Deducció estàndard del radi de la trajectòria circular d'un ió en un camp magnètic a
+  partir de la segona llei de Newton, seguida d'una aplicació numèrica encadenada per a
+  dos isòtops; problema PAU típic de diversos passos.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Deducció del radi de la trajectòria en funció de m, v, e i B.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Càlcul del camp magnètic i de la posició de la segona obertura per als ions ¹⁴C⁻.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Trajectòria semicircular dels ions dins l'espectròmetre, amb el camp magnètic entrant al pla i el vector velocitat inicial
+solucio_oficial: true
+revisat: false
+notes: ""

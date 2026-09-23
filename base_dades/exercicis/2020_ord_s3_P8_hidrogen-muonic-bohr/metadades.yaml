@@ -1,0 +1,50 @@
+id: 2020_ord_s3_P8_hidrogen-muonic-bohr
+titol: Hidrogen muònic segons el model de Bohr
+resum: >-
+  A partir de la condició de quantització de Bohr i la llei de Coulomb, radi de l'òrbita
+  fonamental del muó en l'hidrogen muònic i comparació de mida amb l'hidrogen; freqüència i
+  longitud d'ona del fotó emès en la transició n = 2 → n = 1.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 8
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [15]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: [Camps electromagnètics]
+subtemes:
+  - model de Bohr i espectres atòmics
+  - fotons i energia de la radiació
+  - física de partícules
+  - camp elèctric i llei de Coulomb
+paraules_clau: [model de Bohr, hidrogen muònic, muó, leptó, radi de Bohr, llei de Coulomb, transició electrònica, fotó emès]
+tipus: [càlcul, deducció, qualitativa]
+dificultat: 4
+justificacio_dificultat: >-
+  Context poc habitual (hidrogen muònic) i cal deduir el radi de l'òrbita combinant la
+  quantització del moment angular, la dinàmica circular i la llei de Coulomb.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Radi de l'òrbita fonamental del muó i comparació de volum amb l'àtom d'hidrogen.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Freqüència i longitud d'ona del fotó emès en passar de n = 2 a n = 1.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Òrbita circular d'una partícula de càrrega -e al voltant d'un nucli +e, amb la força, la velocitat i el radi r
+solucio_oficial: true
+revisat: false
+notes: >-
+  Enunciat i pauta escanejats, transcrits visualment. A l'original la figura és a la dreta
+  del text introductori. S'hi ha afegit el subtema «física de partícules» perquè hi apareix el muó (leptó). La pauta
+  parla de «la força normal» i, a l'apartat b, de «l'electró» en lloc del muó; s'ha mantingut.

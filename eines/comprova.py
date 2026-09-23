@@ -111,6 +111,12 @@ def valida(carpeta: Path):
         for pat in PROHIBITS:
             if re.search(pat, txt):
                 errors.append(f"{nom} conté {pat.replace(chr(92)*2, chr(92))} (no permès en un fragment)")
+        # un % sense escapar a mitja línia converteix en comentari la resta del text
+        for i, l in enumerate(txt.splitlines(), 1):
+            mo = re.search(r"(?<!\\)%", l)
+            if mo and l[:mo.start()].strip() and l[mo.end():].strip() \
+                    and not l[mo.end():].strip().startswith("DUBTE"):
+                avisos.append(f"{nom}:{i}: '%' sense escapar; la resta de la línia no es veurà (cal \\%)")
     n_ap = len(re.findall(r"\\begin\{apartat\}", enun))
     n_sol = len(re.findall(r"\\begin\{solapartat\}", sol))
     if n_ap != len(apartats):

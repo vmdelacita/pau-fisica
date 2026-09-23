@@ -1,0 +1,49 @@
+id: 2021_ext_s1_P2_feix-electrons-soldadura
+titol: Feix d'electrons per a soldadura aeroespacial
+resum: >-
+  Camp elèctric uniforme entre càtode i ànode d'un canó d'electrons, esquema de la
+  trajectòria i identificació de la placa a potencial més alt; energia i velocitat de
+  l'electró en sortir de l'ànode i velocitat d'impacte contra la peça a soldar.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi21sp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+paraules_clau: [feix d'electrons, càtode, ànode, camp elèctric uniforme, diferència de potencial, treball del camp elèctric, energia cinètica, soldadura per feix d'electrons]
+tipus: [càlcul, qualitativa, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic de camp elèctric uniforme entre plaques: cal calcular el camp,
+  raonar la direcció i el sentit i quina placa és a potencial més alt, i aplicar el
+  teorema del treball i l'energia per obtenir velocitats.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Mòdul del camp elèctric entre càtode i ànode, esquema de la trajectòria i del camp, i placa a potencial més alt.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Energia i velocitat de l'electró en sortir de l'ànode, i velocitat d'impacte contra la peça a soldar.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Esquema del canó d'electrons amb banda de wolframi, càtode, ànode, feix d'electrons i cambra de buit
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Diagrama de les plaques amb els vectors del camp elèctric E i de la força F sobre l'electró
+solucio_oficial: true
+revisat: false
+notes: ""

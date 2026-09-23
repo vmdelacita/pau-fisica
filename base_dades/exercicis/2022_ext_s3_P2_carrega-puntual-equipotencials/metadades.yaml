@@ -1,0 +1,57 @@
+id: 2022_ext_s3_P2_carrega-puntual-equipotencials
+titol: Càrrega puntual, superfícies equipotencials i línies de camp
+resum: >-
+  Càlcul de les distàncies a una càrrega puntual on el potencial pren uns valors donats,
+  representació de les línies equipotencials corresponents i de les línies de camp
+  elèctric, i angle que formen entre elles.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi22sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - potencial i energia potencial elèctrica
+  - línies de camp i superfícies equipotencials
+paraules_clau: [càrrega puntual, potencial elèctric, superfícies equipotencials, línies de camp elèctric, representació gràfica, perpendicularitat camp-equipotencial]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Càlcul directe de r = kQ/V per a diversos potencials i representació gràfica guiada;
+  el raonament sobre la perpendicularitat entre línies de camp i equipotencials és
+  senzill i força estàndard.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Distàncies on el potencial val 3, 6, 9 i 12 V; representació de les equipotencials i separació entre elles.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Representació de 8 línies de camp elèctric i angle que formen amb les equipotencials.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula amb els eixos x (m) i y (m) i la càrrega Q a l'origen (figura 1)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: >-
+      Circumferències equipotencials (12 V, 9 V, 6 V i 3 V) centrades a l'origen amb
+      8 línies de camp elèctric radials tallant-les perpendicularment
+solucio_oficial: true
+revisat: false
+notes: >-
+  La figura 1 de l'enunciat és una quadrícula amb els eixos x (m) i y (m) i la càrrega a
+  l'origen, on l'alumnat dibuixa la resposta; la imatge original és de poca resolució. La
+  pauta mostra la quadrícula ja resolta (amb les equipotencials i les línies de camp),
+  inclosa com a sol_fig1.png.
+  L'apartat b) no té cap text ni puntuació a la pauta oficial (vegeu el comentari
+  % DUBTE a solucio.tex); només l'apartat a) hi apareix desenvolupat.

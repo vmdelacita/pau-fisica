@@ -1,0 +1,44 @@
+id: 2019_ord_s1_P5B_fotoelectric-potencial-frenada
+titol: Efecte fotoelèctric amb radiació ultraviolada
+resum: >-
+  Energia dels fotons d'una radiació UV de 300 nm i treball d'extracció del metall a partir
+  del potencial de frenada; expressió de la velocitat màxima dels fotoelectrons a partir
+  del balanç d'energia.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [efecte fotoelèctric, radiació ultraviolada, potencial de frenada, energia del fotó, treball d'extracció, velocitat màxima, fotoelectrons, balanç d'energia]
+tipus: [càlcul, deducció]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de E = hc/λ i del balanç d'energia de l'efecte fotoelèctric amb el
+  potencial de frenada, i aïllament literal de la velocitat màxima.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Energia dels fotons incidents i treball d'extracció del metall.
+  - etiqueta: "b"
+    punts: 1
+    resum: Expressió de la velocitat màxima dels fotoelectrons.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta la unitat del primer resultat apareix en
+  cursiva («6,63 × 10⁻¹⁹ J») i es manté així.

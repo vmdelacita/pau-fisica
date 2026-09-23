@@ -1,0 +1,53 @@
+id: 2019_ord_s1_P4A_carregues-quadrat-treball
+titol: Càrregues als vèrtexs d'un quadrat
+resum: >-
+  Valor de la càrrega q0 d'un vèrtex d'un quadrat perquè la força elèctrica sobre la
+  càrrega q del vèrtex oposat sigui nul·la; treball per portar una càrrega des de
+  l'infinit fins al centre del quadrat.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - equilibri de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+paraules_clau: [llei de Coulomb, càrregues puntuals, quadrat, superposició de forces, força nul·la, potencial elèctric, treball, centre del quadrat]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal plantejar la suma vectorial de tres forces de Coulomb amb components a 45° per
+  trobar q0, i després el potencial al centre per superposició i el treball exterior.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Càrrega q0 del quart vèrtex perquè la força sobre q sigui nul·la.
+  - etiqueta: "b"
+    punts: 1
+    resum: Treball per portar una càrrega de 0,50 μC des de l'infinit fins al centre del quadrat.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrat de costat a amb les càrregues q, −q, −q i q0 als vèrtexs
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Forces F1, F2 i F3 sobre la càrrega q (F3 a 45°)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'original la figura és al costat de l'enunciat
+  (maquetació a dues columnes); aquí s'ha col·locat després del text introductori. A la
+  pauta, en el darrer pas de l'apartat a (i en el potencial de l'apartat b) hi ha dues
+  puntuacions a la mateixa línia (0,1 p i 0,2 p).

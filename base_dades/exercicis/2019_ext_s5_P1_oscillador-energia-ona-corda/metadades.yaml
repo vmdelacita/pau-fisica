@@ -1,0 +1,52 @@
+id: 2019_ext_s5_P1_oscillador-energia-ona-corda
+titol: Oscil·lador harmònic a partir de la gràfica de l'energia potencial
+resum: >-
+  A partir de la gràfica de l'energia potencial elàstica en funció del quadrat de
+  l'elongació, càlcul de la constant elàstica, el període i l'energia cinètica màxima
+  d'un oscil·lador; equació de l'ona que genera en una corda.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi19sl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi19sp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - energia del MHS
+  - ones harmòniques i equació d'ona
+paraules_clau: [oscil·lador harmònic, energia potencial elàstica, constant elàstica, pendent d'una gràfica, període, energia cinètica màxima, ona en una corda, equació d'ona]
+tipus: [càlcul, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar el pendent de la gràfica Ep–x² per obtenir k i encadenar-lo amb el
+  període, l'energia màxima i els paràmetres de l'ona (λ, nombre d'ona, ω) per escriure'n
+  l'equació.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Constant elàstica a partir de la gràfica, període d'oscil·lació i energia cinètica màxima.
+  - etiqueta: "b"
+    punts: 1
+    resum: Equació de l'ona que es propaga per la corda.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica de l'energia potencial elàstica en funció del quadrat de l'elongació
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: La mateixa gràfica Ep–x² reproduïda a la pauta
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta la gràfica és al costat del càlcul del període (maquetació a dues columnes);
+  aquí s'ha col·locat just després. El nombre d'ona s'hi escriu amb κ.

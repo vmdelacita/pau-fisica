@@ -1,0 +1,48 @@
+id: 2020_ord_s1_P6_apollo15-ploma-martell
+titol: L'experiment de la ploma i el martell de l'Apollo 15
+resum: >-
+  A partir del temps de caiguda lliure d'una ploma i un martell a la Lluna (experiment de
+  David Scott), càlcul de la intensitat del camp gravitatori lunar i de la massa de la
+  Lluna; període orbital de la Lluna al voltant de la Terra.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - camp gravitatori i superposició
+  - llei de la gravitació universal
+  - òrbites circulars i satèl·lits
+paraules_clau: [Apollo 15, David Scott, caiguda lliure, Galileu, Lluna, intensitat del camp gravitatori, massa de la Lluna, període orbital]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Dos passos estàndard: obtenir g de la cinemàtica de la caiguda lliure i d'aquí la massa
+  de la Lluna, i aplicar la dinàmica del moviment circular per obtenir el període orbital.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Intensitat del camp gravitatori a la superfície de la Lluna i massa de la Lluna.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Període orbital de la Lluna al voltant de la Terra.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. A l'apartat a la pauta posa «0,75 p» en una línia
+  sola i «0,25 p» al final de la línia de la massa de la Lluna (0,25 + 0,75 + 0,25 = 1,25).
+  A l'apartat b les puntuacions parcials són al final de cada línia, i s'han deixat així.
+  L'apartat a fa servir la cinemàtica de la caiguda lliure (1r de batxillerat), però
+  l'enunciat dona tot el context necessari.

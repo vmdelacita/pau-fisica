@@ -1,0 +1,84 @@
+\begin{solapartat}
+\figura[0.4]{sol_fig1.png}
+
+\punts{0,35} Per simetria serà el punt central del triangle (baricentre). És equidistant
+a les tres càrregues, per tant, el mòdul dels camps creats serà igual.
+\[ E_1 = E_2 = E_3 = k\,\frac{q}{r^2} \]
+
+La component $x$ dels camps $\vec{E}_2$ i $\vec{E}_3$ es cancel·len mútuament.
+
+En aquest cas, l'angle que formen els camps respecte la vertical és $60^\circ$, i la
+component $y$ de la suma dels camps $\vec{E}_2$ i $\vec{E}_3$ és:
+% DUBTE: a l'original el denominador és "4^2" en comptes de "r^2"; sembla una errata,
+% es transcriu tal com surt a la pauta oficial.
+\[ E_{23,y} = -E_2\cos(60°) - E_3\cos(60°) = -2k\,\frac{q}{4^2}\,\frac{1}{2} = -k\,\frac{q}{r^2} \]
+
+I, finalment, el camp total és:
+\[ E_{T,y} = E_1 - E_{23,y} = k\,\frac{q}{r^2} - k\,\frac{q}{r^2} = 0 \]
+
+La justificació també es pot basar en arguments exclusivament geomètrics i de simetria.
+Per exemple, atès que les tres càrregues són iguals i el triangle és equilàter, si
+suposem que el camp elèctric en el centre no és nul, només cal fer una rotació de
+$120^\circ$ respecte el punt central (una rotació de $120^\circ$ dona una distribució de
+càrrega idèntica) i veurem que el mateix problema té dues solucions diferents, cosa que
+és impossible, per tant, el camp en aquest punt ha de ser nul.
+
+\figura[0.32]{sol_fig2.png}
+
+\punts{0,4} Calculem el camp al vèrtex superior. Per simetria sabem que el resultat no
+depèn del vèrtex triat.
+
+La direcció del camp elèctric creat per una càrrega correspon a la línia que uneix la
+càrrega amb el vèrtex on calculem el camp, és a dir, el camp està dirigit segons el
+costat del triangle que uneix els dos vèrtexs. Com que les dues càrregues de la base són
+negatives, el sentit apuntarà cap a la càrrega que crea el camp, com s'indica al dibuix.
+
+\punts{0,1} El camp total serà la suma vectorial del camp creat per les dues càrregues:
+\[ \vec{E}_T = \vec{E}_1 + \vec{E}_2 \]
+
+\punts{0,2} Com que les dues càrregues són iguals i estan a la mateixa distància, el
+mòdul del camp que creen és el mateix. $E_1 = E_2 = k\,\dfrac{q}{d^2}$
+
+\punts{0,2} Els camps $\vec{E}_1$ i $\vec{E}_2$ formen el mateix angle respecte la
+vertical, que és la meitat de l'angle que formen els dos costats del triangle. Com que és
+un triangle equilàter, els angles del triangle són de $60^\circ$ i l'angle que formen els
+camps respecte la vertical serà $30^\circ$.
+
+Llavors les components $x$ es cancel·len perquè són d'igual magnitud però tenen sentits
+oposats, mentre que les components $y$ es sumen perquè tenen el mateix sentit (negatiu
+perquè apunten cap avall):
+\[ E_{T,x} = E_2\sin(30°) - E_1\sin(30°) = 0 \]
+\[ E_{T,y} = -E_2\cos(30°) - E_2\cos(30°) = -2k\,\frac{q}{d^2}\,\frac{\sqrt{3}}{2} = -\sqrt{3}\,k\,\frac{q}{d^2} \]
+
+Així doncs, el camp és: $\vec{E}_T = -\sqrt{3}\,k\,\dfrac{q}{d^2}\,\vec{\jmath}$
+
+Noteu que la notació vectorial dependrà del vèrtex triat. No cal que l'estudiant doni el
+resultat en notació vectorial, el sentit i direcció també es poden indicar gràficament,
+com per exemple en l'esquema de forces adjunt. També s'ha de considerar correcte que el
+resultat es doni en funció del $\cos(30°)$, no cal substituir el seu valor.
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,25} Definim l'energia de formació o energia potencial electrostàtica d'un
+sistema com el treball necessari per constituir-lo.
+
+\punts{0,25} Primer cal l'energia per dur la primera càrrega des de l'infinit fins a la
+seva ubicació final. Com que no hi ha més càrregues, el camp elèctric extern i la força a
+què està sotmesa la càrrega és zero i, per tant, el treball serà nul.
+\[ W_1 = 0 \]
+
+\punts{0,25} Per dur la segona càrrega, caldrà superar la força que aplica la primera
+sobre la segona, de manera que el treball que caldrà fer serà igual a la variació de
+l'energia potencial:
+\[ W_2 = k\,\frac{q_1\cdot q_2}{d} = k\,\frac{q^2}{d} \]
+
+\punts{0,25} Per dur la tercera càrrega, caldrà superar la força que apliquen les dues
+primeres càrregues sobre la tercera, de manera que el treball que caldrà fer serà igual a
+la variació de l'energia potencial:
+\[ W_3 = k\,\frac{q_1\cdot q_3}{d} + k\,\frac{q_2\cdot q_3}{d} = 2k\,\frac{q^2}{d} \]
+
+\punts{0,25} Finalment, si sumen tots els termes tenim: $U = 3k\,\dfrac{q^2}{d}$
+
+També es considerarà vàlid que l'estudiant doni directament l'expressió:
+\[ U = k\,\frac{q_1\cdot q_2}{d} + k\,\frac{q_1\cdot q_3}{d} + k\,\frac{q_2\cdot q_3}{d} \]
+\end{solapartat}

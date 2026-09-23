@@ -1,0 +1,59 @@
+id: 2020_ord_s3_P2_fils-perpendiculars-bruixola
+titol: Brúixola sobre dos fils conductors perpendiculars
+resum: >-
+  Representació dels camps magnètics creats per dos fils rectilinis perpendiculars en un punt
+  situat per sobre de l'encreuament; intensitat que ha de circular pel segon fil perquè la
+  brúixola quedi paral·lela a un fil o formi un angle de 30° amb ell.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [10]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+  - imants, brúixoles i experiment d'Oersted
+paraules_clau: [fil rectilini, brúixola, regla de la mà dreta, superposició de camps magnètics, fils perpendiculars, vectors en 3D]
+tipus: [qualitativa, diagrama, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal visualitzar en 3D la direcció del camp de cada fil i superposar-los; el càlcul és
+  senzill (quocient de camps igual al quocient d'intensitats i tangent de l'angle).
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Dibuixar els camps dels fils A i B a la brúixola i intensitat al fil B perquè la brúixola sigui paral·lela al fil B.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Intensitat al fil B perquè la brúixola formi 30° amb el fil B quan I_A = 10 A.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Dos fils perpendiculars A i B sobre una taula i una brúixola en un pla paral·lel per sobre de l'encreuament
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Camps B_A i B_B a la posició de la brúixola amb els corrents I_A i I_B
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Regla de la mà dreta per al camp magnètic d'un fil
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Suma vectorial de B_A i B_B amb el camp total B_T a 30° de B_A
+solucio_oficial: true
+revisat: false
+notes: >-
+  Enunciat i pauta escanejats, transcrits visualment. A la pauta de l'apartat b hi ha
+  l'errata «I com B_A i B_A són perpendiculars» (hauria de ser B_A i B_B); s'ha mantingut.
+  També es manté «la regle de la ma dreta» tal com és a l'original. La figura de la mà
+  dreta i la del diagrama vectorial són al costat del text a la pauta; aquí s'han col·locat
+  a continuació.

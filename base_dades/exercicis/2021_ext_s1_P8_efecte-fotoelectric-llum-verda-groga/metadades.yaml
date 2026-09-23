@@ -1,0 +1,43 @@
+id: 2021_ext_s1_P8_efecte-fotoelectric-llum-verda-groga
+titol: Efecte fotoelèctric amb llum verda i groga
+resum: >-
+  A partir del potencial de frenada amb llum verda, càlcul de la funció de treball
+  d'una superfície metàl·lica i la freqüència llindar d'extracció de fotoelectrons;
+  energia dels fotons i potencial de frenada quan s'il·lumina la mateixa superfície
+  amb llum groga.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 8
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21sl.pdf
+  pagines_enunciat: [14]
+  pdf_solucio: examenes/pau_fisi21sp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+paraules_clau: [efecte fotoelèctric, funció de treball, potencial de frenada, freqüència llindar, energia del fotó, llum verda, llum groga]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa i encadenada del balanç energètic de l'efecte fotoelèctric per
+  obtenir la funció de treball i, després, repetir el càlcul de l'energia del fotó amb
+  una altra longitud d'ona; procediment molt estàndard.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Funció de treball de la superfície metàl·lica i freqüència llindar d'extracció de fotoelectrons.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Energia dels fotons de llum groga incidents i potencial de frenada corresponent.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

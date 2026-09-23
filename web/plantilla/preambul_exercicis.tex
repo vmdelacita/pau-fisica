@@ -13,6 +13,8 @@
 \usepackage{newunicodechar}
 % "l·l" ben compost amb el caràcter UTF-8 (i "·" dins de fórmules = \cdot)
 \newunicodechar{·}{\ifmmode\cdot\else\kern-0.06em\raisebox{0.42ex}{.}\kern-0.06em\fi}
+% "°" també dins de fórmules (sense això es perd sense avisar)
+\newunicodechar{°}{\ifmmode^{\circ}\else\textdegree\fi}
 
 % Carpeta de l'exercici que s'està incloent (la redefineix qui l'inclou).
 \providecommand{\exdir}{.}

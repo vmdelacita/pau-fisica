@@ -57,7 +57,7 @@ Els lots són aproximats: es poden reajustar a l'inici de cada sessió. Els exà
 
 | Lot | Anys | Convocatòries | Pàgines d'examen |
 |---|---|---|---|
-| 1 | 2019–2022 | 8 | ~104 (moltes són espai per respondre) |
+| 1 ✓ | 2019–2022 | 8 (11 sèries, 88 exercicis) | ~104 (moltes són espai per respondre) |
 | 2 | 2013–2018 | 12 | ~72 |
 | 3 | 2009–2012 | 8 | ~92 |
 | 4 | 2000–2008 | 19 | ~116 |
@@ -100,6 +100,7 @@ Cal fer-la a l'inici de la propera sessió, abans de transcriure res.
   - Per als visitants, l'etiqueta i el filtre reflecteixen **només la base de dades publicada**, no les revisions desades al navegador. En mode revisió, el professor veu també les seves revisions locals encara no aplicades, destacades com a pendents.
 - Actualitzar el `README.md` i la secció «Revisió» de la documentació.
 
-## 7. Dubtes pendents
+## 7. Estat
 
-Cap. La propera sessió comença per la tasca de la secció 6 i després fa el **lot 1 (2019–2022)**.
+- **Secció 6 i lot 1 (2019–2022): fets** (2026-09-23). Vegeu `RESUM_LOT1.md`, que acaba amb els dubtes per al lot 2.
+- Següent: **lot 2 (2013–2018)**, possiblement partit en dues sessions (vegeu el dubte 2 del resum).

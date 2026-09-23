@@ -1,0 +1,22 @@
+id: 2020_ord_s1
+any: 2020
+convocatoria: ordinaria
+serie: 1
+format: antic
+pdf_enunciat: examenes/pau_fisi20jl.pdf
+pdf_solucio: examenes/pau_fisi20jp.pdf
+# PDF escanejats. El PDF conté les sèries 1 i 3: la sèrie 1 és a les pàgines 1-4 de
+# l'enunciat (les 5-8 són la sèrie 3) i a les pàgines 1-7 de la pauta.
+instruccions: >-
+  Responeu a QUATRE dels vuit problemes següents. En el cas que respongueu a més
+  problemes, només es valoraran els quatre primers. Cada problema val 2,5 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2020_ord_s1_P1_freddie-mercury-veu-so
+  - 2020_ord_s1_P2_llamp-corrent-camp-magnetic
+  - 2020_ord_s1_P3_sonda-parker-orbita
+  - 2020_ord_s1_P4_esferes-carregades-pendols
+  - 2020_ord_s1_P5_carboni14-sarcofag
+  - 2020_ord_s1_P6_apollo15-ploma-martell
+  - 2020_ord_s1_P7_dues-carregues-camp-potencial
+  - 2020_ord_s1_P8_cellula-fotoelectrica-garatge

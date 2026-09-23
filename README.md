@@ -1,6 +1,6 @@
 # Exercicis PAU Física
 
-Web per cercar exercicis de les PAU de Física de Catalunya (2023–2026, examen model i documents de mostra), seleccionar-los, editar-los i compondre'n **exàmens o fulls d'exercicis en PDF** amb la plantilla del centre. El PDF es compila amb LaTeX **dins del navegador**: no cal instal·lar res ni tenir cap servidor.
+Web per cercar exercicis de les PAU de Física de Catalunya (2019–2026, examen model i documents de mostra), seleccionar-los, editar-los i compondre'n **exàmens o fulls d'exercicis en PDF** amb la plantilla del centre. El PDF es compila amb LaTeX **dins del navegador**: no cal instal·lar res ni tenir cap servidor.
 
 **Web:** <https://vmdelacita.github.io/pau-fisica/>
 

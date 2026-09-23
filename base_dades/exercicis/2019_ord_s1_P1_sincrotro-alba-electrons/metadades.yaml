@@ -1,0 +1,55 @@
+id: 2019_ord_s1_P1_sincrotro-alba-electrons
+titol: Acceleració d'electrons al sincrotró Alba
+resum: >-
+  Intensitat del camp elèctric uniforme que accelera electrons fins a 1,00 keV en un
+  accelerador lineal d'1 m i dibuix de les línies de camp; força magnètica sobre
+  l'electró en entrar en un camp magnètic perpendicular i tipus de trajectòria.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps elèctrics
+  - moviment de càrregues en camps magnètics
+  - potencial i energia potencial elèctrica
+paraules_clau: [sincrotró Alba, accelerador lineal, electró, camp elèctric uniforme, diferència de potencial, força de Lorentz, trajectòria circular, electronvolt]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació encadenada de relacions estàndard (ΔV = Ec/e, E = ΔV/d, v a partir de Ec i
+  F = evB) amb una justificació qualitativa de la trajectòria circular.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Intensitat del camp elèctric a l'accelerador i dibuix de les línies de camp.
+  - etiqueta: "b"
+    punts: 1
+    resum: Força magnètica sobre l'electró i justificació de la trajectòria circular.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Esquema de l'accelerador lineal (d = 1 m) i de la regió de camp magnètic entrant al paper
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Accelerador amb el camp elèctric cap a l'esquerra i la força sobre l'electró cap a la dreta
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Electró amb velocitat, acceleració i força magnètica perpendiculars i trajectòria circular
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'original la figura és al costat del text
+  introductori (maquetació a dues columnes); aquí s'ha col·locat després del primer
+  paràgraf. A la pauta les figures són a la dreta del text.

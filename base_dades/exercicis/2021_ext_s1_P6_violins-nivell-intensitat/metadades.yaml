@@ -1,0 +1,42 @@
+id: 2021_ext_s1_P6_violins-nivell-intensitat
+titol: Nivell d'intensitat sonora de diversos violins
+resum: >-
+  Augment del nivell d'intensitat del so (en decibels) quan cinc violins toquen alhora
+  en lloc d'un de sol, i càlcul de la intensitat amb què toca un sol violí a partir del
+  nivell d'intensitat mesurat quan els cinc violins passen a tocar més fort.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21sl.pdf
+  pagines_enunciat: [12]
+  pdf_solucio: examenes/pau_fisi21sp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones sonores i nivell d'intensitat
+paraules_clau: [nivell d'intensitat sonora, decibels, intensitat del so, superposició de fonts sonores, escala logarítmica]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa i encadenada de la fórmula del nivell d'intensitat sonora en
+  decibels, amb dos passos senzills sobre la mateixa idea (superposició d'intensitats
+  de fonts iguals).
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Augment del nivell d'intensitat del so en passar d'un violí a cinc violins.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Intensitat amb què toca un sol violí a partir del nivell d'intensitat dels cinc violins tocant forte.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

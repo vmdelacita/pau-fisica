@@ -1,0 +1,46 @@
+id: 2021_ext_s1_P4_cambra-boira-desintegracio-neutro
+titol: Desintegració beta del neutró en una cambra de boira
+resum: >-
+  A partir d'una fotografia d'una traça de cambra de boira, escriptura de la reacció
+  de desintegració beta d'un neutró lliure identificant-ne les partícules, i càlcul de
+  l'energia alliberada a partir del defecte de massa, expressada en keV.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21sl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi21sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - reaccions nuclears i defecte de massa
+paraules_clau: [cambra de boira, desintegració beta, neutró, protó, electró, antineutrí, defecte de massa, energia alliberada, keV]
+tipus: [qualitativa, càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Escriure la reacció de desintegració beta és una aplicació directa de la conservació
+  del nombre màssic i la càrrega, i el càlcul del defecte de massa i l'energia
+  segueix el procediment estàndard E = Δmc².
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Reacció de desintegració d'un neutró amb identificació de les partícules implicades.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Energia alliberada en la desintegració d'un neutró, expressada en keV.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'una cambra de boira amb una traça fina i corbada etiquetada com a "Traça β"
+solucio_oficial: true
+revisat: false
+notes: ""

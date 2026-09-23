@@ -1,0 +1,50 @@
+id: 2020_ord_s1_P7_dues-carregues-camp-potencial
+titol: Camp i potencial de dues càrregues puntuals
+resum: >-
+  Dues càrregues puntuals de −5,0 μC i 7,0 μC separades 10 cm: camp elèctric (mòdul, direcció
+  i sentit) en un punt de la línia que les uneix entre totes dues, i punt de la línia on el
+  potencial elèctric és nul.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [càrregues puntuals, camp elèctric, principi de superposició, potencial elèctric, potencial nul, llei de Coulomb]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Superposició de camps en una dimensió amb sentits fàcils de raonar i una equació senzilla
+  per trobar el punt de potencial nul; dos conceptes estàndard.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Camp elèctric en un punt entre les càrregues, a 3 cm de la negativa i 7 cm de la positiva.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Punt de la línia que uneix les càrregues on el potencial és nul.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Càrregues q1 = −5 μC i q2 = 7 μC separades 0,1 m amb els camps E1 i E2 al punt situat a 0,03 m de q1
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. DUBTE: a l'expressió de |E2| la pauta escriu
+  k q1/d1² en lloc de k q2/d2² (els valors substituïts sí que són els de la càrrega 2); s'ha
+  transcrit tal com és. A l'apartat b la pauta només dona el punt entre les càrregues
+  (d = 0,0417 m de la càrrega negativa); no esmenta el segon punt de potencial nul, situat
+  fora del segment, a 0,25 m de la càrrega negativa pel costat oposat a la positiva.

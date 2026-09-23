@@ -1,0 +1,42 @@
+id: 2021_ord_s2_P5_nitrogen13-desintegracio-beta
+titol: Desintegració beta+ del nitrogen-13
+resum: >-
+  Nombre màssic, atòmic i de neutrons del nitrogen-13, reacció de desintegració β+ i per
+  què no pot tenir lloc fora d'un nucli; relació entre la constant de desintegració i el
+  període de semidesintegració, massa restant i temps perquè l'activitat es redueixi a l'1 %.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21jl.pdf
+  pagines_enunciat: [10]
+  pdf_solucio: examenes/pau_fisi21jp.pdf
+  pagines_solucio: [11]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+paraules_clau: [nitrogen-13, desintegració beta+, neutrí, positró, període de semidesintegració, constant de desintegració, activitat radioactiva, llei de desintegració exponencial]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Combina identificació nuclear i escriptura d'una reacció de desintegració amb el
+  raonament energètic sobre per què el β+ lliure és impossible, i un bloc de càlcul
+  estàndard de cinètica de desintegració radioactiva amb varis apartats encadenats.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Nombre màssic, atòmic i de neutrons; reacció de desintegració β+ i justificació que no pot passar fora del nucli.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Relació λ-període de semidesintegració, massa restant al cap de 30 min i temps perquè l'activitat baixi a l'1 %.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

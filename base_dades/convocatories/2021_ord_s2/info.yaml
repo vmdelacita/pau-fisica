@@ -1,0 +1,23 @@
+id: 2021_ord_s2
+any: 2021
+convocatoria: ordinaria
+serie: 2
+format: antic
+pdf_enunciat: examenes/pau_fisi21jl.pdf
+pdf_solucio: examenes/pau_fisi21jp.pdf
+# El PDF conté només la sèrie 2: l'enunciat ocupa les pàgines 1-16 (portada, 8 problemes
+# i pàgines en blanc per respondre) i la pauta les pàgines 1-16 (2 pàgines de criteris
+# generals i les solucions dels 8 problemes).
+instruccions: >-
+  Responeu a QUATRE dels vuit problemes següents. En el cas que respongueu a més
+  problemes, només es valoraran els quatre primers. Cada problema val 2,5 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2021_ord_s2_P1_kepler-tercera-llei-massa-sol
+  - 2021_ord_s2_P2_triangle-carregues-camp-electric
+  - 2021_ord_s2_P3_bloc-molla-mhs-energia
+  - 2021_ord_s2_P4_regio-quadrada-camp-electric
+  - 2021_ord_s2_P5_nitrogen13-desintegracio-beta
+  - 2021_ord_s2_P6_bobina-imant-fem-induida
+  - 2021_ord_s2_P7_corda-violi-harmonics-so
+  - 2021_ord_s2_P8_efecte-fotoelectric-rubidi

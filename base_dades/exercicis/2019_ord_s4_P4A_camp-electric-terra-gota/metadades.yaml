@@ -1,0 +1,47 @@
+id: 2019_ord_s4_P4A_camp-electric-terra-gota
+titol: Camp elèctric terrestre i gota d'aigua en equilibri
+resum: >-
+  Càrrega elèctrica de la Terra a partir del camp elèctric a la superfície (dirigit cap
+  al centre) i nombre d'electrons en excés que ha de tenir una gota d'aigua esfèrica
+  perquè el camp en compensi el pes.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi19jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi19jp.pdf
+  pagines_solucio: [10]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - equilibri de càrregues en camps elèctrics
+paraules_clau: [camp elèctric terrestre, càrrega de la Terra, gota d'aigua, electrons en excés, equilibri de forces, pes, densitat]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal aplicar el camp d'una càrrega puntual i raonar-ne el signe, i després plantejar
+  l'equilibri entre força elèctrica i pes calculant la massa de la gota a partir de la
+  densitat i el volum.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Càrrega elèctrica de la Terra (valor i signe).
+  - etiqueta: "b"
+    punts: 1
+    resum: Nombre d'electrons en excés perquè una gota d'aigua quedi en repòs.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  L'enunciat dona el camp en «N m^{-1}» (errata probable per N/C). La pauta fa servir
+  R_Terra = 6,40×10^6 m en lloc del valor de l'enunciat (6,37×10^6 m) i escriu
+  «2,40×10^{10}» en lloc de 2,40×10^{-10} N; tot transcrit tal com és amb comentaris
+  DUBTE.

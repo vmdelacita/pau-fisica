@@ -1,0 +1,44 @@
+id: 2022_ord_s5_P7_sirena-doppler-ona-harmonica
+titol: Ona sonora d'una sirena i efecte Doppler
+resum: >-
+  Escriptura de l'equació d'una ona harmònica plana que arriba a un observador aturat, i
+  identificació i justificació de l'argument correcte que explica l'aparent canvi de
+  freqüència (efecte Doppler) quan l'observador s'acosta a la font.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [29]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [31, 32]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones harmòniques i equació d'ona
+  - efecte Doppler
+paraules_clau: [ona sonora, equació d'ona harmònica, nombre d'ona, freqüència angular, efecte Doppler, moviment relatiu font-observador]
+tipus: [deducció, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  L'apartat a) és una aplicació directa de les relacions entre longitud d'ona, freqüència
+  i velocitat per escriure l'equació d'ona; l'apartat b) demana triar i justificar
+  raonadament, entre quatre afirmacions properes, la que explica correctament l'efecte
+  Doppler, descartant la resta amb arguments conceptuals precisos.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Equació de l'ona harmònica plana A(x,t) que arriba a l'observador.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Canvi de freqüència percebut i identificació/justificació de l'argument correcte sobre l'efecte Doppler.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

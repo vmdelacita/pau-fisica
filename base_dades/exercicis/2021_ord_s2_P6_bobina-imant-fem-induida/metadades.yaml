@@ -1,0 +1,48 @@
+id: 2021_ord_s2_P6_bobina-imant-fem-induida
+titol: Imant oscil·lant dins una bobina
+resum: >-
+  Flux magnètic i força electromotriu induïda per un imant que oscil·la harmònicament
+  entrant i sortint d'una bobina; corrent màxim en funció de la resistència i identificació
+  de la gràfica de la FEM si es redueix la freqüència del moviment.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21jl.pdf
+  pagines_enunciat: [11]
+  pdf_solucio: examenes/pau_fisi21jp.pdf
+  pagines_solucio: [12]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [inducció electromagnètica, llei de Faraday-Lenz, flux magnètic, força electromotriu, corrent induït, freqüència, gràfica de la FEM]
+tipus: [càlcul, gràfic, qualitativa]
+dificultat: 4
+justificacio_dificultat: >-
+  Requereix derivar el flux i la FEM en funció del temps amb paràmetres simbòlics i, a
+  més, interpretar quatre gràfiques per identificar com canvien amplitud i període de la
+  FEM en reduir la freqüència, cosa que exigeix relacionar dues magnituds simultàniament.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Flux magnètic a través d'una espira i força electromotriu induïda.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Corrent màxim per la bobina i identificació de la gràfica correcta de la FEM en reduir la freqüència.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica de la FEM original en funció del temps
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Quatre gràfiques (A, B, C, D) de la FEM en funció del temps, entre les quals cal triar
+solucio_oficial: true
+revisat: false
+notes: ""

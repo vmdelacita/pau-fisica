@@ -1,0 +1,54 @@
+id: 2022_ext_s3_P5_rado-desintegracio-estanca
+titol: Desintegració del radó en una estança
+resum: >-
+  A partir de dades experimentals de desintegracions alfa, representació gràfica i
+  determinació del període de semidesintegració i la constant de desintegració del
+  radó 222; càlcul de l'activitat i de la concentració de radó a l'estança, i
+  comparació amb el límit de seguretat de l'EPA.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22sl.pdf
+  pagines_enunciat: [10]
+  pdf_solucio: examenes/pau_fisi22sp.pdf
+  pagines_solucio: [9]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [radó 222, desintegració alfa, període de semidesintegració, constant de desintegració, activitat, becquerel, curie, EPA, gràfic experimental]
+tipus: [experimental, gràfic, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar dades experimentals i una gràfica per obtenir el període de
+  semidesintegració, encadenar-lo amb la constant de desintegració i l'activitat, i
+  fer un canvi d'unitats una mica llarg (pCi/litre a Bq/m3) per comparar amb el límit.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Gràfic de N(t), període de semidesintegració i constant de desintegració.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Activitat de la mostra a t=0, concentració de radó a l'estança i comparació amb el límit de l'EPA.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula en blanc per representar N(t)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: >-
+      Corba N(t) ajustada als punts experimentals, amb la lectura gràfica de
+      T_1/2 = 4 dies (N = 65) marcada amb línies auxiliars
+solucio_oficial: true
+revisat: false
+notes: >-
+  La quadrícula de l'enunciat (fig1.png) és en blanc, sense escala ni eixos, per
+  representar-hi la gràfica. La pauta mostra la gràfica ja resolta (sol_fig1.png).

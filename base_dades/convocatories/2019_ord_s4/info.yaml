@@ -1,0 +1,24 @@
+id: 2019_ord_s4
+any: 2019
+convocatoria: ordinaria
+serie: 4
+format: antic
+pdf_enunciat: examenes/pau_fisi19jl.pdf
+pdf_solucio: examenes/pau_fisi19jp.pdf
+# El PDF conté les sèries 1 i 4: la sèrie 4 és a les pàgines 5-8 de l'enunciat
+# i a les pàgines 7-12 de la pauta (criteris generals a la pàgina 7).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2019_ord_s4_P1_virus-massa-oscillador
+  - 2019_ord_s4_P2_tercera-llei-kepler-massa-sol
+  - 2019_ord_s4_P3A_efecte-fotoelectric-sodi
+  - 2019_ord_s4_P4A_camp-electric-terra-gota
+  - 2019_ord_s4_P5A_altaveu-bobina-imant
+  - 2019_ord_s4_P3B_ruteni-106-activitat
+  - 2019_ord_s4_P4B_descarrega-arc-tres-electrons
+  - 2019_ord_s4_P5B_io-camp-magnetic-proto

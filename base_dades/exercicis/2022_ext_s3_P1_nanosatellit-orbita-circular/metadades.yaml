@@ -1,0 +1,44 @@
+id: 2022_ext_s3_P1_nanosatellit-orbita-circular
+titol: Nanosatèl·lit de la Generalitat en òrbita circular
+resum: >-
+  Deducció de la velocitat orbital d'un satèl·lit en òrbita circular a partir de la llei
+  de la gravitació universal, i càlcul de la velocitat i el període orbitals; deducció i
+  càlcul de la velocitat de llançament mitjançant la conservació de l'energia mecànica.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi22sp.pdf
+  pagines_solucio: [3, 4]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - llei de la gravitació universal
+  - òrbites circulars i satèl·lits
+  - energia mecànica orbital
+paraules_clau: [nanosatèl·lit, òrbita circular, velocitat orbital, període orbital, velocitat de llançament, conservació de l'energia mecànica, satèl·lit artificial]
+tipus: [deducció, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic de satèl·lits: cal deduir dues expressions (velocitat orbital i
+  velocitat de llançament) a partir de principis físics abans de fer els càlculs
+  numèrics corresponents.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Deducció de v(r) per a una òrbita circular; velocitat i període orbitals del nanosatèl·lit.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Deducció de la velocitat de llançament en funció del radi orbital i càlcul per al nanosatèl·lit.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

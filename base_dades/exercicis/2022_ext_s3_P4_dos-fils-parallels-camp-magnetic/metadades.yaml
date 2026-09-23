@@ -1,0 +1,65 @@
+id: 2022_ext_s3_P4_dos-fils-parallels-camp-magnetic
+titol: Camp magnètic i força entre dos fils paral·lels amb corrents oposats
+resum: >-
+  Esquema i justificació del camp magnètic total en un punt equidistant de dos fils
+  rectilinis paral·lels amb corrents de sentits oposats, i càlcul de la força per unitat
+  de longitud que un fil exerceix sobre l'altre.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22sl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi22sp.pdf
+  pagines_solucio: [7, 8]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+  - força magnètica sobre corrents i entre fils
+paraules_clau: [fils paral·lels, corrents antiparal·lels, regla de la mà dreta, superposició de camps magnètics, força entre fils, camp magnètic en 3D]
+tipus: [qualitativa, diagrama, càlcul]
+dificultat: 4
+justificacio_dificultat: >-
+  Cal raonar geomètricament la direcció i el sentit del camp de cada fil amb la regla
+  de la mà dreta i compondre'ls vectorialment en un punt fora de l'eix que els uneix
+  (vectors en 3D), abans de calcular la força entre fils.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Esquema i justificació del camp magnètic de cada fil i del camp total al punt P.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Força per unitat de longitud que el fil 1 fa sobre el fil 2 (mòdul, direcció i sentit).
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: >-
+      Dos fils paral·lels a l'eix z separats 16 cm amb corrents I1 (cap avall) i I2
+      (cap amunt), i vista en planta amb el punt P equidistant (10 cm de cada fil)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Regla de la mà dreta per determinar el sentit del camp creat per un fil
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Camp B1 creat pel fil 1 al punt P, amb les components Bx,1 i By,1
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Camp B2 creat pel fil 2 al punt P
+  - fitxer: sol_fig4.png
+    on: solucio
+    descripcio: Suma vectorial dels camps B1 i B2 al punt P, amb cancel·lació de les components y
+  - fitxer: sol_fig5.png
+    on: solucio
+    descripcio: >-
+      Regla de la mà dreta en 3D per obtenir el sentit de la força Fm a partir de
+      l i B1, i esquema dels dos fils amb la força resultant sobre el fil 2
+solucio_oficial: true
+revisat: false
+notes: ""

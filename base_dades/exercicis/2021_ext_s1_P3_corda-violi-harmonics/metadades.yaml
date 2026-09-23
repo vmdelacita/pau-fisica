@@ -1,0 +1,48 @@
+id: 2021_ext_s1_P3_corda-violi-harmonics
+titol: Harmònics de la corda d'un violí
+resum: >-
+  Longitud d'ona del primer harmònic (fonamental) d'una corda vibrant i representació
+  del segon harmònic amb nodes i ventres; freqüència i longitud d'ona del so produït
+  pel primer harmònic quan es propaga per l'aire.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21sl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi21sp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ressonància i harmònics en tubs i cordes
+  - ones harmòniques i equació d'ona
+paraules_clau: [corda vibrant, harmònic fonamental, segon harmònic, nodes, ventres, ona estacionària, so, velocitat del so, longitud d'ona]
+tipus: [càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de la relació entre la longitud de la corda i la longitud d'ona
+  dels harmònics, i de v = λf per al so en l'aire; enunciat molt guiat.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Longitud d'ona del primer harmònic i representació del segon harmònic amb nodes i ventres.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Freqüència i longitud d'ona del so produït pel primer harmònic en propagar-se per l'aire.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Primer harmònic (fonamental) de la corda, amb els nodes N als extrems i el ventre V al centre
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Segon harmònic de la corda, amb tres nodes N i dos ventres V
+solucio_oficial: true
+revisat: false
+notes: ""

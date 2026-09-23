@@ -1,0 +1,42 @@
+id: 2021_ord_s2_P1_kepler-tercera-llei-massa-sol
+titol: Deducció de la tercera llei de Kepler i massa del Sol
+resum: >-
+  Deducció de la tercera llei de Kepler per a òrbites circulars a partir de la segona
+  llei de Newton i la gravitació universal, i càlcul de la massa del Sol a partir de les
+  dades orbitals dels planetes interiors.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi21jp.pdf
+  pagines_solucio: [2, 3]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - lleis de Kepler
+  - òrbites circulars i satèl·lits
+paraules_clau: [Kepler, tercera llei, deducció, moviment circular uniforme, gravitació universal, massa del Sol, taula de dades orbitals]
+tipus: [deducció, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Deducció guiada d'una llei coneguda combinant dinàmica circular i gravitació universal,
+  seguida d'una aplicació numèrica directa; és el problema PAU típic de gravitació.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Deducció de la tercera llei de Kepler per a òrbites circulars.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Massa del Sol a partir de les dades orbitals d'un planeta.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

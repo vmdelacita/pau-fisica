@@ -1,0 +1,48 @@
+id: 2019_ext_s5_P2_sonda-juno-jupiter
+titol: La sonda Juno en òrbita al voltant de Júpiter
+resum: >-
+  Energia cinètica i període d'una sonda en òrbita circular al voltant de Júpiter a
+  una altura donada; energia que cal comunicar-li perquè abandoni el camp gravitatori
+  del planeta.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi19sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi19sp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - energia mecànica orbital
+  - velocitat d'escapament
+paraules_clau: [Júpiter, sonda Juno, òrbita circular, energia cinètica, període orbital, energia per abandonar el camp gravitatori, energia mecànica]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació estàndard de la dinàmica del moviment circular i de l'energia mecànica
+  orbital amb totes les dades explícites; només cal sumar el radi i l'altura.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Energia cinètica i període de la sonda en òrbita circular.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia que cal comunicar-li perquè abandoni el camp gravitatori de Júpiter.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Imatge de la sonda Juno davant de Júpiter (decorativa)
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'original la imatge de la sonda és al costat del text de l'enunciat (maquetació a
+  dues columnes); aquí s'ha col·locat després del paràgraf introductori.

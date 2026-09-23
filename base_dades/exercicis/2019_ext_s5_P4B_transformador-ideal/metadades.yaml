@@ -1,0 +1,50 @@
+id: 2019_ext_s5_P4B_transformador-ideal
+titol: Transformador ideal amb nucli de ferro
+resum: >-
+  Deducció de la relació de tensions d'un transformador ideal a partir de la llei de
+  Faraday i la conservació del flux; tensió eficaç al secundari, intensitat eficaç al
+  primari (conservació de la potència) i esquema del transformador.
+font:
+  tipus: examen
+  any: 2019
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi19sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi19sp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - generadors, motors i transformadors
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [transformador ideal, bobina primària, bobina secundària, nombre d'espires, tensió eficaç, intensitat eficaç, conservació de la potència, nucli de ferro]
+tipus: [deducció, càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Deducció estàndard de la relació de transformació amb la llei de Faraday i aplicació
+  directa de la relació de tensions i de la conservació de la potència.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Deducció de la relació de tensions i tensió eficaç al secundari.
+  - etiqueta: "b"
+    punts: 1
+    resum: Intensitat eficaç al primari i esquema del transformador.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema d'un transformador amb nucli de ferro, bobines primària (1200 voltes, 230 V) i secundària (300 voltes, 57,5 V) i línies del camp B
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta l'esquema del transformador és al costat dels càlculs de l'apartat b
+  (maquetació a dues columnes) i la puntuació «0,4 p» de l'esquema és a la cantonada
+  superior esquerra de la figura; no es pot deixar fora del retall sense tallar la
+  figura, de manera que queda dins de sol_fig1.png i també s'ha transcrit com a
+  \punts{0,4} (Esquema).

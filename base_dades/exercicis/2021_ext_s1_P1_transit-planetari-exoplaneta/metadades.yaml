@@ -1,0 +1,47 @@
+id: 2021_ext_s1_P1_transit-planetari-exoplaneta
+titol: Trànsit planetari d'un exoplaneta
+resum: >-
+  A partir d'un gràfic de lluminositat relativa en funció del temps que mostra el
+  trànsit d'un exoplaneta, càlcul del període i el radi de l'òrbita (tercera llei de
+  Kepler) i, a partir d'aquests, del mòdul de la velocitat i l'acceleració centrípeta
+  del planeta.
+font:
+  tipus: examen
+  any: 2021
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi21sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi21sp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - lleis de Kepler
+  - òrbites circulars i satèl·lits
+paraules_clau: [exoplaneta, trànsit planetari, lluminositat, tercera llei de Kepler, període orbital, radi orbital, velocitat orbital, acceleració centrípeta]
+tipus: [càlcul, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal llegir el període a partir d'un gràfic en un context poc habitual (mètode del
+  trànsit) i després aplicar la tercera llei de Kepler i la cinemàtica circular; és un
+  problema PAU típic, guiat en dos apartats encadenats.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Període i radi de l'òrbita del planeta a partir del gràfic i la tercera llei de Kepler.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Mòdul de la velocitat orbital i acceleració centrípeta del planeta.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfic de la lluminositat relativa de l'estel en funció del temps (dies), amb tres trànsits periòdics
+solucio_oficial: true
+revisat: false
+notes: ""

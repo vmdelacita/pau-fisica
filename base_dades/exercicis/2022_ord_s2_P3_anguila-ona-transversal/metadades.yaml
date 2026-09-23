@@ -1,0 +1,47 @@
+id: 2022_ord_s2_P3_anguila-ona-transversal
+titol: Ona transversal en el moviment d'una anguila
+resum: >-
+  A partir de la freqüència, l'amplitud i la longitud d'ona del moviment ondulatori d'una
+  anguila, càlcul de la velocitat de propagació, la freqüència angular i el nombre d'ona,
+  i deducció de l'equació d'ona; càlcul de la velocitat i l'acceleració transversals
+  màximes i en un punt i instant concrets.
+font:
+  tipus: examen
+  any: 2022
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi22jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi22jp.pdf
+  pagines_solucio: [7, 8]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones harmòniques i equació d'ona
+paraules_clau: [ona transversal, anguila, equació d'ona, freqüència angular, nombre d'ona, condicions inicials, velocitat transversal, acceleració transversal]
+tipus: [deducció, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal combinar la longitud d'ona i la freqüència per obtenir v, omega i k, deduir
+  l'equació d'ona a partir de les condicions inicials d'elongació i velocitat (fase
+  inicial), i derivar-la per obtenir velocitat i acceleració transversals; diversos
+  passos encadenats típics d'un problema PAU.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Velocitat de propagació, freqüència angular, nombre d'ona i equació d'ona.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Velocitat i acceleració transversals màximes, i el seu valor a la cua 10 s després.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Forma de l'ona harmònica transversal (y en funció de x) amb els eixos de coordenades
+solucio_oficial: true
+revisat: false
+notes: ""

@@ -1,0 +1,56 @@
+id: 2020_ord_s1_P3_sonda-parker-orbita
+titol: Òrbita de la sonda solar Parker
+resum: >-
+  A partir de la gràfica de la distància de la sonda Parker a la superfície del Sol, nombre
+  de voltes completes en 1 000 dies i eix major de l'òrbita en radis solars; esquema de
+  l'òrbita el·líptica amb els vectors velocitat i acceleració i punt de velocitat màxima
+  (conservació de l'energia o segona llei de Kepler).
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites el·líptiques i moment angular
+  - lleis de Kepler
+  - energia mecànica orbital
+paraules_clau: [sonda solar Parker, òrbita el·líptica, periheli, afeli, eix major, radis solars, segona llei de Kepler, conservació de l'energia mecànica, vectors velocitat i acceleració]
+tipus: [gràfic, diagrama, qualitativa]
+dificultat: 4
+justificacio_dificultat: >-
+  Cal interpretar una gràfica real de la distància a la superfície solar (comptar òrbites,
+  sumar el diàmetre del Sol per obtenir l'eix major), dibuixar l'òrbita amb els vectors
+  i justificar qualitativament on la velocitat és màxima.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Nombre de voltes completes en 1 000 dies i eix major de l'òrbita entre A i C.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Esquema de l'òrbita amb A, B, C, vectors velocitat i acceleració a B i punt de velocitat màxima.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica de la distància de la sonda Parker a la superfície del Sol (en radis solars) en funció dels dies des del llançament, amb els punts A, B i C
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Òrbita el·líptica amb el Sol en un focus, les distàncies 35 RS, 2 RS i 200 RS, i els vectors a i v al punt B
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat, transcrit visualment. A la pauta la figura de l'òrbita és entre els
+  apartats a i b; s'ha posat al final de l'apartat a, on la pauta hi fa referència
+  («De l'esquema…»). DUBTE: a l'expressió de l'energia mecànica la pauta escriu M_T (massa
+  de la Terra) tot i que el cos central és el Sol; s'ha transcrit tal com és. Els textos
+  «el sol en un dels seu focus» són de l'original.

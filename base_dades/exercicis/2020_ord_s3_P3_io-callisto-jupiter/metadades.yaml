@@ -1,0 +1,44 @@
+id: 2020_ord_s3_P3_io-callisto-jupiter
+titol: Io i Cal·listo, llunes de Júpiter
+resum: >-
+  A partir del radi orbital i el període d'Io, càlcul de la massa de Júpiter; radi orbital de
+  Cal·listo a partir del seu període amb la tercera llei de Kepler.
+font:
+  tipus: examen
+  any: 2020
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi20jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi20jp.pdf
+  pagines_solucio: [11]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - lleis de Kepler
+paraules_clau: [Júpiter, Io, Cal·listo, massa d'un planeta, tercera llei de Kepler, radi orbital, satèl·lit natural]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació estàndard de la dinàmica del moviment circular per obtenir la massa del planeta
+  i de la tercera llei de Kepler; dades explícites.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Massa de Júpiter a partir de l'òrbita d'Io.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Radi mitjà de l'òrbita de Cal·listo a partir del seu període.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  Enunciat i pauta escanejats, transcrits visualment. A la pauta algunes puntuacions
+  parcials apareixen a la dreta del pas que puntuen; s'han mantingut en la mateixa posició.
+  L'alternativa de l'apartat b suma 0,1 + 0,25 + 0,8 + 0,1 = 1,25 p.
