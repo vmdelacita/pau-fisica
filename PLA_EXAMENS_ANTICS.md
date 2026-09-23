@@ -64,12 +64,31 @@ Els lots són aproximats: es poden reajustar a l'inici de cada sessió. Els exà
 
 Cada lot segueix el mètode de la Fase 2:
 
-1. Subagents en paral·lel, un per convocatòria, seguint `base_dades/FORMAT.md` i comparant la previsualització amb el PDF.
+1. Subagents en paral·lel, un per sèrie, seguint `base_dades/FORMAT.md` i comparant la previsualització amb el PDF. Cal respectar els límits de la secció 4.1.
 2. Revisió de conjunt: `comprova.py --tot`, accents, revisió visual i índex.
 3. Comprovar que tots els exercicis compilen també **al navegador**. Si algun necessita un paquet LaTeX que el motor reduït no té, cal regenerar-lo (`eines/motor_tex/README.md`).
 4. Omplir el camp `curriculum` (vegeu la secció 5).
 5. Copiar els PDF originals de la convocatòria a `examenes/`, reanomenats amb el format actual (vegeu la secció 5).
 6. Publicar (`git push`) i escriure `RESUM_LOTn.md`.
+
+### 4.1. Model i límits dels subagents
+
+Decidit el 2026-09-23, a partir del consum mesurat al lot 1 i a la Fase 2.
+
+- **Model:** **Opus** per a tots els subagents de transcripció. Tots els exàmens que queden (2000–2020) són escanejats.
+  - Sonnet no va estalviar ús. Va necessitar 2–3 vegades més torns, i rellegir el context costa el mateix per token amb els dos models.
+  - Al lot 1, una sèrie amb Sonnet va costar ~6,3 $ i una amb Opus, ~4,2 $. Són dòlars equivalents d'API, només per comparar.
+  - Les tres figures que faltaven van sortir totes de sèries fetes amb Sonnet.
+  - Haiku no serveix per llegir fórmules escanejades.
+  - No s'ha de baixar el nivell de raonament: el text que escriu el subagent és només ~20 % del cost.
+- **Tandes de ~5 subagents**, no tots alhora. Si s'arriba al límit d'ús, només s'atura una tanda.
+  - Si una pausa dura més d'una hora, la memòria cau caduca i cada subagent ha de tornar a carregar ~150 000 tokens de context.
+  - Al lot 1 això va malbaratar ~18 % del consum del lot.
+- **Màxim ~10 sèries per sessió.**
+  - Cada sèrie costa uns 3 $ sense pauses.
+  - Cal afegir-hi uns 11 $ de la revisió de conjunt a la sessió principal.
+  - Per això el lot 2 es parteix en dues sessions: **2016–2018** i **2013–2015**. Els lots 3 i 4 també s'han de partir si passen de ~10 sèries.
+- **Menys imatges al context.** A les instruccions dels subagents (`prompt_base.md`), cal indicar que es renderitzi cada pàgina una sola vegada a resolució moderada, que només s'ampliïn retalls de les fórmules dubtoses i que no es tornin a obrir pàgines senceres.
 
 **Recordatori:** la pregunta experimental Q5 de les mostres de 2025 és el problema 4 de l'opció B de juny de 2017. En fer el **lot 2**, cal substituir-la per la versió oficial, que té pauta.
 
@@ -103,4 +122,4 @@ Cal fer-la a l'inici de la propera sessió, abans de transcriure res.
 ## 7. Estat
 
 - **Secció 6 i lot 1 (2019–2022): fets** (2026-09-23). Vegeu `RESUM_LOT1.md`, que acaba amb els dubtes per al lot 2.
-- Següent: **lot 2 (2013–2018)**, possiblement partit en dues sessions (vegeu el dubte 2 del resum).
+- Següent: **lot 2a (2016–2018)** i, en una altra sessió, **lot 2b (2013–2015)**. Vegeu la secció 4.1.
