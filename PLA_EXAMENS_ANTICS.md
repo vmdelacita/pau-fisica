@@ -88,6 +88,18 @@ Cada lot segueix el mètode de la Fase 2:
 4. **PDF originals:** es pugen al repositori a mesura que s'incorporen, reanomenats amb el format actual (`pau_fisi15jl.pdf` per a l'examen i `pau_fisi15jp.pdf` per a la pauta, amb `s` en lloc de `j` per a setembre). Així la fitxa de cada exercici enllaça a l'original.
 5. **Ordre:** primer els 4 lots i després la Fase 4.
 
-## 6. Dubtes pendents
+## 6. Tasca prèvia al lot 1: revisió només per al professor
 
-Cap. La propera sessió comença directament pel **lot 1 (2019–2022)**.
+Cal fer-la a l'inici de la propera sessió, abans de transcriure res.
+
+- **La pestanya Revisió queda oculta** per a tots els visitants. Només apareix si s'obre la web amb `?revisio` a l'adreça (`https://vmdelacita.github.io/pau-fisica/?revisio`). En entrar-hi una vegada, el navegador ho recorda.
+  - També s'amaguen la pestanya «Revisió» de la fitxa de l'exercici i el comptador.
+  - Només és una manera d'amagar-la: qui conegui l'adreça pot obrir-la. No és un risc, perquè la pestanya només modifica el navegador de qui la fa servir. La base de dades només canvia amb `aplica_revisions.py` i `git push`.
+- **Tothom veu si un exercici està revisat.** Els exercicis amb `revisat: true` a `metadades.yaml` mostren una etiqueta **«Revisat per un humà»** a la llista de resultats i a la fitxa.
+  - El filtre «estat de revisió» de la cerca continua visible per a tothom.
+  - Per als visitants, l'etiqueta i el filtre reflecteixen **només la base de dades publicada**, no les revisions desades al navegador. En mode revisió, el professor veu també les seves revisions locals encara no aplicades, destacades com a pendents.
+- Actualitzar el `README.md` i la secció «Revisió» de la documentació.
+
+## 7. Dubtes pendents
+
+Cap. La propera sessió comença per la tasca de la secció 6 i després fa el **lot 1 (2019–2022)**.
