@@ -1,0 +1,22 @@
+id: 2025_ord_s1
+any: 2025
+convocatoria: ordinaria
+serie: 1
+format: nou
+pdf_enunciat: examenes/pau_fisi25jl.pdf
+pdf_solucio: examenes/pau_fisi25jp.pdf
+instruccions: >-
+  L'examen consta de QUATRE exercicis obligatoris. Cada exercici val 2,5 punts. Als
+  exercicis 2 i 3 heu de triar UNA de les dues opcions (A o B) que s'hi proposen.
+  Podeu utilitzar calculadora, però no es permet l'ús de calculadores o altres aparells
+  capaços d'emmagatzemar dades o de transmetre o rebre informació. Les respostes han de
+  ser clares i han d'estar redactades de manera coherent i cohesionada, amb correcció
+  gramatical, lèxica i ortogràfica.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2025_ord_s1_E1_caixa-eines-eei-orbita
+  - 2025_ord_s1_E2A_experiment-millikan-gota-oli
+  - 2025_ord_s1_E2B_barra-lliscant-circuit-u
+  - 2025_ord_s1_E3A_moneda-bloc-angle-limit
+  - 2025_ord_s1_E3B_flauta-travessera-harmonics
+  - 2025_ord_s1_E4_sodi24-activitat-volum-sang

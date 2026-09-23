@@ -1,0 +1,49 @@
+id: 2023_ord_s1_P5_cubeta-equipotencials-dipol
+titol: Superfícies equipotencials de dues càrregues en una cubeta
+resum: >-
+  A partir d'un mapa de línies equipotencials, identificar el signe de les dues càrregues i
+  dibuixar el camp elèctric en un punt; treball del camp elèctric sobre un electró que es
+  desplaça entre punts de la figura i en un recorregut entre punts del mateix potencial.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [10]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [10, 11]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - línies de camp i superfícies equipotencials
+  - potencial i energia potencial elèctrica
+paraules_clau: [cubeta electrolítica, línies equipotencials, dipol elèctric, signe de la càrrega, camp elèctric, treball del camp elèctric, electró]
+tipus: [qualitativa, diagrama, gràfic, càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Cal llegir el mapa d'equipotencials per raonar el signe de les càrregues i el camp en un
+  punt, i aplicar W = -qΔV amb els valors de la figura; càlculs molt senzills.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Signe de cada càrrega i direcció i sentit del camp elèctric al punt A.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Treball del camp sobre un electró d'A a B i d'A a C passant per B.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Línies equipotencials de dues càrregues Q1 i Q2 amb els punts A, B i C
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Mapa d'equipotencials amb el camp elèctric dibuixat al punt A
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions parcials de la pauta apareixen just abans del pas que puntuen. La pauta
+  pren V_A = -10 V i V_B = 10 V (llegits de la figura).

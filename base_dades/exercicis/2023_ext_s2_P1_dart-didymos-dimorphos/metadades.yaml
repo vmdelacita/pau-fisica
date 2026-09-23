@@ -1,0 +1,48 @@
+id: 2023_ext_s2_P1_dart-didymos-dimorphos
+titol: Missió DART i l'asteroide binari Didymos–Dimorphos
+resum: >-
+  Deducció de la intensitat del camp gravitatori a la superfície d'un cos esfèric i
+  càlcul per a Didymos a partir del diàmetre i la densitat; força gravitatòria entre
+  Didymos i Dimorphos; deducció de la velocitat orbital i com canvia en reduir el radi.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi23sp.pdf
+  pagines_solucio: [2, 3]
+format: antic
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - llei de la gravitació universal
+  - camp gravitatori i superposició
+  - òrbites circulars i satèl·lits
+paraules_clau: [missió DART, asteroide, Didymos, Dimorphos, intensitat del camp gravitatori, densitat, velocitat orbital, NASA]
+tipus: [deducció, càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Deduccions estàndard (g a la superfície i velocitat orbital) i càlculs directes; l'únic
+  pas afegit és obtenir la massa a partir de la densitat i el volum.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Deduir g = GM/R², calcular g a la superfície de Didymos i la força entre els dos asteroides.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Deduir v = √(GM/R) i argumentar si Dimorphos anirà més ràpid a la nova òrbita de radi menor.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Esquema de la missió DART amb l'òrbita original i la nova òrbita de Dimorphos al voltant de Didymos
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta dona les unitats de g com m²/s (haurien de ser m/s²); s'ha transcrit tal com és
+  amb un comentari DUBTE. Les puntuacions parcials de la pauta apareixen després de cada pas
+  (al final de cada bloc); aquí es posen a l'inici del bloc que puntuen, com a la resta de la base.

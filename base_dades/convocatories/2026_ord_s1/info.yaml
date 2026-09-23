@@ -1,0 +1,23 @@
+id: 2026_ord_s1
+any: 2026
+convocatoria: ordinaria
+serie: 1
+format: nou
+pdf_enunciat: examenes/pau_fisi26jl.pdf
+pdf_solucio: examenes/pau_fisi26jp.pdf
+instruccions: >-
+  L'examen consta de QUATRE exercicis obligatoris. Cada exercici val 2,5 punts.
+  Als exercicis 1 i 4, trieu UNA de les dues opcions (A o B) que s'hi proposen i
+  indiqueu-les a la portada de l'examen. Podeu utilitzar calculadora, però no es
+  permet l'ús de calculadores o altres aparells capaços d'emmagatzemar dades o de
+  transmetre o rebre informació. Les respostes han de ser clares i han d'estar
+  redactades de manera coherent i cohesionada, amb correcció gramatical, lèxica i
+  ortogràfica.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2026_ord_s1_E1A_nanosatellit-orbita-circular
+  - 2026_ord_s1_E1B_cometa-halley-kepler
+  - 2026_ord_s1_E2_tub-raigs-x
+  - 2026_ord_s1_E3_mobil-vibrador-mhs-so
+  - 2026_ord_s1_E4A_cesi-137-txernobil
+  - 2026_ord_s1_E4B_efecte-fotoelectric-llum-colors

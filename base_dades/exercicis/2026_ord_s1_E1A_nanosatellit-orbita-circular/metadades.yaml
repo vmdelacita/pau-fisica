@@ -1,0 +1,43 @@
+id: 2026_ord_s1_E1A_nanosatellit-orbita-circular
+titol: Nanosatèl·lit de la Generalitat en òrbita circular
+resum: >-
+  Deducció del període orbital a partir de la gravitació universal i càlcul per a un
+  nanosatèl·lit a 500 km d'altura; increment d'energia potencial, energia mecànica
+  i caràcter tancat de l'òrbita.
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 1
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi26jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi26jp.pdf
+  pagines_solucio: [2]
+format: nou
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - llei de la gravitació universal
+  - òrbites circulars i satèl·lits
+  - energia potencial i potencial gravitatori
+  - energia mecànica orbital
+paraules_clau: [nanosatèl·lit, període orbital, tercera llei de Kepler, energia potencial gravitatòria, energia mecànica, òrbita tancada, satèl·lit artificial]
+tipus: [deducció, càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Problema estàndard de satèl·lit en òrbita circular: deducció clàssica del període i
+  càlculs directes d'energia; l'única reflexió és el signe de l'energia mecànica.
+punts_total: 2.5
+apartats:
+  - etiqueta: "1.1"
+    punts: 1.25
+    resum: Deduir T(r, M_T) i calcular el període del nanosatèl·lit.
+  - etiqueta: "1.2"
+    punts: 1.25
+    resum: Increment d'energia potencial, energia mecànica a l'òrbita i si és tancada.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

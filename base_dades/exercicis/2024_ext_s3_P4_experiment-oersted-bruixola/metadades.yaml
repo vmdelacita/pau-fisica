@@ -1,0 +1,53 @@
+id: 2024_ext_s3_P4_experiment-oersted-bruixola
+titol: Experiment d'Oersted i component horitzontal del camp magnètic terrestre
+resum: >-
+  Representació dels camps magnètics terrestre i del fil sobre l'agulla d'una brúixola
+  i raonament de si és a sobre o a sota del fil; càlcul de la component horitzontal del
+  camp terrestre a partir de la desviació de 45° de l'agulla.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24sl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi24sp.pdf
+  pagines_solucio: [7]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - imants, brúixoles i experiment d'Oersted
+  - camp magnètic creat per corrents
+paraules_clau: [Oersted, brúixola, camp magnètic terrestre, fil rectilini, regla de la mà dreta, superposició de camps, agulla magnètica]
+tipus: [diagrama, qualitativa, càlcul, context-històric]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar la figura i aplicar la regla de la mà dreta en l'espai per decidir la
+  posició de l'agulla (raonament qualitatiu), però el càlcul posterior és directe.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Dibuixar B terrestre i B del fil sobre l'agulla i argumentar si és a sobre o a sota del fil.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Component horitzontal del camp terrestre a partir de la desviació de 45° amb 20 A a 10 cm.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gravat de l'aparell de l'experiment d'Oersted (figura 1)
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Circuit amb bateria i brúixola, a) obert i b) tancat amb l'agulla desviada (figura 2)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Circuit tancat amb els vectors B Terra, B fil i B total sobre la brúixola
+solucio_oficial: true
+revisat: false
+notes: >-
+  Els peus de figura de l'original ("Figura 1. Experiment d'Oersted." i "Figura 2. a)
+  Circuit obert. b) Circuit tancat.") s'han escrit en LaTeX sota cada figura en lloc
+  d'incloure'ls al retall.

@@ -1,0 +1,19 @@
+id: 2023_ext_s2
+any: 2023
+convocatoria: extraordinaria
+serie: 2
+format: antic
+pdf_enunciat: examenes/pau_fisi23sl.pdf
+pdf_solucio: examenes/pau_fisi23sp.pdf
+instruccions: >-
+  Responeu a QUATRE dels set problemes següents. En el cas que respongueu a més problemes,
+  només es valoraran els quatre primers. Cada problema val 2,5 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2023_ext_s2_P1_dart-didymos-dimorphos
+  - 2023_ext_s2_P2_cubeta-equipotencials
+  - 2023_ext_s2_P3_tub-ressonancia-diapaso
+  - 2023_ext_s2_P4_espectrometre-masses-neo
+  - 2023_ext_s2_P5_molla-massa-mhs
+  - 2023_ext_s2_P6_fissio-urani-estadi
+  - 2023_ext_s2_P7_sensor-uv-fotoelectric

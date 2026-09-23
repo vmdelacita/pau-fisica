@@ -1,0 +1,43 @@
+id: 2024_ord_s1_P5_coets-sant-joan-so
+titol: Nivell d'intensitat sonora dels coets de Sant Joan
+resum: >-
+  A partir del nivell d'intensitat sonora mesurat a 50 m, potència i energia sonora
+  de l'explosió d'un coet. Altura d'explosió d'un coet enlairat a partir del nou
+  nivell sonor i nivell d'intensitat de dos coets simultanis.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24jl.pdf
+  pagines_enunciat: [10]
+  pdf_solucio: examenes/pau_fisi24jp.pdf
+  pagines_solucio: [8]
+format: antic
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones sonores i nivell d'intensitat
+paraules_clau: [coets, revetlla de Sant Joan, sonòmetre, decibels, potència sonora, intensitat sonora, ones esfèriques, teorema de Pitàgores]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Càlculs estàndard de nivell d'intensitat i potència amb ones esfèriques; cal
+  combinar-los amb la geometria (Pitàgores) per trobar l'altura i raonar la suma
+  d'intensitats de dues fonts.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Potència sonora de l'explosió a partir de 100 dB a 50 m i energia alliberada en 0,03 s.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Altura d'explosió a partir de 90 dB i nivell d'intensitat de dos coets simultanis.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta parla de "petard" en lloc de "coet" en alguns passos; s'ha mantingut.
+  La velocitat del so és una dada de l'enunciat però no s'utilitza a la pauta.

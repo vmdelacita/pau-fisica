@@ -1,0 +1,47 @@
+\begin{solapartat}
+Trobar l'expressió del període orbital
+
+\punts{0,75} Segons la llei de la gravitació universal, el mòdul de la força sobre el satèl·lit a causa de l'atracció de la Terra és:
+\[ F = G\,\frac{m_s M_T}{r^2} \]
+La segona llei de Newton estableix que: $\vec{F} = m_s\vec{a}$
+
+D'altra banda, considerant que el nanosatèl·lit descriu un moviment circular uniforme al voltant de la Terra, la seva acceleració és l'acceleració centrípeta: $a = \frac{v^2}{r} = \omega^2 r$.
+
+Com que sobre el nanosatèl·lit només actua la força de la gravetat:
+\[ G\,\frac{m_s M_T}{r^2} = m_s v^2/r \;\Rightarrow\; v^2 = G\,\frac{M_T}{r} \]
+El període orbital està relacionat amb la velocitat mitjançant:
+\[ T = \frac{2\pi r}{v} \]
+Substituint l'expressió de la velocitat obtenim:
+\[ T = 2\pi r\sqrt{\frac{r}{G M_T}} = 2\pi\sqrt{\frac{r^3}{G M_T}} \]
+
+\punts{0,5} El radi $r = R_T + h = (6370 + 500)\ \mathrm{km} = 6,87\cdot 10^{6}\ \mathrm{m}$.
+
+Utilitzant l'expressió obtenim el valor del període orbital per al nanosatèl·lit:
+\[ T = 2\pi\sqrt{\frac{(6,87\times 10^{6})^3}{(6,67\times 10^{-11})(5,98\times 10^{24})}} = 5,66\cdot 10^{3}\ \mathrm{s} \]
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,5} L'energia potencial gravitatòria d'un cos de massa $m$ a una distància $r$ del centre de la Terra és:
+\[ U(r) = -G\,\frac{m_s M_T}{r} \]
+L'increment d'energia potencial en passar de la superfície terrestre a l'òrbita és:
+\[ \Delta U = U(r) - U(R_T) = -G m_s M_T\left(\frac{1}{r} - \frac{1}{R_T}\right) \]
+Radi: $r = 6,37\cdot 10^{6} + 5,0\cdot 10^{5} = 6,87\cdot 10^{6}\ \mathrm{m}$
+\begin{align*}
+\Delta U = U(r) - U(R_T) &= -6,67\times 10^{-11}\cdot 11,1\cdot 5,98\times 10^{24}\left(\frac{1}{6,87\cdot 10^{6}} - \frac{1}{6,37\cdot 10^{6}}\right)\\
+&= 5,06\times 10^{7}\ \mathrm{J}
+\end{align*}
+
+\punts{0,5} L'energia mecànica és suma de l'energia cinètica i potencial: $E_m = E_c + U$.
+
+La velocitat és: $v = \sqrt{G\,\frac{M_T}{r}} = 7,62\times 10^{3}\ \mathrm{m/s}$
+
+L'energia cinètica és: $E_c = \frac{1}{2} m_s v^2 = 3,22\times 10^{8}\ \mathrm{J}$
+
+I l'energia potencial és: $U = -G\,\frac{m_s M_T}{r} = -6,44\times 10^{8}\ \mathrm{J}$
+
+I l'energia mecànica per al satèl·lit: $E_m = E_c + U = -3,22\times 10^{8}\ \mathrm{J}$
+
+\destaca{Alternativament,} es pot calcular directament com: $E_m = -G\,\frac{1}{2}\,\frac{m_s M_T}{r} = -3,22\times 10^{8}\ \mathrm{J}$
+
+\punts{0,25} El signe negatiu de l'energia mecànica indica que el nanosatèl·lit segueix una òrbita tancada (o lligada) al voltant de la Terra.
+\end{solapartat}

@@ -1,0 +1,54 @@
+id: 2025_ext_s3_E3A_pendol-simple-gravetat
+titol: Pèndol simple al taller de l'institut
+resum: >-
+  Representació de T² en funció de L a partir de mesures d'un pèndol, justificació de
+  la linealitat, càlcul del pendent i de g; energies potencial, cinètica i mecànica i
+  velocitat màxima d'un pèndol deixat anar des de 30°.
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi25sl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi25sp.pdf
+  pagines_solucio: [6, 7]
+format: nou
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - energia del MHS
+paraules_clau: [pèndol simple, període, longitud del fil, representació gràfica, pendent, intensitat del camp gravitatori, conservació de l'energia mecànica, velocitat màxima]
+tipus: [experimental, gràfic, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal construir i interpretar un gràfic linealitzat (T² davant L) a partir de dades
+  experimentals i extreure g del pendent; l'apartat energètic és un càlcul estàndard
+  de conservació de l'energia amb geometria del pèndol.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Completar T², representar T²(L), justificar la linealitat, calcular el pendent i g.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Energia potencial i cinètica màximes, energia mecànica i velocitat màxima del pèndol (30°, 1,00 m, 1,50 kg).
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula en blanc per representar T² en funció de L
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfic de T² (s²) en funció de la longitud (m) amb els punts experimentals i la recta per l'origen
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Esquema del pèndol desviat un angle θ amb L, L·cos(θ) i l'alçària h
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta, l'esquema del pèndol (sol_fig2) apareix a la dreta del text inicial de
+  l'apartat b; aquí s'ha col·locat al principi de l'apartat. La pauta arrodoneix 1,43² =
+  2,045 a 2,04 (transcrit tal qual).

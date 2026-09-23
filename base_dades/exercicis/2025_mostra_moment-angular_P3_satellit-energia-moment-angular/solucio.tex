@@ -1,0 +1,34 @@
+\begin{solapartat}
+El moment angular del satèl·lit respecte el centre de la Terra s'expressa com:
+\[ \vec{L}_{S,T} = m\vec{r}\times\vec{v}, \]
+on $\vec{r}$ és el vector de posició que apunta del centre de la Terra al satèl·lit, $m$ és la massa del satèl·lit i $\vec{v}$ la seva velocitat. El mòdul del moment angular del satèl·lit respecte el centre de la Terra, s'expressa com:
+\[ L_{S,T} = m\,r\,v\sin\theta, \]
+on $\theta$ és l'angle que formen $\vec{r}$ i $\vec{v}$. Com al perigeu $\vec{r}$ i $\vec{v}$ són perependiculars, $\theta = \pi/2$ i $\sin\theta = 1$:
+\[ L_{S,T} = r_p m v_p \]
+I si aïllem el moment angular:
+\[ m = \frac{L_{S,T}}{r_p\cdot v_p} \]
+I si substituïm a l'expressió de l'energia mecànica, obtenim:
+\[ E = -\frac{G\,M_T}{2a}\cdot\frac{L_{S,T}}{r_p\cdot v_p} \]
+I de les relacions de l'el·lipse sabem que el semieix major $a$:
+\[ a = \frac{r_p + r_a}{2} \]
+I traslladant aquest valor a l'expressió de l'energia mecànica obtenim:
+\[ E = -\frac{G\,M_T}{2\,\dfrac{r_p + r_a}{2}}\cdot\frac{L_{S,T}}{r_p\cdot v_p} \]
+I simplificant:
+\[ E = -\frac{G\,M_T}{(r_p + r_a)}\cdot\frac{L_{S,T}}{r_p\cdot v_p} \]
+\end{solapartat}
+
+\begin{solapartat}
+Si substituïm les dades en l'expressió del mòdul del moment angular:
+\[ L_{S,T} = r_p m v_p = 1,84\cdot 10^{7}\ \mathrm{m}\cdot 750\ \mathrm{kg}\cdot 5,70\cdot 10^{3}\ \mathrm{m/s} = 7,86\cdot 10^{13}\ \mathrm{kg\cdot m^2/s} \]
+Com el moment angular és constant i al apogeu $\vec{r}$ i $\vec{v}$ són perependiculars, $\theta = \pi/2$ i $\sin\theta = 1$:
+\begin{align*}
+L_{S,T} = r_p m v_p = r_a m v_a \;\Longrightarrow\; v_a &= \frac{r_p\cdot v_p}{r_a} = \frac{1,84\cdot 10^{7}\ \mathrm{m}\cdot 5,70\cdot 10^{3}\ \mathrm{m/s}}{5,49\cdot 10^{7}\ \mathrm{m}}\\
+&= 1,91\cdot 10^{3}\ \mathrm{m/s}
+\end{align*}
+Finalment, utilitzant l'expressió de l'enunciat:
+\begin{align*}
+E &= -\frac{G\,M_T}{(r_p + r_a)}\cdot\frac{L_{S,T}}{r_p\cdot v_p}\\
+&= -\frac{6,67\cdot 10^{-11}\,\mathrm{N\cdot m^2\cdot kg^{-2}}\cdot 5,97\cdot 10^{24}\,\mathrm{kg}}{(5,49\cdot 10^{7} + 1,84\cdot 10^{7})\,\mathrm{m}}\,\frac{7,86\cdot 10^{13}\ \mathrm{kg\cdot m^2\cdot s^{-1}}}{1,84\cdot 10^{7}\,\mathrm{m}\cdot 5,70\cdot 10^{3}\ \mathrm{m/s}}\\
+&= -4,08\cdot 10^{9}\ \mathrm{J}
+\end{align*}
+\end{solapartat}

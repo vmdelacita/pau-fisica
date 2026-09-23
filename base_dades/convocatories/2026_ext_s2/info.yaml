@@ -1,0 +1,23 @@
+id: 2026_ext_s2
+any: 2026
+convocatoria: extraordinaria
+serie: 2
+format: nou
+pdf_enunciat: examenes/pau_fisi26sl.pdf
+pdf_solucio: examenes/pau_fisi26sp.pdf
+instruccions: >-
+  L'examen consta de QUATRE exercicis obligatoris. Cada exercici val 2,5 punts.
+  Als exercicis 2 i 3, trieu UNA de les dues opcions (A o B) que s'hi proposen i
+  indiqueu-les a la portada de l'examen. Podeu utilitzar calculadora, però no es
+  permet l'ús de calculadores o altres aparells capaços d'emmagatzemar dades o de
+  transmetre o rebre informació. Les respostes han de ser clares i han d'estar
+  redactades de manera coherent i cohesionada, amb correcció gramatical, lèxica i
+  ortogràfica.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2026_ext_s2_E1_starlink-orbita-baixa
+  - 2026_ext_s2_E2A_dues-carregues-negatives
+  - 2026_ext_s2_E2B_espira-quadrada-camp-magnetic
+  - 2026_ext_s2_E3A_elefants-nivell-sonor-interferencies
+  - 2026_ext_s2_E3B_lent-escaner-imatge
+  - 2026_ext_s2_E4_rado-cadena-urani

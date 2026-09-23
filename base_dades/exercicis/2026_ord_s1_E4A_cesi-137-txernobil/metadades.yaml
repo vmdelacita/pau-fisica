@@ -1,0 +1,46 @@
+id: 2026_ord_s1_E4A_cesi-137-txernobil
+titol: Cesi-137 de l'accident de Txernòbil
+resum: >-
+  Reacció de desintegració beta menys del cesi-137 i percentatge que en queda 40 anys després de
+  l'accident de Txernòbil; any en què una zona contaminada tornarà a ser habitable segons la
+  llei de desintegració.
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi26jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi26jp.pdf
+  pagines_solucio: [7, 8]
+format: nou
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [Txernòbil, cesi-137, desintegració beta, antineutrí, vida mitjana, període de semidesintegració, constant de desintegració, activitat, contaminació radioactiva]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Escriure una desintegració beta i aplicar la llei exponencial de desintegració dues vegades;
+  l'única subtilesa és distingir vida mitjana i període de semidesintegració.
+punts_total: 2.5
+apartats:
+  - etiqueta: "4.1"
+    punts: 1.25
+    resum: Reacció de desintegració del Cs-137 i percentatge restant després de 40 anys.
+  - etiqueta: "4.2"
+    punts: 1.25
+    resum: Temps (i any) fins que l'activitat superficial baixa de 3,70e4 Bq/m².
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta anomena aquesta opció "opció 1". L'enunciat diu "vida mitjana (30,17 anys)", però
+  30,17 anys és en realitat el període de semidesintegració del Cs-137; la pauta accepta les dues
+  interpretacions a l'apartat 4.1, però a l'apartat 4.2 només calcula amb λ = 7,28e-10 s^-1
+  (semidesintegració), que dona 121 anys (any 2107). Amb la vida mitjana sortirien ~84 anys.
+  Es transcriu tal com és.

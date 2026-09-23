@@ -1,0 +1,50 @@
+id: 2025_mostra_experiments_Q5_capsula-petri-equipotencials
+titol: Superfícies equipotencials en una càpsula de Petri
+resum: >-
+  Dues plaques paral·leles a 12,0 V separades 6,00 cm dins d'aigua destil·lada: camp elèctric
+  uniforme, dibuix de les superfícies equipotencials amb el seu potencial i treball per
+  desplaçar una càrrega de 0,1 µC des d'un punt a 7,0 V fins a la placa positiva.
+font:
+  tipus: mostra
+  any: 2025
+  convocatoria: mostra
+  serie: experiments
+  exercici: 5
+  opcio: null
+  pdf_enunciat: documents oficials/02_pau25_fisica_QuestionsExperiments.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: documents oficials/02_pau25_fisica_QuestionsExperiments.pdf
+  pagines_solucio: []
+format: nou
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - línies de camp i superfícies equipotencials
+  - potencial i energia potencial elèctrica
+paraules_clau: [càpsula de Petri, plaques paral·leles, camp elèctric uniforme, superfícies equipotencials, voltímetre, sonda, treball elèctric]
+tipus: [experimental, càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de E = ΔV/d i W = qΔV en un muntatge experimental senzill, amb un
+  dibuix qualitatiu de les equipotencials.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Camp elèctric entre les plaques (mòdul, direcció, sentit) i dibuix de les equipotencials amb el seu potencial.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Treball d'una força externa per portar 0,1 µC d'un punt a 7,0 V fins a la placa positiva.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Càpsula de Petri amb dues plaques paral·leles a 0 V i 12 V i una sonda connectada al voltímetre
+solucio_oficial: false
+revisat: false
+notes: >-
+  Segon dels "dos exemples de preguntes" del document "Qüestions d'interpretació i anàlisi
+  d'experiments" (apartat Reconeixement de línies de camp elèctric i superfícies
+  equipotencials). El document l'identifica com a "PAU 2017 JUNY OPCIÓ B P4" (és una imatge
+  escanejada de l'examen); pot estar duplicat amb l'exercici de la convocatòria 2017 si
+  s'ha transcrit. Allà sí que hi hauria pauta oficial i puntuació. Aquí no es dona puntuació
+  ni solució: s'han repartit 2,5 punts a parts iguals (1,25 + 1,25).

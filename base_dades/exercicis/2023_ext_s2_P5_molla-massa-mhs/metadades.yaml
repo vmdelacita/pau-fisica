@@ -1,0 +1,42 @@
+id: 2023_ext_s2_P5_molla-massa-mhs
+titol: Determinació d'una massa amb una molla oscil·lant i equació del MHS
+resum: >-
+  Raonar com determinar una massa a partir del període d'oscil·lació d'una molla de constant
+  coneguda i si el resultat seria igual a la Lluna; deduir l'equació del MHS amb condicions
+  inicials (acceleració màxima positiva) i calcular la velocitat i l'acceleració màximes.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23sl.pdf
+  pagines_enunciat: [10]
+  pdf_solucio: examenes/pau_fisi23sp.pdf
+  pagines_solucio: [12, 13, 14]
+format: antic
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [molla, massa oscil·lant, període, constant elàstica, Lluna, equació del moviment, fase inicial, velocitat màxima, acceleració màxima]
+tipus: [qualitativa, deducció, càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa del període d'una molla i de l'equació del MHS; l'única subtilesa és
+  determinar la fase inicial a partir de l'acceleració màxima positiva.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Justificar com obtenir la massa a partir del període d'oscil·lació i si el resultat canvia a la Lluna.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Equació x(t) amb A = 6 cm, f = 10 Hz i acceleració inicial màxima positiva; v i a màximes.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions parcials de la pauta apareixen després de cada pas; aquí es posen a l'inici
+  del bloc que puntuen. La pauta dona dues opcions equivalents (amb sinus i amb cosinus).

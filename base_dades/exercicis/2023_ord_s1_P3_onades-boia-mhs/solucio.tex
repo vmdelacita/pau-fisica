@@ -1,0 +1,56 @@
+\begin{solapartat}
+\punts{0,1} La longitud d'ona és la distància mínima que separa dues crestes: $\lambda = 4\ \mathrm{m}$.
+
+\punts{0,1} La freqüència és el nombre de cicles que es produeixen per segon:
+\[ f = \tfrac{30\ \mathrm{cicles}}{60\ \mathrm{s}} = 0,50\ \mathrm{Hz}. \]
+
+\punts{0,2} La velocitat de propagació de l'ona és: $v = \lambda f = 2,00\ \mathrm{m/s}$.
+
+\punts{0,2} La boia descriurà un MHS:
+\[ y(t) = A\sin(\omega t + \varphi_0) \]
+
+\punts{0,1} La separació entre una cresta i una vall és dues vegades l'amplitud:
+\[ A = 0,20\ \mathrm{m}. \]
+
+\punts{0,1} $\omega = 2\pi f = \pi\ \mathrm{rad/s}$
+
+\punts{0,2}
+\[ A = A\sin(\varphi_0) \Rightarrow \varphi_0 = \mathrm{ArcSin}(1) = \pi/2\ \mathrm{rad}. \]
+
+\punts{0,25} Així, l'equació del moviment de la boia és:
+
+$y(t) = 0,2\sin\left(\pi t + \frac{\pi}{2}\right)$, $t$ en s, $y$ en m.
+
+Alternativament, es pot descriure l'MHS així: $x(t) = A\cos(\omega t + \varphi_0)$. En aquest cas, $\varphi_0 = 0\ \mathrm{rad}$.
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,5} $v(t) = \frac{dy(t)}{dt} = A\omega\cos(\omega t + \varphi_0)$,
+
+Llavors:
+
+$v(t) = 0,628\ \cos\left(\pi t + \frac{\pi}{2}\right)$, t en s, v en m/s.
+
+Atès que el valor màxim de cosinus és 1:
+\[ v_\text{màx} = A\omega = 0,628\ \mathrm{m/s} \]
+
+\punts{0,25}
+\begin{gather*}
+a(t) = \frac{dv(t)}{dt} = -A\omega^2\sin(\omega t + \varphi_0) = -y(t)\,\omega^2\\
+a(t) = -1,97\sin\left(\pi t + \frac{\pi}{2}\right),\ \text{t en s, a en m/s}^2.
+\end{gather*}
+\begin{center}
+Atès que el valor màxim de $-\sin(\omega t + \varphi_0)$ és 1:
+\end{center}
+\[ a_\text{màx} = A\omega^2 = 1,97\ \mathrm{m/s^2} \]
+
+\punts{0,5} \destaca{Representació gràfica:}
+\figura[0.5]{sol_fig1.png}
+No incloure el títol en l'eix resta \destaca{0,1 p.}
+
+No incloure les unitats en l'eix resta \destaca{0,2 p.}
+
+Si, en la representació, la fase inicial no es correspon amb la de l'equació deduïda resta \destaca{0,2 p.}
+
+No escalar o representar correctament la gràfica serà qualificat amb un zero.
+\end{solapartat}

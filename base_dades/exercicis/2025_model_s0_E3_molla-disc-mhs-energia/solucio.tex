@@ -1,0 +1,51 @@
+\begin{solapartat}
+\punts{0,25} L'equació de la posició vertical és la component del vector posició de la massa respecte al centre del disc, que podem escriure en funció de l'angle $\theta$ respecte a l'eix vertical y. L'angle augmenta linealment amb el temps i proporcionalment a la velocitat angular $\theta = \omega t + \varphi_0$: $y(t) = A\cos(\theta) = A\cos(\omega t + \varphi_0)$
+
+\destaca{O alternativament amb el sinus: $y(t) = A sin(\theta) = A\sin(\omega t + \varphi_0)$}
+
+\punts{0,25} Per escriure l'equació, necessitem l'amplitud, que és el radi $A = 0,19$~m, la velocitat angular, $\omega = 6,41$~rad/s, i la fase inicial, que obtenim de l'instant inicial $t = 0$, on la posició és $-A$.
+
+\punts{0,25} Càlcul de la posició:
+
+Si considera el sentit positiu cap amunt:\\
+$y(0) = -A = A\cos(\varphi_0)$ \ i \ $-1 = \cos(\varphi_0)$, $\varphi = \arccos(-1) = \pi\ rad$\\
+I per tant: $y(t) = 0,19\cos(6,41\,t + \pi)\ m$ i $t$ en segons.\\
+O també: $y(t) = -0,19\cos(6,41\,t)\ m$ i $t$ en segons.
+
+Si considera el sentit positiu cap avall:\\
+$y(0) = A = A\cos(\varphi_0)$ \ i \ $1 = \cos(\varphi_0)$, $\varphi = \arccos(1) = 0\ rad$\\
+I per tant: $y(t) = 0,19\cos(6,41\,t)\ m$ i $t$ en segons.\\
+O també: $y(t) = -0,19\cos(6,41\,t + \pi)\ m$ i $t$ en segons.
+
+\punts{0,25} Les velocitats angulars de les dues masses són iguals. Per tant: $\omega = \sqrt{\frac{k}{m}}$ i $k = \omega^2 m = 6,41^2\cdot 0,5 = 20,54\ N/m$.
+
+\punts{0,25} L'energia mecànica és: $E_m = \frac{1}{2}kA^2 = 0,5\cdot 20,54\cdot 0,19^2 = 0,371\ J$
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,25} Càlcul de la velocitat:
+
+Si considera el sentit positiu cap amunt:
+\[ v(t) = \frac{dy}{dt} = -0,19\cdot 6,41\sin(6,41\,t + \pi) = -1,218\sin(6,41\,t + \pi)\ m/s \]
+Si considera el sentit positiu cap avall:
+\[ v(t) = \frac{dy}{dt} = -0,19\cdot 6,41\sin(6,41\,t) = -1,218\sin(6,41\,t)\ m/s \]
+\punts{0,25} L'energia cinètica:
+\[ E_c = \frac{1}{2}mv^2 = \frac{1}{2}0,5\cdot 1,218^2\,sin^2(6,41\,t + \pi) = 0,371\,sin^2(6,41\,t + \pi)\ \ J \]
+O bé:
+\[ E_c = \frac{1}{2}mv^2 = \frac{1}{2}0,5\cdot 1,218^2\,sin^2(6,41\,t) = 0,371\,sin^2(6,41\,t)\ \ J \]
+
+Gràfica:
+
+$E_m = 0,371\ J$, \quad $E_p = \frac{1}{2}ky^2 = 10,27y^2\ J$,\\
+$E_c = E_m - E_p = 0,371 - 10,27y^2\ J$
+
+\punts{0,25} representació de l'$\mathrm{E_m}$.
+
+\punts{0,25} representació de l'$\mathrm{E_p}$.
+
+\punts{0,25} representació de l'$\mathrm{E_c}$.
+
+Si l'escalatge no és correcte, resta 0,25 punts.
+
+\figura[0.45]{sol_fig1.png}
+\end{solapartat}

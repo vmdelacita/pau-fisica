@@ -1,0 +1,46 @@
+id: 2025_ext_s3_E1_bepicolombo-mercuri
+titol: Sonda BepiColombo i sonda Mio a Mercuri
+resum: >-
+  Càlcul de la distància al centre de Mercuri a partir de l'energia potencial i de
+  l'altura a partir de la intensitat del camp gravitatori; velocitat al periastre d'una
+  òrbita el·líptica per conservació del moment angular i variació de l'acceleració normal.
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi25sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi25sp.pdf
+  pagines_solucio: [2, 3]
+format: nou
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - energia potencial i potencial gravitatori
+  - camp gravitatori i superposició
+  - òrbites el·líptiques i moment angular
+paraules_clau: [BepiColombo, Mio, Mercuri, energia potencial gravitatòria, intensitat del camp gravitatori, òrbita el·líptica, periastre, apoastre, moment angular, acceleració normal]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Diversos càlculs directes (r a partir d'Ep i de g) i una aplicació estàndard de la
+  conservació del moment angular en òrbita el·líptica, amb un raonament qualitatiu
+  sobre l'acceleració normal.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Distància al centre de Mercuri a partir de l'energia potencial (taula) i altura on g = 3,23 m/s².
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Velocitat al periastre per conservació del moment angular i punt d'acceleració normal màxima.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta diu "si substituïm pels tres valors de la taula" però la taula només té dos
+  punts (transcrit tal qual, amb comentari DUBTE). També s'ha mantingut la grafia
+  "perependiculars" i "11.600" de la pauta.

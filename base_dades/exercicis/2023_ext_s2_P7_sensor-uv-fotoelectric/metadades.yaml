@@ -1,0 +1,45 @@
+id: 2023_ext_s2_P7_sensor-uv-fotoelectric
+titol: Sensor d'ultraviolat basat en l'efecte fotoelèctric
+resum: >-
+  Càlcul de la longitud d'ona llindar necessària perquè una cèl·lula fotoelèctrica il·luminada
+  amb llum de 300 nm emeti electrons d'almenys 1 eV; longituds d'ona llindar del tungstè,
+  magnesi i potassi i elecció raonada del material.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23sl.pdf
+  pagines_enunciat: [14]
+  pdf_solucio: examenes/pau_fisi23sp.pdf
+  pagines_solucio: [17, 18]
+format: antic
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [sensor ultraviolat, cèl·lula fotoelèctrica, funció de treball, longitud d'ona llindar, freqüència llindar, tungstè, magnesi, potassi]
+tipus: [càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de l'equació d'Einstein de l'efecte fotoelèctric i de λ0 = hc/W0 amb
+  canvis d'unitats; la tria del material és un raonament senzill.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Longitud d'ona llindar del material per tenir electrons d'1 eV amb llum de 300 nm.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Longitud d'ona llindar de W, Mg i K i tria justificada del material.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions parcials de la pauta apareixen després de cada pas; aquí es posen a l'inici
+  del bloc que puntuen. Errades a la pauta transcrites tal com són (DUBTE): a l'apartat b escriu
+  λ_{0,Mg} = 542 nm quan hauria de ser λ_{0,K}, i diu que les longituds d'ona llindar "del
+  tungstè i del potassi" són massa petites quan hauria de dir "del tungstè i del magnesi".

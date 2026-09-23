@@ -1,0 +1,50 @@
+id: 2023_ord_s5_P5_cicle-bismut-proces-s
+titol: Cicle tancat del bismut en el procés S de nucleosíntesi
+resum: >-
+  Escriure les reaccions nuclears del cicle del bismut del procés S (captura
+  neutrònica amb emissió gamma, desintegracions beta menys i alfa, captura de 3
+  neutrons) i la reacció global del cicle.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [26]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [27]
+format: antic
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - reaccions nuclears i defecte de massa
+  - radioactivitat i llei de desintegració
+paraules_clau: [nucleosíntesi, procés S, supernova, bismut, poloni, plom, captura neutrònica, desintegració beta, desintegració alfa, antineutrí]
+tipus: [qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Només cal escriure reaccions nuclears conservant nombre màssic i atòmic, i sumar-les;
+  el context és nou però el procediment és directe i guiat.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Les tres reaccions de la primera part del cicle (captura n + γ, β⁻, α).
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Captura de 3 neutrons, desintegració β⁻ fins al Bi-209 i reacció global del cicle.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Suma de les cinc reaccions del cicle amb els nuclis que es cancel·len ratllats en colors i reacció neta 4n → He + 2e + 2 antineutrins + γ
+solucio_oficial: true
+revisat: false
+notes: >-
+  El balanç del cicle de la pauta és una imatge amb els nuclis ratllats en colors; es
+  manté com a figura (sol_fig1) en lloc de transcriure-la. El subtema
+  "reaccions nuclears i defecte de massa" és el més proper (no hi ha càlcul de defecte
+  de massa); falta un subtema específic de nucleosíntesi / reaccions de captura. Els
+  símbols dels elements es transcriuen en cursiva com a la pauta. "enlloc" literal de
+  la pauta.

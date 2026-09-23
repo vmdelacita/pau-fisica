@@ -1,0 +1,23 @@
+id: 2025_ext_s3
+any: 2025
+convocatoria: extraordinaria
+serie: 3
+format: nou
+pdf_enunciat: examenes/pau_fisi25sl.pdf
+pdf_solucio: examenes/pau_fisi25sp.pdf
+instruccions: >-
+  L'examen consta de QUATRE exercicis obligatoris. Cada exercici val 2,5 punts.
+  Als exercicis 2 i 3 heu de triar UNA de les dues opcions (A o B) que s'hi proposen.
+  Podeu utilitzar calculadora, però no es permet l'ús de calculadores o altres aparells
+  capaços d'emmagatzemar dades o de transmetre o rebre informació. Les respostes han de
+  ser clares i han d'estar redactades de manera coherent i cohesionada, amb correcció
+  gramatical, lèxica i ortogràfica.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+# La pauta anomena "opció 1/2" les opcions A/B de l'enunciat.
+exercicis:
+  - 2025_ext_s3_E1_bepicolombo-mercuri
+  - 2025_ext_s3_E2A_vareta-conductor-u
+  - 2025_ext_s3_E2B_model-bohr-hidrogen
+  - 2025_ext_s3_E3A_pendol-simple-gravetat
+  - 2025_ext_s3_E3B_trampoli-piscina-laser
+  - 2025_ext_s3_E4_iode-131-radioterapia

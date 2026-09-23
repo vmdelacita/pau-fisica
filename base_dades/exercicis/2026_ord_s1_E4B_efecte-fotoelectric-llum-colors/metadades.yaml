@@ -1,0 +1,42 @@
+id: 2026_ord_s1_E4B_efecte-fotoelectric-llum-colors
+titol: Efecte fotoelèctric amb llum blava, verda i vermella
+resum: >-
+  A partir del potencial de frenada amb llum blava de 460 nm, càlcul de la funció de treball del
+  càtode i de la velocitat màxima dels fotoelectrons; potencial de frenada amb llum verda (520 nm)
+  i justificació que la llum vermella (650 nm) no produeix efecte fotoelèctric.
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi26jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi26jp.pdf
+  pagines_solucio: [9]
+format: nou
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [efecte fotoelèctric, cèl·lula fotoelèctrica, funció de treball, potencial de frenada, energia cinètica màxima, fotó, longitud d'ona, llindar]
+tipus: [càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació de l'equació d'Einstein de l'efecte fotoelèctric amb el potencial de frenada; càlculs
+  repetitius i una justificació senzilla sobre el llindar.
+punts_total: 2.5
+apartats:
+  - etiqueta: "4.1"
+    punts: 1.25
+    resum: Funció de treball del càtode i velocitat màxima dels fotoelectrons amb llum de 460 nm.
+  - etiqueta: "4.2"
+    punts: 1.25
+    resum: Potencial de frenada amb llum verda i vermella; justificació.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta anomena aquesta opció "opció 2".

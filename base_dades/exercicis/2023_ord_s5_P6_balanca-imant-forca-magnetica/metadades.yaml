@@ -1,0 +1,55 @@
+id: 2023_ord_s5_P6_balanca-imant-forca-magnetica
+titol: Balança per mesurar la força magnètica sobre un corrent
+resum: >-
+  A partir de la variació de la lectura d'una balança amb un imant quan circula corrent
+  per un fil, càlcul del camp magnètic de l'imant i justificació de l'augment de
+  lectura; distància a què cal posar un fil paral·lel per obtenir la mateixa força.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [28]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [28, 29]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - força magnètica sobre corrents i entre fils
+  - camp magnètic creat per corrents
+paraules_clau: [balança, imant, fil conductor, força magnètica, regla de la mà dreta, tercera llei de Newton, fils paral·lels, experiment]
+tipus: [càlcul, qualitativa, experimental]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar la lectura de la balança com a força (tercera llei de Newton), aplicar
+  F = IlB i raonar el sentit de la força; l'apartat b és una aplicació directa del camp
+  d'un fil rectilini.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Camp magnètic de l'imant a partir de la lectura de la balança i per què augmenta.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Distància r d'un fil paral·lel amb 8 A per obtenir la mateixa força.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Muntatge amb imant sobre una balança, fil conductor, reòstat i amperímetre; detall de l'imant de 20 cm i el fil de 15 cm
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Fil de 15 cm amb 8 A i fil paral·lel amb 8 A en sentit contrari a una distància r per sota
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Eixos x, y, z amb els vectors I, B i força magnètica, i la mà dreta
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'enunciat, la dada va amb l'etiqueta "Dada" (singular), transcrita amb
+  \blocetiquetat{Dada:}. A la pauta apareix "8 0,15" sense signe de multiplicar
+  (transcrit literalment amb un comentari DUBTE). "Per altre banda" i "cap el" literals.
+  La figura de la pauta (sol_fig1) apareix al costat del darrer paràgraf de l'apartat a.

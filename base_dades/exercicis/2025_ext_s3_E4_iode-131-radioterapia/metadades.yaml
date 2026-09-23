@@ -1,0 +1,51 @@
+id: 2025_ext_s3_E4_iode-131-radioterapia
+titol: Iode 131 en radioteràpia de la tiroide
+resum: >-
+  Reacció de desintegració beta menys del iode 131 a xenó 131 amb l'antineutrí; massa de
+  I-131 d'una pastilla a partir de l'activitat, activitat al cap d'una setmana i
+  representació gràfica de l'activitat en funció del temps.
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi25sl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi25sp.pdf
+  pagines_solucio: [8, 9]
+format: nou
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+  - física de partícules
+paraules_clau: [iode 131, xenó 131, desintegració beta, antineutrí, nombre leptònic, activitat, constant de desintegració, període de semidesintegració, radioteràpia, tiroide]
+tipus: [càlcul, gràfic, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Escriptura d'una desintegració beta amb conservació de càrrega, nombre màssic i nombre
+  leptònic, i càlculs habituals de la llei de desintegració (λ, N, massa, A(t)) amb
+  representació gràfica; diversos passos però tots estàndard.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Reacció de desintegració completa del I-131 (amb antineutrí) i tipus de desintegració.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Massa de I-131 per a A = 40,0·10⁶ Bq, activitat al cap d'una setmana i gràfic A(t).
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula en blanc amb l'eix horitzontal "Temps (dies)" de 0 a 7
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfic de l'activitat A (×10⁶ Bq) en funció del temps (dies), de 40 a 22 aproximadament
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta escriu "enlloc de" (transcrit tal qual). El subtema "física de partícules"
+  s'ha afegit per l'antineutrí i la conservació del nombre leptònic.

@@ -1,0 +1,61 @@
+id: 2023_ext_s2_P2_cubeta-equipotencials
+titol: Equipotencials i camp elèctric en una cubeta amb plaques de coure
+resum: >-
+  Experiment de mesura del potencial en una cubeta amb dues plaques paral·leles: mitjana de
+  les mesures, dibuix d'equipotencials i línies de camp, gràfica V(x) i càlcul del camp a
+  partir del pendent; força sobre una càrrega positiva i treball del camp elèctric.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi23sp.pdf
+  pagines_solucio: [4, 5, 6]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - línies de camp i superfícies equipotencials
+  - potencial i energia potencial elèctrica
+  - camp elèctric i llei de Coulomb
+  - moviment de càrregues en camps elèctrics
+paraules_clau: [cubeta electrolítica, plaques paral·leles, voltímetre, equipotencials, línies de camp, camp uniforme, pendent, treball elèctric]
+tipus: [experimental, gràfic, diagrama, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal tractar dades experimentals, representar-les i extreure'n el camp com a pendent, a més
+  de dibuixar equipotencials i línies de camp; els càlculs de força i treball són directes.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Mitjanes del potencial, equipotencials i línies de camp, gràfica V(x) i mòdul del camp elèctric.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Trajectòria i força sobre una càrrega de 3 mC al punt P i treball del camp de x = 8 cm a x = 0.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Muntatge amb voltímetre i font d'alimentació i paper quadriculat de la cubeta amb el punt P
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Eixos de coordenades buits per representar el potencial en funció de la posició
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Quadrícula amb les equipotencials (blau) i les línies de camp elèctric (vermell)
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Gràfica del potencial elèctric mitjà en funció de la posició, amb ajust lineal
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Quadrícula amb la força sobre la càrrega positiva al punt P, cap a la placa negativa
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions parcials de la pauta apareixen després de cada pas; aquí es posen a l'inici
+  del bloc que puntuen. Les penalitzacions "0,1 p" i "0,2 p" de la gràfica, que a la pauta són
+  en negreta blava, s'han marcat amb \destaca.

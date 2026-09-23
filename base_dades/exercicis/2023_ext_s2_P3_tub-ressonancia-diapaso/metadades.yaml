@@ -1,0 +1,56 @@
+id: 2023_ext_s2_P3_tub-ressonancia-diapaso
+titol: Ressonància d'un tub parcialment submergit en aigua amb un diapasó
+resum: >-
+  Tub ressonant tancat per l'aigua excitat per un diapasó de 442 Hz: dibuix del primer i
+  tercer harmònic amb nodes i ventres, longitud d'ona constant, longitud per al cinquè
+  harmònic; velocitat del so a l'aire i efecte de canviar l'aigua per glicerina.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23sl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi23sp.pdf
+  pagines_solucio: [7, 8]
+format: antic
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones estacionàries
+  - ones sonores i nivell d'intensitat
+  - ones harmòniques i equació d'ona
+  - "ressonància i harmònics en tubs i cordes"
+paraules_clau: [tub de ressonància, diapasó, harmònics, nodes, ventres, tub tancat per un extrem, velocitat del so, glicerina]
+tipus: [diagrama, càlcul, qualitativa, experimental]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal identificar que el tub es comporta com un tub tancat per un extrem, reconèixer els
+  harmònics a partir de les longituds mesurades i dibuixar-los; els càlculs són senzills
+  però hi ha un parany conceptual (la dada de la velocitat a l'aigua i a la glicerina).
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Dibuixar el 1r i 3r harmònic amb nodes i ventres, justificar que λ no varia i trobar L per al 5è harmònic.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Calcular la velocitat del so a l'aire i raonar si canvia en substituir l'aigua per glicerina.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Diapasó sobre un tub parcialment submergit en una proveta amb aigua, amb la longitud L de la columna d'aire
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Harmònic fonamental i tercer harmònic en el tub amb nodes (N) i ventres (V)
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Cinquè harmònic en el tub amb nodes i ventres
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions parcials de la pauta apareixen després de cada pas; aquí es posen a l'inici
+  del bloc que puntuen (els 0,7 p inclouen el dibuix i els criteris de descompte). Les dades de
+  velocitat del so a l'aigua i a la glicerina són distractors (no calen per resoldre).

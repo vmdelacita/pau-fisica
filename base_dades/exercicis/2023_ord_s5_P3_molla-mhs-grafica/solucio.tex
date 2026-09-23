@@ -1,0 +1,63 @@
+\begin{solapartat}
+\figura[0.45]{sol_fig1.png}
+
+\punts{0,2} Del gràfic $T = 4\ \mathrm{s}$ i $A = 2,4\ \mathrm{m}$.
+
+\punts{0,2} \[ \omega = \frac{2\pi}{T} = \frac{\pi}{2}\ \mathrm{rad/s} = 1,57\ \mathrm{rad/s} \]
+
+\punts{0,2} \[ \omega = \sqrt{\frac{k}{m}} \Rightarrow k = m\omega^2 = \frac{\pi^2}{2}\ \mathrm{N/m} = 4,93\ \mathrm{N/m} \]
+
+\destaca{Primera opció}
+
+\punts{0,2} Equació del MHS:
+\[ x(t) = A\,sin(\omega t + \varphi_0) \]
+
+\punts{0,2} Del gràfic $x_0 = x(t{=}0) = 0\ \mathrm{m}$.
+\[ 0 = A\,sin(\varphi_0) \Rightarrow \varphi_0 = ArcSin(0) = 0 \text{ o } \pi\ \mathrm{rad}. \]
+Per saber quina de les dues solucions és correcte calculem $x(t{=}1\ \mathrm{s})$ que segons el gràfic és 2,4~m
+\[ x(t = 1\ \mathrm{s}) = 2,4\,sin\left(\tfrac{\pi}{2}\right) = 2,4\ \mathrm{m},\ \text{correcte: } \varphi_0 = 0 \]
+\[ x(t = 1\ \mathrm{s}) = 2,4\,sin\left(\tfrac{\pi}{2} + \pi\right) = -2,4\ \mathrm{m},\ \text{incorrecte, } \varphi_0 \text{ no és } \pi\ \mathrm{rad}. \]
+
+\punts{0,25} Finalment l'equació del moviment és:
+\[ x(t) = 2,4\,sin\left(\tfrac{\pi}{2}t\right),\ x \text{ en m i } t \text{ en s.} \]
+
+\destaca{Alternativament:}
+
+\punts{0,2} Equació del MHS:
+\[ x(t) = A\,cos(\omega t + \varphi_0) \]
+
+\punts{0,2} Del gràfic $x_0 = x(t{=}0) = 0\ \mathrm{m}$.
+\[ 0 = A\,cos(\varphi_0) \Rightarrow \varphi_0 = ArcCos(0) = \frac{\pi}{2}\ \mathrm{rad} \text{ o } -\frac{\pi}{2}\ \mathrm{rad}. \]
+Per saber quina de les dues solucions és correcte calculem $x(t{=}1\ \mathrm{s})$ que segons el gràfic és 2,4~m
+\[ x(t = 1\ \mathrm{s}) = 2,4\,cos\left(\tfrac{\pi}{2} + \tfrac{\pi}{2}\right) = -2,4\ \mathrm{m},\ \text{incorrecte, } \varphi_0 \text{ no és } \tfrac{\pi}{2}\ \mathrm{rad}. \]
+\[ x(t = 1\ \mathrm{s}) = 2,4\,cos\left(\tfrac{\pi}{2} - \tfrac{\pi}{2}\right) = 2,4\ \mathrm{m},\ \text{correcte: } \varphi_0 = -\tfrac{\pi}{2}\ \mathrm{rad}. \]
+
+\punts{0,25} Finalment l'equació del moviment és:
+\[ x(t) = 2,4\,cos\left(\tfrac{\pi}{2}t - \tfrac{\pi}{2}\right),\ x \text{ en m i } t \text{ en s.} \]
+\end{solapartat}
+
+\begin{solapartat}
+\destaca{Primera opció}
+
+\punts{0,25} \[ v(t) = \frac{dx(t)}{dt} = A\omega\,cos(\omega t + \varphi_0) = 3,77\,cos\left(\tfrac{\pi}{2}t\right) \quad v \text{ en m/s i } t \text{ en s.} \]
+
+\destaca{Alternativament:}
+
+\punts{0,25} \[ v(t) = \frac{dx(t)}{dt} = -A\omega\,sin(\omega t + \varphi_0) = -3,77\,sin\left(\tfrac{\pi}{2}t - \tfrac{\pi}{2}\right) \quad v \text{ en m/s i } t \text{ en s.} \]
+
+\punts{0,5} Representació de la gràfica v-t.
+
+\figura[0.6]{sol_fig2.png}
+
+\punts{0,25} L'acceleració a un cert instant $t$ és el pendent de la gràfica v-t. El pendent val zero en els màxims i mínims; per això a $t=0$~s, 2~s, 4~s, 6~s i 8~s valdrà zero.
+
+\punts{0,25} Els intervals d'acceleració positiva, es donen quan el pendent de la gràfica és positiu, són de 2~s fins a 4~s i de 6~s fins a 8~s. A la resta de temps on l'acceleració no val zero, els pendents són negatius, i per això l'acceleració és negativa.
+
+\destaca{Alternativament:}
+
+\punts{0,2} \[ a(t) = \frac{dv(t)}{dt} = -A\omega^2\,sin(\omega t + \varphi_0) = -x\omega^2 \]
+
+\punts{0,15} L'acceleració serà nul·la quan $x = 0$, del gràfic $x(t)$ això passa a $t=0$~s, 2~s, 4~s, 6~s i 8~s valdrà zero.
+
+\punts{0,15} L'acceleració serà positiva quan $x < 0$, del gràfic $x(t)$ això en els intervals de 2~s fins a 4~s i de 6~s fins a 8~s. A la resta de temps on l'acceleració no val zero, $x > 0$ i per això l'acceleració és negativa.
+\end{solapartat}

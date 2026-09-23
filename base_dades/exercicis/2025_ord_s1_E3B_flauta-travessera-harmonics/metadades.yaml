@@ -1,0 +1,51 @@
+id: 2025_ord_s1_E3B_flauta-travessera-harmonics
+titol: Harmònics d'una flauta travessera
+resum: >-
+  Freqüències del primer i tercer harmònics d'una flauta (tub obert pels dos extrems), dibuix
+  i posició de nodes i ventres; primer i segon modes de vibració quan es tapa un extrem
+  (tub obert-tancat), amb longitud d'ona, freqüència i dibuix.
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi25jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi25jp.pdf
+  pagines_solucio: [6]
+format: nou
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones estacionàries
+  - ones sonores i nivell d'intensitat
+  - "ressonància i harmònics en tubs i cordes"
+paraules_clau: [flauta travessera, tub obert, tub tancat, harmònics, nodes i ventres, ona estacionària, freqüència fonamental, instrument musical]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Aplicació de les condicions de ressonància per a tubs oberts i obert-tancats, però amb molts
+  càlculs de posicions de nodes i ventres i dibuixos dels modes; cal distingir bé els dos casos.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Freqüències del 1r i 3r harmònics d'un tub obert, dibuix i posicions de nodes i ventres.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Tub obert-tancat, dibuix dels dos primers modes, longitud d'ona i freqüència.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Ones estacionàries n = 1 i n = 3 en un tub obert de 0,67 m amb posicions de nodes i ventres
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Primer i segon modes de vibració en un tub obert-tancat de 0,67 m amb nodes i ventres
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta l'anomena "opció 2" (= opció B de l'enunciat). A la pauta, les fraccions de λ1 i λ3
+  de l'apartat b) s'escriuen "4 0,67" sense signe de multiplicar; s'ha transcrit com 4·0,67.
+  S'hi afegeix el subtema "ones sonores" pel context del so en un instrument.

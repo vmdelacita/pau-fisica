@@ -1,0 +1,44 @@
+id: 2025_ord_s1_E1_caixa-eines-eei-orbita
+titol: Caixa d'eines en òrbita i desorbitació de l'EEI
+resum: >-
+  Deducció de la velocitat orbital a partir de la gravitació universal i càlcul per a una
+  caixa d'eines a 400 km d'altura, amb el nombre de voltes diàries; energia mecànica de
+  l'EEI a 280 km, significat del signe i energia cinètica d'impacte en caure a la Terra.
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi25jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi25jp.pdf
+  pagines_solucio: [2]
+format: nou
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - llei de la gravitació universal
+  - òrbites circulars i satèl·lits
+  - energia mecànica orbital
+  - energia potencial i potencial gravitatori
+paraules_clau: [brossa espacial, Estació Espacial Internacional, velocitat orbital, període orbital, energia mecànica, òrbita lligada, conservació de l'energia, energia cinètica d'impacte]
+tipus: [deducció, càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Deducció clàssica de la velocitat orbital i càlculs directes, però l'apartat b) demana
+  aplicar la conservació de l'energia mecànica entre l'òrbita i la superfície, un pas
+  menys immediat que el càlcul d'energies en una sola òrbita.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Deduir v(r), calcular la velocitat de la caixa a 400 km i el nombre de voltes per dia.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Energia mecànica de l'EEI a 280 km, signe, i energia cinètica d'impacte amb l'aigua.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

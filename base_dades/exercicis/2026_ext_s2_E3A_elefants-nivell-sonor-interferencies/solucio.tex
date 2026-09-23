@@ -1,0 +1,55 @@
+\begin{solapartat}
+\punts{1,0} El nivell d'intensitat sonora està definit com:
+\[ \beta = 10\log\left(\frac{I}{I_0}\right) \]
+I la intensitat sonora és:
+\[ I = I_0\,10^{\frac{\beta}{10}} \]
+I la relació d'intensitats sonores és:
+\[ \frac{I_1}{I_2} = \frac{10^{\frac{\beta_1}{10}}}{10^{\frac{\beta_2}{10}}} = 10^{\left(\frac{\beta_1}{10} - \frac{\beta_2}{10}\right)} = 10^{\frac{3}{10}} = 10^{0,3} = 1,995 \]
+D'altra banda, la relació entre les dues intensitats és:
+\[ \frac{I_1}{I_2} = \frac{P/4\pi r_1^2}{P/4\pi r_2^2} = \left(\frac{r_2}{r_1}\right)^2 \Longrightarrow r_2 = r_1\sqrt{\frac{I_1}{I_2}} \]
+i
+\[ r_1 = \sqrt{15^2 + 5^2} = 15,8\ \mathrm{m} \]
+Llavors:
+\[ r_2 = r_1\sqrt{\frac{I_1}{I_2}} = 15,8\sqrt{1,995} = 22,3\ \mathrm{m} \]
+
+\punts{0,25} Per altra banda:
+\[ r_2 = \sqrt{20^2 + h_2^2} = 22,3\ \mathrm{m} \Longrightarrow h_2 = \sqrt{22,3^2 - 20^2} = 9,94\ \mathrm{m} \]
+
+\destaca{Alternativament,}
+
+\punts{0,25} es pot calcular primer les intensitats:
+\[ I_1 = I_0\,10^{\frac{\beta_1}{10}} = 3,162\times 10^{-6}\ \mathrm{W{\cdot}m^{-2}},\quad I_2 = I_0\,10^{\frac{\beta_2}{10}} = 1,585\times 10^{-6}\ \mathrm{W{\cdot}m^{-2}} \]
+\punts{0,5} I a partir de $I_1$ calcular la potència:
+\[ P = 4\pi r_1^2 I_1 = 9,934\times 10^{-3}\ \mathrm{W} \]
+\punts{0,25} I a partir de $I_2$ i la potència calcular $r_2$:
+\[ r_2 = \sqrt{\frac{P}{4\pi I_2}} = 22,3\ \mathrm{m} \]
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,25} Primer determinarem la longitud d'ona:
+\[ \lambda = \frac{v}{f} = \frac{340}{80} = 4,25\ \mathrm{m} \]
+% DUBTE: la pauta diu dues vegades "l'ona que surt del primer elefant"; per a x_2 hauria de ser "del segon elefant".
+\punts{0,25} Donat un punt situat entre els dos elefants i situat dins la de la línia recta que els uneix, anomenem $x_1$ la distància recorreguda per l'ona que surt del primer elefant fins aquest punt i $x_2$ la distància recorreguda per l'ona que surt del primer elefant fins a aquest punt:
+\[ x_1 + x_2 = 10\ \mathrm{m} \]
+
+\punts{0,25} Les interferències destructives es produeixen quan hi ha un desfasament de mitja longitud d'ona, és a dir, quan la diferència de recorregut és:
+\[ \Delta x = |x_1 - x_2| = \left(n + \frac{1}{2}\right)\lambda, \quad n = 0,1,2,\ldots \]
+
+\punts{0,5} Per a $n = 0$, tenim
+\begin{gather*} x_1 + x_2 = 10\ \mathrm{m}\\ |x_1 - x_2| = 2,125\ \mathrm{m} \end{gather*}
+Que té com a solucions $x_1 = 6,06\ \mathrm{m}$, $x_2 = 3,94\ \mathrm{m}$ i, $x_1 = 3,94\ \mathrm{m}$, $x_2 = 6,06\ \mathrm{m}$.
+
+Per a $n = 1$, tenim
+\begin{gather*} x_1 + x_2 = 10\ \mathrm{m}\\ |x_1 - x_2| = 6,375\ \mathrm{m} \end{gather*}
+Que té com a solucions $x_1 = 8,19\ \mathrm{m}$, $x_2 = 1,81\ \mathrm{m}$ i, $x_1 = 1,81\ \mathrm{m}$, $x_2 = 8,19\ \mathrm{m}$.
+
+% DUBTE: la pauta diu "n = 3", però |x1 - x2| = 10,625 m correspon a n = 2 (i després "n > 3" hauria de ser "n > 2").
+Per $n = 3$ tenim,
+\begin{gather*} x_1 + x_2 = 10\ \mathrm{m}\\ |x_1 - x_2| = 10,625\ \mathrm{m} \end{gather*}
+Que té com a solucions $x_1 = 10,31\ \mathrm{m}$, $x_2 = -0,31\ \mathrm{m}$ i, $x_1 = -0,31\ \mathrm{m}$, $x_2 = 10,31\ \mathrm{m}$.
+
+Que estan fora de l'espai entre els dos elefants, per tant, ja no són solucions vàlides i el mateix passarà per a $n > 3$. Per tant, només tenim les solucions per a $n = 0$ i $n = 1$:
+\begin{center}\textbf{6,06 m, 3,94 m, 8,19 m i 1,81 m}\end{center}
+
+\destaca{Nota per als correctors:} si donen la meitat de solucions, cal restar 0,25~p. en aquest apartat.
+\end{solapartat}

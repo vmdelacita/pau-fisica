@@ -1,0 +1,57 @@
+id: 2023_ord_s1_P6_espira-flux-induccio
+titol: Espira fixa en un camp magnètic variable
+resum: >-
+  A partir de la gràfica del flux magnètic en funció del temps, sentit del corrent induït en
+  tres intervals i identificació de la gràfica B(t) compatible amb el flux; càlcul de la FEM
+  i de la intensitat induïda en cada interval.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [12]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [12, 13]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [espira, flux magnètic, llei de Faraday, llei de Lenz, corrent induït, sentit del corrent, força electromotriu, gràfica flux-temps, llei d'Ohm]
+tipus: [qualitativa, gràfic, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar gràfiques de flux i de camp magnètic, aplicar la llei de Lenz per
+  determinar el sentit del corrent i calcular la FEM per trams; problema d'inducció típic.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Sentit del corrent induït en cada interval i quina gràfica B(t) provoca la variació de flux.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Intensitat del corrent induït en cada interval (R = 5 mΩ).
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Espira en un camp magnètic cap endins i gràfica del flux en funció del temps
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Dues gràfiques (a i b) del camp magnètic en funció del temps
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Figura 1, espira amb el camp magnètic extern en sentit -z
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Figura 2, camp induït en sentit +z, corrent antihorari i regla de la mà dreta
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions parcials de la pauta apareixen just abans del pas que puntuen (algunes
+  en vermell i negreta a l'original). DUBTE: a l'apartat a la pauta diu que el camp ha
+  d'augmentar "durant els intervals de temps de 0 a 4 i de 4 a 8", quan hauria de ser
+  de 0 a 4 i de 8 a 12; s'ha transcrit tal com és. La gràfica de l'enunciat arriba
+  aproximadament a 7,0e-3 Wb als 12 s, mentre que la pauta usa 7,2e-3 Wb.

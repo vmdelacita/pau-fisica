@@ -1,0 +1,45 @@
+id: 2024_ext_s3_P2_altaveus-interferencia-so
+titol: Interferència del so de dos altaveus en fase
+resum: >-
+  Freqüències entre 200 i 400 Hz que donen interferència constructiva en la posició
+  d'una persona i destructiva en la d'una altra; intensitat sonora de cada altaveu
+  i nivell d'intensitat sonora total percebut.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi24sp.pdf
+  pagines_solucio: [4]
+format: antic
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - interferències
+  - ones sonores i nivell d'intensitat
+paraules_clau: [altaveus, interferència constructiva, interferència destructiva, diferència de camins, freqüència, intensitat sonora, decibels, ones esfèriques]
+tipus: [càlcul, qualitativa]
+dificultat: 4
+justificacio_dificultat: >-
+  Cal plantejar les condicions de màxim i mínim en funció de la diferència de camins,
+  trobar tots els valors enters dins d'un interval de freqüències i creuar-los; la
+  part d'intensitats és més directa però requereix sumar intensitats de dues fonts.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Freqüències de màxim a A i la que dona màxim a A i mínim a B.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Intensitat de cada altaveu a A i nivell d'intensitat sonora total.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Dos altaveus separats 2d i persones A i B amb les distàncies d1, d2, d'1 i d'2
+solucio_oficial: true
+revisat: false
+notes: ""

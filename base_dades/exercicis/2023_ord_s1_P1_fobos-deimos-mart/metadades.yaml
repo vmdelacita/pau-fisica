@@ -1,0 +1,46 @@
+id: 2023_ord_s1_P1_fobos-deimos-mart
+titol: Fobos i Deimos, els satèl·lits de Mart
+resum: >-
+  A partir del radi orbital i el període de Fobos, càlcul de la massa de Mart i de la
+  intensitat del camp gravitatori a la seva superfície; període de revolució de Deimos
+  (tercera llei de Kepler) i la seva energia mecànica.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [2, 3]
+format: antic
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - camp gravitatori i superposició
+  - lleis de Kepler
+  - energia mecànica orbital
+paraules_clau: [Mart, Fobos, Deimos, massa d'un planeta, intensitat del camp gravitatori, període de revolució, tercera llei de Kepler, energia mecànica, satèl·lit natural]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic de satèl·lits: cal passar el període a segons, aplicar la dinàmica
+  del moviment circular per obtenir la massa del planeta i encadenar-la amb g, Kepler i
+  l'energia mecànica; enunciat amb moltes dades distractores.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Massa de Mart a partir de l'òrbita de Fobos i camp gravitatori a la superfície de Mart.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Període de revolució de Deimos i la seva energia mecànica.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta les puntuacions parcials apareixen just abans del pas que puntuen; el
+  primer "0,1 p." és abans de l'etiqueta a) i s'ha col·locat al començament de l'apartat.

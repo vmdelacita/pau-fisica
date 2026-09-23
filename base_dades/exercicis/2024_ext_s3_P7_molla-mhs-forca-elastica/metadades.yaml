@@ -1,0 +1,51 @@
+id: 2024_ext_s3_P7_molla-mhs-forca-elastica
+titol: Massa penjada d'una molla en moviment harmònic simple
+resum: >-
+  Període, constant de la molla i equació del moviment d'una massa que oscil·la
+  penjada d'una molla començant a la posició més baixa, amb la gràfica de la força
+  elàstica; energia mecànica, energia cinètica en funció de la posició i velocitat.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24sl.pdf
+  pagines_enunciat: [14]
+  pdf_solucio: examenes/pau_fisi24sp.pdf
+  pagines_solucio: [10, 11]
+format: antic
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - energia del MHS
+paraules_clau: [molla, oscil·lador harmònic, període, constant elàstica, fase inicial, força elàstica, energia mecànica, energia cinètica, velocitat]
+tipus: [càlcul, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic de MHS amb diversos passos: cal determinar la fase inicial a
+  partir de les condicions inicials i representar la força elàstica amb escales
+  correctes; els càlculs d'energia són directes.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Període, constant de la molla, equació del moviment i gràfica de la força elàstica en dos períodes.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Energia mecànica, Ec(x) i mòdul de la velocitat a 3 cm per sobre de l'equilibri.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula mil·limetrada en blanc per representar la força elàstica
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica de la força elàstica F(t) = 0,13 cos(4,19t) N durant dos períodes (0–3 s)
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta original barreja punt i coma decimal (0.075, 1.75, 0.13); s'ha unificat a
+  coma decimal segons les convencions del format. "altes expressions" (sic) es
+  transcriu tal com és a la pauta.

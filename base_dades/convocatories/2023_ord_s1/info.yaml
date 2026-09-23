@@ -1,0 +1,21 @@
+id: 2023_ord_s1
+any: 2023
+convocatoria: ordinaria
+serie: 1
+format: antic
+pdf_enunciat: examenes/pau_fisi23jl.pdf
+pdf_solucio: examenes/pau_fisi23jp.pdf
+# El PDF conté les sèries 1 i 5: la sèrie 1 és a les pàgines 1-16 de l'enunciat
+# i a les pàgines 1-15 de la pauta.
+instruccions: >-
+  Responeu a QUATRE dels set problemes següents. En el cas que respongueu a més
+  problemes, només es valoraran els quatre primers. Cada problema val 2,5 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2023_ord_s1_P1_fobos-deimos-mart
+  - 2023_ord_s1_P2_fil-espira-camp-magnetic
+  - 2023_ord_s1_P3_onades-boia-mhs
+  - 2023_ord_s1_P4_fusio-proto-proto-aigua
+  - 2023_ord_s1_P5_cubeta-equipotencials-dipol
+  - 2023_ord_s1_P6_espira-flux-induccio
+  - 2023_ord_s1_P7_lampada-uva-fotoelectric

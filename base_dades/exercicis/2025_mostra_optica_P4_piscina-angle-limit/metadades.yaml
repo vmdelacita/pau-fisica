@@ -1,0 +1,54 @@
+id: 2025_mostra_optica_P4_piscina-angle-limit
+titol: Cercle de llum d'una llanterna al fons d'una piscina
+resum: >-
+  Deducció de l'angle límit a partir de la llei d'Snell i justificació de per què no hi ha
+  reflexió total de l'aire a l'aigua; càlcul del radi del cercle de llum que es veu a la
+  lona sobre una piscina de 2 m.
+font:
+  tipus: mostra
+  any: 2025
+  convocatoria: mostra
+  serie: optica
+  exercici: 4
+  opcio: null
+  pdf_enunciat: documents oficials/02_pau25_fisica_MostraExercicis_optica.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: documents oficials/02_pau25_fisica_MostraExercicis_optica.pdf
+  pagines_solucio: [6]
+format: nou
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - reflexió i refracció
+paraules_clau: [llei d'Snell, angle límit, reflexió total, índex de refracció, piscina, cercle de llum]
+tipus: [deducció, càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Deducció estàndard de l'angle límit amb una justificació qualitativa i un càlcul
+  geomètric senzill del radi; problema PAU típic.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Deduir l'angle límit amb la llei d'Snell i justificar si hi ha reflexió total en la situació inversa.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Radi del cercle de llum a la lona.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Piscina tapada amb una lona, amb la llanterna al fons i el cercle de llum a la lona
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Rajos incidents a la interfície aigua-aire, amb el raig refractat rasant (angle límit) i la reflexió total
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Esquema de la piscina amb h = 2 m, el radi r del cercle de llum i l'angle límit θ1c
+solucio_oficial: true
+revisat: false
+notes: >-
+  L'enunciat no indica els punts per apartat; s'han repartit a parts iguals (1,25 + 1,25),
+  que coincideix amb la suma de les puntuacions parcials de la resolució. L'enunciat original
+  inclou la solució curta "Solució: 48.6º, 2,28 m", mentre que la resolució detallada dona
+  48,7º (discrepància d'arrodoniment a l'original). A la resolució els graus s'escriuen amb
+  un "0" volat ("48,7⁰"); s'ha transcrit com a símbol de grau.

@@ -1,0 +1,59 @@
+id: 2026_ext_s2_E2B_espira-quadrada-camp-magnetic
+titol: Espira quadrada que travessa una regió amb camp magnètic
+resum: >-
+  Una espira quadrada de 10 cm entra a velocitat constant en una regió de 30 cm amb camp
+  magnètic uniforme: flux en diversos instants, gràfica de la fem induïda en funció del temps
+  durant 9 s i sentit del corrent induït en entrar i en sortir (llei de Lenz).
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 2
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi26sl.pdf
+  pagines_enunciat: [4, 5]
+  pdf_solucio: examenes/pau_fisi26sp.pdf
+  pagines_solucio: [5, 6]
+format: nou
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [espira quadrada, flux magnètic, força electromotriu induïda, llei de Faraday, llei de Lenz, sentit del corrent induït, gràfica fem-temps, velocitat constant]
+tipus: [càlcul, gràfic, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal analitzar per intervals la superfície de l'espira dins del camp, construir la gràfica
+  de la fem a trossos i aplicar la llei de Lenz en entrar i sortir; problema PAU típic
+  d'inducció amb diversos passos però ben guiat.
+punts_total: 2.5
+apartats:
+  - etiqueta: "2.1"
+    punts: 1.25
+    resum: Valor absolut del flux a t = 1, 5 i 7 s.
+  - etiqueta: "2.2"
+    punts: 1.25
+    resum: Gràfica de |fem| en funció del temps (0–9 s) i sentit del corrent induït en cada interval.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Espira quadrada de 10 cm a t = 0 a punt d'entrar en la regió de 30 cm amb camp B cap endins
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Quadrícula en blanc amb l'eix de temps (0–9 s) per representar la fem
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica de la fem (V) en funció del temps, 2,5·10⁻⁵ V entre 0–2 s i 6–8 s i nul·la la resta
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Camp magnètic induït cap amunt i corrent antihorari a l'espira en entrar, amb la mà dreta (polze amunt)
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Camp magnètic induït cap avall i corrent horari a l'espira en sortir, amb la mà dreta (polze avall)
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta anomena aquest exercici "opció 2" (= opció B de l'enunciat). A la pauta, les dues
+  figures de la regla de la mà dreta estan maquetades al costat del text de cada criteri; aquí
+  es posen a continuació. Es manté "l'expira" (sic) de la pauta.

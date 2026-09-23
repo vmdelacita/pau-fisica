@@ -1,0 +1,51 @@
+id: 2024_ord_s1_P3_camp-electric-terra-gota
+titol: Camp elèctric terrestre i gota d'aigua en equilibri
+resum: >-
+  Representació del camp elèctric radial al voltant de la Terra carregada negativament
+  i càlcul de la seva càrrega total. Força elèctrica sobre un electró, massa i
+  diàmetre d'una gota d'aigua amb un electró extra en equilibri entre pes i força
+  elèctrica.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi24jp.pdf
+  pagines_solucio: [6]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - línies de camp i superfícies equipotencials
+  - "equilibri de càrregues en camps elèctrics"
+paraules_clau: [camp elèctric terrestre, càrrega de la Terra, esfera carregada, gota d'aigua, equilibri de forces, pes, electró, densitat]
+tipus: [càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa del camp d'una càrrega puntual i d'un equilibri de forces; l'únic
+  pas addicional és passar de massa a diàmetre amb la densitat.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Dibuix del camp elèctric al voltant de la Terra i càrrega total que el crea.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Força sobre un electró, massa i diàmetre d'una gota amb un electró en equilibri; esquema de forces.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esfera terrestre amb el camp elèctric radial dirigit cap al centre
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Esquema de la gota amb càrrega negativa, força elèctrica cap amunt i pes cap avall sobre la superfície terrestre
+solucio_oficial: true
+revisat: false
+notes: >-
+  El subtema "moviment de càrregues en camps elèctrics" s'ha fet servir per a
+  l'equilibri d'una partícula carregada (pes i força elèctrica), per ser el més proper.

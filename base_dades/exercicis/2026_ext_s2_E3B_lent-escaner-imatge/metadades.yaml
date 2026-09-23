@@ -1,0 +1,50 @@
+id: 2026_ext_s2_E3B_lent-escaner-imatge
+titol: Lent d'un escàner que forma una imatge invertida de la mateixa mida
+resum: >-
+  Un full a 20,0 cm de la lent d'un escàner forma una imatge invertida de la mateixa mida:
+  posició del sensor, distància focal imatge i tipus de lent; diagrama de raigs amb totes
+  les distàncies.
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi26sl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi26sp.pdf
+  pagines_solucio: [9]
+format: nou
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - formació d'imatges amb lents i miralls
+  - instruments òptics i l'ull
+paraules_clau: [escàner, lent convergent, augment lateral, imatge invertida, distància focal, equació de les lents primes, diagrama de raigs, sensor]
+tipus: [càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de l'augment lateral (β = −1) i de l'equació de les lents primes, i un
+  diagrama de raigs estàndard (objecte a 2f); pocs passos i enunciat guiat.
+punts_total: 2.5
+apartats:
+  - etiqueta: "3.1"
+    punts: 1.25
+    resum: Distància lent–sensor, distància focal imatge i tipus de lent.
+  - etiqueta: "3.2"
+    punts: 1.25
+    resum: Diagrama de raigs a la quadrícula amb les distàncies s, s', f i f'.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula en blanc per dibuixar el diagrama de raigs
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Diagrama de raigs de la lent convergent amb objecte a −20 cm, focus a ±10 cm i imatge invertida a 20 cm
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta anomena aquest exercici "opció 2" (= opció B). El subtema "instruments òptics i
+  l'ull" s'hi afegeix pel context de l'escàner, tot i que el contingut és formació d'imatges
+  amb una lent.

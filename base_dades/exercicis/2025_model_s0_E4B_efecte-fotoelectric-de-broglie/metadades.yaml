@@ -1,0 +1,43 @@
+id: 2025_model_s0_E4B_efecte-fotoelectric-de-broglie
+titol: Efecte fotoelèctric amb llindar de 650 nm i longitud d'ona de De Broglie
+resum: >-
+  Treball d'extracció d'un metall amb longitud d'ona llindar de 650 nm i potencial de
+  frenada amb llum de 300 nm; expressió de la velocitat dels fotoelectrons en funció de
+  la longitud d'ona, velocitat per a 500 nm i longitud d'ona de De Broglie associada.
+font:
+  tipus: model
+  any: 2025
+  convocatoria: model
+  serie: 0
+  exercici: 4
+  opcio: B
+  pdf_enunciat: documents oficials/01_pau25_fisica_0.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: documents oficials/01_pau25_fisica_0c.pdf
+  pagines_solucio: [9]
+format: nou
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - dualitat ona-partícula
+paraules_clau: [efecte fotoelèctric, longitud d'ona llindar, treball d'extracció, potencial de frenada, energia cinètica dels electrons, longitud d'ona de De Broglie, quantitat de moviment]
+tipus: [càlcul, deducció]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic d'efecte fotoelèctric amb diversos passos encadenats; la deducció
+  de v(λ) i el càlcul de la longitud d'ona de De Broglie són directes.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Treball d'extracció a partir del llindar de 650 nm i potencial de frenada per a 300 nm.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Expressió v(λ), velocitat per a 500 nm i longitud d'ona de De Broglie dels electrons.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'enunciat i a la pauta s'anomena "Opció 2)"; aquí correspon a l'opció B. La pauta
+  escriu les puntuacions de l'apartat a com "0, 25 punts"; s'han transcrit com 0,25.

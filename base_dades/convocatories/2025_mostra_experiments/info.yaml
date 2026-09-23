@@ -1,0 +1,18 @@
+id: 2025_mostra_experiments
+any: 2025
+convocatoria: mostra
+serie: experiments
+format: nou
+pdf_enunciat: documents oficials/02_pau25_fisica_QuestionsExperiments.pdf
+pdf_solucio: documents oficials/02_pau25_fisica_QuestionsExperiments.pdf
+instruccions: >-
+  Document oficial que presenta la tipologia de preguntes d'interpretació i anàlisi
+  d'experiments de la PAU 2025 (interferències sonores, experiència d'Oersted, línies de
+  camp i superfícies equipotencials) amb exemples de pregunta, sense solució ni puntuació.
+# Ordre del document original (ids de base_dades/exercicis)
+exercicis:
+  - 2025_mostra_experiments_Q1_interferencies-sonores-taula
+  - 2025_mostra_experiments_Q2_interferencies-sonores-punts
+  - 2025_mostra_experiments_Q3_experiencia-oersted-bruixola
+  - 2025_mostra_experiments_Q4_linies-camp-dues-carregues
+  - 2025_mostra_experiments_Q5_capsula-petri-equipotencials

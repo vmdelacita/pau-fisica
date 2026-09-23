@@ -1,0 +1,43 @@
+id: 2026_ext_s2_E1_starlink-orbita-baixa
+titol: Satèl·lits Starlink en òrbita terrestre baixa
+resum: >-
+  Deducció de la velocitat orbital a partir de la gravitació universal, càlcul per a un
+  satèl·lit Starlink a 550 km i nombre de voltes diàries; deducció i càlcul de l'energia
+  mecànica després d'una maniobra que el baixa a 530 km i justificació del seu signe negatiu.
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi26sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi26sp.pdf
+  pagines_solucio: [2]
+format: nou
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - llei de la gravitació universal
+  - òrbites circulars i satèl·lits
+  - energia mecànica orbital
+paraules_clau: [Starlink, constel·lació de satèl·lits, òrbita terrestre baixa, velocitat orbital, període orbital, voltes per dia, energia mecànica, òrbita lligada]
+tipus: [deducció, càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Problema estàndard de satèl·lit en òrbita circular: deduccions clàssiques de la velocitat
+  orbital i de l'energia mecànica i càlculs directes; l'únic pas extra és comparar el període
+  amb un dia.
+punts_total: 2.5
+apartats:
+  - etiqueta: "1.1"
+    punts: 1.25
+    resum: Deduir v(r, M_T), calcular-la a 550 km i el nombre de voltes en un dia.
+  - etiqueta: "1.2"
+    punts: 1.25
+    resum: Deduir E_m(r, M_T, m), calcular-la a 530 km i justificar-ne el signe negatiu.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

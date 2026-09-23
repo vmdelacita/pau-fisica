@@ -1,0 +1,37 @@
+\begin{solapartat}
+El moment angular del Voyager respecte el centre del Sol s'expressa com:
+\[ \vec{L}_{Voy,Sol} = m\vec{r}\times\vec{v}, \]
+on $\vec{r}$ és el vector de posició que apunta del centre del Sol al Voyager, $m$ és la massa del Voyager i $\vec{v}$ és la seva velocitat respecte el sol. El mòdul del moment angular s'expressa com:
+\[ L_{Voy,Sol} = m\,r\,v\sin\theta, \]
+on $\theta$ és l'angle que formen $\vec{r}$ i $\vec{v}$. Com considerem òrbites circulars, $\vec{r}$ i $\vec{v}$ són perependiculars, $\theta = \pi/2$ i $\sin\theta = 1$. Per tant, el mòdul del moment angular és aproximadament:
+\[ L_{Voy,Sol} = m\,r\,v \]
+La velocitat de la Voyager respecte el Sol serà la suma de la velocitat de la Terra i la velocitat respecte la Terra. La velocitat de la Terra, sabent que triga un any en fer una volta al voltant del Sol és:
+\[ v_T = \frac{2\pi}{365\cdot 24\cdot 3600\ \mathrm{s}}\cdot 150\cdot 10^{9} = 2,99\cdot 10^{4}\ \mathrm{m/s} \]
+Per tant, la velocitat del Voyager, respecte del Sol, just després del llançament és:
+\[ v = 10^{4} + v_T = 3,99\cdot 10^{4}\ \mathrm{m/s} \]
+La velocitat angular és:
+\[ \omega = \frac{v}{r} = \frac{3,99\cdot 10^{4}}{150\cdot 10^{9}} = 2,66\cdot 10^{-7}\ \mathrm{rad/s} \]
+I el moment angular és:
+\[ L_{Voy,Sol} = m\,r\,v = 720\cdot 150\cdot 10^{9}\cdot 3,99\cdot 10^{4} = 4,31\cdot 10^{18}\ \mathrm{kg\cdot m^2/s} \]
+Com el moment angular es conserva, la velocitat del Voyager quan es troba a prop de Júpiter és
+\[ v = \frac{L_{Voy,Sol}}{m\,r} = \frac{4,31\cdot 10^{18}}{720\cdot 740\cdot 10^{9}} = 8,08\cdot 10^{3}\ \mathrm{m/s} \]
+I la velocitat angular és:
+\[ \omega = \frac{v}{r} = \frac{8,08\cdot 10^{3}}{740\cdot 10^{9}} = 1,09\cdot 10^{-8}\ \mathrm{rad/s} \]
+\end{solapartat}
+
+\begin{solapartat}
+Per escapar la gravetat del Sol, cal com a mínim que l'energia mecànica quan la distància al Sol és molt gran sigui zero. Com que el camp gravitatori és conservatiu l'energia mecànica a una distància $d_{nau-sol}$ serà:
+\[ E_m = \frac{1}{2}mv^2 - G\,\frac{M_{Sol}m}{d_{nau-sol}} = 0\ \mathrm{J} \]
+Llavors l'energia cinètica que cal és:
+\[ E_c = \frac{1}{2}mv^2 = G\,\frac{M_{Sol}m}{d_{nau-sol}} \]
+I la velocitat d'escapament és:
+\[ v_{esc} = \sqrt{2\,G\,\frac{M_{Sol}}{d_{nau-sol}}} = \sqrt{2\ 6,67\cdot 10^{-11}\ \frac{1,989\cdot 10^{30}}{740\cdot 10^{9}}} = 1,89\cdot 10^{4}\ \mathrm{m/s} \]
+La Voyager no pot escapar del Sol abans d'interaccionar amb Júpiter atès que la seva velocitat és inferior a la velocitat d'escapament.
+
+L'energia que ha de subministrar Júpiter ha de ser suficient per fer que l'energia mecànica total sigui zero:
+\[ E_m = 0 = \frac{1}{2}mv^2 - G\,\frac{M_{Sol}m}{r} + E_{Jup} \]
+\begin{align*}
+E_{Jup} &= G\,\frac{m\,M_{Sol}}{r} - \frac{1}{2}mv^2 = 6,67\cdot 10^{-11}\,\frac{720\cdot 1,989\cdot 10^{30}}{740\cdot 10^{9}} - \frac{1}{2}\,720\,(8,08\cdot 10^{3})^2\\
+&= 1,05\cdot 10^{11}\ \mathrm{J}
+\end{align*}
+\end{solapartat}

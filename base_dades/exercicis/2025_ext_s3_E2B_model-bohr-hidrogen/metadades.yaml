@@ -1,0 +1,47 @@
+id: 2025_ext_s3_E2B_model-bohr-hidrogen
+titol: Model de Bohr de l'àtom d'hidrogen
+resum: >-
+  Demostració de L = e·√(k·m·r) per a l'electró en òrbita circular sota la força de
+  Coulomb, deducció i càlcul del radi de Bohr amb la quantització del moment angular, i
+  càlcul de les energies cinètica, potencial i mecànica clàssiques de l'electró.
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 2
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi25sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi25sp.pdf
+  pagines_solucio: [4, 5]
+format: nou
+bloc: Camps electromagnètics
+blocs_secundaris: ["Física relativista, quàntica i nuclear"]
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+  - moviment de càrregues en camps elèctrics
+  - "model de Bohr i espectres atòmics"
+paraules_clau: [model de Bohr, àtom d'hidrogen, electró, llei de Coulomb, moment angular, quantització, radi de Bohr, energia cinètica, energia potencial elèctrica, energia mecànica]
+tipus: [deducció, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Deducció guiada anàloga a la d'un satèl·lit (força de Coulomb com a centrípeta) combinada
+  amb la quantització del moment angular; els càlculs d'energia són directes.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Demostrar L = e√(kmr), deduir r(h, n, k, m, e) i calcular el radi per a n = 1.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Energies cinètica, potencial i mecànica de l'electró per a r = 53 pm.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  No hi ha cap subtema específic per al moviment circular d'una càrrega sota una força
+  de Coulomb (model de Bohr); s'ha triat "moviment de càrregues en camps elèctrics" com el
+  més proper. Es manté la grafia "perependiculars" de la pauta. A la pauta, 2,18 − 4,35
+  dona −2,18 (arrodoniment de valors no arrodonits); transcrit tal qual.

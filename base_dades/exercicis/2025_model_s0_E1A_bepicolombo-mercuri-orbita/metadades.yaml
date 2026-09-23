@@ -1,0 +1,46 @@
+id: 2025_model_s0_E1A_bepicolombo-mercuri-orbita
+titol: Satèl·lit MPO de la missió BepiColombo en òrbita al voltant de Mercuri
+resum: >-
+  Deducció de la velocitat orbital d'un satèl·lit en òrbita circular i càlcul per al
+  satèl·lit MPO al voltant de Mercuri; nombre de voltes en un any terrestre. Expressió
+  de l'energia mecànica orbital i massa màxima del satèl·lit perquè pugui escapar del
+  camp gravitatori de Mercuri amb l'energia del combustible.
+font:
+  tipus: model
+  any: 2025
+  convocatoria: model
+  serie: 0
+  exercici: 1
+  opcio: A
+  pdf_enunciat: documents oficials/01_pau25_fisica_0.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: documents oficials/01_pau25_fisica_0c.pdf
+  pagines_solucio: [2]
+format: nou
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - llei de la gravitació universal
+  - òrbites circulars i satèl·lits
+  - energia mecànica orbital
+  - velocitat d'escapament
+paraules_clau: [BepiColombo, Mercuri, satèl·lit MPO, velocitat orbital, període orbital, energia mecànica, escapament, combustible]
+tipus: [deducció, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Deducció estàndard de la velocitat orbital i càlculs directes, però l'apartat b
+  demana relacionar l'energia del combustible amb la condició d'escapament i aïllar-ne
+  la massa del satèl·lit, un plantejament menys habitual.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Deduir v(r, M_M), calcular la velocitat del MPO i les voltes en un any terrestre.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Deduir E_m = -GMm/2r i calcular la massa màxima del MPO per escapar amb 4,5·10^9 J.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'enunciat i a la pauta s'anomena "Opció 1)"; aquí correspon a l'opció A.

@@ -1,0 +1,47 @@
+id: 2024_ext_s3_P5_hipermetropia-lent-convergent
+titol: Correcció de la hipermetropia amb una lent convergent
+resum: >-
+  Distància focal i potència de la lent correctora d'un ull hipermetrop; posició,
+  mida i característiques de la imatge d'un objecte davant d'una lent convergent, amb
+  el diagrama de raigs.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 5
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24sl.pdf
+  pagines_enunciat: [10]
+  pdf_solucio: examenes/pau_fisi24sp.pdf
+  pagines_solucio: [8]
+format: antic
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - instruments òptics i l'ull
+  - formació d'imatges amb lents i miralls
+paraules_clau: [hipermetropia, ulleres, lent convergent, lent prima, distància focal, potència, diòptries, diagrama de raigs, augment lateral]
+tipus: [càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de l'equació de la lent prima i de l'augment lateral amb dades
+  explícites; només cal cura amb el criteri de signes i fer el diagrama de raigs.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Distància focal i potència de la lent correctora (objecte a 35 cm, imatge a 70 cm).
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Posició, mida i característiques de la imatge amb una lent de 20 cm i diagrama de raigs.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula en blanc per dibuixar el diagrama de raigs
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Diagrama de raigs de la lent convergent amb objecte, focus i imatge real invertida
+solucio_oficial: true
+revisat: false
+notes: ""

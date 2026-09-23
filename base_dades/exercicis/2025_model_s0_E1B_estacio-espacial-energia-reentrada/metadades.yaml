@@ -1,0 +1,49 @@
+id: 2025_model_s0_E1B_estacio-espacial-energia-reentrada
+titol: Estació Espacial Internacional, òrbita i caiguda final
+resum: >-
+  Deducció de la velocitat orbital a partir de la gravitació universal, velocitat de
+  l'EEI a 400 km i voltes diàries; energia mecànica de l'EEI a 280 km i justificació
+  del signe, i energia cinètica d'impacte a la superfície per conservació de l'energia.
+font:
+  tipus: model
+  any: 2025
+  convocatoria: model
+  serie: 0
+  exercici: 1
+  opcio: B
+  pdf_enunciat: documents oficials/01_pau25_fisica_0.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: documents oficials/01_pau25_fisica_0c.pdf
+  pagines_solucio: [3, 4]
+format: nou
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - llei de la gravitació universal
+  - òrbites circulars i satèl·lits
+  - energia potencial i potencial gravitatori
+  - energia mecànica orbital
+paraules_clau: [Estació Espacial Internacional, EEI, velocitat orbital, període orbital, energia mecànica, energia cinètica d'impacte, conservació de l'energia, reentrada]
+tipus: [deducció, càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema típic de satèl·lit en òrbita circular amb diversos passos; l'última part
+  demana aplicar la conservació de l'energia mecànica entre l'òrbita i la superfície.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Deduir v(r), calcular la velocitat de l'EEI a 400 km i el nombre de voltes diàries.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Energia mecànica a 280 km i el seu signe; energia cinètica d'impacte amb la superfície.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'enunciat i a la pauta s'anomena "Opció 2)"; aquí correspon a l'opció B.
+  DUBTES (errors de la pauta transcrits tal com són): (1) apartat a: t_dia = 8,64·10^5 s
+  (hauria de ser 8,64·10^4 s) i n = 15 voltes (el quocient correcte és ~15,6; amb 8,64·10^5
+  sortiria ~156); (2) apartat b: les puntuacions parcials sumen 1,15 p, no 1,25 p;
+  (3) la velocitat final és 8,80·10^3 m/s a la pauta, però amb E_c = 1,40·10^13 J surt
+  ~8,07·10^3 m/s. A més, la pauta calcula la velocitat d'impacte, que l'enunciat no demana.

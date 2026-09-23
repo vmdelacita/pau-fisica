@@ -1,0 +1,48 @@
+id: 2023_ord_s5_P2_linies-camp-dos-ions
+titol: Línies de camp elèctric de dos ions de càrrega diferent
+resum: >-
+  A partir d'un mapa de línies de camp elèctric en el pla, cal localitzar l'ió positiu i
+  el negatiu, deduir-ne la càrrega (+4e i −e) pel nombre de línies i raonar la forma
+  de les superfícies equipotencials molt lluny dels ions.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [20]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [19]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - línies de camp i superfícies equipotencials
+  - camp elèctric i llei de Coulomb
+paraules_clau: [línies de camp elèctric, ions, font i pou de camp, càrrega elemental, superfícies equipotencials, càrrega puntual, dipol asimètric]
+tipus: [qualitativa, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  No hi ha càlculs, però cal interpretar un mapa de línies de camp (fonts, pous,
+  densitat de línies) i raonar el comportament llunyà de la distribució com a càrrega
+  neta puntual.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Posició i càrrega (signe i valor) de cada ió a partir de les línies de camp.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Forma de les superfícies equipotencials molt lluny dels ions.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Línies de camp elèctric en el pla (x, y) creades per dos ions situats a (−1, 0) i (1, 0)
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'original la figura va després dels dos apartats. A la pauta, "superfície
+  esfèrica" apareix en color (transcrit amb \destaca). Es transcriu literalment "que al
+  separació" i "es una càrrega" (errades tipogràfiques de la pauta).

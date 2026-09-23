@@ -1,0 +1,52 @@
+id: 2025_ord_s1_E3A_moneda-bloc-angle-limit
+titol: Moneda dins d'un bloc de policarbonat i angle límit
+resum: >-
+  Deducció de l'angle límit a partir de la llei de Snell, càlcul per a policarbonat-aire i
+  justificació de per què no hi ha reflexió total si s'inverteixen els medis; distància
+  màxima a la qual un observador veu la moneda i esquema dels raigs a l'angle límit.
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi25jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi25jp.pdf
+  pagines_solucio: [5]
+format: nou
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - reflexió i refracció
+paraules_clau: [llei de Snell, angle límit, angle crític, reflexió total, índex de refracció, policarbonat, esquema de raigs]
+tipus: [deducció, càlcul, qualitativa, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  La deducció de l'angle límit és estàndard, però cal interpretar la situació geomètrica
+  (relacionar l'angle amb la distància de l'observador) i raonar la reflexió total.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Deduir l'angle límit, calcular-lo i justificar si hi ha reflexió total amb els medis invertits.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Distància màxima d per veure la moneda i esquema dels raigs incident, reflectit i refractat.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Bloc de 4 m × 2 m amb la moneda al centre de la cara posterior i dos observadors separats d
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Raig des de la moneda que incideix amb l'angle límit a la cara davantera, distància d
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Esquema amb raig incident i reflectit a 39,3° i raig refractat a 90°, d = 1,64 m
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta l'anomena "opció 1" (= opció A de l'enunciat). L'enunciat diu "Dada:" (singular);
+  s'ha posat amb \dades{} per coherència. El resultat d_max = 1,635 m de la
+  pauta té 4 xifres significatives (a la figura hi posa 1,64 m); es transcriu tal com és.

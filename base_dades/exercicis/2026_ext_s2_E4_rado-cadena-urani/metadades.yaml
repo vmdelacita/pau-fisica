@@ -1,0 +1,47 @@
+id: 2026_ext_s2_E4_rado-cadena-urani
+titol: El radó i la cadena de desintegració de l'urani
+resum: >-
+  A partir d'un esquema de la cadena de desintegració de l'urani-238 fins al radó-222, cal
+  escriure les desintegracions alfa i beta; després, activitat d'una massa de radó en una
+  habitació, comparació amb el llindar de 300 Bq/m³ i activitat per unitat de volum al cap
+  de 15 dies.
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi26sl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi26sp.pdf
+  pagines_solucio: [10]
+format: nou
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [radó, cadena de desintegració de l'urani, desintegració alfa, desintegració beta, antineutrí, activitat, període de semidesintegració, constant de desintegració, càncer de pulmó]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal llegir un esquema de cadena radioactiva i escriure sis reaccions identificant-ne el
+  tipus, i encadenar massa → nombre d'àtoms → activitat → activitat per volum i llei de
+  desintegració; molts passos però estàndard.
+punts_total: 2.5
+apartats:
+  - etiqueta: "4.1"
+    punts: 1.25
+    resum: Escriure les desintegracions de la cadena U-238 → Rn-222 i indicar-ne el tipus.
+  - etiqueta: "4.2"
+    punts: 1.25
+    resum: Activitat de 0,80 pg de Rn en 18 m³, comparació amb el llindar i activitat per volum als 15 dies.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Cadena de desintegració U-238 → Th-234 → Pa-234 → U-234 → Th-230 → Ra-226 → Rn-222 amb els períodes de semidesintegració
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'original la figura de la cadena apareix després de l'apartat 4.2 i abans de les dades.

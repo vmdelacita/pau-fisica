@@ -1,0 +1,42 @@
+\begin{solapartat}
+\punts{0,15} Emplenar la taula:
+
+\begin{center}
+\begin{tabular}{|l|*{5}{p{1.3cm}|}}
+\hline
+Longitud $L$ (m) & 0,20 & 0,30 & 0,50 & 0,80 & 1,20 \\
+\hline
+Període $T$ (s) & 0,90 & 1,08 & 1,43 & 1,75 & 2,20 \\
+\hline
+$T^2$ (s$^2$) & 0,81 & 1,17 & 2,04 & 3,06 & 4,84 \\
+\hline
+\end{tabular}
+\end{center}
+
+\punts{0,5} Representació gràfica correctament escalada, amb títols i unitats:
+\figura[0.55]{sol_fig1.png}
+
+\punts{0,3} A partir de l'expressió del període del pèndol, tenim:
+\[ T = 2\pi\sqrt{\frac{L}{g}} \Rightarrow T^2 = \frac{4\pi^2}{g}\,L \]
+Podem comprovar, doncs, que $T^2$ és proporcional a $L$, ja que $\frac{4\pi^2}{g}$ és constant, per tant, la representació de $T^2$ en funció de $L$ ha de ser una recta que passa per l'origen.
+
+\punts{0,15} El pendent és aproximadament:
+\[ m = \frac{4,8}{1,2} = 4,00\ \mathrm{s^2/m} \]
+\punts{0,15} A partir de l'expressió anterior, sabem que el pendent és:
+\[ m = \frac{4\pi^2}{g} \Rightarrow g = \frac{4\pi^2}{4} = 9,87\ \mathrm{m/s^2} \]
+\end{solapartat}
+
+\begin{solapartat}
+\figura[0.25]{sol_fig2.png}
+\punts{0,5} A partir de la representació, podem veure que l'alçària $h$ és:
+\[ h = L(1 - \cos(\theta)) = 1(1 - \cos(30^\circ)) = 0,134\ \mathrm{m} \]
+I l'energia potencial és:
+\[ E_p = mgh = 1,5\cdot 9,8\cdot 0,134 = 1,97\ \mathrm{J} \]
+\punts{0,25} En aquest punt, la velocitat és nul·la; per tant, l'energia mecànica és:
+\[ E_m = E_c + E_p = 1,97\ \mathrm{J} \]
+\punts{0,25} Com que negligim el fregament, l'energia mecànica es conserva. En el punt més baix, $E_p = 0$; per tant, l'energia cinètica màxima és:
+\[ E_{c,max} = 1,97\ \mathrm{J} \]
+\punts{0,25} I la velocitat màxima és: $v = \sqrt{\frac{2\,E_{c,max}}{m}} = 1,62\ \mathrm{m/s}$
+
+\destaca{Nota per als correctors: no s'ha de penalitzar l'estudiant que faci servir com a valor de $g$ l'obtingut en l'apartat anterior.}
+\end{solapartat}

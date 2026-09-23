@@ -1,0 +1,39 @@
+\begin{solapartat}
+\punts{0,5} El flux del camp magnètic és el producte escalar del camp magnètic per l'àrea de l'expira: $\phi = \vec{B}\cdot\vec{S}$
+
+Com que $\vec{B}$ i $\vec{S}$ tenen la mateixa direcció: $|\phi| = B\cdot S$.
+
+\destaca{Nota per als correctors}: no es penalitzarà el fet que l'estudiant utilitzi directament l'expressió $|\phi| = B\cdot S$ sense justificar-la.
+
+\punts{0,25} A $t = 1\ \mathrm{s}$ l'espira haurà avançat una distància $x = vt = 5\ \mathrm{cm}$, i, per tant, $S = 5\times 10 = 50\ \mathrm{cm^2}$, llavors el flux és:
+\[ |\phi|(t = 1\mathrm{s}) = B\cdot S = 5\times 10^{-3}\times 50\times 10^{-4} = 2,5\times 10^{-5}\ \mathrm{Wb} \]
+\punts{0,25} A $t = 5\ \mathrm{s}$ l'espira haurà avançat una distància $x = vt = 25\ \mathrm{cm}$, l'espira és totalment dins del camp, per tant, $S = 10\times 10 = 100\ \mathrm{cm^2}$, llavors el flux és:
+\[ |\phi|(t = 5\mathrm{s}) = B\cdot S = 5\times 10^{-3}\times 100\times 10^{-4} = 5,0\times 10^{-5}\ \mathrm{Wb} \]
+\punts{0,25} A $t = 7\ \mathrm{s}$ l'espira haurà avançat una distància $x = vt = 35\ \mathrm{cm}$, només 5~cm estan dins el camp magnètic i, per tant, $S = 5\times 10 = 50\ \mathrm{cm^2}$, llavors el flux és:
+\[ |\phi|(t = 7\mathrm{s}) = B\cdot S = 5\times 10^{-3}\times 50\times 10^{-4} = 2,5\times 10^{-5}\ \mathrm{Wb} \]
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,5} Segons la llei de Faraday només s'induirà una fem quan el flux variï, és a dir, quan la superfície de la bobina dins de la zona on hi ha camp magnètic variï, per tant, serà durant dos intervals de temps:
+\begin{itemize}
+  \item Mentre està entrant de t=0~s fins a t=2~s, atès que triga 2~s en entrar totalment dins la zona on hi ha camp magnètic. En aquest cas $S = l\cdot v\cdot t$, on és $l$ la longitud del costat.
+  \[ \phi(t) = B\cdot S = B\cdot l\cdot v\cdot t \]
+  \[ \varepsilon = \left|\frac{d\phi}{dt}\right| = B\cdot l\cdot v = 5\times 10^{-3}\times 0,1\times 0,05 = 2,5\times 10^{-5}\ \mathrm{V} \]
+  \item Mentre està sortint de t=6~s (comença a sortir quan ha recorregut 30~cm) fins a t=8~s (surt totalment quan ha recorregut 40~cm). En aquest cas $S = l\cdot(0,4 - v\cdot t)$
+  \[ \phi(t) = B\cdot S = B\cdot l\cdot(0,4 - v\cdot t) \]
+  \[ \varepsilon = \left|\frac{d\phi}{dt}\right| = B\cdot l\cdot v = 5\times 10^{-3}\times 0,1\times 0,05 = 2,5\times 10^{-5}\ \mathrm{V} \]
+\end{itemize}
+\destaca{Nota per als correctors}: també es considerarà correcte que justifiqui que el valor absolut entrant és igual que el valor absolut sortint atès que es mou a velocitat constant. També es considerarà correcte l'ús de diferencials.
+
+\punts{0,25} De 2 a 6~s l'espira està totalment immersa dins la zona on hi ha camp magnètic, per tant, el flux és constant i la fem és nul·la. Per $t > 8\ \mathrm{s}$ l'espira està totalment fora de la zona on hi ha camp magnètic, per tant, el flux tampoc varia i la fem és nul·la.
+
+\figura[0.5]{sol_fig1.png}
+
+\punts{0,25} Quan entra, de t=0~s a 2~s, el flux augmenta, per tant, el camp magnètic induït s'oposa al camp magnètic existent, i segons la regla de la mà dreta el corrent circula en sentit antihorari.
+
+\figura[0.32]{sol_fig2.png}
+
+\punts{0,25} Quan surt, de t=6~s a 8~s, el flux disminueix, per tant, el camp magnètic induït és paral·lel al camp magnètic existent, i segons la regla de la mà dreta el corrent circula en sentit horari.
+
+\figura[0.32]{sol_fig3.png}
+\end{solapartat}

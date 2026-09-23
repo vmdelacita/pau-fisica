@@ -1,0 +1,62 @@
+id: 2023_ord_s5_P4_cano-electrons-camp-magnetic
+titol: Canó d'electrons amb camp elèctric i desviació magnètica
+resum: >-
+  Electrons accelerats entre càtode i ànode (220 V, 20 cm) i desviats per un camp
+  magnètic fins a un blanc: mòdul i línies del camp elèctric, potencial més alt,
+  velocitat a l'ànode i al blanc, i direcció i sentit del camp magnètic.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [24]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [24, 25, 26]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps elèctrics
+  - moviment de càrregues en camps magnètics
+  - línies de camp i superfícies equipotencials
+  - potencial i energia potencial elèctrica
+paraules_clau: [canó d'electrons, càtode, ànode, camp elèctric uniforme, diferència de potencial, força de Lorentz, regla de la mà dreta, trajectòria semicircular, sublimació]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Combina acceleració en camp elèctric uniforme (per forces o per energies) i
+  desviació magnètica amb raonament vectorial del sentit de B per a una càrrega
+  negativa; és un problema PAU típic de diversos passos.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Mòdul del camp elèctric, línies de camp i quin elèctrode és a potencial més alt.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Velocitat a la sortida de l'ànode i en arribar al blanc; direcció i sentit del camp magnètic.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Esquema del canó d'electrons amb càtode, ànode (separats 20 cm), trajectòria semicircular i blanc
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Vectors velocitat, força elèctrica (amunt) i camp elèctric (avall) sobre l'electró
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Línies de camp elèctric verticals de l'ànode cap al càtode
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Eixos x, y, z amb els vectors v, B, acceleració normal i força magnètica sobre l'electró
+  - fitxer: sol_fig4.png
+    on: solucio
+    descripcio: Camp magnètic entrant (creus) i trajectòria semicircular de l'ànode al blanc
+solucio_oficial: true
+revisat: false
+notes: >-
+  "Primera opció, per forces" i "Alternativament, per energies" en color a la pauta
+  (\destaca). La figura de vectors (sol_fig1) està al marge dret a la pauta; aquí es
+  posa sola. A l'original les dades van abans de la figura.

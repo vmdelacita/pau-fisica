@@ -1,0 +1,47 @@
+\begin{solapartat}
+\destaca{Primera opció:}
+\begin{itemize}[label={},leftmargin=2em]
+\item \punts{0,5} Equació del MHS:
+\[ y(t) = A\sin(\omega t + \varphi_0) \]
+Paràmetres: $\omega = 2\pi f = 300\pi\ \mathrm{rad/s}$, $y_0 = y(t=0) = 0\ \mathrm{m}$.
+\[ 0 = A\sin(\varphi_0) \Rightarrow \varphi_0 = \mathrm{ArcSin}(0) = 0 \text{ o } \pi\ \mathrm{rad}. \]
+Finalment l'equació del moviment és:
+\[ y(t) = 2,0\times 10^{-3}\sin(300\pi t),\ y \text{ en m i } t \text{ en s.} \]
+\end{itemize}
+Una fase inicial de $\pi$ rad també és correcte atès que no s'indica el sentit de la velocitat inicial.
+
+\destaca{Alternativament:}
+\begin{itemize}[label={},leftmargin=2em]
+\item \punts{0,5} Equació del MHS:
+\[ y(t) = A\cos(\omega t + \varphi_0) \]
+Paràmetres: $\omega = 2\pi f = 300\pi\ \mathrm{rad/s}$, $y_0 = y(t=0) = 0\ \mathrm{m}$.
+\[ 0 = A\cos(\varphi_0) \Rightarrow \varphi_0 = \mathrm{ArcCos}(0) = \frac{\pi}{2}\ \mathrm{rad} \text{ o } -\frac{\pi}{2}\ \mathrm{rad}. \]
+Finalment, l'equació del moviment és:
+\[ y(t) = 2,0\times 10^{-3}\cos\left(300\pi t - \frac{\pi}{2}\right),\ y \text{ en m i } t \text{ en s.} \]
+\end{itemize}
+Una fase inicial de $\pi/2$ rad també és correcta, atès que no s'indica el sentit de la velocitat inicial.
+
+Si no s'analitza la condició de posició inicial nul·la, cal restar \destaca{0,25 p}.
+
+\medskip
+\punts{0,25} La longitud d'ona és: $\lambda = \frac{v}{f} = \frac{3200}{150} = 21,3\ \mathrm{m}$
+
+\punts{0,5} El nombre d'ona s'expressa com: $k = \frac{2\pi}{\lambda} = 0,294\ \mathrm{m^{-1}}$
+
+L'equació d'ona s'expressa com: $y(x, t) = A\cdot\sin[kx - \omega t + \varphi_0]$
+
+Condició inicial: $y(0, 0) = 0 \Longrightarrow \sin[\varphi_0] = 0 \Longrightarrow \varphi_0 = \begin{cases} 0\ \mathrm{rad}\\ \pi\ \mathrm{rad}\end{cases}$
+\[ y(x, t) = 2,0\times 10^{-3}\cdot\sin[0,294x - 300\pi t] \text{ amb } y \text{ i } x \text{ en m i } t \text{ en s.} \]
+També es pot expressar com: $y(x, t) = 2,0\times 10^{-3}\cdot\cos\left[0,294x - 300\pi t - \frac{\pi}{2}\right]$ amb $y$ i $x$ en m i $t$ en s.
+
+Si no s'analitza la condició de posició inicial nul·la, no penalitzem la nota, atès que ja s'ha tingut en compte al MHS.
+
+Si el terme de fase és $kx + \omega t$, es penalitzarà amb 0,25 punts.
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,5} Si el so es propaga de forma isotròpica amb un el front d'ona és esfèric, la intensitat a una distància $r$ es calcula com:
+\[ I = \frac{P}{4\pi r^2} = \frac{10^{-3}}{4\pi 3^2} = 8,84\times 10^{-6}\ \mathrm{W/m^2} \]
+\punts{0,75} El nivell d'intensitat sonora es defineix com:
+\[ \beta = 10\log\frac{I}{I_0} = 10\log\frac{8,84\times 10^{-6}}{10^{-12}} = 69,5\ \mathrm{dB} \]
+\end{solapartat}

@@ -1,0 +1,55 @@
+id: 2024_ord_s1_P2_masses-molla-disc-mhs
+titol: Ombres d'una massa en una molla i d'una massa en un disc giratori
+resum: >-
+  Equivalència entre el moviment circular uniforme projectat i el MHS d'una massa
+  penjada d'una molla: equació de la posició, constant elàstica i energia mecànica;
+  equació de la velocitat, energia cinètica en funció del temps i gràfica de les
+  energies mecànica, potencial i cinètica en funció de la posició.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi24jp.pdf
+  pagines_solucio: [4, 5]
+format: antic
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - energia del MHS
+paraules_clau: [molla, disc giratori, projecció del moviment circular, ombres, fase inicial, constant elàstica, energia cinètica, energia potencial elàstica]
+tipus: [càlcul, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal relacionar el MCU projectat amb el MHS i determinar la fase inicial a partir de
+  la condició inicial; la resta són càlculs estàndard d'energia i una gràfica
+  d'energies en funció de la posició.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Equació y(t) de les ombres, constant elàstica i energia mecànica del MHS.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Equació v(t), energia cinètica Ec(t) i gràfica Em, Ep, Ec en funció de y.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia del muntatge amb el disc giratori, la massa penjada de la molla i les seves ombres
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Quadrícula en blanc amb eixos E (J) i y (m) per representar les energies
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica de l'energia mecànica, potencial i cinètica en funció de y entre -0,19 i 0,19 m
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta, l'equació de la velocitat amb sentit positiu cap amunt acaba en "m/si"
+  (probablement "m/s i"); s'ha transcrit com a m/s. La quadrícula de l'enunciat (fig2)
+  és l'espai de resposta de l'examen original.

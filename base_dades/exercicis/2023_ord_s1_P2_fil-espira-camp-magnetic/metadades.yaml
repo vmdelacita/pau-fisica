@@ -1,0 +1,65 @@
+id: 2023_ord_s1_P2_fil-espira-camp-magnetic
+titol: Fil rectilini amb una espira circular intercalada
+resum: >-
+  Camp magnètic total (vector i mòdul) al centre d'una espira circular formada per un
+  fil molt llarg que segueix l'eix z; orientació de l'espira (girant-la respecte a l'eix y)
+  que fa el camp mínim i màxim, amb els valors i el sentit del corrent.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [4, 5]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+paraules_clau: [fil rectilini infinit, espira circular, regla de la mà dreta, superposició de camps magnètics, camp magnètic mínim i màxim, vectors en 3D]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 4
+justificacio_dificultat: >-
+  Cal superposar vectorialment en 3D el camp del fil i el de l'espira determinant-ne els
+  sentits amb la regla de la mà dreta, i raonar geomètricament com orientar l'espira
+  per minimitzar o maximitzar el camp.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Vector i mòdul del camp magnètic total al centre de l'espira.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Orientació de l'espira per obtenir el camp mínim i el màxim, valors i sentit del corrent.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fil sobre l'eix z que forma una espira circular en el pla xy centrada a (0, R, 0)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Regla de la mà dreta per al camp d'un fil rectilini
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Camp B1 creat pel fil al centre de l'espira
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Regla de la mà dreta per al camp al centre d'una espira
+  - fitxer: sol_fig4.png
+    on: solucio
+    descripcio: Camps B1 (fil) i B2 (espira) al centre de l'espira
+  - fitxer: sol_fig5.png
+    on: solucio
+    descripcio: Espira en el pla yz amb B2 oposat a B1 (camp mínim)
+  - fitxer: sol_fig6.png
+    on: solucio
+    descripcio: Espira en el pla yz amb B2 del mateix sentit que B1 (camp màxim)
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta les figures són al costat del text (maquetació a dues columnes); aquí s'han
+  col·locat just després del paràgraf corresponent. Les puntuacions parcials de la pauta
+  apareixen just abans del pas que puntuen.

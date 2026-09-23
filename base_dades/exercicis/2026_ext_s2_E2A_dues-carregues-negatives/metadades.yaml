@@ -1,0 +1,54 @@
+id: 2026_ext_s2_E2A_dues-carregues-negatives
+titol: Dues càrregues puntuals negatives a l'eix x
+resum: >-
+  Representació qualitativa de les línies de camp i equipotencials de dues càrregues
+  negatives (−2 μC i −4 μC); punt d'equilibri d'una tercera càrrega negativa a l'eix x i
+  treball del camp elèctric en desplaçar-la fins al punt mitjà, amb interpretació del signe.
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 2
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi26sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi26sp.pdf
+  pagines_solucio: [3, 4]
+format: nou
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+  - línies de camp i superfícies equipotencials
+paraules_clau: [càrregues puntuals, línies de camp elèctric, línies equipotencials, punt d'equilibri, força nul·la, superposició, treball del camp elèctric, potencial elèctric]
+tipus: [diagrama, càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Combina un dibuix qualitatiu de línies de camp i equipotencials (amb detalls com la
+  proporció de línies) amb el càlcul del punt d'equilibri (equació de segon grau) i el
+  treball a partir de potencials; problema PAU típic amb diversos passos.
+punts_total: 2.5
+apartats:
+  - etiqueta: "2.1"
+    punts: 1.25
+    resum: Representar les càrregues i dibuixar qualitativament línies de camp i equipotencials.
+  - etiqueta: "2.2"
+    punts: 1.25
+    resum: Posició d'equilibri de q_C a l'eix x i treball del camp en portar-la al punt mitjà; signe.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula del pla xy (x de −1 a 2 m, y de −2 a 2 m) per dibuixar-hi les càrregues i les línies
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Línies de camp elèctric i equipotencials de les dues càrregues negatives qA i qB
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Esquema de les forces F_A i F_B sobre q_C situada entre q_A i q_B a distància x
+solucio_oficial: true
+revisat: false
+notes: >-
+  La quadrícula de l'enunciat apareix a l'original després de les dades. La pauta anomena
+  aquest exercici "opció 1" (= opció A de l'enunciat).

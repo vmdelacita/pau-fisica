@@ -1,0 +1,69 @@
+% =========================================================
+% Preàmbul comú per als fragments d'exercicis (enunciat.tex / solucio.tex).
+% S'inclou DESPRÉS de \documentclass i babel. El fan servir comprova.py
+% (previsualització) i, més endavant, l'app per compondre exàmens.
+% =========================================================
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{icomma}        % $6,87$ amb coma decimal i espaiat correcte
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{newunicodechar}
+% "l·l" ben compost amb el caràcter UTF-8 (i "·" dins de fórmules = \cdot)
+\newunicodechar{·}{\ifmmode\cdot\else\kern-0.06em\raisebox{0.42ex}{.}\kern-0.06em\fi}
+
+% Carpeta de l'exercici que s'està incloent (la redefineix qui l'inclou).
+\providecommand{\exdir}{.}
+
+% ---------- Figures ----------
+% \figura[amplada relativa]{fitxer.png}
+\newcommand{\figura}[2][0.5]{%
+  \par\smallskip{\centering\includegraphics[width=#1\linewidth]{\exdir/#2}\par}\smallskip}
+
+% ---------- Enunciat ----------
+% Bloc de dades i de notes al final de l'enunciat.
+\newcommand{\blocetiquetat}[2]{%
+  \par\medskip\noindent
+  \makebox[1.6cm][l]{\textsc{#1}}%
+  \parbox[t]{\dimexpr\linewidth-1.6cm\relax}{\raggedright #2}\par\smallskip}
+\newcommand{\dades}[1]{\blocetiquetat{Dades:}{#1}}
+\newcommand{\nota}[1]{\blocetiquetat{Nota:}{#1}}
+
+% Apartats: \begin{apartat}{1,25} ... \end{apartat}
+% L'argument són els punts (text, amb coma decimal). L'etiqueta la posa qui
+% compon el document (\etiquetaapartat), per poder renumerar.
+\newcounter{apartat}
+\providecommand{\etiquetaapartat}{\alph{apartat})}
+% \mostrapuntsfalse amaga els punts dels apartats (fulls d'exercicis).
+\newif\ifmostrapunts \mostrapuntstrue
+% "1 punt" / "1,25 punts"
+\newcommand{\textpunts}[1]{#1~\def\puntsu{1}\edef\puntsx{#1}\ifx\puntsx\puntsu punt\else punts\fi}
+% Posa #1 alineat a la dreta al final del paràgraf (a la línia següent si no hi cap).
+\newcommand{\aladreta}[1]{{\unskip\nobreak\hfil\penalty50\hskip1em\hbox{}\nobreak\hfil
+  \mbox{#1}\parfillskip=0pt \finalhyphendemerits=0 \par}}
+% És una llista d'un sol element: els paràgrafs interns conserven el sagnat.
+\newenvironment{apartat}[1]{%
+  \def\puntsapartat{#1}%
+  \refstepcounter{apartat}%
+  \begin{list}{}{\setlength{\leftmargin}{2em}\setlength{\labelwidth}{1.6em}%
+    \setlength{\labelsep}{0.4em}\setlength{\topsep}{4pt}%
+    \setlength{\parsep}{3pt}\setlength{\itemsep}{0pt}}%
+  \item[\textbf{\etiquetaapartat}]\ignorespaces
+}{%
+  \ifmostrapunts\ifx\puntsapartat\empty\else\aladreta{\textit{[\textpunts{\puntsapartat}]}}\fi\fi
+  \end{list}}
+
+% ---------- Solució ----------
+% \begin{solapartat} ... \end{solapartat}  (un per apartat, mateix ordre)
+\newcounter{solapartat}
+\providecommand{\etiquetasolapartat}{\alph{solapartat})}
+\newenvironment{solapartat}{%
+  \refstepcounter{solapartat}%
+  \par\medskip\noindent\textbf{\etiquetasolapartat}\par\nopagebreak\smallskip
+}{\par}
+% Puntuació parcial de la pauta: \punts{0,75}
+\newcommand{\punts}[1]{\textcolor{red!70!black}{\textbf{#1\,p}}\ }
+% Paraula destacada de la pauta ("Alternativament", "Nota"...)
+\newcommand{\destaca}[1]{\textcolor{blue!70!black}{\textbf{#1}}}

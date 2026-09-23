@@ -1,0 +1,49 @@
+id: 2026_ord_s1_E1B_cometa-halley-kepler
+titol: Òrbita el·líptica del cometa Halley
+resum: >-
+  Dibuix de l'òrbita el·líptica del cometa Halley, càlcul del semieix major i del període
+  amb la tercera llei de Kepler i raonament històric sobre les observacions de Halley;
+  punt de velocitat màxima i velocitat al periheli per conservació del moment angular o de l'energia.
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 1
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi26jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi26jp.pdf
+  pagines_solucio: [3, 4]
+format: nou
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - lleis de Kepler
+  - òrbites el·líptiques i moment angular
+  - energia mecànica orbital
+paraules_clau: [cometa Halley, periheli, afeli, semieix major, tercera llei de Kepler, segona llei de Kepler, conservació del moment angular, conservació de l'energia, unitat astronòmica]
+tipus: [diagrama, càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic d'òrbita el·líptica: cal aplicar la tercera llei de Kepler amb unitats
+  astronòmiques, raonar amb context històric i triar un principi de conservació per a la velocitat al periheli.
+punts_total: 2.5
+apartats:
+  - etiqueta: "1.1"
+    punts: 1.25
+    resum: Dibuix de l'òrbita, semieix major, període orbital i si Halley va veure el cometa més d'una vegada.
+  - etiqueta: "1.2"
+    punts: 1.25
+    resum: Punt de velocitat màxima i velocitat al periheli.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema de l'òrbita el·líptica del cometa amb el Sol al focus, periheli (0,575 ua) i afeli (35,3 ua)
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta anomena aquesta opció "opció 2". A la solució alternativa per energies de l'apartat
+  1.2, la substitució numèrica de la pauta posa (1/35,3 - 1/0,575), en ordre invers de
+  l'expressió simbòlica (1/r_P - 1/r_A); es transcriu tal com és (el resultat 5,5e4 m/s és
+  el de l'ordre correcte). "L'Edmon Halley" es transcriu tal com és a la pauta.

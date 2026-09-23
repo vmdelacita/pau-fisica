@@ -1,0 +1,52 @@
+id: 2023_ord_s5_P1_sagitari-forat-negre
+titol: Estrella S2 al voltant del forat negre Sagitari A*
+resum: >-
+  A partir de la gràfica g(r) del camp gravitatori de Sagitari A*, càlcul de la
+  velocitat orbital de l'estrella S2, de la massa del forat negre (en masses solars) i
+  de la distància a partir de la qual la velocitat d'escapament és menor que c.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [18]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [17, 18]
+format: antic
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - camp gravitatori i superposició
+  - òrbites circulars i satèl·lits
+  - velocitat d'escapament
+  - llei de la gravitació universal
+paraules_clau: [Sagitari A*, forat negre, estrella S2, Premi Nobel 2020, intensitat del camp gravitatori, velocitat orbital, velocitat d'escapament, massa solar, gràfica g-r]
+tipus: [gràfic, càlcul, deducció, context-històric]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal llegir g a la gràfica i combinar-lo amb la dinàmica circular i la gravitació
+  universal; la velocitat d'escapament s'ha de deduir energèticament. Diversos passos
+  però estàndard.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Velocitat orbital de S2 a 3,00·10^13 m a partir de la gràfica de g.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Massa de Sagitari A* en masses solars i distància on la velocitat d'escapament iguala c.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica de l'acceleració de la gravetat g de Sagitari A* en funció de la distància (2–7·10^13 m)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica g(r) amb la lectura g = 0,6 m/s² a r = 3·10^13 m marcada amb línies discontínues
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta, la puntuació "0,25 p" de l'inici de l'apartat b apareix en vermell i
+  negreta (només format). La figura de la pauta apareix al costat de l'apartat a.

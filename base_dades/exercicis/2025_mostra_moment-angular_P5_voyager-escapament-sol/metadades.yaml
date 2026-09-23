@@ -1,0 +1,45 @@
+id: 2025_mostra_moment-angular_P5_voyager-escapament-sol
+titol: La Voyager 1 i l'escapament del sistema solar
+resum: >-
+  Moment angular i velocitat angular de la Voyager 1 just després del llançament i a prop
+  de Júpiter per conservació del moment angular; velocitat d'escapament del Sol a la
+  distància de Júpiter i energia mínima que ha d'aportar Júpiter perquè la sonda escapi.
+font:
+  tipus: mostra
+  any: 2025
+  convocatoria: mostra
+  serie: moment-angular
+  exercici: 5
+  opcio: null
+  pdf_enunciat: documents oficials/02_pau25_fisica_MostraExercicis_moment-angular.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: documents oficials/02_pau25_fisica_MostraExercicis_moment-angular.pdf
+  pagines_solucio: [8, 9]
+format: nou
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites el·líptiques i moment angular
+  - velocitat d'escapament
+  - energia mecànica orbital
+paraules_clau: [Voyager 1, sonda espacial, moment angular, velocitat angular, velocitat d'escapament, assistència gravitatòria, Júpiter, sistema solar]
+tipus: [càlcul, deducció, qualitativa]
+dificultat: 4
+justificacio_dificultat: >-
+  Context poc habitual (sonda interplanetària, suma de velocitats respecte el Sol,
+  assistència gravitatòria) que combina conservació del moment angular, deducció de la
+  velocitat d'escapament i balanç energètic.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Moment angular i velocitat angular després del llançament; velocitat i velocitat angular a prop de Júpiter.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Deduir la velocitat d'escapament del Sol, calcular-la a Júpiter i energia mínima que ha d'aportar Júpiter.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  La resolució no té puntuacions parcials. A la resolució (a) s'escriu "v = 10^4 + v_T"
+  (10,0 km/s respecte la Terra) i "perependiculars" (transcrit tal com és).

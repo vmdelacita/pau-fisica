@@ -1,0 +1,56 @@
+id: 2023_ord_s5_P3_molla-mhs-grafica
+titol: Massa unida a una molla a partir de la gràfica x(t)
+resum: >-
+  A partir de la gràfica posició-temps d'un MHS d'una massa de 2 kg, determinar
+  l'amplitud, el període, la constant elàstica i l'equació x(t); obtenir v(t),
+  representar-la i indicar on l'acceleració és nul·la, positiva o negativa.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [22]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [20, 21, 22, 23]
+format: antic
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [molla, constant elàstica, amplitud, període, fase inicial, equació del moviment, velocitat, acceleració, gràfica x-t, gràfica v-t]
+tipus: [gràfic, càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  MHS estàndard, però cal llegir paràmetres d'una gràfica, determinar la fase inicial,
+  derivar i construir la gràfica v-t, i raonar el signe de l'acceleració.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Amplitud, període, constant elàstica i equació x(t) a partir de la gràfica.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Expressió de v(t), gràfica v-t i regions d'acceleració nul·la, positiva i negativa.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica posició-temps x(t) del MHS (A = 2,4 m, T = 4 s)
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Quadrícula buida velocitat-temps per representar v(t)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica x(t) amb el període i l'amplitud assenyalats
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Gràfica v(t) amb els punts d'acceleració nul·la i els intervals d'acceleració positiva i negativa
+solucio_oficial: true
+revisat: false
+notes: >-
+  "Primera opció" i "Alternativament" apareixen en color a la pauta (\destaca). A
+  l'alternativa per a l'acceleració, la pauta escriu -Aω² sin(ωt+φ0) (coherent amb la
+  primera opció x = A sin), es transcriu tal com és. Les funcions sin, cos, ArcSin,
+  ArcCos es transcriuen com a la pauta (en cursiva).

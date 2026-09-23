@@ -1,0 +1,17 @@
+id: 2025_mostra_optica
+any: 2025
+convocatoria: mostra
+serie: optica
+format: nou
+pdf_enunciat: documents oficials/02_pau25_fisica_MostraExercicis_optica.pdf
+pdf_solucio: documents oficials/02_pau25_fisica_MostraExercicis_optica.pdf
+instruccions: >-
+  Document oficial de mostra amb quatre exercicis d'òptica geomètrica per a la PAU 2025,
+  cadascun amb la solució numèrica curta, seguits de la resolució detallada amb
+  puntuacions parcials.
+# Ordre del document original (ids de base_dades/exercicis)
+exercicis:
+  - 2025_mostra_optica_P1_lupa-taula-lampada
+  - 2025_mostra_optica_P2_miopia-lent-correctora
+  - 2025_mostra_optica_P3_mirall-pla-alcada
+  - 2025_mostra_optica_P4_piscina-angle-limit

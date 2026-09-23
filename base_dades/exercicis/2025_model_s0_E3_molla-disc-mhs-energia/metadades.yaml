@@ -1,0 +1,54 @@
+id: 2025_model_s0_E3_molla-disc-mhs-energia
+titol: Ombres d'una molla i d'un disc en rotació (MHS i moviment circular)
+resum: >-
+  Equivalència entre el MHS vertical d'una massa penjada d'una molla i la projecció
+  d'un moviment circular uniforme: equació de la posició, constant elàstica i energia
+  mecànica; equacions de la velocitat i l'energia cinètica, i gràfica de les energies
+  mecànica, potencial i cinètica en funció de la posició.
+font:
+  tipus: model
+  any: 2025
+  convocatoria: model
+  serie: 0
+  exercici: 3
+  opcio: null
+  pdf_enunciat: documents oficials/01_pau25_fisica_0.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: documents oficials/01_pau25_fisica_0c.pdf
+  pagines_solucio: [6, 7]
+format: nou
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - energia del MHS
+paraules_clau: [molla, disc giratori, ombres, moviment circular uniforme, fase inicial, constant elàstica, energia cinètica, energia potencial elàstica]
+tipus: [càlcul, gràfic, experimental]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal relacionar el MHS amb la projecció d'un moviment circular (context experimental
+  poc habitual) i determinar la fase inicial, però els càlculs i la gràfica d'energies
+  són estàndard.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Equació de la posició de les ombres amb t = 0 al punt més baix; energia mecànica i constant elàstica.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Equacions v(t) i E_c(t); gràfica d'E_m, E_p i E_c en funció de la posició.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia del muntatge amb el disc giratori, la molla amb la massa i les dues ombres a la paret
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Quadrícula amb eixos E(J) i y(m) per representar les energies
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica de l'energia mecànica, potencial i cinètica en funció de y entre -0,19 i 0,19 m
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions de l'apartat a són 5 × 0,25 p. La línia "O alternativament amb el sinus"
+  apareix en blau a la pauta i s'ha posat amb \destaca.

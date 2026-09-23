@@ -1,0 +1,40 @@
+\begin{solapartat}
+\punts{0,10} La freqüència d'oscil·lació és el nombre d'oscil·lacions per segon: $f = \frac{40\ oscil}{60\ s} = 0,667\ Hz$, i el període la seva inversa $T = \frac{1}{f} = \frac{1}{0,667} = 1,5\ s$
+
+\punts{0,15} La constant de la molla està relacionada amb la freqüència angular del moviment:
+\[ k = m\omega^2 = m(2\pi f)^2 = 0,1\cdot\left(\frac{2\pi}{1,5}\right)^2 = 1,75\ N/m. \]
+
+\punts{0,15} Considerant que l'alumne escull l'equació del moviment: $y = A\cdot sin(\omega t + \varphi_o)$ o $y = A\cdot cos(\omega t + \varphi_o)$. La diferència entre la posició més alta i més baixa és 2A=0,15m, i per tant, A=0,075m. La freqüència angular és $\omega = 2\pi f = 4,19\ rad/s$.
+
+\punts{0,10} Inicialment (t=0) és a la posició més baixa: $-A = A\cdot sin(\varphi_o)$, per tant $\varphi_o = \frac{3\pi}{2}\ rad$ (o $\varphi_o = -\frac{\pi}{2}\ rad$) i ens queda:
+\[ y = 0,075\cdot sin\left(4,19t + \frac{3\pi}{2}\right)\ m \]
+en què t és en segons i y en metres. Alternativament amb el cosinus: $-A = A\cdot cos(\varphi_o)$, per tant $\varphi_o = \pi\ rad$ i per tant: $y = 0,075\cdot cos(4,19t + \pi)\ m$ o $y = -0,075\cdot cos(4,19t)\ m$ o $y = -0,075\cdot sin\left(4,19t + \frac{\pi}{2}\right)\ m$ o qualsevol altra d'equivalent.
+
+També pot ser que l'alumne expressi que el sentit positiu de l'eix y és avall, obtenint les mateixes expressions canviades de signe.
+
+\punts{0,25} Per representar la força elàstica
+\begin{align*}
+F(t) &= -k\cdot y(t) = -1,75\cdot 0,075\cdot sin\left(4,19t + \frac{3\pi}{2}\right)\ N\\
+&= -0,13\cdot sin\left(4,19t + \frac{3\pi}{2}\right)\ N
+\end{align*}
+o alternativament pot utilitzar altes expressions de y(t) obtenint $F(t) = 0,13\cdot cos(4,19t)\ N$, \ldots
+
+Les expressions de la posició i de la força donades han de ser coherents.
+\figura[0.35]{sol_fig1.png}
+
+\punts{0,5} Dibuix. No especificar la magnitud resta 0,1; no especificar les unitats, resta 0,1, i no especificar els valors numèrics correctament als eixos resta 0,1.
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,5} L'energia mecànica del moviment harmònic simple és
+\[ E_m = \frac{1}{2}kA^2 = \frac{1}{2}\,1,75\cdot 0,075^2 = 4,92\cdot 10^{-3}\ J \]
+
+\punts{0,5} I l'energia cinètica en funció de la posició la podem obtenir de
+\[ Ec = E_m - E_{pe} = \frac{1}{2}kA^2 - \frac{1}{2}kx^2 = \frac{1}{2}k(A^2 - x^2) \quad\text{i posant-hi valors:} \]
+\[ Ec = 0,875(0,075^2 - x^2) = 0,00492 - 0,875x^2. \]
+
+\punts{0,25} La velocitat per a y=3cm, la podem trobar a partir de l'energia cinètica
+\[ Ec = 0,875(0,075^2 - 0,03^2) = 4,13\cdot 10^{-3}\ J \]
+I la velocitat serà:
+\[ \boldsymbol{v} = \sqrt{\frac{2\cdot Ec}{m}} = \sqrt{\frac{2\cdot 4,13\cdot 10^{-3}}{0,1}} = \pm 0,288\ m/s \]
+\end{solapartat}

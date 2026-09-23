@@ -1,0 +1,45 @@
+id: 2024_ext_s3_P1_planetes-ressonancia-hd110067
+titol: Planetes en ressonància al voltant de l'estrella HD110067
+resum: >-
+  Radi orbital d'un planeta a partir del seu període i representació i càlcul de
+  l'acceleració normal; radi orbital d'un planeta veí en ressonància 4:3 (tercera
+  llei de Kepler) i la seva energia mecànica.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi24sp.pdf
+  pagines_solucio: [2, 3]
+format: antic
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - lleis de Kepler
+  - energia mecànica orbital
+paraules_clau: [exoplanetes, ressonància orbital, HD110067, període orbital, acceleració normal, tercera llei de Kepler, energia mecànica]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic d'òrbites circulars amb diversos passos encadenats; la ressonància
+  4:3 obliga a relacionar períodes abans d'aplicar la tercera llei de Kepler.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Radi orbital del sisè planeta, dibuix i mòdul de l'acceleració normal.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Radi orbital del cinquè planeta (ressonància 4:3) i la seva energia mecànica.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Òrbita circular del planeta al voltant de l'estrella amb el vector acceleració normal
+solucio_oficial: true
+revisat: false
+notes: ""

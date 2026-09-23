@@ -1,0 +1,48 @@
+id: 2024_ord_s1_P6_poloni-alfa-atom-heli
+titol: Desintegració alfa del poloni-210 i formació d'un àtom d'heli
+resum: >-
+  Equació de la desintegració alfa del Po-210 i activitat d'una mostra de 5 mg al cap
+  d'una setmana. Treball del camp elèctric en portar successivament dos electrons des
+  de l'infinit fins a la partícula alfa i energia potencial electrostàtica de la
+  configuració final.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24jl.pdf
+  pagines_enunciat: [12]
+  pdf_solucio: examenes/pau_fisi24jp.pdf
+  pagines_solucio: [9, 10]
+format: antic
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: [Camps electromagnètics]
+subtemes:
+  - radioactivitat i llei de desintegració
+  - potencial i energia potencial elèctrica
+paraules_clau: [poloni, Marie Curie, desintegració alfa, activitat, període de semidesintegració, constant de desintegració, àtom d'heli, treball del camp elèctric, energia potencial electrostàtica]
+tipus: [càlcul]
+dificultat: 4
+justificacio_dificultat: >-
+  L'apartat a) és estàndard, però el b) exigeix calcular el treball en dos passos
+  tenint en compte el potencial creat per la partícula alfa i el primer electró, i
+  l'energia potencial d'un sistema de tres càrregues, amb subtileses de signe.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Equació de la desintegració alfa del Po-210 i activitat de 5 mg al cap d'una setmana.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Treball del camp elèctric en portar cada electró i energia potencial de la configuració final.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Partícula alfa amb un electró a cada costat a 0,6·10^-10 m
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta, els valors 1.346·10^-17 J s'escriuen amb punt decimal; s'han transcrit
+  amb coma (1,346) segons la convenció de la base de dades.

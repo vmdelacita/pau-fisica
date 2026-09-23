@@ -1,0 +1,74 @@
+# Taxonomia controlada de la base de dades d'exercicis PAU de Física.
+# Els blocs segueixen els 4 exercicis de l'examen (2025+) i els subtemes
+# el document oficial 02_pau25_fisicaCurriculum.pdf.
+# comprova.py rebutja qualsevol valor que no sigui en aquestes llistes.
+
+blocs:
+  Camps gravitatoris:
+    - llei de la gravitació universal
+    - camp gravitatori i superposició
+    - energia potencial i potencial gravitatori
+    - òrbites circulars i satèl·lits
+    - lleis de Kepler
+    - òrbites el·líptiques i moment angular
+    - velocitat d'escapament
+    - energia mecànica orbital
+
+  Camps electromagnètics:
+    - camp elèctric i llei de Coulomb
+    - potencial i energia potencial elèctrica
+    - línies de camp i superfícies equipotencials
+    - equilibri de càrregues en camps elèctrics
+    - moviment de càrregues en camps elèctrics
+    - moviment de càrregues en camps magnètics
+    - selector de velocitats, espectròmetre i ciclotró
+    - camp magnètic creat per corrents
+    - força magnètica sobre corrents i entre fils
+    - flux magnètic i inducció (Faraday-Lenz)
+    - generadors, motors i transformadors
+    - imants, brúixoles i experiment d'Oersted
+
+  Vibracions i ones:
+    - moviment harmònic simple
+    - energia del MHS
+    - ones harmòniques i equació d'ona
+    - ones sonores i nivell d'intensitat
+    - interferències
+    - ones estacionàries
+    - ressonància i harmònics en tubs i cordes
+    - efecte Doppler
+    - ones electromagnètiques i espectre
+    - reflexió i refracció
+    - formació d'imatges amb lents i miralls
+    - instruments òptics i l'ull
+    - naturalesa de la llum
+
+  Física relativista, quàntica i nuclear:
+    - relativitat especial
+    - fotons i energia de la radiació
+    - model de Bohr i espectres atòmics
+    - efecte fotoelèctric
+    - dualitat ona-partícula
+    - radioactivitat i llei de desintegració
+    - reaccions nuclears i defecte de massa
+    - fissió i fusió
+    - física de partícules
+    - aplicacions i riscos de la radioactivitat
+
+# Tipus de tasca que demana l'exercici (se'n poden posar diversos).
+tipus:
+  - càlcul          # resolució numèrica
+  - qualitativa     # raonar, justificar, explicar sense (gaire) càlcul
+  - deducció        # deduir una expressió o llei
+  - gràfic          # llegir, interpretar o construir gràfics
+  - diagrama        # dibuixar vectors, línies de camp, diagrames de raigs...
+  - experimental    # interpretació i anàlisi d'experiments / dades
+  - context-històric
+
+# Escala de dificultat (relativa al nivell PAU).
+dificultat:
+  1: "Aplicació directa: un concepte, una fórmula, dades explícites."
+  2: "Dos passos encadenats o dos conceptes estàndard; enunciat guiat."
+  3: "Problema PAU típic: diversos passos, cal triar el principi (Newton, conservació...) i justificar breument."
+  4: "Combina conceptes o requereix interpretar gràfics/dades/context poc habitual, vectors en 3D o raonament qualitatiu fi."
+  5: "Context nou o complex, cal modelitzar, deduccions poc guiades, molts passos o subtileses conceptuals."

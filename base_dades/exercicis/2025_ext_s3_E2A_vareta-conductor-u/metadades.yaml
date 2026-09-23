@@ -1,0 +1,56 @@
+id: 2025_ext_s3_E2A_vareta-conductor-u
+titol: Vareta mòbil sobre un conductor en U
+resum: >-
+  Flux magnètic inicial a través del circuit format per una vareta i un conductor en U,
+  sentit del moviment a partir del sentit del corrent induït (llei de Lenz), FEM induïda
+  i força magnètica sobre la vareta (mòdul i dibuix).
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 2
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi25sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi25sp.pdf
+  pagines_solucio: [3, 4]
+format: nou
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+  - força magnètica sobre corrents i entre fils
+paraules_clau: [vareta mòbil, conductor en U, flux magnètic, llei de Lenz, llei de Faraday, FEM induïda, corrent induït, força magnètica, regla de la mà dreta]
+tipus: [càlcul, qualitativa, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema típic de vareta mòbil: càlculs directes de flux, FEM i força, però cal
+  raonar el sentit del moviment a partir del corrent induït amb la llei de Lenz i
+  dibuixar vectors.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Flux inicial, sentit del moviment de la vareta per la llei de Lenz i FEM induïda.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Existència, mòdul i dibuix de la força magnètica sobre la vareta amb I = 6,00 mA.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Figura 1 (vareta en l'instant inicial, 4 cm × 3 cm, camp B sortint) i figura 2 (sentit del corrent induït I)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema 3D del camp magnètic induït cap avall i mà dreta amb el polze cap avall
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Vareta movent-se cap a la dreta amb el vector velocitat i el corrent induït
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Força magnètica sobre la vareta cap a l'esquerra, oposada a la velocitat
+solucio_oficial: true
+revisat: false
+notes: >-
+  L'enunciat original presenta les figures 1 i 2 una al costat de l'altra; s'han retallat
+  juntes en una sola imatge (fig1.png) que conserva els títols "Figura 1" i "Figura 2".

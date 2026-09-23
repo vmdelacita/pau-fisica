@@ -1,0 +1,50 @@
+id: 2026_ext_s2_E3A_elefants-nivell-sonor-interferencies
+titol: Bramul d'elefants, nivell d'intensitat sonora i interferències
+resum: >-
+  A partir dels nivells d'intensitat sonora percebuts per dos observadors situats en arbres,
+  cal trobar l'altura del segon (ones esfèriques). Després, punts de la recta entre dos
+  elefants que emeten en fase a 80 Hz on hi ha interferència destructiva.
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi26sl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi26sp.pdf
+  pagines_solucio: [7, 8]
+format: nou
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones sonores i nivell d'intensitat
+  - interferències
+paraules_clau: [elefant, bramul, nivell d'intensitat sonora, decibels, ona esfèrica, potència sonora, interferència destructiva, diferència de camí, fonts coherents]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal relacionar la diferència de nivells amb la relació d'intensitats i de distàncies
+  (amb geometria de Pitàgores) i, a l'altre apartat, plantejar la condició de mínim
+  d'interferència i descartar solucions fora del segment; diversos passos però estàndard.
+punts_total: 2.5
+apartats:
+  - etiqueta: "3.1"
+    punts: 1.25
+    resum: Altura del segon observador a partir dels nivells de 65,0 dB i 62,0 dB.
+  - etiqueta: "3.2"
+    punts: 1.25
+    resum: Punts entre dos elefants separats 10 m (80 Hz, en fase) amb interferència destructiva.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Elefant entre l'observador 1 (arbre de 5,00 m, a 15,0 m) i l'observador 2 (altura h, a 20,0 m)
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta anomena aquest exercici "opció 1" (= opció A). Errors de la pauta transcrits tal
+  com són (marcats amb % DUBTE): (1) defineix x_2 com la distància des del "primer" elefant
+  (hauria de ser el segon); (2) escriu "Per n = 3" quan |x1 − x2| = 10,625 m correspon a n = 2,
+  i "n > 3" hauria de ser "n > 2". A la figura de l'enunciat la il·lustració va al costat de
+  l'apartat 3.1.

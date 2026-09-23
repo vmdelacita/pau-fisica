@@ -1,0 +1,50 @@
+id: 2023_ord_s1_P3_onades-boia-mhs
+titol: Onades del mar i moviment d'una boia
+resum: >-
+  A partir de la distància entre crestes i de les oscil·lacions d'una boia, càlcul de la
+  freqüència, la longitud d'ona i la velocitat de propagació, i equació del MHS de la boia;
+  expressions de la velocitat i l'acceleració, valors màxims i gràfica v(t) durant un període.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [6, 7]
+format: antic
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones harmòniques i equació d'ona
+  - moviment harmònic simple
+paraules_clau: [onades, boia, longitud d'ona, freqüència, velocitat de propagació, fase inicial, velocitat màxima, acceleració màxima, gràfica velocitat-temps]
+tipus: [càlcul, deducció, gràfic]
+dificultat: 2
+justificacio_dificultat: >-
+  Càlculs directes de magnituds d'ona i del MHS amb enunciat guiat; les úniques
+  dificultats són identificar l'amplitud (meitat del desplaçament total), la fase inicial
+  i dibuixar correctament la gràfica v(t).
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Freqüència, longitud d'ona, velocitat de propagació i equació del moviment de la boia.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Expressions de v(t) i a(t), valors màxims i representació de v(t) en un període.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula en blanc per representar la velocitat en funció del temps
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica de la velocitat de la boia en funció del temps entre 0 i 2 s
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions parcials de la pauta apareixen just abans del pas que puntuen. Les
+  penalitzacions de la gràfica (en blau a la pauta) s'han marcat amb \destaca.

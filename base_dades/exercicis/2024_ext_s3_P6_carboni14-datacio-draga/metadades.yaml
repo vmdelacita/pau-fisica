@@ -1,0 +1,41 @@
+id: 2024_ext_s3_P6_carboni14-datacio-draga
+titol: Datació amb carboni 14 al jaciment de la Draga
+resum: >-
+  Reacció de desintegració beta del carboni 14 amb l'antineutrí i relació entre la
+  constant de desintegració i el període de semidesintegració; constant de
+  desintegració, percentatge de 14C que roman en un os de 6010 anys i activitat inicial.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24sl.pdf
+  pagines_enunciat: [12]
+  pdf_solucio: examenes/pau_fisi24sp.pdf
+  pagines_solucio: [9]
+format: antic
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [carboni 14, datació radiomètrica, desintegració beta, antineutrí, constant de desintegració, període de semidesintegració, activitat, jaciment de la Draga]
+tipus: [deducció, càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Problema estàndard de radioactivitat: reacció beta menys, deducció clàssica de
+  t1/2 = ln2/λ i aplicacions directes de la llei de desintegració.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Reacció de desintegració del 14C, tipus de desintegració i relació λ–t1/2.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Constant de desintegració, percentatge de 14C que roman i activitat inicial de l'os.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

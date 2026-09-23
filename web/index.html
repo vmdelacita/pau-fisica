@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exercicis PAU Física</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231f5fbf'/%3E%3Cellipse cx='16' cy='16' rx='11' ry='4.5' fill='none' stroke='white' stroke-width='2'/%3E%3Cellipse cx='16' cy='16' rx='11' ry='4.5' fill='none' stroke='white' stroke-width='2' transform='rotate(60 16 16)'/%3E%3Cellipse cx='16' cy='16' rx='11' ry='4.5' fill='none' stroke='white' stroke-width='2' transform='rotate(-60 16 16)'/%3E%3Ccircle cx='16' cy='16' r='2.4' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="estil.css">
+<script>
+  window.MathJax = {
+    tex: { inlineMath: [['\\(', '\\)']], displayMath: [['\\[', '\\]']], processEnvironments: true },
+    svg: { fontCache: 'global' },
+    startup: { typeset: false },
+  };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-svg.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script type="module" src="js/app.js"></script>
+</head>
+<body>
+
+<header class="barra">
+  <div class="marca">
+    <span class="logo" aria-hidden="true"></span>
+    <div>
+      <div class="nom">Exercicis PAU Física</div>
+      <div class="subtitol" id="subtitol">Carregant la base de dades…</div>
+    </div>
+  </div>
+  <nav class="pestanyes" role="tablist">
+    <button role="tab" data-vista="cerca" aria-selected="true">Cerca</button>
+    <button role="tab" data-vista="examen" aria-selected="false">Examen <span class="comptador" id="n-examen">0</span></button>
+    <button role="tab" data-vista="revisio" aria-selected="false">Revisió <span class="comptador suau" id="n-revisio">0</span></button>
+  </nav>
+  <a id="obre-pestanya" class="enllac-extern" href="." target="_blank" rel="noopener" hidden>Obre en una pestanya nova ↗</a>
+</header>
+
+<main>
+  <!-- ============ CERCA ============ -->
+  <section id="vista-cerca" class="vista">
+    <aside class="filtres" id="filtres">
+      <label class="camp-cerca">
+        <span class="visualment-amagat">Cerca</span>
+        <input id="q" type="search" placeholder="Cerca: satèl·lit, Kepler, lent…" autocomplete="off">
+      </label>
+
+      <div class="grup-filtre">
+        <div class="titol-filtre">Bloc</div>
+        <div class="xips" id="f-bloc"></div>
+      </div>
+      <div class="grup-filtre">
+        <label class="titol-filtre" for="f-subtema">Subtema</label>
+        <select id="f-subtema"><option value="">Tots els subtemes</option></select>
+      </div>
+      <div class="grup-filtre">
+        <div class="titol-filtre">Dificultat</div>
+        <div class="xips" id="f-dificultat"></div>
+      </div>
+      <div class="grup-filtre">
+        <div class="titol-filtre">Tipus de tasca</div>
+        <div class="xips" id="f-tipus"></div>
+      </div>
+      <div class="grup-filtre">
+        <div class="titol-filtre">Any</div>
+        <div class="xips" id="f-any"></div>
+      </div>
+      <div class="grup-filtre">
+        <div class="titol-filtre">Procedència</div>
+        <div class="xips" id="f-font"></div>
+      </div>
+      <div class="grup-filtre">
+        <div class="titol-filtre">Format</div>
+        <div class="xips" id="f-format"></div>
+      </div>
+      <div class="grup-filtre">
+        <div class="titol-filtre">Revisió</div>
+        <div class="xips" id="f-estat"></div>
+      </div>
+      <button class="boto-text" id="neteja-filtres">Neteja els filtres</button>
+    </aside>
+
+    <div class="resultats">
+      <div class="cap-resultats">
+        <button class="boto secundari mostra-filtres" id="mostra-filtres">Filtres</button>
+        <div id="n-resultats" aria-live="polite"></div>
+        <label class="ordre">Ordena per
+          <select id="ordre">
+            <option value="rellevancia">rellevància</option>
+            <option value="any-desc">any (més recents)</option>
+            <option value="any-asc">any (més antics)</option>
+            <option value="dif-asc">dificultat (de menys a més)</option>
+            <option value="dif-desc">dificultat (de més a menys)</option>
+          </select>
+        </label>
+      </div>
+      <div id="llista" class="llista"></div>
+    </div>
+  </section>
+
+  <!-- ============ EXAMEN ============ -->
+  <section id="vista-examen" class="vista" hidden>
+    <div class="col-examen">
+      <div class="panell">
+        <div class="segmentat" role="radiogroup" aria-label="Tipus de document">
+          <button data-tipus="examen" aria-pressed="true">Examen</button>
+          <button data-tipus="full" aria-pressed="false">Full d'exercicis</button>
+        </div>
+        <p class="ajuda" id="ajuda-tipus"></p>
+        <div class="graella-camps">
+          <label>Departament / assignatura<input id="e-departament" type="text"></label>
+          <label>Trimestre<input id="e-trimestre" type="text"></label>
+          <label class="ample">Unitat<input id="e-unitat" type="text"></label>
+          <label class="ample">Instruccions <span class="suau">(una per línia; es poden escriure fórmules entre $…$)</span>
+            <textarea id="e-instruccions" rows="5"></textarea></label>
+          <label class="ample check"><input id="e-procedencia" type="checkbox"> Indica la procedència de cada exercici (p. ex. «PAU 2025, convocatòria ordinària…»)</label>
+          <label>Nom del fitxer<input id="e-nom" type="text" spellcheck="false"></label>
+        </div>
+      </div>
+
+      <div class="panell">
+        <div class="cap-panell">
+          <h2>Exercicis</h2>
+          <div class="total" id="total-punts"></div>
+        </div>
+        <div id="items" class="items"></div>
+        <div class="accions-items">
+          <button class="boto secundari" id="afegeix-propi">+ Exercici propi</button>
+          <span class="espai"></span>
+          <span class="reescala" id="reescala-caixa">Reescala a
+            <input id="reescala-total" type="number" min="1" step="0.5" value="10"> punts
+            <button class="boto secundari" id="reescala">Aplica</button></span>
+        </div>
+      </div>
+
+      <div class="panell fila-botons">
+        <button class="boto secundari" id="desa-projecte">Desa el projecte (.json)</button>
+        <label class="boto secundari">Obre un projecte<input id="obre-projecte" type="file" accept=".json,application/json" hidden></label>
+        <span class="espai"></span>
+        <button class="boto perill" id="buida-examen">Buida l'examen</button>
+      </div>
+    </div>
+
+    <div class="col-sortida">
+      <div class="panell sortida">
+        <div class="fila-botons">
+          <button class="boto primari" id="genera-pdf">Genera el PDF</button>
+          <span id="estat-motor" class="estat" aria-live="polite"></span>
+        </div>
+        <div id="errors-latex" class="errors" hidden></div>
+        <div class="fila-botons" id="descarregues" hidden>
+          <button class="boto secundari" id="baixa-pdf">Descarrega el PDF</button>
+          <button class="boto secundari" id="baixa-zip">Descarrega la carpeta (.zip)</button>
+          <button class="boto secundari" id="obre-overleaf">Obre a Overleaf</button>
+          <button class="boto-text" id="mostra-tex">Mostra el .tex</button>
+        </div>
+        <div class="visor" id="visor">
+          <div class="visor-buit">
+            <p>Afegeix exercicis des de <strong>Cerca</strong> i prem <strong>Genera el PDF</strong>.</p>
+            <p class="suau">El PDF es compila en aquest mateix navegador amb LaTeX i la plantilla del centre. La primera vegada cal descarregar el motor (uns 48 MB); després queda a la memòria cau.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REVISIÓ ============ -->
+  <section id="vista-revisio" class="vista" hidden>
+    <div class="panell">
+      <h2>Revisió de la base de dades</h2>
+      <p>Obre qualsevol exercici i, a la pestanya <strong>Revisió</strong>, marca'l com a revisat o corregeix-ne la dificultat, els subtemes, el tipus i les paraules clau. Els canvis es veuen de seguida a la cerca i es desen en aquest navegador.</p>
+      <p>Per fer-los permanents: <strong>Exporta les revisions</strong> i, a l'ordinador del projecte, executa <code>python3 eines/aplica_revisions.py revisions.json</code> i després <code>python3 eines/construeix_web.py</code>.</p>
+      <div class="progres"><div class="barra-progres"><span id="progres-barra"></span></div><span id="progres-text"></span></div>
+      <div class="fila-botons">
+        <button class="boto primari" id="exporta-revisions">Exporta les revisions (.json)</button>
+        <label class="boto secundari">Importa revisions<input id="importa-revisions" type="file" accept=".json,application/json" hidden></label>
+        <span class="espai"></span>
+        <button class="boto perill" id="esborra-revisions">Esborra totes les revisions</button>
+      </div>
+    </div>
+    <div class="panell">
+      <div class="cap-panell">
+        <div class="xips" id="r-filtre"></div>
+      </div>
+      <div class="taula-revisio"><table id="taula-revisio"></table></div>
+    </div>
+  </section>
+</main>
+
+<footer class="peu">
+  Enunciats i pautes: PAU de Física, Generalitat de Catalunya ·
+  Motor LaTeX: <a href="https://github.com/TeXlyre/texlyre-busytex" target="_blank" rel="noopener">BusyTeX</a> (AGPL-3.0) amb TeX Live 2026 ·
+  Fórmules: MathJax
+</footer>
+
+<!-- ============ DETALL D'UN EXERCICI ============ -->
+<dialog id="detall" class="dialeg gran">
+  <div class="cap-dialeg">
+    <div>
+      <h2 id="d-titol"></h2>
+      <div id="d-sub" class="suau"></div>
+    </div>
+    <div class="nav-detall">
+      <button class="boto-icona" id="d-anterior" title="Exercici anterior (←)" aria-label="Exercici anterior">‹</button>
+      <button class="boto-icona" id="d-seguent" title="Exercici següent (→)" aria-label="Exercici següent">›</button>
+      <button class="boto-icona" data-tanca title="Tanca (Esc)" aria-label="Tanca">✕</button>
+    </div>
+  </div>
+  <div class="pestanyes-detall" role="tablist">
+    <button role="tab" data-pestanya="enunciat" aria-selected="true">Enunciat</button>
+    <button role="tab" data-pestanya="solucio" aria-selected="false">Solució</button>
+    <button role="tab" data-pestanya="revisio" aria-selected="false">Revisió</button>
+    <span class="espai"></span>
+    <span id="d-originals" class="originals"></span>
+  </div>
+  <div class="cos-dialeg" id="d-cos"></div>
+  <div class="peu-dialeg">
+    <div id="d-etiquetes" class="etiquetes"></div>
+    <button class="boto primari" id="d-afegeix"></button>
+  </div>
+</dialog>
+
+<!-- ============ EDITOR D'UN EXERCICI DE L'EXAMEN ============ -->
+<dialog id="editor" class="dialeg gran">
+  <div class="cap-dialeg">
+    <div>
+      <h2>Edita l'exercici</h2>
+      <div class="suau">Els canvis només afecten aquest examen, no la base de dades.</div>
+    </div>
+    <button class="boto-icona" data-tanca aria-label="Tanca">✕</button>
+  </div>
+  <div class="editor-cos">
+    <div class="editor-font">
+      <label for="ed-text" class="suau">LaTeX de l'enunciat</label>
+      <textarea id="ed-text" spellcheck="false"></textarea>
+      <details class="ajuda-latex">
+        <summary>Ajuda ràpida</summary>
+        <pre>\begin{apartat}{1,25}  … \end{apartat}   apartat amb els seus punts
+\figura[0.4]{fig1.png}                  figura (amplada relativa)
+\dades{$G = 6,67\times 10^{-11}$ …}      bloc de dades
+\nota{…}                                nota final
+$…$  i  \[ … \]                         fórmules</pre>
+      </details>
+    </div>
+    <div class="editor-previ ex-html" id="ed-previ"></div>
+  </div>
+  <div class="peu-dialeg">
+    <button class="boto-text" id="ed-restaura">Restaura l'original</button>
+    <span class="espai"></span>
+    <button class="boto secundari" data-tanca>Cancel·la</button>
+    <button class="boto primari" id="ed-desa">Desa</button>
+  </div>
+</dialog>
+
+<!-- ============ VISOR DEL .TEX ============ -->
+<dialog id="dialeg-tex" class="dialeg gran">
+  <div class="cap-dialeg">
+    <h2>Codi LaTeX del document</h2>
+    <button class="boto-icona" data-tanca aria-label="Tanca">✕</button>
+  </div>
+  <pre class="codi" id="codi-tex"></pre>
+</dialog>
+
+<div id="avis" class="missatge-flotant" role="status" hidden></div>
+
+</body>
+</html>

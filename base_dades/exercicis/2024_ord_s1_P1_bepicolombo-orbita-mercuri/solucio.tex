@@ -1,0 +1,48 @@
+\begin{solapartat}
+Per trobar l'expressió de la velocitat orbital
+
+\punts{0,10} Segons la llei de la gravitació universal, el mòdul de la força sobre el satèl·lit degut a l'atracció de Mercuri és:
+\[ F = G\,\frac{M_{MPO} M_M}{r^2} \]
+
+\punts{0,10} La segona llei de Newton estableix que: $\vec{F} = M_{MPO}\vec{a}$
+
+\punts{0,15} D'altra banda, considerant que el satèl·lit descriu un moviment circular uniforme al voltant de Mercuri, la seva acceleració és l'acceleració centrípeta: $a = v^2/r$
+
+\punts{0,15} Com que sobre el satèl·lit sols actua la força de la gravetat:
+\[ G\,\frac{M_{MPO} M_M}{r^2} = M_{MPO} v^2/r \;\Rightarrow\; v = \sqrt{G\,\frac{M_M}{r}} \]
+
+\punts{0,25} Utilitzant l'expressió obtenim el valor de la velocitat orbital per la MPO:
+\[ v_{MPO} = \sqrt{G\,\frac{M_M}{r}} = \sqrt{6,67\times 10^{-11}\,\frac{3,285\times 10^{23}}{3,36\times 10^{6}}} = 2,55\times 10^{3}\ \mathrm{m/s} \]
+
+\punts{0,25} Per saber el nombre de voltes que fa la MPO durant un any terrestre hem de comparar els dos temps.
+
+El període de la MPO: $T = \frac{2\pi r}{v} = \frac{2\pi\, 3,36\times 10^{6}}{2,55\times 10^{3}} = 8,28\times 10^{3}\ \mathrm{s}$
+
+\punts{0,25} I un any amb segons: $t_{any} = 365,25\ \mathrm{dies}\,\frac{24\ \mathrm{h}}{1\ \mathrm{dia}}\,\frac{3600\ \mathrm{s}}{1\ \mathrm{h}} = 3,16\times 10^{7}\ \mathrm{s}$
+\[ n_{voltes/any} = \frac{t_{any}}{T} = \frac{3,16\times 10^{7}}{8,28\times 10^{3}} = 3816\ \mathit{voltes} \]
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,5} L'energia mecànica és la suma de l'energia cinètica i la potencial:
+\begin{align*}
+E_m = E_c + E_p &= \frac{1}{2} M_{MPO} v^2 - G\,\frac{M_{MPO} M_M}{r} = \frac{1}{2} M_{MPO} G\,\frac{M_M}{r} - G\,\frac{M_{MPO} M_M}{r}\\
+&= -\frac{G M_{MPO} M_M}{2r}
+\end{align*}
+
+\textit{Càlcul de la massa:}
+
+\punts{0,5} Per escapar del camp gravitatori de Mercuri, l'energia mecànica final ha de ser nul·la. Per tant, l'increment d'energia necessari és:
+\[ \Delta E_m = E_{m\,final} - E_{m\,inicial} = 0 + \frac{G M_{MPO} M_M}{2r} \]
+
+\punts{0,25} El màxim increment d'energia mecànica possible és l'energia que pot proporcionar el combustible, per tant: $\Delta E_m = 4,5\times 10^{9}\ \mathrm{J} = \frac{G M_{MPO} M_M}{2r}$
+
+i la massa màxima d'MPO: $M_{MPO} = \frac{\Delta E_m\, 2r}{G M_M} = 1,38\times 10^{3}\ \mathrm{kg}$
+
+\textit{O alternativament:}
+
+\punts{0,25} El treball fet pels motors amb el combustible és igual a l'increment d'energia mecànica $W_{motors} = \Delta E_m$ i, per tant, $W_{motors} = E_{m\,final} - E_{m\,inicial}$
+
+\punts{0,5} Per tant, $W_{motors} = 4,5\times 10^{9}\ \mathrm{J} = 0 + \frac{G M_{MPO} M_M}{2r}$
+
+I la massa màxima d'MPO és $M_{MPO} = \frac{W_{motors}\, 2r}{G M_M} = 1,38\times 10^{3}\ \mathrm{kg}$
+\end{solapartat}

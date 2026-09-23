@@ -1,0 +1,19 @@
+id: 2024_ext_s3
+any: 2024
+convocatoria: extraordinaria
+serie: 3
+format: antic
+pdf_enunciat: examenes/pau_fisi24sl.pdf
+pdf_solucio: examenes/pau_fisi24sp.pdf
+instruccions: >-
+  Responeu a QUATRE dels set problemes següents. En el cas que respongueu a més
+  problemes, només es valoraran els quatre primers. Cada problema val 2,5 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2024_ext_s3_P1_planetes-ressonancia-hd110067
+  - 2024_ext_s3_P2_altaveus-interferencia-so
+  - 2024_ext_s3_P3_fun-fly-stick-levitacio
+  - 2024_ext_s3_P4_experiment-oersted-bruixola
+  - 2024_ext_s3_P5_hipermetropia-lent-convergent
+  - 2024_ext_s3_P6_carboni14-datacio-draga
+  - 2024_ext_s3_P7_molla-mhs-forca-elastica

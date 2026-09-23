@@ -1,0 +1,57 @@
+id: 2025_model_s0_E2_parallamps-camp-magnetic-fil
+titol: Camp magnètic creat per un llamp en un parallamps
+resum: >-
+  Camp magnètic a 10 cm d'un parallamps pel qual passa un corrent de 100 kA (model de
+  fil infinit), esquema amb el sentit dels electrons, del corrent i de les línies de
+  camp; gràfica de B(r) entre 10 i 50 cm i força magnètica sobre un electró que es mou
+  paral·lel al parallamps.
+font:
+  tipus: model
+  any: 2025
+  convocatoria: model
+  serie: 0
+  exercici: 2
+  opcio: null
+  pdf_enunciat: documents oficials/01_pau25_fisica_0.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: documents oficials/01_pau25_fisica_0c.pdf
+  pagines_solucio: [5]
+format: nou
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+  - moviment de càrregues en camps magnètics
+paraules_clau: [llamp, parallamps, fil infinit, camp magnètic, regla de la mà dreta, línies de camp, força de Lorentz, electró]
+tipus: [càlcul, diagrama, gràfic, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Càlculs directes amb la fórmula donada, però cal relacionar el moviment dels
+  electrons amb el sentit del corrent, dibuixar línies de camp, representar B(r) i
+  determinar la direcció de la força amb el producte vectorial i el signe de la càrrega.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Camp magnètic a 10 cm amb 100 kA; dibuix del parallamps amb electrons, corrent i línies de camp.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Gràfica de B(r) entre 10 i 50 cm; mòdul, direcció i sentit de la força sobre un electró.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Paper mil·limetrat en blanc per representar B(r)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Parallamps amb el sentit dels electrons i del corrent, línies de camp concèntriques i regla de la mà dreta
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Gràfica del mòdul del camp magnètic B (T) en funció de r (m) entre 0,1 i 0,5 m
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Força magnètica sobre l'electró dirigida cap al parallamps
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la renderització de l'enunciat la unitat de μ0 surt tallada ("T·m·"); el text del PDF
+  diu "T·m·A−1", i és el que s'ha transcrit.

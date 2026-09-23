@@ -1,0 +1,36 @@
+\begin{solapartat}
+\punts{0,25} De 0 a 4~s el flux augmenta de 0 a $2,4\times 10^{-3}$~Wb; per tant, el camp magnètic augmenta (figura 1). Llavors, s'induirà un corrent que s'oposa al canvi. Segons la regla de la mà dreta, el corrent circularà en sentit antihorari, com s'indica a la figura 2.
+\figura[0.25]{sol_fig1.png}
+\figura[0.35]{sol_fig2.png}
+
+\punts{0,25} De 4 a 8~s el flux no varia, no hi ha corrent induït.
+
+\punts{0,25} de 8 a 12~s el flux augmenta de $2,4\times 10^{-3}$ a $7,2\times 10^{-3}$~Wb; per tant, el camp magnètic augmenta (figura 1). Llavors, s'induirà un corrent que s'oposa al canvi. Segons la regla de la mà dreta, el corrent circularà en sentit antihorari, com s'indica a la figura 2.
+
+\punts{0,5} Com que l'àrea de l'espira és constant i la direcció del camp magnètic és constant i el camp magnètic és uniforme, el flux s'expressa així:
+\[ \phi_m = B\cdot S \]
+En aquesta fórmula, $S$ és la superfície de l'espira. Com que $S$ és constant, l'augment de flux només es pot explicar perquè augmenta el camp magnètic. Així, durant els intervals de temps de 0 a 4 i de 4 a 8, el camp magnètic ha d'augmentar; llavors, la figura (a) és la que correspon a la variació de flux observada.
+% DUBTE: la pauta diu "de 0 a 4 i de 4 a 8", però els intervals en què augmenta el flux són de 0 a 4 i de 8 a 12. Es transcriu tal com és.
+
+A més, com que de 0 a 4~s el flux augmenta de 0 a $2,4\times 10^{-3}$~Wb i el camp de 0 a 1~T, la superfície ha de ser 24~cm$^2$. De 8 a 12~s veiem que el camp magnètic augmenta d'1 a 3~T i si $S = 24$~cm$^2$, llavors el flux ha d'augmentar de $2,4\times 10^{-3}$ a $7,2\times 10^{-3}$~Wb; per tant, els valors numèrics també són correctes.
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,5} El mòdul de la FEM induïda és:
+\begin{gather*}
+\varepsilon = \frac{d\phi_m}{dt} = \frac{\Delta\phi_m}{\Delta t} = \frac{2,4\times 10^{-3}}{4} = 6,00\times 10^{-4}\ \mathrm{V}\\
+I = \frac{\varepsilon}{R} = \frac{6,00\times 10^{-4}}{5,0\times 10^{-3}} = 0,12\ \mathrm{A}
+\end{gather*}
+
+\punts{0,25}
+\begin{gather*}
+\varepsilon = \frac{d\phi_m}{dt} = \frac{\Delta\phi_m}{\Delta t} = 0\ \mathrm{V}\\
+I = \frac{\varepsilon}{R} = \frac{0}{5,0\times 10^{-3}} = 0\ \mathrm{A}
+\end{gather*}
+
+\punts{0,5}
+\begin{gather*}
+\varepsilon = \frac{d\phi_m}{dt} = \frac{\Delta\phi_m}{\Delta t} = \frac{7,2\times 10^{-3} - 2,4\times 10^{-3}}{4} = 1,20\times 10^{-3}\ \mathrm{V}\\
+I = \frac{\varepsilon}{R} = \frac{1,20\times 10^{-3}}{5,0\times 10^{-3}} = 0,24\ \mathrm{A}
+\end{gather*}
+\end{solapartat}

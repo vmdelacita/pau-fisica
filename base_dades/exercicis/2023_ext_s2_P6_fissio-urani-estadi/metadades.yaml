@@ -1,0 +1,44 @@
+id: 2023_ext_s2_P6_fissio-urani-estadi
+titol: Energia d'enllaç de l'urani 235 i fissió per il·luminar un estadi
+resum: >-
+  Càlcul del defecte de massa i de l'energia d'enllaç per nucleó de l'urani 235 i comparació
+  d'estabilitat amb altres nuclis; reacció de fissió amb bari 141 i massa d'urani 235 necessària
+  per produir 25 000 kWh.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 6
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23sl.pdf
+  pagines_enunciat: [12]
+  pdf_solucio: examenes/pau_fisi23sp.pdf
+  pagines_solucio: [15, 16]
+format: antic
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - reaccions nuclears i defecte de massa
+  - fissió i fusió
+paraules_clau: [urani 235, defecte de massa, energia d'enllaç per nucleó, estabilitat nuclear, fissió, bari, criptó, central nuclear, kWh]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Càlculs nuclears estàndard però amb diversos passos encadenats i canvis d'unitats (kWh, J,
+  MeV, nuclis, massa), a més d'ajustar la reacció amb els nombres de conservació.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Defecte de massa i energia d'enllaç per nucleó de l'U-235 i nucli més estable de la taula.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Completar la reacció de fissió amb Ba-141 i calcular la massa d'U-235 per a 25 000 kWh.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions parcials de la pauta apareixen després de cada pas; aquí es posen a l'inici
+  del bloc que puntuen. A la taula de la pauta, Ferro-56 i 8,79 són en vermell i 7,60 en blau
+  (negreta); s'ha reproduït amb color.

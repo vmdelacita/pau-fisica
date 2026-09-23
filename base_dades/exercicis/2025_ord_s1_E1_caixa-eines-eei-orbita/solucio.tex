@@ -1,0 +1,42 @@
+\begin{solapartat}
+Trobar l'expressió de la velocitat orbital
+
+\punts{0,5} Segons la llei de la gravitació universal, el mòdul de la força sobre la caixa degut a l'atracció de la Terra és:
+\[ F = G\,\frac{M_{ca}M_T}{r^2} \]
+La segona llei de Newton estableix que: $\vec{F} = M_{ca}\vec{a}$
+
+D'altra banda, considerant que el satèl·lit descriu un moviment circular uniforme al voltant de la Terra, la seva acceleració és l'acceleració centrípeta: $a = v^2/r$.
+
+Com que sobre la caixa sols actua la força de la gravetat:
+\[ G\,\frac{M_{ca}M_T}{r^2} = M_{ca}v^2/r \;\Rightarrow\; v = \sqrt{G\,\frac{M_T}{r}} \]
+
+\punts{0,25} El radi $r = 6,37\cdot 10^{6} + 4\cdot 10^{5} = 6,77\cdot 10^{6}\ \mathrm{m}$. Utilitzant l'expressió, obtenim el valor de la velocitat orbital de la caixa:
+\[ v_{ca} = \sqrt{G\,\frac{M_T}{r}} = \sqrt{6,67\cdot 10^{-11}\,\frac{5,98\cdot 10^{24}}{6,77\cdot 10^{6}}} = 7,68\cdot 10^{3}\ \mathrm{m/s} \]
+
+\punts{0,5} El nombre de voltes al voltant de la Terra que fa la caixa durant un dia. Hem de comparar els dos temps.
+
+El període de la caixa: $T = \frac{2\pi r}{v} = \frac{2\pi\, 6,77\cdot 10^{6}}{7,68\cdot 10^{3}} = 5,54\cdot 10^{3}\ \mathrm{s}$.
+
+I un dia amb segons: $t_{dia} = 24\ \mathrm{h}\,\frac{3600\ \mathrm{s}}{1\mathrm{h}} = 86,4\cdot 10^{3}\ s$.
+
+I el nombre de voltes: $n_{voltes/dia} = \frac{t_{dia}}{T} = \frac{86,4\cdot 10^{3}}{5,54\cdot 10^{3}} = 15,6$ voltes.
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,5} Calculem l'energia mecànica inicial a l'òrbita de 280~km d'altura: radi $r = 6,37\cdot 10^{6} + 2,8\cdot 10^{5} = 6,65\cdot 10^{6}\ \mathrm{m}$.
+
+L'energia mecànica és la suma de l'energia cinètica i potencial:
+\begin{align*}
+E_{m\,ini} = E_c + E_p &= \frac{1}{2}M_{EEI}v^2 - G\,\frac{M_{EEI}M_T}{r} = \frac{1}{2}M_{EEI}G\,\frac{M_T}{r} - G\,\frac{M_{EEI}M_T}{r} = -G\,\frac{M_{EEI}M_T}{2r}\\
+E_{m\,ini} = -G\,\frac{M_{EEI}M_T}{2r} &= -6,67\cdot 10^{-11}\,\frac{4,3\cdot 10^{5}\cdot 5,98\cdot 10^{24}}{2\cdot 6,65\cdot 10^{6}} = -1,29\cdot 10^{13}\ \mathrm{J}
+\end{align*}
+
+\punts{0,25} El signe negatiu de l'energia mecànica indica que l'EEI està seguint una òrbita tancada (o lligada) al voltant de la Terra.
+
+\punts{0,5} Sense tenir en compte l'atmosfera, es conservarà l'energia mecànica durant la caiguda, $E_{m\,ini} = E_{m\,fi}$ i l'energia mecànica final és $E_{m\,fi} = E_{c\,fi} + E_{p\,fi}$. Per tant, l'energia cinètica final amb què impactarà a l'aigua serà: $E_{c\,fi} = E_{m\,fi} - E_{p\,fi} = E_{m\,ini} - E_{p\,fi}$.
+
+L'energia potencial final:
+\[ E_{p\,fi} = -G\,\frac{M_{EEI}M_T}{R_T} = -6,67\cdot 10^{-11}\,\frac{4,3\cdot 10^{5}\cdot 5,98\cdot 10^{24}}{6,37\cdot 10^{6}} = -2,69\cdot 10^{13}\ \mathrm{J} \]
+Per tant, l'energia cinètica final amb què impacta a l'aigua serà:
+\[ E_{c\,fi} = E_{m\,fi} - E_{p\,fi} = -12,896\cdot 10^{12} + 26,925\cdot 10^{12}\ J = 1,40\cdot 10^{13}\ \mathrm{J} \]
+\end{solapartat}

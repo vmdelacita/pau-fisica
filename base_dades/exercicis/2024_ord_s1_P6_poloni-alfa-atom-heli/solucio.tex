@@ -1,0 +1,42 @@
+\begin{solapartat}
+\punts{0,5} Si imposem la conservació del nombre de nucleons i de la càrrega elèctrica tenim:
+\[ {}^{210}_{84}\mathit{Po} \rightarrow {}^{4}_{2}\mathit{He} + {}^{206}_{82}\mathit{Pb} \]
+
+\punts{0,25} Per trobar l'activitat després d'una setmana, utilitzem l'equació de l'activitat $A(t) = A_0\,e^{-\lambda t}$, en què l'activitat inicial és: $A_0 = 1,66\cdot 10^{14}\,\frac{\mathrm{Bq}}{\mathrm{g}}\cdot 5\cdot 10^{-3}\ \mathrm{g} = 8,3\cdot 10^{11}\ \mathrm{Bq}$
+
+\punts{0,25} Necessitem el coeficient de desintegració $\lambda$, que obtenim del temps de semidesintegració:
+
+$A(t) = \frac{A_0}{2} = A_0\,e^{-\lambda t_{1/2}}$ i per tant, $t_{1/2} = \frac{\ln 2}{\lambda}$.
+
+Directament obtenim $\lambda = \frac{\ln 2}{t_{1/2}} = \frac{\ln 2}{138} = 5,023\cdot 10^{-3}\ \mathrm{dies^{-1}}$
+
+\punts{0,25} L'activitat després de set dies és: $A = A_0\,e^{-\lambda t} = 8,3\cdot 10^{11}\,e^{-5,023\cdot 10^{-3}\cdot 7} = 8,01\cdot 10^{11}\ \mathrm{Bq}$
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,25} El treball realitzat pel camp elèctric és menys l'increment d'energia potencial:
+\[ W = -\Delta U = -q\cdot\Delta V \]
+
+\punts{0,25} En portar el primer electró des de l'infinit (distància molt gran), el camp elèctric i potencial elèctric existents són els creats per la partícula alfa. El potencial inicial és nul $V_i = 0$ i el final serà $V_{f1} = k\frac{q_\alpha}{r}$, en què $r$ és la distància final, $r = 0,6\times 10^{-10}\ \mathrm{m}$; per tant: $\Delta V_1 = 8,99\cdot 10^{9}\cdot\frac{2\cdot 1,602\cdot 10^{-19}}{0,6\cdot 10^{-10}} = 48,006\ \mathrm{V}$ i el treball fet pel camp elèctric durant el desplaçament del primer electró és $W_{e1} = -q_e\cdot\Delta V_1 = 1,602\cdot 10^{-19}\cdot 48,006 = 7,69\cdot 10^{-18}\ \mathrm{J}$.
+
+\punts{0,25} En portar el segon electró des de l'infinit, el potencial elèctric existent és el creat per la partícula alfa i l'electró. El potencial inicial és nul i el final serà $V_{f2} = k\frac{q_\alpha}{r} + k\frac{q_e}{2r}$, per tant:
+\[ \Delta V_2 = 8,99\cdot 10^{9}\cdot\frac{2\cdot 1,602\cdot 10^{-19}}{0,6\cdot 10^{-10}} - 8,99\cdot 10^{9}\cdot\frac{1,602\cdot 10^{-19}}{2\cdot 0,6\cdot 10^{-10}} = 36,005\ \mathrm{V}, \]
+i el treball pel segon electró és $W_{e2} = -q_e\cdot\Delta V_2 = 1,602\cdot 10^{-19}\cdot 36,005 = 5,77\cdot 10^{-18}\ \mathrm{J}$.
+
+\textit{L'energia potencial final:}
+
+\punts{0,50} L'energia potencial de la configuració final és menys el treball total fet pel camp, ja que l'energia potencial inicial era nul·la:
+
+$W_{total} = W_{e1} + W_{e2} = 7,69\cdot 10^{-18} + 5,77\cdot 10^{-18} = 1,346\cdot 10^{-17}\ \mathrm{J}$
+
+$\Delta U = U_f - U_i = -W$, \ i, per tant, l'energia potencial final és $U_f = -1,346\cdot 10^{-17}\ \mathrm{J}$
+
+\textit{O alternativament:}
+
+\punts{0,50} Calculem l'energia potencial electroestàtica del sistema final com a suma dels termes d'energia potencial per parelles:
+\[ U_{Sistema} = U_{e-He} + U_{e-He} + U_{e-e} = 2U_{e-He} + U_{e-e} \]
+\begin{align*}
+U_{Sistema} = 2k\frac{q_\alpha q_e}{r} + k\frac{q_e q_e}{2r} &= 2\cdot 8,99\cdot 10^{9}\cdot\frac{2\cdot 1,602\cdot 10^{-19}\cdot(-1,602\cdot 10^{-19})}{0,6\cdot 10^{-10}}\\
+&\quad + 8,99\cdot 10^{9}\cdot\frac{(-1,602\cdot 10^{-19})^2}{2\cdot 0,6\cdot 10^{-10}} = -1,346\cdot 10^{-17}\ \mathrm{J}
+\end{align*}
+\end{solapartat}

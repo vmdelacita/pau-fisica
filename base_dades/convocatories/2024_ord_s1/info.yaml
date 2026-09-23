@@ -1,0 +1,19 @@
+id: 2024_ord_s1
+any: 2024
+convocatoria: ordinaria
+serie: 1
+format: antic
+pdf_enunciat: examenes/pau_fisi24jl.pdf
+pdf_solucio: examenes/pau_fisi24jp.pdf
+instruccions: >-
+  Responeu a QUATRE dels set problemes següents. En el cas que respongueu a més
+  problemes, només es valoraran els quatre primers. Cada problema val 2,5 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2024_ord_s1_P1_bepicolombo-orbita-mercuri
+  - 2024_ord_s1_P2_masses-molla-disc-mhs
+  - 2024_ord_s1_P3_camp-electric-terra-gota
+  - 2024_ord_s1_P4_parallamps-camp-magnetic
+  - 2024_ord_s1_P5_coets-sant-joan-so
+  - 2024_ord_s1_P6_poloni-alfa-atom-heli
+  - 2024_ord_s1_P7_efecte-fotoelectric-de-broglie

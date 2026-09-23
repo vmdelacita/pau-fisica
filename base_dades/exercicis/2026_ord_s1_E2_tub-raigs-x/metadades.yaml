@@ -1,0 +1,52 @@
+id: 2026_ord_s1_E2_tub-raigs-x
+titol: Tub de raigs X
+resum: >-
+  Camp elèctric uniforme i força sobre un electró entre les plaques d'un tub de raigs X, amb
+  representació del camp i la força; energia cinètica i velocitat en arribar a l'ànode, energia
+  del fotó de raigs X emès i velocitat de l'electró després de l'emissió.
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi26jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi26jp.pdf
+  pagines_solucio: [5]
+format: nou
+bloc: Camps electromagnètics
+blocs_secundaris: ["Física relativista, quàntica i nuclear"]
+subtemes:
+  - moviment de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+  - línies de camp i superfícies equipotencials
+  - fotons i energia de la radiació
+paraules_clau: [tub de raigs X, càtode, ànode, camp elèctric uniforme, força elèctrica, electró, teorema de les forces vives, fotó, raigs X]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Diversos passos encadenats (camp, força, energia, velocitat) amb dos plantejaments possibles i
+  un final que combina conservació de l'energia amb l'energia d'un fotó; tot és força guiat.
+punts_total: 2.5
+apartats:
+  - etiqueta: "2.1"
+    punts: 1.25
+    resum: Mòdul del camp elèctric i de la força sobre l'electró; representar camp i força.
+  - etiqueta: "2.2"
+    punts: 1.25
+    resum: Energia cinètica i velocitat a l'ànode; energia del fotó de 1 nm i nova velocitat de l'electró.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Tub de raigs X amb càtode, ànode, electró amb velocitat v i fotó emès en xocar amb l'ànode
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Línies de camp elèctric uniformes dirigides cap al càtode i força sobre l'electró cap a l'ànode
+solucio_oficial: true
+revisat: false
+notes: >-
+  La velocitat obtinguda (1,57e8 m/s) és relativista, però l'enunciat demana negligir els
+  efectes relativistes. La pauta usa 1,121e-14 J i 1,101e-14 J als càlculs finals (valors amb
+  una xifra més); es transcriu tal com és.

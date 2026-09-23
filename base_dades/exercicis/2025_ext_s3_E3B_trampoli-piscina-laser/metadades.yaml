@@ -1,0 +1,49 @@
+id: 2025_ext_s3_E3B_trampoli-piscina-laser
+titol: Objecte al fons d'una piscina vist des d'un trampolí
+resum: >-
+  Càlcul de la posició d'un objecte al fons d'una piscina a partir de l'angle d'observació
+  i la llei de Snell; angle límit per a la reflexió total d'un làser submergit, velocitat
+  de la llum a l'aigua i freqüència i longitud d'ona del làser dins l'aigua.
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi25sl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi25sp.pdf
+  pagines_solucio: [7, 8]
+format: nou
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - reflexió i refracció
+  - ones electromagnètiques i espectre
+paraules_clau: [llei de Snell, refracció, piscina, trampolí, angle límit, reflexió total, índex de refracció, làser, longitud d'ona, freqüència]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal combinar la llei de Snell amb trigonometria a partir d'un esquema geomètric de
+  diversos trams; l'apartat b és una aplicació estàndard de l'angle límit i de v = c/n.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Distància horitzontal x de l'objecte a la vora de la piscina (Snell + trigonometria).
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Angle límit de reflexió total, velocitat de la llum a l'aigua, freqüència i longitud d'ona del làser a l'aigua.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Esquema de l'Alaitz al trampolí (1,6 m i 0,9 m), la piscina de 2 m de fondària i la distància x a l'objecte
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema del raig refractat amb l'angle de 40°, l'angle θ i les distàncies a i b (x = a + b)
+solucio_oficial: true
+revisat: false
+notes: >-
+  A la pauta, la velocitat de la llum dins l'aigua s'escriu v = c/n_1 (sense definir n_1);
+  transcrit tal qual.

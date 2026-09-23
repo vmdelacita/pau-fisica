@@ -1,0 +1,64 @@
+id: 2023_ext_s2_P4_espectrometre-masses-neo
+titol: Espectròmetre de masses amb selector de velocitats per a ions de neó
+resum: >-
+  Selector de velocitats amb camps elèctric i magnètic creuats per a ions negatius: diferència
+  de potencial entre plaques, polaritat, diagrama de forces i funcionament per a ions positius;
+  trajectòria semicircular en un camp magnètic i distància d'impacte de l'ió 20Ne−.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23sl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi23sp.pdf
+  pagines_solucio: [9, 10, 11]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - selector de velocitats, espectròmetre i ciclotró
+  - moviment de càrregues en camps magnètics
+  - moviment de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+paraules_clau: [espectròmetre de masses, selector de velocitats, força de Lorentz, regla de la mà dreta, ions negatius, neó, trajectòria circular, diferència de potencial]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema clàssic d'espectròmetre, però cal raonar amb cura els sentits de les forces per a
+  càrregues negatives, la polaritat de les plaques i el cas d'ions positius.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Diferència de potencial del selector, placa a potencial alt i baix, forces sobre l'ió i validesa per a ions positius.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Trajectòria dels ions en el camp magnètic i distància d'impacte de l'ió 20Ne− (dues vegades el radi).
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Selector de velocitats amb plaques separades 1,50 cm i camp magnètic sortint
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Regió amb camp magnètic entrant i pantalles laterals on entra l'ió amb velocitat v
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Eixos 3D amb E, B, v, F_E i F_M sobre un ió negatiu
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Selector amb línies de camp elèctric cap amunt, placa superior a V baix i inferior a V alt
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Eixos 3D amb les forces sobre una càrrega positiva al selector
+  - fitxer: sol_fig4.png
+    on: solucio
+    descripcio: Eixos 3D amb v, B i F_M per a l'ió negatiu i trajectòria semicircular fins a la pantalla
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions parcials de la pauta apareixen després de cada pas; aquí es posen a l'inici
+  del bloc que puntuen. A la pauta, sol_fig2 i sol_fig3 apareixen una al costat de l'altra.
+  La figura 2 de l'enunciat és al costat de l'apartat b; s'ha posat entre els apartats a i b.

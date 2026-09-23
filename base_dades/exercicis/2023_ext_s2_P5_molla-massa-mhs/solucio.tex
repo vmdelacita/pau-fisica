@@ -1,0 +1,69 @@
+\begin{solapartat}
+\punts{0,6} Atès que el període d'oscil·lació depèn de la massa i de la constant elàstica:
+\[ T = 2\pi\sqrt{\frac{m}{k}} \;\Rightarrow\; m = k\left(\frac{T}{2\pi}\right)^{2} \]
+A partir de la mesura del període i coneguda la constant elàstica podem determinar la massa d'un cos.
+
+Encara més, si en lloc de comptar el temps per fer una oscil·lació complerta mesurem el temps que triga a fer un cert nombre d'oscil·lacions millorem la precisió amb què determinem el període i d'aquesta manera podem determinar amb més precisió la massa de l'objecte.
+
+\punts{0,65} Com que el període només depèn de la massa i la constant elàstica, no depèn de la intensitat del camp gravitatori, la mesura es la mateixa a la Terra que a la Lluna.
+
+De fet, a la Lluna serà una mica més precisa atès que no tenim l'efecte de la fricció amb l'aire.
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,1}
+\[ A = 0,06\ \mathrm{m} \]
+\[ \omega = 2\pi f = 20\pi\ \mathrm{rad/s} \]
+
+\destaca{Primera opció}
+
+\begin{itemize}[leftmargin=2em,label={}]
+\item \punts{0,1} Equació del MHS:
+\[ x(t) = A\sin(\omega t + \varphi_0) \]
+
+\item \punts{0,2}
+\[ v(t) = \frac{dx(t)}{dt} = A\omega\cos(\omega t + \varphi_0) \]
+
+\item \punts{0,1} llavors la velocitat màxima és:
+\[ v_{\text{màx}} = A\omega = 3,77\ \mathrm{m/s} \]
+
+\item \punts{0,2}
+\[ a(t) = \frac{dv(t)}{dt} = -A\omega^2\sin(\omega t + \varphi_0) = -x\omega^2 \]
+
+\item \punts{0,1} llavors l'acceleració màxima és:
+\[ a_{\text{màx}} = A\omega^2 = 237\ \mathrm{m/s^2} \]
+
+\item \punts{0,2} Si a $t=0$ l'acceleració és màxima, llavors $x$ és mínima,
+\[ x(t=0) = -A \]
+\[ -A = A\sin(\varphi_0) \;\Rightarrow\; \varphi_0 = \mathrm{ArcSin}(-1) = -\frac{\pi}{2}\ \mathrm{rad}. \]
+
+\item \punts{0,25} Finalment, l'equació del moviment és:
+\[ x(t) = 0,06\sin(20\pi t - \pi/2),\ \text{$x$ en m i $t$ en s.} \]
+\end{itemize}
+
+\destaca{Alternativament:}
+
+\begin{itemize}[leftmargin=2em,label={}]
+\item \punts{0,1} Equació del MHS:
+\[ x(t) = A\cos(\omega t + \varphi_0) \]
+
+\item \punts{0,2}
+\[ v(t) = \frac{dx(t)}{dt} = -A\omega\sin(\omega t + \varphi_0) \]
+
+\item \punts{0,1} llavors la velocitat màxima és:
+\[ v_{\text{màx}} = A\omega = 3,77\ \mathrm{m/s} \]
+
+\item \punts{0,2}
+\[ a(t) = \frac{dv(t)}{dt} = -A\omega^2\cos(\omega t + \varphi_0) = -x\omega^2 \]
+
+\item \punts{0,1} llavors l'acceleració màxima és:
+\[ a_{\text{màx}} = A\omega^2 = 237\ \mathrm{m/s^2} \]
+
+\item \punts{0,2} Si a $t=0$ l'acceleració és màxima, llavors $x$ és mínima,
+\[ x(t=0) = -A \]
+\[ -A = A\cos(\varphi_0) \;\Rightarrow\; \varphi_0 = \mathrm{ArcCos}(-1) = \pi\ \mathrm{rad}. \]
+
+\item \punts{0,25} Finalment, l'equació del moviment és:
+\[ x(t) = 0,06\cos(20\pi t + \pi),\ \text{$x$ en m i $t$ en s.} \]
+\end{itemize}
+\end{solapartat}

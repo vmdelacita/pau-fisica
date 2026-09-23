@@ -1,0 +1,17 @@
+id: 2025_mostra_moment-angular
+any: 2025
+convocatoria: mostra
+serie: moment-angular
+format: nou
+pdf_enunciat: documents oficials/02_pau25_fisica_MostraExercicis_moment-angular.pdf
+pdf_solucio: documents oficials/02_pau25_fisica_MostraExercicis_moment-angular.pdf
+instruccions: >-
+  Document oficial de mostra amb cinc exercicis sobre el moment angular en òrbites
+  (planetes, sondes i satèl·lits) per a la PAU 2025, cadascun seguit de la seva resolució.
+# Ordre del document original (ids de base_dades/exercicis)
+exercicis:
+  - 2025_mostra_moment-angular_P1_mercuri-afeli-periheli
+  - 2025_mostra_moment-angular_P2_parker-solar-probe
+  - 2025_mostra_moment-angular_P3_satellit-energia-moment-angular
+  - 2025_mostra_moment-angular_P4_satellit-canvi-orbita
+  - 2025_mostra_moment-angular_P5_voyager-escapament-sol

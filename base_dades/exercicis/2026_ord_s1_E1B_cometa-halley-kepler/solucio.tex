@@ -1,0 +1,51 @@
+\begin{solapartat}
+\punts{0,25} Cal dibuixar una el·lipse amb el Sol en un dels focus. El periheli i l'afeli estan a l'el·lipse, sobre l'eix major; l'afeli se situa al punt més allunyat i el periheli, al punt més proper:
+\figura[0.55]{sol_fig1.png}
+
+\punts{0,25} El semieix major $a$ es calcula a partir de les distàncies al periheli i a l'afeli:
+\[ a = \frac{r_p + r_a}{2} = \frac{0,575 + 35,3}{2} = 17,94\ \mathrm{ua} = 2,69\times 10^{12}\ \mathrm{m} \]
+
+\punts{0,5} La tercera llei de Kepler estableix que el quadrat del període orbital és proporcional al cub del semieix major de la seva òrbita. La constant de proporcionalitat és:
+\[ \frac{(2\pi)^2}{G M_\mathrm{Sol}} = 2,97\times 10^{-19}\ \mathrm{s^2 m^{-3}} = 1,00\ \mathrm{anys^2 ua^{-3}} \]
+Es considerarà correcte tant si l'estudiant calcula la constant com si dona directament el seu valor.
+
+Llavors el període és:
+\[ T = \sqrt{\frac{(2\pi)^2}{G M_\mathrm{Sol}}\,a^3} = \sqrt{2,97\times 10^{-19}\cdot (2,69\times 10^{12})^3} = 2,41\times 10^{9}\ \mathrm{s} \]
+o
+\[ T = \sqrt{a^3} = \sqrt{(17,94)^3} = 76,0\ \mathrm{anys} \]
+
+\punts{0,25} L'Edmon Halley va néixer el 1656, per tant, va poder veure el cometa per primer cop l'any 1682. La següent aparició del cometa Halley va tenir lloc l'any 1758, 16 anys després de la defunció d'Edmond Halley, per tant, només va poder observar el cometa una vegada, l'any 1682.
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,75} La velocitat serà màxima al punt més proper al Sol, és a dir, al periheli. Aquesta conclusió es pot justificar de dues maneres diferents, qualsevol d'elles és vàlida:
+\begin{itemize}
+\item Segona llei de Kepler. La segona llei de Kepler estableix que un segment rectilini que uneix el planeta i el Sol escombra àrees iguals en temps iguals. Per tant, per escombrar la mateixa àrea quan està al punt més proper, cal que recorri una distància més gran per mantenir l'àrea constant.
+\item Conservació de l'energia mecànica. L'energia mecànica s'expressa com $E_m = \frac{1}{2} m_H v^2 - G\,\frac{m_H M_\mathrm{Sol}}{r}$. Com que l'energia mecànica és constant, la velocitat serà màxima quan el terme $G\,\frac{m_H M_\mathrm{Sol}}{r}$ sigui màxim, és a dir, quan la distància $r$ sigui mínima.
+\end{itemize}
+Per altra banda, és parcialment correcte:
+\begin{itemize}
+\item Conservació del moment angular. El mòdul del moment angular és
+\[ L = m\,r\,v\sin\theta \]
+on $\theta$ és l'angle que formen $\vec{r}$ i $\vec{v}$. Com el moment angular és constant, $v\sin\theta$ serà màxim quan la distància $r$ sigui mínima. Aquest argument és parcialment correcte atès que al periheli $\sin\theta$ és màxim per tant no podem garantir que la velocitat sigui màxima. En aquest cas es valorarà com \textcolor{red!70!black}{\textbf{0,5 p.}}
+\end{itemize}
+
+\punts{0,5} Com al periheli i a l'afeli $\vec{r}$ i $\vec{v}$ són perpendiculars, $\theta = \pi/2$ i $\sin\theta = 1$.
+
+Per tant, si imposem la conservació del moment angular entre el periheli i l'afeli tenim:
+\[ m_H\,r_P\,v_P = m_H\,r_A\,v_A \;\Rightarrow\; v_P = v_A\,\frac{r_A}{r_P} = 896\,\frac{35,3}{0,575} = 5,5\times 10^{4}\ \mathrm{m/s}. \]
+\destaca{Nota per als correctors:} no es penalitzarà el fet que l'estudiant utilitzi directament l'expressió $L = m\,r\,v$ sense justificar-la.
+
+\destaca{Alternativament,} es pot plantejar la conservació de l'energia mecànica:
+\[ \frac{1}{2} m_H v_A^2 - G\,\frac{m_H M_\mathrm{Sol}}{r_A} = \frac{1}{2} m_H v_P^2 - G\,\frac{m_H M_\mathrm{Sol}}{r_P} \]
+Si simplifiquem la massa del cometa tenim:
+\[ \frac{1}{2} v_A^2 - G\,\frac{M_\mathrm{Sol}}{r_A} = \frac{1}{2} v_P^2 - G\,\frac{M_\mathrm{Sol}}{r_P} \]
+I si aïllem la velocitat al periheli:
+% DUBTE: a la substitució numèrica la pauta escriu (1/35,3 - 1/0,575), en ordre invers
+% respecte de l'expressió simbòlica (1/r_P - 1/r_A); el resultat 5,5e4 m/s correspon a l'ordre correcte.
+\begin{align*}
+v_P &= \sqrt{v_A^2 + 2 G M_\mathrm{Sol}\left(\frac{1}{r_P} - \frac{1}{r_A}\right)}\\
+&= \sqrt{896^2 + \frac{2\times 6,67\times 10^{-11}\times 1,99\times 10^{30}}{1,50\times 10^{11}}\left(\frac{1}{35,3} - \frac{1}{0,575}\right)}\\
+&= 5,5\times 10^{4}\ \mathrm{m/s}
+\end{align*}
+\end{solapartat}

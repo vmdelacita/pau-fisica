@@ -1,0 +1,43 @@
+id: 2025_mostra_moment-angular_P3_satellit-energia-moment-angular
+titol: Energia mecànica d'un satèl·lit en funció del moment angular
+resum: >-
+  Demostració que l'energia mecànica d'un satèl·lit en òrbita el·líptica es pot expressar
+  en funció del moment angular, del perigeu, de l'apogeu i de la velocitat al perigeu;
+  càlcul de la velocitat a l'apogeu i de l'energia mecànica.
+font:
+  tipus: mostra
+  any: 2025
+  convocatoria: mostra
+  serie: moment-angular
+  exercici: 3
+  opcio: null
+  pdf_enunciat: documents oficials/02_pau25_fisica_MostraExercicis_moment-angular.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: documents oficials/02_pau25_fisica_MostraExercicis_moment-angular.pdf
+  pagines_solucio: [4, 5]
+format: nou
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites el·líptiques i moment angular
+  - energia mecànica orbital
+paraules_clau: [satèl·lit, òrbita el·líptica, perigeu, apogeu, semieix major, moment angular, energia mecànica]
+tipus: [deducció, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Deducció algebraica guiada que combina el moment angular i la geometria de l'el·lipse,
+  seguida de càlculs directes per conservació del moment angular.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Demostrar E = -G M_T L /[r_p (r_p + r_a) v_p].
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Velocitat a l'apogeu i energia mecànica del satèl·lit.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  La resolució no té puntuacions parcials. Es transcriuen tal com són algunes errades menors
+  de l'original: "I si aïllem el moment angular" (s'aïlla la massa), "perependiculars".

@@ -1,0 +1,44 @@
+id: 2026_ord_s1_E3_mobil-vibrador-mhs-so
+titol: Motor vibrador d'un telèfon mòbil
+resum: >-
+  Equació del MHS del vibrador d'un mòbil amb posició inicial nul·la; longitud d'ona i equació
+  de l'ona transversal que genera en una superfície metàl·lica; nivell d'intensitat sonora a
+  3 m per a una font isotròpica d'1 mW.
+font:
+  tipus: examen
+  any: 2026
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi26jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi26jp.pdf
+  pagines_solucio: [6]
+format: nou
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - ones harmòniques i equació d'ona
+  - ones sonores i nivell d'intensitat
+paraules_clau: [telèfon mòbil, motor vibrador, equació del MHS, fase inicial, longitud d'ona, nombre d'ona, equació d'ona, intensitat sonora, decibels, front d'ona esfèric]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de les equacions del MHS i de l'ona harmònica i de la definició de nivell
+  d'intensitat; passos estàndard i enunciat molt guiat.
+punts_total: 2.5
+apartats:
+  - etiqueta: "3.1"
+    punts: 1.25
+    resum: Equació del MHS, longitud d'ona i equació de l'ona transversal.
+  - etiqueta: "3.2"
+    punts: 1.25
+    resum: Nivell d'intensitat sonora a 3 m d'una font isotròpica d'1 mW.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta usa colors a "0,25 p" (penalització) en blau; s'ha posat amb \destaca. Es transcriu
+  "amb un el front d'ona és esfèric" tal com és a la pauta.

@@ -1,0 +1,41 @@
+id: 2025_ord_s1_E4_sodi24-activitat-volum-sang
+titol: Sodi 24 com a traçador per mesurar el volum de sang
+resum: >-
+  Raonament del tipus de desintegració beta del sodi 24 (excés de neutrons) i escriptura de la
+  reacció amb l'antineutrí; activitat al cap de 10 h a partir del període de semidesintegració
+  i càlcul del volum de sang d'un pacient per proporcionalitat de l'activitat.
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi25jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi25jp.pdf
+  pagines_solucio: [7]
+format: nou
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [sodi 24, desintegració beta menys, antineutrí, magnesi 24, període de semidesintegració, activitat, traçador radioactiu, volum de sang]
+tipus: [qualitativa, càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Desintegració beta amb conservació de Z i A i llei de desintegració exponencial aplicada
+  directament; l'única idea addicional és la proporcionalitat de l'activitat amb el volum.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Justificar emissió d'electrons, escriure la desintegració beta del Na-24 i identificar el nucli fill.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Activitat al cap de 10 h i volum de sang del pacient a partir de l'activitat per mL.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: ""

@@ -1,0 +1,53 @@
+\begin{solapartat}
+\punts{0,1} El període en unitats del SI s'expressa així:
+\[ T = 7\ \mathrm{h}\,\frac{3600\ \mathrm{s}}{1\ \mathrm{h}} + 39\ \mathrm{min}\,\frac{60\ \mathrm{s}}{1\ \mathrm{min}} + 14\ \mathrm{s} = 27554\ \mathrm{s} \]
+La velocitat angular orbital de Fobos és:
+\[ \omega = \frac{2\pi}{T} = \frac{2\pi}{27554} = 2,28\times 10^{-4}\ \mathrm{rad/s} \]
+
+\punts{0,2} Segons la llei de la gravitació universal, el mòdul de la força sobre Fobos degut a l'atracció de Mart és:
+\[ F = G\,\frac{M_F M_M}{r^2} \]
+
+\punts{0,1} I la segona llei de Newton estableix que: $\vec{F} = m\vec{a}$
+
+\punts{0,2} D'altra banda, considerant que Fobos descriu un moviment circular uniforme al voltant de Mart, la seva acceleració centrípeta és: $a = \omega^2 r$
+
+\punts{0,2} Com que sobre Fobos només actua la força de la gravetat:
+\begin{align*}
+G\,\frac{M_F M_M}{r^2} = M_F\,\omega^2 r \;\Rightarrow\; M_M &= \frac{\omega^2 r^3}{G} = \frac{(2,28\times 10^{-4})^2(9,377\times 10^{6})^3}{6,67\times 10^{-11}}\\
+&= 6,43\times 10^{23}\ \mathrm{kg}
+\end{align*}
+
+\punts{0,2} Segons la llei de gravitació universal, el mòdul de la força sobre un objecte de massa $m$ a la superfície de Mart s'expressa així:
+\[ F = G\,\frac{m M_M}{R_M^2} \]
+
+\punts{0,1} I el mòdul de la força que experimenta un objecte de massa $m$ sota l'acció d'un camp gravitatori d'intensitat $g$ és:
+\[ F = mg \]
+Igualant les dues expressions i dividint els dos costats per $m$ obtenim:
+\[ g = G\,\frac{M_M}{R_M^2} \]
+
+\punts{0,15} Per tant, obtenim:
+\[ g = G\,\frac{M_M}{R_M^2} = 6,67\times 10^{-11}\,\frac{6,43\times 10^{23}}{(3,390\times 10^{6})^2} = 3,73\ \mathrm{m/s^2} \]
+A l'enunciat no es demana deduir l'expressió anterior; per tant, també es considerarà correcte que l'estudiant introdueixi directament l'expressió $g = G\,\frac{M_M}{R_M^2}$.
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,25} A partir de les relacions de l'apartat anterior tenim:
+\begin{align*}
+G\,\frac{M_D M_M}{r^2} = M_D\,\omega^2 r \;\Rightarrow\; \omega &= \sqrt{G\,\frac{M_M}{r^3}} = \sqrt{6,67\times 10^{-11}\,\frac{6,43\times 10^{23}}{(2,346\times 10^{7})^3}}\\
+&= 5,76\times 10^{-5}\ \mathrm{rad/s}
+\end{align*}
+
+\punts{0,25} I el període de Deimos és:
+\[ T = \frac{2\pi}{\omega} = \frac{2\pi}{5,76\times 10^{-5}} = 1,09\times 10^{5}\ \mathrm{s} \]
+
+\destaca{Alternativament}
+
+\punts{0,5} A partir de la tercera llei de Kepler:
+\[ \frac{T_D^2}{r_D^3} = \frac{T_F^2}{r_F^3} \;\Rightarrow\; T_D = T_F\sqrt{\frac{r_D^3}{r_F^3}} = 27554\left(\frac{2,346\times 10^{7}}{9,377\times 10^{6}}\right)^{3/2} = 1,09\times 10^{5}\ \mathrm{s} \]
+
+\punts{0,25} La velocitat de Deimos és:
+\[ v = \omega\, r = 5,76\times 10^{-5}\times 2,346\times 10^{7} = 1352\ \mathrm{m/s} \]
+
+\punts{0,5} I l'energia mecànica és:
+\[ E_m = E_c + E_p = \frac{1}{2} M_D v^2 - G\,\frac{M_D M_M}{r} = -1,83\times 10^{21}\ \mathrm{J} \]
+\end{solapartat}

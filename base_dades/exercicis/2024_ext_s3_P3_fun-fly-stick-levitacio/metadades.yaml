@@ -1,0 +1,52 @@
+id: 2024_ext_s3_P3_fun-fly-stick-levitacio
+titol: Levitació electrostàtica amb el Fun-Fly-Stick
+resum: >-
+  Diagrama de forces i càrrega d'un objecte metàl·lic que levita en equilibri sobre una
+  vareta carregada; camp i potencial elèctrics al punt mitjà entre dues càrregues iguals
+  i treball extern per portar-hi un electró des de l'infinit.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 3
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24sl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi24sp.pdf
+  pagines_solucio: [5, 6]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [Fun-Fly-Stick, electricitat estàtica, levitació, llei de Coulomb, equilibri de forces, superposició, potencial elèctric, treball extern, electró]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic d'electrostàtica: equilibri de forces amb Coulomb i superposició
+  de camps i potencials de dues càrregues, amb atenció als signes en el treball.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Dibuix de forces i càrrega de l'objecte que levita en equilibri.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Camp i potencial al punt central entre dues càrregues de −2 μC i treball extern per portar-hi un electró.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'un noi fent levitar un objecte metàl·lic amb el Fun-Fly-Stick
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Forces sobre l'objecte carregat (força elèctrica cap amunt i pes cap avall) sobre la vareta
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Camps elèctrics de les dues càrregues de −2 μC al punt central, iguals i oposats
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta dona la càrrega de l'objecte com a 1,82 μC (positiva) tot i que la vareta
+  es carrega negativament; es transcriu tal com és (comentari DUBTE a solucio.tex).

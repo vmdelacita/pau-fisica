@@ -1,0 +1,137 @@
+% =========================================================
+% Plantilla dels exàmens i fulls d'exercicis (derivada de "tex ejemplo/main.tex").
+% La web hi substitueix les marques %%...%%:
+%   %%PREAMBUL_EXERCICIS%%  macros dels exercicis (eines/preambul_exercicis.tex)
+%   %%CAPCALERA%%           \departament, \trimestre, \unitat, \instruccions
+%   %%OPCIONS%%             p. ex. \mostrapuntsfalse als fulls d'exercicis
+%   %%EXERCICIS%%           els exercicis
+% Es pot modificar lliurement mentre es mantinguin les marques.
+% =========================================================
+\documentclass[a4paper,11pt]{article}
+
+% Marges ajustats
+\usepackage[margin=1.5cm]{geometry}
+
+% Idioma i codificació (T1 + lmodern: permet partir paraules amb accents)
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[catalan]{babel}
+
+% Taula de la capçalera i imatges
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\definecolor{grisclar}{gray}{0.85}
+
+% Numeració de pàgines X/Y
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\cfoot{\thepage/\pageref{LastPage}}
+
+% ---------------------------------------------------------
+% Macros dels exercicis de la base de dades
+% ---------------------------------------------------------
+%%PREAMBUL_EXERCICIS%%
+
+% ---------------------------------------------------------
+% Amplades fixes de les columnes de la capçalera
+% ---------------------------------------------------------
+\newlength{\ca} \setlength{\ca}{0.080\textwidth} % logo Generalitat
+\newlength{\cb} \setlength{\cb}{0.25\textwidth}  % bloc de text
+\newlength{\cc} \setlength{\cc}{0.170\textwidth}
+\newlength{\cd} \setlength{\cd}{0.21\textwidth}
+\newlength{\ce} \setlength{\ce}{0.085\textwidth} % "Grup:" / "Nota:"
+\newlength{\cf} \setlength{\cf}{0.130\textwidth} % logo de l'institut
+
+\newlength{\colA} \setlength{\colA}{\ca}\addtolength{\colA}{1.5cm}
+\newlength{\colB} \setlength{\colB}{\cc}\addtolength{\colB}{\cd}
+\newlength{\colC} \setlength{\colC}{\cd}\addtolength{\colC}{4.5cm}
+\newlength{\rowfullwidth} \setlength{\rowfullwidth}{\ca}
+  \addtolength{\rowfullwidth}{\cb}\addtolength{\rowfullwidth}{\cc}
+  \addtolength{\rowfullwidth}{\cd}\addtolength{\rowfullwidth}{\ce}\addtolength{\rowfullwidth}{\cf}
+
+% ---------------------------------------------------------
+% Dades de la capçalera
+% ---------------------------------------------------------
+\makeatletter
+\newcommand{\departament}[1]{\def\@departament{#1}}
+\newcommand{\trimestre}[1]{\def\@trimestre{#1}}
+\newcommand{\unitat}[1]{\def\@unitat{#1}}
+\newcommand{\instruccions}[1]{\def\@instruccions{#1}}
+\departament{}\trimestre{}\unitat{}\instruccions{}
+
+% Fila d'instruccions (només si n'hi ha)
+\newcommand{\filainstruccions}{}
+\newcommand{\crearcabecera}{{%
+    \ifx\@instruccions\@empty\else
+      \def\filainstruccions{\multicolumn{6}{|p{\rowfullwidth}|}{%
+        \hspace{0.5em}\textbf{Instruccions de la prova:} \vspace{0.4em} \newline
+        \hspace*{1.5em}\begin{minipage}{0.9\linewidth}
+          \@instruccions
+          \vspace{0.4em}
+        \end{minipage}} \\ \hline}%
+    \fi
+    \renewcommand{\arraystretch}{1.4}%
+    \setlength{\tabcolsep}{3pt}%
+    \noindent
+    \begin{tabular}{|p{\ca}p{\cb}|p{\cc}p{\cd}p{\ce}p{\cf}|}
+    \hline
+    \multirow{3}{*}{\includegraphics[width=\ca]{senyal_bn.png}}
+     & \multirow{3}{\cb}{Generalitat de Catalunya\\ Departament d'Educació i\\ Formació Professional}
+     & \multicolumn{3}{p{\colB}}{\textbf{\@departament}}
+     & \multirow{3}{*}{\includegraphics[width=\cf]{RCC.png}} \\
+     & & \multicolumn{3}{p{\colB}}{\@trimestre} & \\
+     & & \multicolumn{3}{p{\colC}}{\textit{\@unitat}} & \\
+    \hline
+    \multicolumn{2}{|p{\colA}}{\cellcolor{grisclar}Nom i cognoms:}
+     & \multicolumn{2}{p{\colB}|}{}
+     & \cellcolor{grisclar}Grup:
+     & \\
+    \hline
+    \multicolumn{2}{|p{\colA}}{\cellcolor{grisclar}Data:}
+     & \multicolumn{2}{p{\colB}|}{}
+     & \cellcolor{grisclar}\textbf{Nota:}
+     & \\
+    \hline
+    \filainstruccions
+    \end{tabular}\par}
+  \vspace{1em}
+}
+\makeatother
+
+% ---------------------------------------------------------
+% Exercicis: \begin{exercici}[2,5] ... \end{exercici}
+% (sense argument no es mostren els punts)
+% ---------------------------------------------------------
+\newcounter{numexercici}
+\newenvironment{exercici}[1][]{%
+  \refstepcounter{numexercici}%
+  \setcounter{apartat}{0}\setcounter{solapartat}{0}%
+  \par\vspace{1em}\noindent\textbf{Exercici \thenumexercici.}%
+  \ifx&#1&\else\ \textit{(\textpunts{#1})}\fi
+  \par\vspace{0.3em}\noindent\ignorespaces
+}{%
+  \par\vspace{0.5em}
+}
+% Procedència de l'exercici (opcional)
+\newcommand{\procedencia}[1]{{\small\textit{(#1)}}\par\vspace{0.2em}\noindent\ignorespaces}
+
+%%CAPCALERA%%
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.4em}
+%%OPCIONS%%
+
+\begin{document}
+
+\crearcabecera
+
+%%EXERCICIS%%
+
+\end{document}

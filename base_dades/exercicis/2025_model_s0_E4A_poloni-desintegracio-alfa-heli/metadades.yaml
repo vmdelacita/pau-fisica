@@ -1,0 +1,50 @@
+id: 2025_model_s0_E4A_poloni-desintegracio-alfa-heli
+titol: Desintegració alfa del poloni-210 i formació d'un àtom d'heli
+resum: >-
+  Equació de la desintegració alfa del Po-210 i activitat de 5 mg al cap d'una setmana
+  a partir del temps de semidesintegració; treball del camp elèctric en portar dos
+  electrons fins a la partícula alfa i energia potencial electrostàtica de la
+  configuració final.
+font:
+  tipus: model
+  any: 2025
+  convocatoria: model
+  serie: 0
+  exercici: 4
+  opcio: A
+  pdf_enunciat: documents oficials/01_pau25_fisica_0.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: documents oficials/01_pau25_fisica_0c.pdf
+  pagines_solucio: [8]
+format: nou
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: [Camps electromagnètics]
+subtemes:
+  - radioactivitat i llei de desintegració
+  - potencial i energia potencial elèctrica
+paraules_clau: [poloni-210, desintegració alfa, activitat, temps de semidesintegració, constant de desintegració, partícula alfa, àtom d'heli, treball del camp elèctric, energia potencial electrostàtica]
+tipus: [càlcul]
+dificultat: 4
+justificacio_dificultat: >-
+  L'apartat a és estàndard, però el b combina física nuclear amb electrostàtica en un
+  context poc habitual (construcció pas a pas d'un àtom d'heli) i cal calcular el
+  treball per a cada electró tenint en compte les càrregues ja presents.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Escriure la desintegració del Po-210 i calcular l'activitat de 5 mg al cap d'una setmana.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Treball del camp elèctric en portar cada electró i energia potencial de la configuració final.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Configuració final amb la partícula alfa al centre i un electró a cada costat a 0,6·10^-10 m
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'enunciat i a la pauta s'anomena "Opció 1)"; aquí correspon a l'opció A. La pauta
+  escriu "1.346·10^-17 J" amb punt decimal; s'ha transcrit amb coma decimal (1,346)
+  seguint FORMAT.md. El subtema secundari d'electrostàtica pertany al bloc Camps
+  electromagnètics (declarat a blocs_secundaris).

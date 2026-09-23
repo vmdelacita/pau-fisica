@@ -1,0 +1,43 @@
+id: 2023_ord_s1_P7_lampada-uva-fotoelectric
+titol: Tubs UVA d'una màquina de bronzejar i dispositiu fotoelèctric
+resum: >-
+  Energia cinètica màxima dels fotoelectrons emesos per una placa de sodi il·luminada amb
+  llum UVA de 300 nm i intensitat del corrent; efecte de substituir el tub per un de 350 nm
+  de la mateixa potència sobre el dispositiu de seguretat.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [14]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [14]
+format: antic
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [efecte fotoelèctric, radiació ultraviolada, màquina de bronzejar, funció de treball, freqüència llindar, energia cinètica màxima, intensitat de corrent, sodi, nombre de fotons]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Càlculs fotoelèctrics estàndard, però cal interpretar el context (mateixa potència i
+  mateix nombre de fotons) i raonar qualitativament l'efecte del canvi de longitud d'ona
+  sobre el nombre d'electrons i la seva energia.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Energia cinètica màxima dels electrons i intensitat de corrent amb els tubs originals (300 nm).
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Efecte del nou tub de 350 nm sobre el dispositiu de seguretat.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions parcials de la pauta apareixen just abans del pas que puntuen.

@@ -1,0 +1,44 @@
+\begin{solapartat}
+Per trobar l'expressió de la velocitat orbital:
+
+\punts{0,10} Segons la llei de la gravitació universal, el mòdul de la força sobre l'EEI és:
+\[ F = G\,\frac{M_TM_{EEI}}{r^2} \]
+\punts{0,10} La segona llei de Newton estableix que: $\vec{F} = M_{EEI}\vec{a}$
+
+\punts{0,15} D'altra banda, considerant que l'estació espacial descriu un moviment circular uniforme al voltant de la Terra, la seva acceleració és l'acceleració centrípeta: $a = v^2/r$
+
+\punts{0,15} Com que sobre el satèl·lit només hi actua la força de la gravetat:
+\[ G\,\frac{M_TM_{EEI}}{r^2} = M_{EEI}v^2/r \Rightarrow v = \sqrt{G\,\frac{M_T}{r}} \]
+\punts{0,25} Utilitzant l'expressió obtenim el valor de la velocitat orbital per a l'estació espacial:
+\[ v_{EEI} = \sqrt{G\,\frac{M_T}{r}} = \sqrt{6,67\times 10^{-11}\,\frac{5,98\times 10^{24}}{4,00\times 10^{5} + 6,37\times 10^{6}}} = 7,68\times 10^{3}\ \mathrm{m/s} \]
+\punts{0,25} Per saber el nombre de voltes que fa l'estació cada dia hem de comparar els dos temps.
+
+El període de l'EEI: $T = \frac{2\pi r}{v} = \frac{2\pi\, 6,77\times 10^{6}}{7,68\times 10^{3}} = 5,54\times 10^{3}\ \mathrm{s}$
+
+% DUBTE: 24 h = 8,64·10^4 s (no 8,64·10^5 s) i el quocient correcte és ~15,6 voltes; es transcriu tal com és a la pauta.
+\punts{0,25} I un dia en segons: $t_{dia} = 24\mathrm{h}\,\frac{3600\ s}{1\mathrm{h}} = 8,64\times 10^{5}\ \mathrm{s}$
+\[ n_{voltes/dia} = \frac{t_{dia}}{T} = \frac{8,64\times 10^{5}}{5,54\times 10^{3}} = 15\ voltes \]
+\end{solapartat}
+
+\begin{solapartat}
+% DUBTE: les puntuacions parcials d'aquest apartat sumen 1,15 punts (no 1,25).
+\punts{0,20} L'energia mecànica és la suma de l'energia cinètica i la potencial:
+\[ E_m = E_c + E_p = \frac{1}{2}M_{EEI}v^2 - G\,\frac{M_TM_{EEI}}{r} \]
+\punts{0,10} La velocitat a la nova òrbita és:
+\[ v_{EEI} = \sqrt{G\,\frac{M_T}{r}} = \sqrt{6,67\times 10^{-11}\,\frac{5,98\times 10^{24}}{2,80\times 10^{5} + 6,37\times 10^{6}}} = 7,74\times 10^{3}\ \mathrm{m/s} \]
+\punts{0,10} L'energia cinètica és:
+\[ E_c = \frac{1}{2}M_{EEI}v^2 = 1,29\times 10^{13}\ \mathrm{J} \]
+\punts{0,10} L'energia potencial és:
+\[ E_p = -G\,\frac{M_TM_{EEI}}{r} = -2,57\times 10^{13}\ \mathrm{J} \]
+\punts{0,10} I l'energia mecànica de l'EEI en aquesta òrbita és:
+\[ E_m = E_c + E_p = -1,29\times 10^{13}\ \mathrm{J} \]
+\punts{0,20} L'energia mecànica mínima necessària per escapar de l'òrbita de la Terra és 0~J. Atès que l'EEI orbita al voltant de la Terra, la seva energia mecànica ha de ser menor i, per tant, negativa.
+
+\punts{0,10} L'energia potencial quan l'estació arriba a la superfície de la Terra és:
+\[ E_p = -G\,\frac{M_TM_{EEI}}{r} = -2,69\times 10^{13}\ \mathrm{J} \]
+\punts{0,10} Si negligim el fregament, l'energia mecànica es conserva. Llavors:
+\[ E_c = E_m - E_p = 1,40\times 10^{13}\ \mathrm{J} \]
+% DUBTE: amb E_c = 1,40·10^13 J i M = 430·10^3 kg resulta v ≈ 8,07·10^3 m/s, no 8,80·10^3 m/s.
+\punts{0,15} I, finalment, la velocitat és:
+\[ v_{EEI} = \sqrt{\frac{2E_c}{M_{EEI}}} = 8,80\times 10^{3}\ \mathrm{m/s} \]
+\end{solapartat}

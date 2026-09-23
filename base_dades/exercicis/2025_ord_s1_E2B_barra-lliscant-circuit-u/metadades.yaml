@@ -1,0 +1,53 @@
+id: 2025_ord_s1_E2B_barra-lliscant-circuit-u
+titol: Barra que llisca sobre un circuit en U dins d'un camp magnètic
+resum: >-
+  Flux magnètic en funció del temps i fem induïda en un circuit en U amb una barra que
+  llisca a velocitat constant, sentit del corrent induït (Lenz); intensitat amb la llei d'Ohm
+  i força magnètica sobre la barra.
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 2
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi25jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi25jp.pdf
+  pagines_solucio: [4]
+format: nou
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+  - força magnètica sobre corrents i entre fils
+paraules_clau: [barra mòbil, circuit en U, flux magnètic, força electromotriu induïda, llei de Lenz, llei d'Ohm, força magnètica sobre un conductor, regla de la mà dreta]
+tipus: [càlcul, qualitativa, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic d'inducció amb barra mòbil: cal escriure l'àrea en funció del temps,
+  aplicar Faraday-Lenz per al valor i el sentit del corrent i després la força sobre la barra
+  amb el producte vectorial.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Flux en funció del temps, fem induïda i sentit del corrent induït.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Intensitat amb R = 50 Ω i força magnètica sobre la barra (mòdul, direcció i sentit).
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Circuit en U amb barra que baixa dins d'un camp magnètic cap enfora del paper, amb cotes 0,25 m i 0,3 m
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Circuit amb el sentit antihorari del corrent induït indicat amb fletxes vermelles
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Circuit amb el corrent induït i la força magnètica sobre la barra cap amunt
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta l'anomena "opció 2" (= opció B de l'enunciat). A les figures de la pauta l'etiqueta
+  "0,3m" queda parcialment tapada per la fletxa (és així a l'original).

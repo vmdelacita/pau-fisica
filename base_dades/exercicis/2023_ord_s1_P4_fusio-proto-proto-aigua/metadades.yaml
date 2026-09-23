@@ -1,0 +1,45 @@
+id: 2023_ord_s1_P4_fusio-proto-proto-aigua
+titol: Fusió nuclear i l'energia d'un got d'aigua
+resum: >-
+  Energia alliberada en la cadena protó-protó per defecte de massa i energia extraïble de
+  l'hidrogen d'un got d'aigua; reacció de producció de triti a partir de liti 6 i neutrons,
+  i discussió de si la fusió és una font d'energia neta i inesgotable.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [8, 9]
+format: antic
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - fissió i fusió
+  - reaccions nuclears i defecte de massa
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [fusió nuclear, cadena protó-protó, defecte de massa, Sol, deuteri, triti, liti 6, partícula alfa, energia neta, reactor de fusió]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  El càlcul del defecte de massa és directe, però cal deduir quants nuclis d'heli es formen
+  amb l'hidrogen de 17 mol d'aigua, escriure la reacció del liti i argumentar críticament
+  sobre la fusió com a font d'energia a partir del context.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Energia alliberada per nucli d'heli en la cadena protó-protó i energia extraïble d'un got d'aigua.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Reacció de producció de triti amb liti 6 i neutrons; discussió sobre si la fusió és neta i inesgotable.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  Les puntuacions parcials de la pauta apareixen just abans del pas que puntuen. A la
+  pauta els símbols nuclears (p, He, Li, n, H) són en cursiva; s'han mantingut així.

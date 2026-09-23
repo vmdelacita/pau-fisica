@@ -1,0 +1,55 @@
+id: 2024_ord_s1_P4_parallamps-camp-magnetic
+titol: Camp magnètic creat per un parallamps durant un llamp
+resum: >-
+  Camp magnètic màxim creat per la descàrrega d'un llamp en un parallamps, modelitzat
+  com un fil infinit; dibuix del sentit del corrent, dels electrons i de les línies de
+  camp. Gràfica de B en funció de la distància i força magnètica sobre un electró que
+  es mou paral·lel al parallamps.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 4
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi24jp.pdf
+  pagines_solucio: [7]
+format: antic
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+  - moviment de càrregues en camps magnètics
+paraules_clau: [parallamps, llamp, fil infinit, regla de la mà dreta, línies de camp magnètic, força de Lorentz, electró, sentit del corrent]
+tipus: [càlcul, diagrama, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  Càlculs directes amb B = μ0 I/(2πr) i F = qvB, però cal raonar el sentit del corrent
+  a partir del moviment dels electrons, dibuixar les línies de camp, fer la gràfica
+  i determinar el sentit de la força sobre una càrrega negativa.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Camp magnètic màxim a 10 cm i dibuix del parallamps amb electrons, corrent i línies de camp.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Gràfica B(r) entre 10 i 50 cm i força magnètica (mòdul, direcció i sentit) sobre un electró.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrícula en blanc per representar B en funció de r
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Parallamps amb el sentit dels electrons cap avall, el corrent I cap amunt, línies de camp circulars i regla de la mà dreta
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Gràfica de B (T) en funció de r (m) entre 0,1 i 0,5 m
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Electró amb velocitat cap avall al costat del parallamps i força magnètica dirigida cap al parallamps
+solucio_oficial: true
+revisat: false
+notes: "La quadrícula de l'enunciat (fig1) és l'espai de resposta de l'examen original."

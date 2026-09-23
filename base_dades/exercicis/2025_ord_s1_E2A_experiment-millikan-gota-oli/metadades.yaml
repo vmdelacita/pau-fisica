@@ -1,0 +1,49 @@
+id: 2025_ord_s1_E2A_experiment-millikan-gota-oli
+titol: Experiment de Millikan amb gotes d'oli
+resum: >-
+  Esquema del muntatge de Millikan amb les forces sobre una gota d'oli carregada, signe de
+  les plaques i camp elèctric uniforme entre plaques; càrrega d'una gota en equilibri,
+  nombre d'electrons i efecte de perdre un electró.
+font:
+  tipus: examen
+  any: 2025
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 2
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi25jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi25jp.pdf
+  pagines_solucio: [3]
+format: nou
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+  - "equilibri de càrregues en camps elèctrics"
+paraules_clau: [experiment de Millikan, gota d'oli, condensador pla, camp elèctric uniforme, equilibri de forces, càrrega de l'electró, quantització de la càrrega]
+tipus: [diagrama, càlcul, qualitativa, context-històric]
+dificultat: 2
+justificacio_dificultat: >-
+  Equilibri entre pes i força elèctrica en un camp uniforme E = V/d, amb càlcul de la massa
+  a partir de la densitat; passos encadenats i guiats, amb un raonament qualitatiu senzill.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Esquema amb forces sobre la gota, signe de les plaques, sentit del camp i càlcul de E = V/d.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Càrrega de la gota en equilibri, nombre d'electrons i què passa si en perd un.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Plaques horitzontals connectades a una font, camp E cap avall i forces Fe i P sobre la gota
+solucio_oficial: true
+revisat: false
+notes: >-
+  La pauta l'anomena "opció 1" (= opció A de l'enunciat). A l'apartat a) la pauta parla de "les
+  dues forces que actuen sobre l'electró" referint-se a la gota; es transcriu tal com és. El
+  subtema "moviment de càrregues en camps elèctrics" s'usa per a l'equilibri d'una càrrega
+  en un camp uniforme (no hi ha subtema específic d'equilibri electrostàtic).

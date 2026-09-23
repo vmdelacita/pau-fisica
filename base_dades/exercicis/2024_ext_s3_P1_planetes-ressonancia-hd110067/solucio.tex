@@ -1,0 +1,52 @@
+\begin{solapartat}
+Trobar l'expressió de la velocitat orbital
+
+\punts{0,15} Segons la llei de la gravitació universal, el mòdul de la força sobre el 6è planeta a causa de l'atracció de l'estrella HD110067 és: $F = G\,\frac{M_6 M_{HD}}{r^2}$
+
+\punts{0,15} Suposant un moviment circular uniforme al voltant de l'estel, l'acceleració centrípeta del planeta és $a_n = \frac{v^2}{r} = \omega^2 r$ en què la velocitat angular és $\omega = \frac{2\pi}{T}$.
+
+\punts{0,15} El període en segons: $T = 54,7\,d\,\frac{24\cdot 3600\ s}{1\,d} = 4,73\cdot 10^{6}\ s$.
+
+\punts{0,30} Com que sobre el planeta sols actua la força de la gravetat: $G\,\frac{M_6 M_{HD}}{r^2} = M_6\,\omega^2 r$
+
+Per tant, trobem
+\[ r = \sqrt[3]{\frac{G M_{HD} T^2}{4\pi^2}} = \sqrt[3]{\frac{6,67\cdot 10^{-11}\,1,98\cdot 10^{30}\,(4,73\cdot 10^{6})^2}{4\pi^2}} = 4,214\cdot 10^{10}\ m \]
+
+\punts{0,25} La representació de l'acceleració normal.
+
+\punts{0,25} El mòdul de l'acceleració normal:
+\[ a_n = \omega^2 r = \frac{4\pi^2}{T^2}\,r = \frac{4\pi^2}{(4,73\cdot 10^{6})^2}\,4,214\cdot 10^{10} = 7,44\cdot 10^{-2}\ m/s^2 \]
+\figura[0.25]{sol_fig1.png}
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,5} Els períodes del 5è i 6è planetes tenen la relació: $3\cdot T_6 = 4\cdot T_5$. Per tant, utilitzant la 3a llei de Kepler, (que també podem deduir de l'anterior relació radi-període): $r_6^3/T_6^2 = r_5^3/T_5^2$, tenim que
+\[ r_5 = r_6\sqrt[3]{\frac{T_5^2}{T_6^2}} = r_6\sqrt[3]{\frac{9}{16}} = 3,48\cdot 10^{10}\ m\,. \]
+O, alternativament,
+\[ T_5 = \frac{3}{4}\,4,73\cdot 10^{6} = 3,547\cdot 10^{6}\ s \]
+I calculem el radi:
+\[ r_5 = \sqrt[3]{\frac{G M_{HD} T^2}{4\pi^2}} = \sqrt[3]{\frac{6,67\cdot 10^{-11}\,1,98\cdot 10^{30}\,(3,547\cdot 10^{6})^2}{4\pi^2}} = 3,48\cdot 10^{10}\ m \]
+
+\textit{Càlcul de l'energia mecànica:}
+
+\punts{0,5} L'energia mecànica és la suma de l'energia cinètica i potencial:
+\[ E_m = E_c + E_p = \frac{1}{2}M_5 v^2 - G\,\frac{M_5 M_{HD}}{r} = \frac{1}{2}M_5\,G\,\frac{M_{HD}}{r} - G\,\frac{M_5 M_{HD}}{r} = -\frac{G M_5 M_{HD}}{2r} \]
+
+\punts{0,25} I per al 5è planeta:
+\[ E_m = -\frac{G M_5 M_{HD}}{2r} = -\frac{6,67\cdot 10^{-11}\cdot 2,5\cdot 5,98\cdot 10^{24}\cdot 1,98\cdot 10^{30}}{2\cdot 3,48\cdot 10^{10}} = -2,84\cdot 10^{34}\ J \]
+Si l'alumne no posa el signe negatiu de l'energia mecànica resta 0,2.
+
+\textit{O, alternativament:}
+
+calcular la velocitat i trobar l'energia cinètica:
+
+\punts{0,15} $v = \frac{2\pi r}{T_5} = \frac{2\pi\cdot 3,48\cdot 10^{10}}{3,547\cdot 10^{6}} = 6,16\cdot 10^{4}\ m/s$,
+
+\punts{0,25} $E_c = \frac{1}{2}M_5 v^2 = \frac{1}{2}\,2,5\cdot 5,98\cdot 10^{24}\,(6,16\cdot 10^{4})^2 = 2,84\cdot 10^{34}\ J$
+
+\punts{0,25} Calcular $E_p = -\frac{G M_5 M_{HD}}{r} = -\frac{6,67\cdot 10^{-11}\cdot 2,5\cdot 5,98\cdot 10^{24}\cdot 1,98\cdot 10^{30}}{3,48\cdot 10^{10}} = -5,68\cdot 10^{34}\ J$
+
+\punts{0,10} I calcular $E_m = E_c + E_p = 2,84\cdot 10^{34} - 5,68\cdot 10^{34} = -2,84\cdot 10^{34}\ J$
+
+Si l'alumne no posa el signe negatiu de l'energia mecànica resta 0,2.
+\end{solapartat}

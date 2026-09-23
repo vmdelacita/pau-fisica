@@ -1,0 +1,48 @@
+id: 2025_mostra_experiments_Q3_experiencia-oersted-bruixola
+titol: Experiència d'Oersted amb brúixoles
+resum: >-
+  Orientació d'una brúixola en dos punts de l'eix y a prop d'un fil rectilini amb corrent
+  continu en el sentit +z (experiència d'Oersted); efecte d'invertir el corrent i què ens
+  diu l'experiència sobre les fonts del camp magnètic.
+font:
+  tipus: mostra
+  any: 2025
+  convocatoria: mostra
+  serie: experiments
+  exercici: 3
+  opcio: null
+  pdf_enunciat: documents oficials/02_pau25_fisica_QuestionsExperiments.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: documents oficials/02_pau25_fisica_QuestionsExperiments.pdf
+  pagines_solucio: []
+format: nou
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - imants, brúixoles i experiment d'Oersted
+  - camp magnètic creat per corrents
+paraules_clau: [experiència d'Oersted, brúixola, fil rectilini, corrent continu, línies de camp magnètic, regla de la mà dreta, fonts del camp magnètic]
+tipus: [experimental, diagrama, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Raonament qualitatiu sobre el camp d'un fil en una figura 3D (direcció i sentit del camp
+  a cada banda del fil) i interpretació conceptual de l'experiment.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Orientació d'una brúixola als punts A i B de l'eix y, amb els pols, justificada.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Efecte d'invertir el corrent sobre les brúixoles i informació sobre les fonts del camp magnètic.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fil vertical al llarg de l'eix z amb corrent I cap amunt i els punts A i B sobre l'eix y en un pla horitzontal
+solucio_oficial: false
+revisat: false
+notes: >-
+  Exemple de pregunta del document "Qüestions d'interpretació i anàlisi d'experiments"
+  (apartat Observació i interpretació de les línies de camp magnètic. Experiència d'Oersted).
+  El document no dona puntuació ni solució: s'han repartit 2,5 punts a parts iguals
+  (1,25 + 1,25).

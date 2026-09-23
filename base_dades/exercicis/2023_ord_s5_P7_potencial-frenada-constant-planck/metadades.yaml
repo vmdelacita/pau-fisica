@@ -1,0 +1,53 @@
+id: 2023_ord_s5_P7_potencial-frenada-constant-planck
+titol: Mètode del potencial invers i constant de Planck
+resum: >-
+  En una cel·la fotoelèctrica amb el mètode del potencial invers, cal raonar quina placa
+  va a potencial alt, relacionar potencial de frenada i freqüència, determinar h a
+  partir d'una taula de dades i calcular la freqüència llindar i si hi ha emissió amb
+  llum de 350 nm.
+font:
+  tipus: examen
+  any: 2023
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi23jl.pdf
+  pagines_enunciat: [30]
+  pdf_solucio: examenes/pau_fisi23jp.pdf
+  pagines_solucio: [30, 31]
+format: antic
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: [Camps electromagnètics]
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [efecte fotoelèctric, potencial de frenada, mètode del potencial invers, constant de Planck, funció de treball, freqüència llindar, cel·la fotoelèctrica, Einstein]
+tipus: [experimental, càlcul, qualitativa, context-històric]
+dificultat: 4
+justificacio_dificultat: >-
+  Cal raonar el sentit del camp de frenada per a càrregues negatives, deduir la relació
+  V_f(f) i obtenir h a partir de dades experimentals; la interpretació de dades i el
+  raonament sobre el muntatge van més enllà d'un exercici estàndard.
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Placa a potencial alt, relació entre potencial de frenada i freqüència, i constant de Planck a partir de la taula.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Freqüència llindar i si hi ha emissió amb llum de 350 nm.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Esquema de la cel·la fotoelèctrica amb càtode, ànode, amperímetre, voltímetre i font de tensió
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Cel·la fotoelèctrica amb el camp elèctric de frenada del càtode a l'ànode, velocitats dels electrons i força de frenada
+solucio_oficial: true
+revisat: false
+notes: >-
+  A l'original la figura és a la dreta del text introductori i de l'apartat a
+  ("l'esquema de la dreta"); aquí es posa abans de l'apartat. La taula va entre els apartats a i b, com a
+  l'original. "Nota pels correctors" en color a la pauta (\destaca). "tal i com",
+  "sempre i quan" literals.

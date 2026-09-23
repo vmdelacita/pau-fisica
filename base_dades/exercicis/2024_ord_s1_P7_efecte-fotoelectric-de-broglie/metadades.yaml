@@ -1,0 +1,44 @@
+id: 2024_ord_s1_P7_efecte-fotoelectric-de-broglie
+titol: Efecte fotoelèctric en un metall amb llindar de 650 nm
+resum: >-
+  Treball d'extracció d'un metall a partir de la longitud d'ona llindar i potencial de
+  frenada per a llum de 300 nm. Expressió de la velocitat dels fotoelectrons en funció
+  de la longitud d'ona, velocitat per a 500 nm i longitud d'ona de De Broglie associada.
+font:
+  tipus: examen
+  any: 2024
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 7
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi24jl.pdf
+  pagines_enunciat: [14]
+  pdf_solucio: examenes/pau_fisi24jp.pdf
+  pagines_solucio: [11]
+format: antic
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - dualitat ona-partícula
+paraules_clau: [efecte fotoelèctric, longitud d'ona llindar, treball d'extracció, potencial de frenada, energia cinètica, velocitat dels electrons, longitud d'ona de De Broglie]
+tipus: [càlcul, deducció]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de l'equació d'Einstein de l'efecte fotoelèctric i de la relació
+  de De Broglie; l'única deducció és aïllar v(λ).
+punts_total: 2.5
+apartats:
+  - etiqueta: "a"
+    punts: 1.25
+    resum: Treball d'extracció a partir de λ0 = 650 nm i potencial de frenada per a 300 nm.
+  - etiqueta: "b"
+    punts: 1.25
+    resum: Expressió v(λ), velocitat per a 500 nm i longitud d'ona de De Broglie dels electrons.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  DUBTE: a la pauta, la longitud d'ona de De Broglie és "1,63·10^-9 m = 1,67 nm"; el
+  valor correcte és 1,63 nm (errada transcrita tal com és). A l'apartat a), la pauta diu
+  "Hzi. I," (probablement "Hz. I,"); s'ha transcrit com a "Hz. I,".

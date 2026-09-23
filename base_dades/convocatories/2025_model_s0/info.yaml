@@ -1,0 +1,19 @@
+id: 2025_model_s0
+any: 2025
+convocatoria: model
+serie: 0
+format: nou
+pdf_enunciat: documents oficials/01_pau25_fisica_0.pdf
+pdf_solucio: documents oficials/01_pau25_fisica_0c.pdf
+instruccions: >-
+  Aquest examen consta de quatre exercicis obligatoris (2,50 punts per exercici).
+  Als exercicis 1 i 4, escolliu una de les dues opcions (opció 1 o opció 2).
+# Ordre de l'examen original (ids de base_dades/exercicis).
+# A l'original les opcions s'anomenen "Opció 1)" i "Opció 2)": 1 → A, 2 → B.
+exercicis:
+  - 2025_model_s0_E1A_bepicolombo-mercuri-orbita
+  - 2025_model_s0_E1B_estacio-espacial-energia-reentrada
+  - 2025_model_s0_E2_parallamps-camp-magnetic-fil
+  - 2025_model_s0_E3_molla-disc-mhs-energia
+  - 2025_model_s0_E4A_poloni-desintegracio-alfa-heli
+  - 2025_model_s0_E4B_efecte-fotoelectric-de-broglie

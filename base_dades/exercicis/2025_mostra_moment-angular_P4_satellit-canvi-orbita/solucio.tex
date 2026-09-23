@@ -1,0 +1,32 @@
+\begin{solapartat}
+Segons la llei de gravitació universal, el mòdul de la força s'expressa com:
+\[ F = G\,\frac{M_Tm}{(R_T + h)^2} \]
+La segona llei de Newton estableix que: $\vec{F} = m\vec{a}$, on $m$ és la massa del satèl·lit i l'acceleració és l'acceleració centrípeta, $a_N = \frac{v^2}{r}$:
+\[ \frac{mv^2}{R_T + h} = G\,\frac{M_T}{(R_T + h)^2} \]
+% DUBTE: a l'original falta la massa m al membre de la dreta
+Si aïllem la velocitat obtenim:
+\[ v = \sqrt{G\,\frac{M_T}{R_T + h}} = 6,31\cdot 10^{3}\ \mathrm{m/s} \]
+\[ v = \omega(R_T + h) = \frac{2\pi}{T}(R_T + h) \Longrightarrow T = \frac{2\pi}{v}(R_T + h) = 9,96\cdot 10^{3}\ \mathrm{s} \]
+\end{solapartat}
+
+\begin{solapartat}
+En el punt P tindrem
+\[ E_m = \frac{1}{2}mv^2 - G\,\frac{M_Tm}{R_T + h_p} = \left(4,90\cdot 10^{10} - 7,97\cdot 10^{10}\right)\mathrm{J} = -3,07\cdot 10^{10}\ \mathrm{J} \]
+En el punt P, degut a que l'energia total es conserva al llarg de la trajectòria, tindrem:
+% DUBTE: per context és el punt A (i l'altura h_A), no P; i l'energia val -3,07·10^10 J al pas anterior
+\begin{align*}
+E_m = E_c - G\,\frac{M_Tm}{R_T + h_p} = -3,06\cdot 10^{10}\ \mathrm{J} \Longrightarrow E_c &= \left(-3,06\cdot 10^{10} + 5,01\cdot 10^{10}\right)\mathrm{J}\\
+&= 1,94\cdot 10^{10}\ \mathrm{J}
+\end{align*}
+El moment angular del satèl·lit respecte el centre de la Terra s'expressa com:
+\[ \vec{L} = m\vec{r}\times\vec{v}, \]
+on $\vec{r}$ és el vector de posició que apunta del centre de la Terra al satèl·lit, $m$ és la massa del satèl·lit i $\vec{v}$ és la seva velocitat. El mòdul del moment angular s'expressa com:
+\[ L = m\,r\,v\sin\theta, \]
+on $\theta$ és l'angle que formen $\vec{r}$ i $\vec{v}$. Com al punt P $\vec{r}$ i $\vec{v}$ són perependiculars, $\theta = \pi/2$ i $\sin\theta = 1$. Per tant, el moment angular al punt P és:
+\[ L_P = m\,r_P\,v_P = 2000\cdot(3630 + 6370)\cdot 1000\cdot 7000 = 1,40\cdot 10^{14}\ \mathrm{kg\cdot m^2/s} \]
+Per altra banda, la velocitat $v_A$ a partir de l'energia cinètica que hem calculat abans:
+\[ v_A = \sqrt{\frac{2\,E_c}{m}} = 4.41\ 10^{3}\ \mathrm{m/s} \]
+Com al punt A $\vec{r}$ i $\vec{v}$ són perependiculars, $\theta = \pi/2$ i $\sin\theta = 1$. Per tant, el moment angular al punt A és:
+\[ L_A = m\,r_A\,v_A = 2000\cdot(9530 + 6370)\cdot 1000\cdot 4410 = 1,40\cdot 10^{14}\ \mathrm{kg\cdot m^2/s} \]
+I com el moment angular es conserva, obtenim el mateix resultat: $L_A = L_P$.
+\end{solapartat}

@@ -1,0 +1,50 @@
+\begin{solapartat}
+\punts{0,5} L'energia potencial gravitatòria s'expressa així:
+\[ E_P = -G\,\frac{mM_M}{r} \Rightarrow r = -G\,\frac{mM_M}{E_P} \]
+% DUBTE: la pauta diu "els tres valors de la taula", però la taula només en té dos.
+I, si substituïm pels tres valors de la taula, tenim:
+
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Punt & Distància respecte del centre de Mercuri [m] & Energia potencial [J] \\
+\hline
+\rule{0pt}{4.5ex}1 & $\displaystyle -6,67\cdot 10^{-11}\,\frac{2700\cdot 3,285\cdot 10^{23}}{-1,89\cdot 10^{10}} = 3,13\cdot 10^{6}$ & $-1,89\cdot 10^{10}$ \\[3ex]
+\hline
+\rule{0pt}{4.5ex}2 & $\displaystyle -6,67\cdot 10^{-11}\,\frac{2700\cdot 3,285\cdot 10^{23}}{-1,35\cdot 10^{10}} = 4,38\cdot 10^{6}$ & $-1,35\cdot 10^{10}$ \\[3ex]
+\hline
+\end{tabular}
+\end{center}
+
+\punts{0,5} Segons la llei de la gravitació universal, el mòdul de la força sobre la \textit{BepiColombo} degut a l'atracció de Mercuri és:
+\[ F = G\,\frac{mM_M}{r^2} \]
+I la relació entre la força i la intensitat del camp gravitatori és:
+\[ F = mg \]
+Per tant, la intensitat del camp gravitatori és:
+\[ g = G\,\frac{M_M}{r^2} \Rightarrow r = \sqrt{G\,\frac{M_M}{g}} = \sqrt{6,67\cdot 10^{-11}\,\frac{3,285\cdot 10^{23}}{3,23}} = 2,60\cdot 10^{6}\ \mathrm{m} \]
+\punts{0,25} I l'alçada sobre la superfície és:
+\[ h = r - R_M = 2,60\cdot 10^{6} - 2,44\cdot 10^{6} = 1,64\cdot 10^{5}\ \mathrm{m} = 164\ \mathrm{km} \]
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,75} Les distàncies al punt més proper (periastre) i al més allunyat (apoastre) es poden calcular directament a partir de les altures:
+\begin{align*}
+r_A &= (11.600 + 2,44\cdot 10^{3})\cdot 10^{3} = 1,404\cdot 10^{7}\ \mathrm{m}\\
+r_P &= (590 + 2,44\cdot 10^{3})\cdot 10^{3} = 3,03\cdot 10^{6}\ \mathrm{m}
+\end{align*}
+
+El moment angular s'expressa així:
+\[ \vec{L} = m\vec{r}\times\vec{v} \]
+En què $\vec{r}$ és el vector de posició que apunta del centre de Mercuri a \textit{Mio} i $\vec{v}$ és la velocitat de \textit{Mio}. El mòdul del moment angular s'expressa així:
+\[ L = m\,r\,v\,\sin\theta \]
+En què $\theta$ és l'angle que formen $\vec{r}$ i $\vec{v}$. Com al periastre i a l'apoastre, $\vec{r}$ i $\vec{v}$ són perependiculars: $\theta = \pi/2$ i $\sin\theta = 1$.
+
+Per tant, si imposem la conservació del moment angular entre el periastre i l'apoastre, tenim:
+\[ m\,r_P\,v_P = m\,r_A\,v_A \Rightarrow v_P = v_A\,\frac{r_A}{r_P} = 2,64\cdot 10^{3}\,\frac{1,404\cdot 10^{7}}{3,03\cdot 10^{6}} = 1,22\cdot 10^{4}\ \mathrm{m/s}. \]
+
+\punts{0,5} El mòdul de l'acceleració normal és: $a = \frac{v^2}{r}$
+
+En una òrbita el·líptica, com que el mòdul de la velocitat canvia en els diferents punts de l'òrbita, i també varia la distància entre l'òrbita i el planeta, també canviarà el valor de l'acceleració normal.
+
+A partir del principi de conservació del moment angular, hem vist que la velocitat del satèl·lit serà màxima en el punt més proper al planeta (punt $P$). Aquest punt també correspon a la distància mínima entre el satèl·lit i el planeta. Com que l'acceleració normal és $a = \frac{v^2}{r}$, al punt $P$, $v$ és màxima i $r$ és mínima; llavors l'acceleració normal prendrà el seu valor màxim.
+\end{solapartat}
