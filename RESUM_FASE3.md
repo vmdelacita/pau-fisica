@@ -120,7 +120,9 @@ README.md
 - En copiar text del PDF, la «l·l» surt com a «l.l». És només la capa de text; visualment és correcta.
 - L'editor només modifica l'enunciat. La solució entrarà a la fase 4.
 
-## Publicació (pendent: la decideix el professor)
+## Publicació
+
+> **Actualització (2026-09-23):** publicada a <https://vmdelacita.github.io/pau-fisica/> (repositori públic `vmdelacita/pau-fisica`). Les respostes als dubtes de la Fase 4 i el pla per afegir els exàmens antics són a `PLA_EXAMENS_ANTICS.md`.
 
 Google Sites no pot allotjar la web, però sí **incrustar-la**. Cal un allotjament estàtic gratuït. Detalls al `README.md`.
 
