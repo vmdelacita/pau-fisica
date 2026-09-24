@@ -107,6 +107,8 @@ Decidit el 2026-09-23, a partir del consum mesurat al lot 1 i a la Fase 2.
 3. **Pautes breus dels primers anys:** es transcriuen tal com són i s'indica a `notes` que són pautes resumides.
 4. **PDF originals:** es pugen al repositori a mesura que s'incorporen, reanomenats amb el format actual (`pau_fisi15jl.pdf` per a l'examen i `pau_fisi15jp.pdf` per a la pauta, amb `s` en lloc de `j` per a setembre). Així la fitxa de cada exercici enllaça a l'original.
 5. **Ordre:** primer els 4 lots i després la Fase 4.
+6. **Exercicis repetits (2026-09-24):** si un exercici d'un examen antic ja és a la base de dades dins d'un examen de format nou (problemes de 2,5 punts), no es duplica. Es copia la pauta oficial a l'exercici existent, que manté els **2,5 punts**, i les puntuacions parcials es reescalen proporcionalment. Cas fet: la Q5 de les mostres de 2025 (P4B de juny de 2017).
+7. **Errors a l'enunciat original** (p. ex. 2016 juny S3 P4B, «1 460 MeV»): no es corregeixen. Es deixen a `REVISIO_PENDENT.md` perquè el professor els revisi a mà.
 
 ## 6. Tasca prèvia al lot 1: revisió només per al professor
 

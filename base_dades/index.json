@@ -14945,16 +14945,16 @@
    ],
    "dificultat": 2,
    "justificacio_dificultat": "Aplicació directa de E = ΔV/d i W = qΔV en un muntatge experimental senzill, amb un dibuix qualitatiu de les equipotencials.",
-   "punts_total": 2,
+   "punts_total": 2.5,
    "apartats": [
     {
      "etiqueta": "a",
-     "punts": 1,
+     "punts": 1.25,
      "resum": "Camp elèctric entre les plaques (mòdul, direcció, sentit) i dibuix de les equipotencials amb el seu potencial."
     },
     {
      "etiqueta": "b",
-     "punts": 1,
+     "punts": 1.25,
      "resum": "Treball d'una força externa per portar 0,1 µC d'un punt a 7,0 V fins a la placa positiva."
     }
    ],
@@ -14972,7 +14972,7 @@
    ],
    "solucio_oficial": true,
    "revisat": false,
-   "notes": "És el problema P4 de l'opció B de la PAU de Física de juny de 2017 (sèrie 1, examenes/pau_fisi17jl.pdf, pàgina 4). La pauta és l'oficial d'aquella convocatòria (examenes/pau_fisi17jp.pdf, pàgina 8) i no s'ha duplicat a la base de dades: a la convocatòria 2017_ord_s1 aquest exercici ocupa la posició del P4B. El document \"Qüestions d'interpretació i anàlisi d'experiments\" el reprodueix com a segon exemple (apartat Reconeixement de línies de camp elèctric i superfícies equipotencials) i l'identifica com a \"PAU 2017 JUNY OPCIÓ B P4\"; el text coincideix amb el de 2017. Els punts dels apartats (1 + 1, total 2) són els oficials de 2017. A la pauta, la figura de la solució està retallada pel marge dret a l'original.",
+   "notes": "És el problema P4 de l'opció B de la PAU de Física de juny de 2017 (sèrie 1, examenes/pau_fisi17jl.pdf, pàgina 4). La pauta és l'oficial d'aquella convocatòria (examenes/pau_fisi17jp.pdf, pàgina 8) i no s'ha duplicat a la base de dades: a la convocatòria 2017_ord_s1 aquest exercici ocupa la posició del P4B. El document \"Qüestions d'interpretació i anàlisi d'experiments\" el reprodueix com a segon exemple (apartat Reconeixement de línies de camp elèctric i superfícies equipotencials) i l'identifica com a \"PAU 2017 JUNY OPCIÓ B P4\"; el text coincideix amb el de 2017. A 2017 valia 2 punts (1 + 1); com que és una pregunta de format nou, es manté a 2,5 punts (1,25 + 1,25) i les puntuacions parcials de la pauta oficial s'han reescalat ×1,25 (0,5/0,2/0,3 → 0,625/0,25/0,375 i 0,2/0,6/0,2 → 0,25/0,75/0,25). A la pauta, la figura de la solució està retallada pel marge dret a l'original.",
    "carpeta": "base_dades/exercicis/2025_mostra_experiments_Q5_capsula-petri-equipotencials"
   },
   {

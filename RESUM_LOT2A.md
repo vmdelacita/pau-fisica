@@ -11,7 +11,7 @@ Pla i decisions: `PLA_EXAMENS_ANTICS.md`. Resum anterior: `RESUM_LOT1.md`.
   - `2025_mostra_experiments_Q5_capsula-petri-equipotencials` ara té:
     - `solucio_oficial: true`;
     - la pauta de `pau_fisi17jp.pdf` (pàgina 8), amb la figura de les equipotencials;
-    - els punts oficials, **1 + 1 = 2 punts**. Abans tenia 1,25 + 1,25, que eren inventats.
+    - **2,5 punts (1,25 + 1,25)**, com la resta de preguntes de format nou. A 2017 valia 1 + 1; les puntuacions parcials de la pauta s'han reescalat ×1,25 (decisió del professor, vegeu el final).
   - A la convocatòria `2017_ord_s1`, la Q5 ocupa la posició del P4B.
 
 ## 2. Exercicis incorporats
@@ -69,8 +69,8 @@ Els 12 PDF originals s'han copiat a `examenes/` amb el nom actual (`pau_fisi16jl
 - **2018 juny S5 P5A:** la pauta calcula ε(1,28 s) = 0,247 V amb el sinus en **graus**. En radians dona −0,239 V. També escriu «ω = 2π rad» en lloc de 20π rad/s.
 - **2017 juny S1 P5B:** un valor intermedi de la pauta (2,36·10⁶) no quadra amb el càlcul (2,44·10⁶). El resultat final sí que és correcte.
 
-## Dubtes per al lot 2b (2013–2015)
+## Dubtes per al lot 2b (2013–2015): respostes del professor (2026-09-24)
 
-1. **2016 juny S3 P4B (1 460 MeV):** l'error és a l'enunciat, no només a la pauta. Vols que el deixi tal com és, amb la nota, o que corregeixi l'enunciat a «1 460 keV» amb una nota que expliqui el canvi? Si el corregeixo, la pauta oficial ja no quadraria amb l'enunciat.
-2. **Q5 de 2025:** ara val 2 punts, amb el repartiment oficial de 2017, tot i que és una pregunta de format nou (on els exercicis valen 2,5). Et sembla bé, o prefereixes que conservi 2,5 punts reescalant la pauta (1,25 + 1,25)?
-3. **Mida del lot 2b:** té la mateixa estructura que el 2a, 9 sèries (juny: 2 sèries; setembre: 1). Proposo fer-lo igual, en una sola sessió.
+1. **2016 juny S3 P4B (1 460 MeV):** es deixa tal com és. Queda a `REVISIO_PENDENT.md` perquè el professor el revisi a mà.
+2. **Q5 de 2025:** com que pertany a un examen amb problemes de 2,5 punts, es manté a **2,5 punts**. La pauta oficial de 2017 s'ha reescalat ×1,25 (0,5/0,2/0,3 → 0,625/0,25/0,375; 0,2/0,6/0,2 → 0,25/0,75/0,25).
+3. **Lot 2b:** 9 sèries en una sola sessió, amb el mateix mètode que el lot 2a.

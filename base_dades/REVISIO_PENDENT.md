@@ -199,7 +199,7 @@ Afegit el 2026-09-24. 11 exercicis amb comentaris `% DUBTE:`. Els altres detalls
 
 ## 2016_ord_s3_P4B_potassi-40-desintegracio-beta
 
-- enunciat i pauta: el fotó gamma és «de 1 460 MeV» (comprovat a l'original). El raig gamma real del potassi 40 és d'1 460 keV (1,460 MeV). Amb MeV, la disminució de massa de la pauta (2,60·10⁻²⁷ kg) és més gran que la massa d'un nucleó. **Error de l'enunciat original**: potser convé editar-lo.
+- enunciat i pauta: el fotó gamma és «de 1 460 MeV» (comprovat a l'original). El raig gamma real del potassi 40 és d'1 460 keV (1,460 MeV). Amb MeV, la disminució de massa de la pauta (2,60·10⁻²⁷ kg) és més gran que la massa d'un nucleó. **Error de l'enunciat original. Pendent de revisió manual del professor** (decidit el 2026-09-24): de moment no s'ha corregit ni l'enunciat ni la pauta.
 
 ## 2016_ord_s5_P5B_particula-alfa-camp-magnetic
 
@@ -239,4 +239,4 @@ Afegit el 2026-09-24. 11 exercicis amb comentaris `% DUBTE:`. Els altres detalls
 
 ## 2025_mostra_experiments_Q5_capsula-petri-equipotencials
 
-- No és un dubte: ara té la pauta oficial del P4B de juny de 2017 (sèrie 1) i els punts oficials (1 + 1 = 2 punts, abans 1,25 + 1,25 inventats). Vegeu `RESUM_LOT2A.md`.
+- No és un dubte: ara té la pauta oficial del P4B de juny de 2017 (sèrie 1). Es manté a 2,5 punts (1,25 + 1,25), com la resta de preguntes de format nou, i les puntuacions parcials de la pauta s'han reescalat ×1,25. Vegeu `RESUM_LOT2A.md`.
