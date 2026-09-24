@@ -1,0 +1,24 @@
+id: 2017_ord_s5
+any: 2017
+convocatoria: ordinaria
+serie: 5
+format: antic
+pdf_enunciat: examenes/pau_fisi17jl.pdf
+pdf_solucio: examenes/pau_fisi17jp.pdf
+# El PDF conté les sèries 1 i 5: la sèrie 5 és a les pàgines 5-8 de l'enunciat
+# i a les pàgines 9-17 de la pauta (criteris generals a la pàgina 9).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2017_ord_s5_P1_estrella-neutrons-escapament
+  - 2017_ord_s5_P2_remer-barca-ones
+  - 2017_ord_s5_P3A_microscopi-fotons-electrons
+  - 2017_ord_s5_P4A_selector-velocitats-heli
+  - 2017_ord_s5_P5A_carregues-rectangle-potencial
+  - 2017_ord_s5_P3B_tori-cadena-desintegracio
+  - 2017_ord_s5_P4B_motor-faraday-imant
+  - 2017_ord_s5_P5B_atom-hidrogen-classic

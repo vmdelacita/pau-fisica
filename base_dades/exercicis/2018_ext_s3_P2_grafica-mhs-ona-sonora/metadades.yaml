@@ -1,0 +1,53 @@
+id: 2018_ext_s3_P2_grafica-mhs-ona-sonora
+titol: Gràfica d'un MHS i ona sonora generada
+resum: >-
+  Amplitud, freqüència i equació x(t) d'un MHS a partir de la gràfica posició-temps i
+  gràfica d'un MHS amb la meitat de freqüència; efecte de la reflexió, del canvi de
+  medi i del moviment del focus (Doppler) sobre la freqüència i la longitud d'ona del so.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi18sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi18sp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - reflexió i refracció
+  - efecte Doppler
+  - ones sonores i nivell d'intensitat
+paraules_clau: [gràfica posició-temps, amplitud, freqüència, equació del moviment, ona sonora, reflexió, canvi de medi, efecte Doppler]
+tipus: [gràfic, càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Lectura directa de l'amplitud i el període d'una gràfica, dibuix d'una gràfica amb la
+  meitat de freqüència i tres qüestions qualitatives estàndard sobre ones.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Amplitud, freqüència i equació x(t) i gràfica d'un MHS amb la meitat de freqüència.
+  - etiqueta: "b"
+    punts: 1
+    resum: Efecte de la reflexió, el pas a l'aigua i el moviment del focus sobre f i λ.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica posició-temps d'un MHS d'amplitud 0,02 m entre 0 i 0,08 s
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica x-t del MHS amb la mateixa amplitud i la meitat de freqüència
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'enunciat, l'apartat b té puntuacions per a
+  cada canvi (0,3, 0,3 i 0,4 punts), que s'han escrit al final de cada element de la
+  llista. Els rètols dels eixos del gràfic de la pauta són gairebé il·legibles a l'original.

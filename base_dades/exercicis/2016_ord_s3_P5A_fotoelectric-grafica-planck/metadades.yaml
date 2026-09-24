@@ -1,0 +1,50 @@
+id: 2016_ord_s3_P5A_fotoelectric-grafica-planck
+titol: Constant de Planck a partir d'una gràfica de l'efecte fotoelèctric
+resum: >-
+  Determinació de la constant de Planck a partir del pendent de la gràfica de l'energia
+  cinètica màxima dels electrons en funció de la freqüència i càlcul del treball
+  d'extracció en eV.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+paraules_clau: [efecte fotoelèctric, constant de Planck, energia cinètica màxima, freqüència llindar, treball d'extracció, pendent, gràfica]
+tipus: [gràfic, càlcul, experimental]
+dificultat: 2
+justificacio_dificultat: >-
+  Lectura d'una gràfica lineal i interpretació del pendent i de la freqüència llindar amb
+  l'equació d'Einstein de l'efecte fotoelèctric.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Constant de Planck a partir del pendent de la gràfica Ec-f.
+  - etiqueta: "b"
+    punts: 1
+    resum: Treball d'extracció mínim en eV a partir de la freqüència llindar.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica de l'energia cinètica màxima (eV) en funció de la freqüència (Hz), recta que talla l'eix a 1,0·10^15 Hz
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: La mateixa gràfica amb els punts (1,5·10^15, 2,07) i (1,0·10^15, 0) marcats
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la gràfica és a la dreta del text. A la pauta, els punts
+  triats s'escriuen amb punt decimal i s'han passat a coma (les etiquetes dins de la
+  figura de la pauta conserven el punt).

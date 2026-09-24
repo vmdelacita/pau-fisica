@@ -1,0 +1,51 @@
+id: 2017_ord_s5_P4A_selector-velocitats-heli
+titol: Selector de velocitats per a ions d'heli
+resum: >-
+  Direcció i sentit del camp elèctric i de la força magnètica en un selector de velocitats
+  que deixa passar ions He+ sense desviar-los i càlcul del camp magnètic; radi de l'òrbita
+  dels ions si només hi actua el camp magnètic.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [13]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - selector de velocitats, espectròmetre i ciclotró
+  - moviment de càrregues en camps magnètics
+paraules_clau: [selector de velocitats, ió heli, força de Lorentz, força elèctrica, camp magnètic, radi de l'òrbita, moviment circular]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal raonar vectorialment la direcció de la força magnètica i del camp elèctric, imposar
+  l'equilibri qE = qvB i aplicar la dinàmica del moviment circular per obtenir el radi.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Direcció i sentit del camp elèctric i de la força magnètica, i mòdul del camp magnètic.
+  - etiqueta: "b"
+    punts: 1
+    resum: Radi de l'òrbita d'un ió He+ sotmès només al camp magnètic.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Camp magnètic entrant al paper i velocitat de l'ió cap a la dreta
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Selector amb la força magnètica cap amunt i el camp elèctric i la força elèctrica cap avall
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada
+  apartat; els punts (1 + 1) són els de la pauta. A l'original la figura és al costat del
+  text introductori; a la pauta la figura és a la dreta del primer paràgraf.

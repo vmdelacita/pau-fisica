@@ -1,0 +1,45 @@
+id: 2017_ord_s1_P5B_nucli-radioactiu-activitat
+titol: Desintegració d'una mostra radioactiva
+resum: >-
+  Constant de desintegració d'un nucli amb període de semidesintegració de 600 s i
+  nombre de nuclis que queden d'una mostra de 10¹⁰ nuclis al cap d'una hora; activitat
+  de la mostra al cap de dues hores.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+paraules_clau: [radioactivitat, període de semidesintegració, constant de desintegració, activitat, becquerel, llei de desintegració]
+tipus: [càlcul]
+dificultat: 1
+justificacio_dificultat: >-
+  Aplicació directa de λ = ln2/t½, N = N₀e^(-λt) i A = λN amb dades explícites.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Constant de desintegració i nombre de nuclis al cap d'una hora.
+  - etiqueta: "b"
+    punts: 1
+    resum: Activitat de la mostra al cap de dues hores.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). Possible errada de la pauta, transcrita tal com és
+  (amb % DUBTE): a l'apartat b el valor indicat sota la clau és 2,36·10^6, però
+  10^10·e^(-1,155·10^-3·7200) ≈ 2,44·10^6; el resultat final 2,82·10^3 Bq és coherent
+  amb 2,44·10^6.

@@ -1,0 +1,47 @@
+id: 2016_ord_s3_P5B_espira-camp-magnetic-centre
+titol: Camp magnètic al centre d'una espira circular
+resum: >-
+  Mòdul del camp magnètic al centre d'una espira circular de 5 cm de radi amb un corrent
+  de 10 A a partir de l'expressió donada del camp a l'eix; sentit del corrent perquè el
+  camp al centre tingui el sentit positiu de l'eix x.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+paraules_clau: [espira circular, camp magnètic, centre de l'espira, regla de la mà dreta, sentit del corrent, microtesla]
+tipus: [càlcul, qualitativa]
+dificultat: 1
+justificacio_dificultat: >-
+  Substitució directa a l'expressió donada (x = 0) i aplicació de la regla de la mà dreta.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Mòdul del camp magnètic al centre de l'espira en microtesla.
+  - etiqueta: "b"
+    punts: 1
+    resum: Sentit del corrent perquè el camp al centre vagi en el sentit positiu de l'eix x.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Espira circular de radi R en el pla YZ amb l'eix x perpendicular pel centre i els eixos de coordenades
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Espira amb el sentit del corrent I i el camp B al centre en el sentit positiu de l'eix x
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text.

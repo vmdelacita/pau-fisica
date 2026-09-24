@@ -1,0 +1,24 @@
+id: 2017_ext_s2
+any: 2017
+convocatoria: extraordinaria
+serie: 2
+format: antic
+pdf_enunciat: examenes/pau_fisi17sl.pdf
+pdf_solucio: examenes/pau_fisi17sp.pdf
+# El PDF de l'enunciat només conté la sèrie 2 (pàgines 1-4).
+# La pauta també és només de la sèrie 2: pàgines 1-9 (criteris generals a la pàgina 1).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2017_ext_s2_P1_energia-potencial-planeta-escapament
+  - 2017_ext_s2_P2_onada-estadi-mhs
+  - 2017_ext_s2_P3A_particula-alfa-nucli-urani
+  - 2017_ext_s2_P4A_rado-222-224-desintegracio
+  - 2017_ext_s2_P5A_bobina-rectangular-fem-induida
+  - 2017_ext_s2_P3B_iode-131-radioterapia
+  - 2017_ext_s2_P4B_quatre-carregues-camp-forca
+  - 2017_ext_s2_P5B_bobina-transformador-nucli-ferro

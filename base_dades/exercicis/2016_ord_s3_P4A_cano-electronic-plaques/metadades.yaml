@@ -1,0 +1,58 @@
+id: 2016_ord_s3_P4A_cano-electronic-plaques
+titol: Canó electrònic i desviació entre plaques
+resum: >-
+  Diferència de potencial entre les plaques d'un canó electrònic que accelera electrons
+  fins a 2,00·10^6 m/s, placa de potencial més alt i línies de camp; acceleració dels
+  electrons en un camp elèctric vertical de 500 N/C i components de la velocitat en sortir
+  de les plaques.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+  - línies de camp i superfícies equipotencials
+paraules_clau: [canó electrònic, electró, plaques paral·leles, diferència de potencial, conservació de l'energia, camp elèctric uniforme, desviació, components de la velocitat]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal aplicar la conservació de l'energia amb el signe de la càrrega, dibuixar el camp i
+  tractar el moviment de l'electró entre plaques com un tir horitzontal.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Diferència de potencial entre les plaques, placa de potencial més alt i línies de camp.
+  - etiqueta: "b"
+    punts: 1
+    resum: Acceleració de l'electró en el camp vertical i components de la velocitat a la sortida.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Figura 1, plaques A i B separades 4,00 cm amb l'electró que surt per l'orifici de B
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Figura 2, electró que entra entre dues plaques horitzontals de 2,00 cm separades 1,00 cm amb camp E cap amunt
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Plaques A i B amb les línies de camp elèctric de B cap a A
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Reproducció de la figura 2 de l'enunciat
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original les figures són a la dreta del text. A la pauta, el resultat
+  V_A - V_B = -11,4 V i la notació «V_b > V_A» es transcriuen tal com són.

@@ -1,0 +1,56 @@
+id: 2017_ord_s5_P4B_motor-faraday-imant
+titol: El motor elèctric de Faraday
+resum: >-
+  Representació del vector camp magnètic d'un imant en un punt d'un fil conductor i
+  justificació del sentit de gir del fil al voltant de l'imant a partir de la força
+  magnètica; mòdul de la força sobre 1 cm de conductor amb B = 0,1 T i I = 10 A.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [16]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - força magnètica sobre corrents i entre fils
+  - generadors, motors i transformadors
+  - imants, brúixoles i experiment d'Oersted
+paraules_clau: [Faraday, motor elèctric, imant, línies de camp, força sobre un conductor, producte vectorial, mercuri, sentit de gir]
+tipus: [diagrama, qualitativa, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar un dispositiu històric poc habitual i aplicar el producte vectorial en
+  3D per deduir el sentit de la força; el càlcul de F = IlB és directe.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Vector camp magnètic al punt P i justificació del sentit de gir del fil.
+  - etiqueta: "b"
+    punts: 1
+    resum: Mòdul de la força magnètica sobre 1 cm de conductor centrat en P.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia del dispositiu experimental de Faraday (imant, fil conductor que gira i mercuri)
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Esquema del circuit amb pila, imant vertical, fil amb corrent I cap avall, punt P, línies de camp i eixos x, y, z
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema amb el camp B en direcció x al punt P i la força sobre el fil en direcció z
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada
+  apartat; els punts (1 + 1) són els de la pauta. El peu «Dispositiu experimental de
+  Faraday» s'ha escrit com a text sota la fotografia. A la pauta, «(0.2 p)» apareix entre
+  parèntesis i s'ha transcrit així.

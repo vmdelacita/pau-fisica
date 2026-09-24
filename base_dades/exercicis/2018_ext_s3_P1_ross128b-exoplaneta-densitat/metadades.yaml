@@ -1,0 +1,49 @@
+id: 2018_ext_s3_P1_ross128b-exoplaneta-densitat
+titol: Exoplaneta Ross 128 b, massa de l'estrella i gravetat superficial
+resum: >-
+  Massa de l'estrella Ross 128 a partir del període i el radi de l'òrbita circular de
+  l'exoplaneta Ross 128 b; radi de l'exoplaneta suposant la mateixa densitat que la
+  Terra i intensitat del camp gravitatori a la seva superfície.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi18sl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi18sp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - llei de la gravitació universal
+  - camp gravitatori i superposició
+paraules_clau: [exoplaneta, Ross 128 b, massa d'una estrella, període orbital, òrbita circular, densitat, radi planetari, intensitat del camp gravitatori]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Càlcul estàndard de la massa central amb la tercera llei de Kepler i un segon apartat
+  que exigeix plantejar la igualtat de densitats per obtenir el radi abans de calcular g.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Massa de l'estrella Ross 128 a partir del període i el radi orbital.
+  - etiqueta: "b"
+    punts: 1
+    resum: Radi de l'exoplaneta amb la mateixa densitat que la Terra i g a la seva superfície.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Òrbita circular de l'exoplaneta Ross 128 b al voltant de l'estrella Ross 128
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'original la figura és al costat del text
+  introductori. A la pauta de l'apartat b, el segon 0,1 p és a la dreta de la clau i
+  el darrer 0,2 p és a la dreta del resultat final.

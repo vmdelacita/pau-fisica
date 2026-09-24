@@ -1,0 +1,50 @@
+id: 2017_ext_s2_P4A_rado-222-224-desintegracio
+titol: Desintegració de dues mostres de radó 222 i radó 224
+resum: >-
+  Equacions de la desintegració α del ²²²Rn i β⁻ del ²²⁴Rn; àtoms de ²²⁴Rn que queden
+  quan la mostra de ²²²Rn s'ha reduït a 9,00·10⁻² mol; defecte de massa a partir de
+  l'energia alliberada (5,590 MeV) en cada desintegració del ²²²Rn.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi17sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi17sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - reaccions nuclears i defecte de massa
+paraules_clau: [radó, desintegració alfa, desintegració beta, període de semidesintegració, constant de desintegració, nombre d'Avogadro, defecte de massa, poloni, franci]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal escriure dues equacions nuclears, trobar el temps amb la llei de desintegració
+  d'un isòtop i aplicar-lo a l'altre, i relacionar energia i defecte de massa.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equacions de les dues desintegracions i àtoms de ²²⁴Rn que queden quan resten 9,00·10⁻² mol de ²²²Rn.
+  - etiqueta: "b"
+    punts: 1
+    resum: Defecte de massa de la desintegració del ²²²Rn a partir de l'energia alliberada.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). Errades de la pauta transcrites tal com són (vegeu
+  els % DUBTE): els subíndexs de les constants de desintegració diuen «Ra» en lloc de
+  «Rn», i a l'equació ln(9,00·10⁻²/1,00·10⁻¹) = 7,56·10⁻³ t hi falta el signe menys
+  (el resultat t = 13,9 h és correcte). La partícula β s'escriu a la pauta amb
+  superíndex «−1» (β^{-1}) i l'antineutrí amb subíndex «e−»; es mantenen així. Els
+  símbols dels nuclis són en cursiva a la pauta i es mantenen; les unitats s'han posat
+  en rodona.

@@ -1,0 +1,47 @@
+id: 2016_ord_s5_P5B_particula-alfa-camp-magnetic
+titol: Partícula alfa en un camp magnètic uniforme
+resum: >-
+  Força magnètica sobre una partícula α que es mou perpendicularment a un camp magnètic,
+  dibuix de la trajectòria i dels vectors i sentit de gir; radi de gir i freqüència del
+  moviment circular.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [12, 13]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps magnètics
+paraules_clau: [partícula alfa, força de Lorentz, producte vectorial, trajectòria circular, sentit de gir, radi de gir, freqüència ciclotrònica]
+tipus: [càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de la força de Lorentz amb vectors unitaris i de la igualtat entre la
+  força magnètica i la centrípeta; cal recordar que la càrrega de la partícula α és 2e.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Força magnètica, dibuix de la trajectòria i dels vectors, i sentit de gir.
+  - etiqueta: "b"
+    punts: 1
+    resum: Radi de gir i freqüència del moviment circular en MHz.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Trajectòria circular de la partícula α amb els vectors velocitat, camp magnètic (sortint) i força
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. La caixa de 0,3 p de l'apartat a és al costat del dibuix de la
+  trajectòria. A la pauta hi ha l'errata «perpendicular a la la velocitat», que s'ha
+  mantingut.

@@ -1,0 +1,49 @@
+id: 2017_ord_s5_P1_estrella-neutrons-escapament
+titol: Camp gravitatori i velocitat d'escapament d'una estrella de neutrons
+resum: >-
+  Mòdul del camp gravitatori a la superfície d'una estrella de neutrons de massa i radi
+  donats; deducció, a partir de la conservació de l'energia mecànica, i càlcul de la
+  velocitat d'escapament des de la seva superfície.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [10]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - camp gravitatori i superposició
+  - velocitat d'escapament
+  - energia potencial i potencial gravitatori
+paraules_clau: [estrella de neutrons, supernova, intensitat de camp gravitatori, velocitat d'escapament, conservació de l'energia mecànica, Zwicky i Baade]
+tipus: [càlcul, deducció]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de g = GM/R² i deducció estàndard de la velocitat d'escapament per
+  conservació de l'energia mecànica.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Mòdul del camp gravitatori a la superfície de l'estrella de neutrons.
+  - etiqueta: "b"
+    punts: 1
+    resum: Deducció i càlcul de la velocitat d'escapament i principi de conservació en què es basa.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Imatge d'una estrella de neutrons (fotografia decorativa)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada
+  apartat; els punts (1 + 1) són els de la pauta. A l'original la fotografia és al costat
+  del text introductori.

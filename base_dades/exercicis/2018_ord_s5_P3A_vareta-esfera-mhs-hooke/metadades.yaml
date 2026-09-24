@@ -1,0 +1,42 @@
+id: 2018_ord_s5_P3A_vareta-esfera-mhs-hooke
+titol: "Esfera d'acer en una vareta elàstica que oscil·la"
+resum: >-
+  Constant elàstica d'una vareta que obeeix la llei de Hooke; deducció de la freqüència d'oscil·lació a partir de la segona llei de Newton i càlcul del període; deducció i càlcul de l'acceleració màxima del MHS.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [10]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [vareta elàstica, esfera d'acer, llei de Hooke, constant elàstica, segona llei de Newton, període d'oscil·lació, acceleració màxima]
+tipus: [càlcul, deducció]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de la llei de Hooke i de les expressions del MHS; les deduccions demanades (ω = √(k/m) i a_max = Aω²) són les estàndard.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Constant elàstica, deducció de la freqüència amb la segona llei de Newton i període d'oscil·lació."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Deducció de l'acceleració màxima a partir de l'equació del MHS i càlcul."
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: "Vareta vertical clavada a una base amb l'esfera desplaçada 4 cm a cada costat i la força de 8 N"
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual.

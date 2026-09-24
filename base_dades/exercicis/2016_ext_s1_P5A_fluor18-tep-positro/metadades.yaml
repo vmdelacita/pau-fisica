@@ -1,0 +1,51 @@
+id: 2016_ext_s1_P5A_fluor18-tep-positro
+titol: Fluor 18 en la tomografia per emissió de positrons
+resum: >-
+  Protons i neutrons del fluor 18, coeficients de l'equació de la desintegració β⁺,
+  freqüència dels fotons gamma produïts en l'anihilació positró-electró i temps perquè
+  quedi l'1 % dels nuclis inicials (període de 109,77 min).
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi16sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi16sp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+  - física de partícules
+  - fotons i energia de la radiació
+paraules_clau: [fluor 18, TEP, tomografia per emissió de positrons, positró, anihilació, fotons gamma, període de semidesintegració, radiofàrmac]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Combina l'ajust d'una equació nuclear, l'anihilació (E = mc² repartida en dos fotons) i
+  la llei de desintegració amb el període; diversos passos però estàndard.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Protons i neutrons del ¹⁸F, coeficients A, B, C, D i freqüència dels fotons gamma.
+  - etiqueta: "b"
+    punts: 1
+    resum: Temps perquè quedi l'1 % dels nuclis de fluor 18.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'un aparell de tomografia amb un pacient i una sanitària
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha
+  repartit 1 punt per apartat, d'acord amb la pauta. A l'original la fotografia és al
+  costat del text. A la pauta, «109.77'» a l'exponent s'ha passat a coma; l'apòstrof
+  indica minuts. El 0,2 p final de l'apartat b és a la dreta del resultat t = 729,30 min.

@@ -1,0 +1,46 @@
+id: 2018_ord_s5_P3B_espectre-harmonics-instrument
+titol: "Espectre d'harmònics del so d'un instrument musical"
+resum: >-
+  Interpretació de l'espectre de freqüències d'un instrument: so complex, freqüència fonamental a partir del segon harmònic (880 Hz) i freqüència del novè harmònic; relació d'intensitats entre dos pics a partir dels nivells d'intensitat en dB.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [12]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ressonància i harmònics en tubs i cordes
+  - ones sonores i nivell d'intensitat
+paraules_clau: [espectre de freqüències, instrument musical, harmònics, freqüència fonamental, so complex, to pur, nivell d'intensitat sonora, decibels]
+tipus: [gràfic, qualitativa, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar un espectre real per identificar els harmònics i la fonamental, i aplicar la definició de nivell d'intensitat per comparar dues intensitats.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "So pur o complex; pic de la freqüència fonamental i el seu valor; freqüència del pic següent (I)."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Quantes vegades és més gran la intensitat del pic C (87 dB) que la del pic F (60 dB)."
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: "Espectre de freqüències del so amb els pics A–H i el nivell d'intensitat en dB"
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: "Espectre de freqüències del so amb els pics A–H (versió en color de la pauta)"
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. La pauta té errates d'accentuació («Es un so», «esta format», «es el pic A», «te una») que s'han transcrit tal com són. A la pauta, «0,4 p» de l'apartat b apareix sol en una línia, just abans del càlcul del quocient d'intensitats; la gràfica és a la dreta dels càlculs.

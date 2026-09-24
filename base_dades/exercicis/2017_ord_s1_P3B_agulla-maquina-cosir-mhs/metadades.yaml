@@ -1,0 +1,47 @@
+id: 2017_ord_s1_P3B_agulla-maquina-cosir-mhs
+titol: Agulla d'una màquina de cosir en MHS
+resum: >-
+  Equació del moviment harmònic simple d'una agulla que oscil·la 15 mm d'extrem a extrem
+  a 1 200 puntades per minut, partint de la posició més alta, i gràfica posició-temps de
+  dos períodes; velocitat i acceleració màximes.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [màquina de cosir, agulla, moviment harmònic simple, amplitud, freqüència angular, fase inicial, gràfica posició-temps, velocitat màxima, acceleració màxima]
+tipus: [càlcul, gràfic]
+dificultat: 2
+justificacio_dificultat: >-
+  MHS estàndard: amplitud, pulsació i fase inicial a partir de dades explícites, una
+  gràfica senzilla i les expressions Aω i Aω².
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equació del moviment amb la fase inicial i gràfica posició-temps durant dos períodes.
+  - etiqueta: "b"
+    punts: 1
+    resum: Velocitat i acceleració màximes de l'agulla.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica y(t) sinusoidal amb el màxim A a t = 0 i marques de 0,002 m i 0,02 s
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). A la pauta el càlcul de T = 0,05 s és a l'esquerra
+  de la gràfica.

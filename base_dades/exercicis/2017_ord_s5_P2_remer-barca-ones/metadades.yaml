@@ -1,0 +1,44 @@
+id: 2017_ord_s5_P2_remer-barca-ones
+titol: Ones a l'aigua observades des d'una barca
+resum: >-
+  Velocitat de propagació i equació d'una ona a l'aigua a partir del període, l'amplitud i
+  la distància entre crestes; diferència de fase entre dos punts separats 4,00 m.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [11]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones harmòniques i equació d'ona
+paraules_clau: [ona a l'aigua, crestes, període, longitud d'ona, velocitat de propagació, equació d'ona, diferència de fase]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Identificació directa de T, A i λ a partir de l'enunciat, construcció de l'equació de
+  l'ona i càlcul de la diferència de fase amb k·Δx.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Velocitat de propagació i equació de l'ona amb fase inicial zero.
+  - etiqueta: "b"
+    punts: 1
+    resum: Diferència de fase entre dos punts separats 4,00 m.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada
+  apartat; els punts (1 + 1) són els de la pauta. Errades de la pauta transcrites tal com
+  són (amb % DUBTE): la velocitat es dona en «m» en lloc de «m/s», i a la primera línia de
+  la clau de l'apartat a falta el signe «=» («y(x,t)A sin(ωt − kx + φ0)»).

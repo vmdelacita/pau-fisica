@@ -1,0 +1,24 @@
+id: 2018_ext_s3
+any: 2018
+convocatoria: extraordinaria
+serie: 3
+format: antic
+pdf_enunciat: examenes/pau_fisi18sl.pdf
+pdf_solucio: examenes/pau_fisi18sp.pdf
+# PDF escanejats. L'enunciat conté només la sèrie 3 (pàgines 1-4) i la pauta també
+# (pàgines 1-6; criteris generals a la pàgina 1).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2018_ext_s3_P1_ross128b-exoplaneta-densitat
+  - 2018_ext_s3_P2_grafica-mhs-ona-sonora
+  - 2018_ext_s3_P3A_lluna-camp-electric-pols
+  - 2018_ext_s3_P4A_particula-camp-magnetic-radi
+  - 2018_ext_s3_P5A_carboni14-datacio-momia
+  - 2018_ext_s3_P3B_nuvol-dues-carregues-camp
+  - 2018_ext_s3_P4B_espira-quadrada-flux-fem
+  - 2018_ext_s3_P5B_fotoelectric-llum-groga

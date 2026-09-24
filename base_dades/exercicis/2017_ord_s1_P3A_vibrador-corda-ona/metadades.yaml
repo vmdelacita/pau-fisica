@@ -1,0 +1,51 @@
+id: 2017_ord_s1_P3A_vibrador-corda-ona
+titol: Ona transversal generada per un vibrador en una corda
+resum: >-
+  A partir del gràfic elongació-temps d'un vibrador: període, amplitud, freqüència,
+  velocitat de propagació (λ = 20,0 cm) i equació de l'ona; demostració que la
+  velocitat màxima d'oscil·lació és Aω.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones harmòniques i equació d'ona
+  - moviment harmònic simple
+paraules_clau: [ona transversal, corda, vibrador, gràfic elongació-temps, període, freqüència, velocitat de propagació, equació d'ona, velocitat màxima]
+tipus: [càlcul, gràfic, deducció]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal llegir el període i l'amplitud d'un gràfic, calcular diverses magnituds, escriure
+  l'equació d'ona amb la fase adequada i derivar-la per obtenir la velocitat màxima.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Període, amplitud, freqüència, velocitat de propagació i equació de l'ona.
+  - etiqueta: "b"
+    punts: 1
+    resum: Demostració que la velocitat màxima dels punts de la corda és Aω.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfic elongació-temps del vibrador (x en cm, t en ms), amplitud 1,5 cm i període 1,25 ms
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: El mateix gràfic elongació-temps reproduït a la pauta
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). La pauta escriu «A =1.5 cm» i «1.5cm» amb punt
+  decimal; s'ha passat a coma.

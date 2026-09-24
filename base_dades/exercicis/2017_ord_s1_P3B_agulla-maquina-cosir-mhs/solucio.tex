@@ -1,0 +1,34 @@
+\begin{solapartat}
+\punts{0,1} $y(t) = A\sin(\omega t + \phi_0)$
+
+\begin{itemize}[leftmargin=2em, label={}]
+  \item \punts{0,2} $A = \dfrac{15\cdot 10^{-3}}{2} = 7,5\cdot 10^{-3}\ \mathrm{m}$
+  \item \punts{0,2} $\omega = 2\pi f = 2\pi\dfrac{1200}{60} = 40\pi\ \mathrm{rad/s}$
+  \item \punts{0,2} $y(0) = A\sin\phi_0 = A \rightarrow \sin\phi_0 = 1 \rightarrow \phi_0 = \dfrac{\pi}{2}\ \mathrm{rad}$
+\end{itemize}
+
+\punts{0,1} $y(t) = 7,5\cdot 10^{-3}\ \mathrm{m}\cdot\sin\left(40\pi\,\dfrac{\mathrm{rad}}{\mathrm{s}}\,t + \dfrac{\pi}{2}\right)$
+
+També serà vàlida l'expressió amb cosinus ($\phi_0 = 0$)
+
+\punts{0,2}
+
+\figura[0.5]{sol_fig1.png}
+
+\[ T = \frac{2\pi}{\omega} = \frac{2\pi}{40\pi} = 0,05\ \mathrm{s} \]
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,4} $\left\{\begin{array}{l}
+v(t) = \dfrac{dy}{dt} = A\omega\cos\left(\omega t + \dfrac{\pi}{2}\right)\\[2ex]
+a(t) = \dfrac{dv}{dt} = -A\omega^2\sin\left(\omega t + \dfrac{\pi}{2}\right)
+\end{array}\right.$
+
+El valor màxim de la velocitat s'obté quan el cosinus val 1 i el de l'acceleració quan el sinus és $-1$.
+
+\punts{0,3} $v_\mathrm{max} = A\omega = 7,5\cdot 10^{-3}\cdot 40\pi = 0,94\ \mathrm{m\,s^{-1}}$
+
+\punts{0,3} $a_\mathrm{max} = A\omega^2 = 7,5\cdot 10^{-3}\cdot (40\pi)^2 = 118\ \mathrm{m\,s^{-2}}$
+
+No és necessària la demostració dels valors màxims
+\end{solapartat}

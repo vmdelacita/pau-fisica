@@ -1,0 +1,46 @@
+id: 2017_ext_s2_P5A_bobina-rectangular-fem-induida
+titol: Força electromotriu induïda en una bobina rectangular que gira
+resum: >-
+  Equació de la fem induïda en funció del temps en una bobina rectangular de 300
+  espires que gira a 60 rev/min en un camp magnètic uniforme de 0,4 T; corrent màxim
+  si la bobina té una resistència d'1,0 Ω.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi17sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi17sp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+  - generadors, motors i transformadors
+paraules_clau: [bobina rectangular, espira giratòria, força electromotriu induïda, flux magnètic, llei de Faraday, alternador, corrent màxim]
+tipus: [càlcul, deducció]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació estàndard de la llei de Faraday a una bobina que gira amb velocitat
+  angular constant i de la llei d'Ohm per al corrent màxim.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equació de la fem induïda en funció del temps.
+  - etiqueta: "b"
+    punts: 1
+    resum: Corrent màxim per la bobina amb R = 1,0 Ω.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). A la pauta falta l'etiqueta «a)» (només hi ha
+  «b)»). A la substitució numèrica de la fem desapareix el signe menys de
+  ε = −NωBA sin ωt (vegeu el % DUBTE); es transcriu tal com és. Unitats en rodona.

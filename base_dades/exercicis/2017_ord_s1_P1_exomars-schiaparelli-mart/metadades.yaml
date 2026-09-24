@@ -1,0 +1,49 @@
+id: 2017_ord_s1_P1_exomars-schiaparelli-mart
+titol: ExoMars i la caiguda del mòdul Schiaparelli a Mart
+resum: >-
+  Període d'un satèl·lit en òrbita circular a 400 km sobre Mart; acceleració de la
+  gravetat a la superfície de Mart i velocitat d'impacte d'un mòdul que cau lliurement
+  des de 3,7 km d'altura.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - camp gravitatori i superposició
+  - llei de la gravitació universal
+paraules_clau: [ExoMars, Schiaparelli, Mart, període orbital, gravetat superficial, caiguda lliure, velocitat d'impacte]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació estàndard de la tercera llei de Kepler deduïda de la dinàmica circular i de
+  g = GM/R², seguida d'un càlcul cinemàtic de caiguda lliure.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Període de l'ExoMars Trace Gas Orbiter en òrbita a 400 km d'altura.
+  - etiqueta: "b"
+    punts: 1
+    resum: Gravetat a la superfície de Mart i velocitat d'impacte després de caure 3,7 km.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Imatge de l'ExoMars Trace Gas Orbiter sobre la superfície de Mart
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). A l'original la foto és al costat del text
+  introductori; aquí s'ha col·locat després.

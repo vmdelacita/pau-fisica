@@ -1,0 +1,49 @@
+id: 2017_ord_s5_P5B_atom-hidrogen-classic
+titol: Model clàssic de l'àtom d'hidrogen
+resum: >-
+  Força elèctrica sobre l'electró en una òrbita circular de 53 pm al voltant del protó,
+  representació en dos punts de l'òrbita i camp elèctric del protó; energia mecànica del
+  sistema protó-electró en eV.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [17]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: ["Física relativista, quàntica i nuclear"]
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+  - model de Bohr i espectres atòmics
+paraules_clau: [àtom d'hidrogen, model clàssic, electró, protó, força de Coulomb, camp elèctric, energia mecànica, electronvolt]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Llei de Coulomb i camp elèctric directes; l'energia mecànica requereix combinar la
+  dinàmica del moviment circular (energia cinètica) amb l'energia potencial elèctrica.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Força elèctrica sobre l'electró, representació en dos punts de l'òrbita i camp elèctric del protó.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia mecànica del sistema protó-electró en eV.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Òrbita circular amb la força elèctrica dirigida cap al centre en dos punts separats 90°
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada
+  apartat; els punts (1 + 1) són els de la pauta. A la pauta, alguns resultats porten una
+  segona puntuació a la dreta de la línia, que s'ha transcrit al final de la línia.

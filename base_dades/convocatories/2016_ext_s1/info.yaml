@@ -1,0 +1,24 @@
+id: 2016_ext_s1
+any: 2016
+convocatoria: extraordinaria
+serie: 1
+format: antic
+pdf_enunciat: examenes/pau_fisi16sl.pdf
+pdf_solucio: examenes/pau_fisi16sp.pdf
+# L'enunciat de la sèrie 1 ocupa les pàgines 1-4 del PDF de l'enunciat i la pauta
+# les pàgines 1-7 del PDF de la pauta (sense criteris generals d'avaluació).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2016_ext_s1_P1_curiosity-descens-mart
+  - 2016_ext_s1_P2_dos-fils-paralels-camp
+  - 2016_ext_s1_P3A_orgue-sagrada-familia-tub
+  - 2016_ext_s1_P4A_nuvol-gota-carregada
+  - 2016_ext_s1_P5A_fluor18-tep-positro
+  - 2016_ext_s1_P3B_boia-marina-ona-harmonica
+  - 2016_ext_s1_P4B_dues-carregues-camp-potencial
+  - 2016_ext_s1_P5B_irradiancia-solar-fotons

@@ -1,0 +1,49 @@
+id: 2017_ext_s2_P4B_quatre-carregues-camp-forca
+titol: Quatre càrregues en un rectangle i camp elèctric a l'origen
+resum: >-
+  Dues càrregues de 3,0 μC a (0, ±2) m i dues càrregues Q a (4, ±2) m: valor de Q
+  perquè el camp a l'origen sigui 4,0·10³ N/C en el sentit positiu de l'eix x, i força
+  sobre un protó a l'origen si Q = 2,0 μC.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi17sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi17sp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+paraules_clau: [càrregues puntuals, principi de superposició, camp elèctric, simetria, llei de Coulomb, força sobre un protó, components del camp]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Superposició vectorial de camps de quatre càrregues aprofitant la simetria; cal
+  adonar-se que les càrregues de 3,0 μC no contribueixen i deduir el signe de Q.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Valor (i signe) de les càrregues Q a partir del camp a l'origen.
+  - etiqueta: "b"
+    punts: 1
+    resum: Força vectorial sobre un protó a l'origen si Q = 2,0 μC.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Rectangle amb les càrregues de 3,0 μC i Q, la distància l i els vectors E_x i F_x a l'origen
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). A la pauta la figura és a la dreta de l'apartat a,
+  i una de les puntuacions de l'apartat a («(0.2 p)») va entre parèntesis dins del
+  text. A l'apartat b la pauta diu «la càrrega Q (protó) és positiva», que es
+  transcriu tal com és.

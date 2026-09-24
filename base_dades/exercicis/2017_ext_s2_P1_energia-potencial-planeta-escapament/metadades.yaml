@@ -1,0 +1,52 @@
+id: 2017_ext_s2_P1_energia-potencial-planeta-escapament
+titol: Gràfica de l'energia potencial en un planeta i velocitat d'escapament
+resum: >-
+  A partir de la gràfica de l'energia potencial d'un cos de 2 kg en funció de l'altura
+  sobre un planeta de 5 000 km de radi, càlcul de la gravetat superficial i de la massa
+  del planeta; deducció i càlcul de la velocitat d'escapament.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi17sl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi17sp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - energia potencial i potencial gravitatori
+  - camp gravitatori i superposició
+  - velocitat d'escapament
+paraules_clau: [energia potencial, gràfica, pendent, gravetat superficial, massa del planeta, velocitat d'escapament, conservació de l'energia]
+tipus: [gràfic, càlcul, deducció]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar el pendent de la gràfica Ep(h) com a mg, relacionar g amb la massa del
+  planeta i deduir la velocitat d'escapament per conservació de l'energia.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Acceleració de la gravetat a la superfície a partir del pendent de la gràfica i massa del planeta.
+  - etiqueta: "b"
+    punts: 1
+    resum: Deducció de la velocitat d'escapament per conservació de l'energia i càlcul.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica lineal de l'energia potencial Ep (J) en funció de l'altura h (m), de 0 a 120 J entre 0 i 30 m
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: La mateixa gràfica Ep(h) reproduïda a la pauta
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). A la pauta la gràfica és a la dreta del text
+  introductori de l'apartat a, i les unitats són en cursiva (s'han posat en rodona).

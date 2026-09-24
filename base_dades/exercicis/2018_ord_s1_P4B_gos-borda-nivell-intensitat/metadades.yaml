@@ -1,0 +1,42 @@
+id: 2018_ord_s1_P4B_gos-borda-nivell-intensitat
+titol: Nivell d'intensitat sonora d'un gos que borda
+resum: >-
+  Nivell d'intensitat sonora a 5,00 m d'un gos que borda amb una potència de 2,00 mW,
+  suposant propagació uniforme; nivell d'intensitat si borden dos gossos alhora.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones sonores i nivell d'intensitat
+paraules_clau: [so, gos, potència sonora, intensitat, ona esfèrica, nivell d'intensitat sonora, decibels, suma de fonts]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Intensitat d'una font puntual i nivell en dB; a l'apartat b cal veure que les intensitats
+  se sumen i el nivell augmenta 10 log 2.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Nivell d'intensitat sonora a 5,00 m del gos.
+  - etiqueta: "b"
+    punts: 1
+    resum: Nivell d'intensitat sonora amb dos gossos bordant alhora.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat diu «Dada:» en singular. A la pauta els
+  punts decimals s'han passat a coma.

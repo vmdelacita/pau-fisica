@@ -1,0 +1,44 @@
+id: 2018_ord_s1_P5A_poloni-210-desintegracio-alfa
+titol: Desintegració alfa del poloni-210
+resum: >-
+  Reacció de desintegració alfa del poloni-210 que dona un isòtop del plom; massa de
+  poloni que queda en una mostra de 10,0 g al cap de 69 dies, coneixent el període de
+  semidesintegració.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - reaccions nuclears i defecte de massa
+paraules_clau: [poloni-210, partícula alfa, plom, desintegració radioactiva, període de semidesintegració, constant de desintegració, llei de desintegració]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Escriure una reacció nuclear conservant nombre màssic i atòmic i aplicar directament la
+  llei de desintegració amb la constant obtinguda del període de semidesintegració.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Reacció de desintegració alfa del poloni-210.
+  - etiqueta: "b"
+    punts: 1
+    resum: Massa de poloni-210 que queda en una mostra de 10,0 g després de 69 dies.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta els símbols dels nuclis i les unitats
+  (dies, g) apareixen en cursiva.

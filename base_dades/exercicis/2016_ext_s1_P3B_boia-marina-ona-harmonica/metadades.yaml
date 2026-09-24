@@ -1,0 +1,42 @@
+id: 2016_ext_s1_P3B_boia-marina-ona-harmonica
+titol: Boia marina i equació de l'onatge
+resum: >-
+  Una boia oscil·la amb amplitud 3,00 m i freqüència 0,10 Hz i l'ona es propaga a 0,50 m/s:
+  longitud d'ona, nombre d'ona i equació de l'ona amb fase inicial zero.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi16sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi16sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones harmòniques i equació d'ona
+paraules_clau: [boia marina, onatge, longitud d'ona, nombre d'ona, freqüència angular, equació d'ona, amplitud]
+tipus: [càlcul]
+dificultat: 1
+justificacio_dificultat: >-
+  Aplicació directa de λ = v/f, k = 2π/λ i ω = 2πf per escriure l'equació d'una ona
+  harmònica.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Longitud d'ona i nombre d'ona.
+  - etiqueta: "b"
+    punts: 1
+    resum: Equació de l'ona amb fase inicial zero.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha
+  repartit 1 punt per apartat, d'acord amb la pauta.

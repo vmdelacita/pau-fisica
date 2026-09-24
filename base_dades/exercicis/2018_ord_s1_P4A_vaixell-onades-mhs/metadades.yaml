@@ -1,0 +1,44 @@
+id: 2018_ord_s1_P4A_vaixell-onades-mhs
+titol: Vaixell a la deriva moguda per les ones (MHS)
+resum: >-
+  Equació del moviment harmònic simple vertical d'un vaixell que es mou 2,00 m del punt
+  més alt al més baix cada 6,28 s, partint del punt més alt; velocitat i acceleració
+  inicials.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [vaixell, onades, moviment harmònic simple, amplitud, període, freqüència angular, fase inicial, velocitat, acceleració]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Cal extreure l'amplitud i el període de l'enunciat, escriure l'equació amb la fase
+  adequada i avaluar-ne la velocitat i l'acceleració a t = 0.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equació del moviment del vaixell, amb unitats, partint del punt més alt.
+  - etiqueta: "b"
+    punts: 1
+    resum: Velocitat i acceleració inicials del vaixell.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta els punts decimals («0.1 p», «6.28 s»)
+  s'han passat a coma. La nota (*) de la pauta, que admet interpretar que el període és
+  6,28 s, és al final del problema i s'ha deixat al final de la solució de l'apartat b.

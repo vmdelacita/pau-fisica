@@ -1,0 +1,43 @@
+id: 2018_ord_s1_P5B_fotoelectric-metall-alcali
+titol: Efecte fotoelèctric en un metall alcalí
+resum: >-
+  Energia en eV d'un fotó de llum de 300 nm i treball d'extracció d'un metall alcalí si els
+  fotoelectrons surten amb una energia cinètica màxima de 2,00 eV.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [efecte fotoelèctric, metall alcalí, fotó, energia del fotó, treball d'extracció, energia cinètica màxima, electronvolt]
+tipus: [càlcul]
+dificultat: 1
+justificacio_dificultat: >-
+  Aplicació directa de E = hc/λ i de l'equació d'Einstein de l'efecte fotoelèctric, amb
+  conversió entre joules i electronvolts.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Energia en eV d'un fotó de la llum incident.
+  - etiqueta: "b"
+    punts: 1
+    resum: Treball d'extracció del metall en eV.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta els punts decimals s'han passat a coma; el
+  darrer «0.2 p» de cada apartat apareix darrere del resultat en eV.

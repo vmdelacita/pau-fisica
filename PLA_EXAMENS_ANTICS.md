@@ -58,7 +58,8 @@ Els lots són aproximats: es poden reajustar a l'inici de cada sessió. Els exà
 | Lot | Anys | Convocatòries | Pàgines d'examen |
 |---|---|---|---|
 | 1 ✓ | 2019–2022 | 8 (11 sèries, 88 exercicis) | ~104 (moltes són espai per respondre) |
-| 2 | 2013–2018 | 12 | ~72 |
+| 2a ✓ | 2016–2018 | 6 (9 sèries, 71 exercicis + la Q5 de 2025) | 24 |
+| 2b | 2013–2015 | 6 (9 sèries) | 24 |
 | 3 | 2009–2012 | 8 | ~92 |
 | 4 | 2000–2008 | 19 | ~116 |
 
@@ -90,7 +91,7 @@ Decidit el 2026-09-23, a partir del consum mesurat al lot 1 i a la Fase 2.
   - Per això el lot 2 es parteix en dues sessions: **2016–2018** i **2013–2015**. Els lots 3 i 4 també s'han de partir si passen de ~10 sèries.
 - **Menys imatges al context.** A les instruccions dels subagents (`prompt_base.md`), cal indicar que es renderitzi cada pàgina una sola vegada a resolució moderada, que només s'ampliïn retalls de les fórmules dubtoses i que no es tornin a obrir pàgines senceres.
 
-**Recordatori:** la pregunta experimental Q5 de les mostres de 2025 és el problema 4 de l'opció B de juny de 2017. En fer el **lot 2**, cal substituir-la per la versió oficial, que té pauta.
+**Recordatori (fet al lot 2a):** la pregunta experimental Q5 de les mostres de 2025 és el problema 4 de l'opció B de juny de 2017. En fer el **lot 2**, cal substituir-la per la versió oficial, que té pauta.
 
 **Important:** no s'han de canviar mai els identificadors dels exercicis que ja existeixen. Els exàmens desats (`.json`) i les revisions fetes al navegador hi fan referència.
 
@@ -122,4 +123,5 @@ Cal fer-la a l'inici de la propera sessió, abans de transcriure res.
 ## 7. Estat
 
 - **Secció 6 i lot 1 (2019–2022): fets** (2026-09-23). Vegeu `RESUM_LOT1.md`, que acaba amb els dubtes per al lot 2.
-- Següent: **lot 2a (2016–2018)** i, en una altra sessió, **lot 2b (2013–2015)**. Vegeu la secció 4.1.
+- **Lot 2a (2016–2018): fet** (2026-09-24). Vegeu `RESUM_LOT2A.md`, que acaba amb els dubtes per al lot 2b. La Q5 de les mostres de 2025 ja té la pauta oficial de juny de 2017 (sèrie 1).
+- Següent: **lot 2b (2013–2015)**, 9 sèries. Vegeu la secció 4.1.

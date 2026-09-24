@@ -1,0 +1,27 @@
+id: 2017_ord_s1
+any: 2017
+convocatoria: ordinaria
+serie: 1
+format: antic
+pdf_enunciat: examenes/pau_fisi17jl.pdf
+pdf_solucio: examenes/pau_fisi17jp.pdf
+# El PDF de l'enunciat conté les sèries 1 i 5: la sèrie 1 és a les pàgines 1-4.
+# La pauta conté les dues sèries: la sèrie 1 és a les pàgines 1-8 (criteris generals
+# a la pàgina 1); la sèrie 5 comença a la pàgina 9.
+# El P4B (càpsula de Petri) ja era a la base de dades com a pregunta de mostra de 2025
+# (2025_mostra_experiments_Q5_…); no s'ha duplicat i s'hi ha afegit la pauta de 2017.
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2017_ord_s1_P1_exomars-schiaparelli-mart
+  - 2017_ord_s1_P2_rele-bobina-imant
+  - 2017_ord_s1_P3A_vibrador-corda-ona
+  - 2017_ord_s1_P4A_sal-comuna-nacl-ions
+  - 2017_ord_s1_P5A_ferro-60-supernova
+  - 2017_ord_s1_P3B_agulla-maquina-cosir-mhs
+  - 2025_mostra_experiments_Q5_capsula-petri-equipotencials
+  - 2017_ord_s1_P5B_nucli-radioactiu-activitat

@@ -1,0 +1,45 @@
+id: 2018_ext_s3_P5A_carboni14-datacio-momia
+titol: Carboni 14, formació, desintegració i datació d'una mòmia
+resum: >-
+  Completar la reacció de formació del carboni 14 a partir del nitrogen 14 i la seva
+  desintegració beta menys; percentatge de carboni 14 que queda en una mòmia de 4000
+  anys coneixent el període de semidesintegració.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi18sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi18sp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - reaccions nuclears i defecte de massa
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [carboni 14, datació radiomètrica, desintegració beta, neutró, antineutrí, període de semidesintegració, constant de desintegració, mòmia]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Conservació del nombre màssic i atòmic en dues reaccions i aplicació directa de la llei
+  de desintegració radioactiva amb la constant obtinguda del període de semidesintegració.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Reacció de formació del carboni 14 i reacció de desintegració beta menys.
+  - etiqueta: "b"
+    punts: 1
+    resum: Percentatge de carboni 14 que queda al cap de 4000 anys.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta de l'apartat b el darrer 0,2 p és a la
+  dreta del resultat final.

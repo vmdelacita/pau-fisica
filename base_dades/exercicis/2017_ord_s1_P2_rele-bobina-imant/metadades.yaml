@@ -1,0 +1,57 @@
+id: 2017_ord_s1_P2_rele-bobina-imant
+titol: Relé amb bobina i imant
+resum: >-
+  Sentit del corrent a la bobina d'un relé perquè atregui el pol nord d'un imant i
+  dibuix de les línies de camp; efecte d'augmentar la intensitat, d'afegir un nucli
+  ferromagnètic i de fer servir corrent altern.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+  - imants, brúixoles i experiment d'Oersted
+paraules_clau: [relé, bobina, solenoide, imant, pols magnètics, material ferromagnètic, corrent altern, línies de camp magnètic]
+tipus: [qualitativa, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Raonament qualitatiu sobre el sentit del corrent en un solenoide (regla de la mà
+  dreta) aplicat a un dispositiu real i justificació de tres modificacions.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Sentit del corrent a la bobina perquè s'activi el relé i dibuix de les línies de camp.
+  - etiqueta: "b"
+    punts: 1
+    resum: Efecte d'augmentar la intensitat, d'un nucli ferromagnètic i d'un corrent altern.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Esquema d'un relé amb bobina, imant, mecanisme amb pivot i contacte del circuit B
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Espira amb el corrent I en sentit horari vist des de dalt
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Bobina amb el sentit del corrent I indicat amb fletxes
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Línies del camp magnètic de la bobina, que entren per dalt i surten per baix, amb l'imant a sobre
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). A l'original la figura és al costat del text; a la
+  pauta les figures són a la dreta del text i el «(0.2 p)» és al costat de l'espira.

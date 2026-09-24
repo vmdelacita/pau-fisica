@@ -1,0 +1,45 @@
+id: 2016_ord_s5_P4A_electro-neutro-proto-camp-magnetic
+titol: Electró, neutró i protó en un camp magnètic i fil infinit
+resum: >-
+  Força i tipus de moviment d'un electró, un neutró i un protó que entren amb la mateixa
+  velocitat en un camp magnètic uniforme; corrent d'un fil infinit paral·lel a l'eix Y que
+  anul·la el camp sobre el protó perquè segueixi una trajectòria rectilínia.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [10]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps magnètics
+  - camp magnètic creat per corrents
+paraules_clau: [força de Lorentz, electró, neutró, protó, moviment circular, sentit de gir, fil infinit, anul·lació del camp magnètic]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal aplicar la força de Lorentz amb vectors i raonar el sentit de gir de cada partícula,
+  i després imposar que el camp del fil anul·li el camp uniforme a la posició del protó.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Mòdul de la força sobre cada partícula i tipus de moviment.
+  - etiqueta: "b"
+    punts: 1
+    resum: Corrent del fil infinit que fa que el protó segueixi una trajectòria rectilínia.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. A la pauta de l'apartat a el resultat de la força s'escriu amb el
+  signe ≡ en lloc de =, i a l'apartat b la unitat del camp del fil s'escriu en cursiva
+  (T k̂); s'ha transcrit tal com és. Els punts decimals de la pauta s'han passat a coma.

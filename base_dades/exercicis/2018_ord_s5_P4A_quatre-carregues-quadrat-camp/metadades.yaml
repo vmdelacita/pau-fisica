@@ -1,0 +1,46 @@
+id: 2018_ord_s5_P4A_quatre-carregues-quadrat-camp
+titol: "Quatre càrregues als vèrtexs d'un quadrat: camp i potencial"
+resum: >-
+  Representació i càlcul del vector camp elèctric al centre d'un quadrat amb quatre càrregues als vèrtexs; diferència de potencial entre el punt mitjà d'un costat i el centre.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [11]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [càrregues puntuals, quadrat, principi de superposició, vector camp elèctric, potencial elèctric, diferència de potencial]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Superposició vectorial de quatre camps amb components i simetria, i suma de potencials amb dues distàncies diferents: problema PAU típic.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Representació i càlcul del vector camp elèctric al centre C."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Diferència de potencial entre els punts A i C."
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: "Quadrat de 4 m de costat amb les càrregues Q1, Q2, Q3 i Q4 als vèrtexs i els punts A i C"
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: "Camps E1, E2, E3 i E4 creats per cada càrrega al centre C i camp resultant E_C cap a l'esquerra"
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta la figura és a la dreta dels càlculs de l'apartat a i porta «(0,2 p)» en vermell dins del requadre: s'ha esborrat del retall i s'ha transcrit com a \punts{0,2}. A la pauta falta el signe «=» a l'expressió final del vector camp elèctric (transcrit tal com és).

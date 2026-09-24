@@ -1,0 +1,46 @@
+id: 2018_ext_s3_P4B_espira-quadrada-flux-fem
+titol: Flux i fem induïda en una espira quadrada
+resum: >-
+  Expressió del flux magnètic en funció del temps a través d'una espira quadrada de 5 cm
+  de costat sotmesa a un camp magnètic perpendicular sinusoidal i valor màxim; expressió
+  de la força electromotriu induïda.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi18sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi18sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [espira quadrada, flux magnètic, camp magnètic variable, llei de Faraday, força electromotriu induïda, valor màxim]
+tipus: [càlcul, deducció]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de Φ = BA cos φ amb un camp sinusoidal i derivació de l'expressió
+  del flux per obtenir la fem amb la llei de Faraday.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Expressió del flux magnètic en funció del temps i valor màxim.
+  - etiqueta: "b"
+    punts: 1
+    resum: Expressió de la força electromotriu induïda.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Espira quadrada i sistema d'eixos x, y, z
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'original la figura és al costat del text. A la
+  pauta de l'apartat b el darrer 0,3 p és a la dreta del resultat final.

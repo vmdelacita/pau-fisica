@@ -1,0 +1,24 @@
+id: 2018_ord_s1
+any: 2018
+convocatoria: ordinaria
+serie: 1
+format: antic
+pdf_enunciat: examenes/pau_fisi18jl.pdf
+pdf_solucio: examenes/pau_fisi18jp.pdf
+# El PDF conté les sèries 1 i 5: la sèrie 1 és a les pàgines 1-4 de l'enunciat
+# i a les pàgines 1-6 de la pauta (criteris generals a la pàgina 1).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2018_ord_s1_P1_bohr-hidrogen-forca-potencial
+  - 2018_ord_s1_P2_forat-negre-michell-escapament
+  - 2018_ord_s1_P3A_proto-espectrometre-camp-magnetic
+  - 2018_ord_s1_P4A_vaixell-onades-mhs
+  - 2018_ord_s1_P5A_poloni-210-desintegracio-alfa
+  - 2018_ord_s1_P3B_bacteri-magnetotactic-fils-paralels
+  - 2018_ord_s1_P4B_gos-borda-nivell-intensitat
+  - 2018_ord_s1_P5B_fotoelectric-metall-alcali

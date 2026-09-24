@@ -1,0 +1,50 @@
+id: 2018_ext_s3_P3A_lluna-camp-electric-pols
+titol: Camp elèctric lunar i partícules de pols en suspensió
+resum: >-
+  Relació càrrega/massa i signe de la càrrega perquè una partícula de pols estigui en
+  equilibri a la cara il·luminada de la Lluna; força total sobre una partícula carregada
+  a la cara fosca i temps que triga a recórrer 10 m partint del repòs.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi18sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi18sp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: [Camps gravitatoris]
+subtemes:
+  - equilibri de càrregues en camps elèctrics
+  - moviment de càrregues en camps elèctrics
+  - camp gravitatori i superposició
+paraules_clau: [Lluna, pols lunar, camp elèctric, equilibri de forces, relació càrrega/massa, força elèctrica, força gravitatòria, moviment uniformement accelerat]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Equilibri entre força elèctrica i pes amb raonament del signe de la càrrega, i
+  superposició de forces amb sentits a interpretar a partir del dibuix, seguida d'un
+  càlcul cinemàtic.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Relació q/m i signe de la càrrega per a l'equilibri a la cara il·luminada.
+  - etiqueta: "b"
+    punts: 1
+    resum: Força total sobre la partícula a la cara fosca i temps per recórrer 10 m.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Línies de camp elèctric a la cara il·luminada (cap enfora, 10 N/C) i a la cara fosca (cap endins, 1,0 N/C) de la Lluna
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'original la figura és al costat del primer
+  paràgraf. A la pauta de l'apartat b el resultat de la força s'arrodoneix a
+  4,2×10⁻⁸ N però després es fa servir 4,24×10⁻⁸ N; s'ha transcrit tal com és.

@@ -1,0 +1,56 @@
+id: 2016_ext_s1_P1_curiosity-descens-mart
+titol: Descens del robot Curiosity a Mart
+resum: >-
+  Increment de l'energia mecànica del Curiosity (899 kg) entre l'entrada a l'atmosfera
+  de Mart a 125 km d'altura i 5 845 m/s i l'arribada a la superfície a 0,60 m/s; intensitat
+  del camp gravitatori de Mart en el punt inicial del descens i força sobre el robot.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi16sl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi16sp.pdf
+  pagines_solucio: [1]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - energia potencial i potencial gravitatori
+  - energia mecànica orbital
+  - camp gravitatori i superposició
+  - llei de la gravitació universal
+paraules_clau: [Curiosity, Mart, càpsula d'entrada atmosfèrica, energia mecànica, energia potencial gravitatòria, intensitat de camp gravitatori, força gravitatòria, descens]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal plantejar l'energia mecànica amb l'energia potencial gravitatòria general (no mgh)
+  en dos punts i fer-ne la diferència; el segon apartat és una aplicació directa de
+  g = GM/r².
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Increment de l'energia mecànica del vehicle en el descens.
+  - etiqueta: "b"
+    punts: 1
+    resum: Mòdul del camp gravitatori a 125 km d'altura i força (mòdul, direcció i sentit) sobre el robot.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia del Curiosity al cràter Gale, a la superfície de Mart
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema de Mart amb la trajectòria de descens des de h = 125 km i la velocitat a la superfície
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha
+  repartit 1 punt per apartat, d'acord amb les puntuacions parcials de la pauta. A
+  l'original la fotografia és al costat del text (maquetació a dues columnes) amb el peu
+  «Imatge del Curiosity al cràter Gale, a la superfície de Mart (31 d'octubre de 2012)».
+  La figura de la pauta conserva l'etiqueta «0.60 m/s» amb punt decimal.

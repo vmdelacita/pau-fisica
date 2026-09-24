@@ -1,0 +1,51 @@
+id: 2016_ext_s1_P2_dos-fils-paralels-camp
+titol: Camp magnètic de dos fils paral·lels amb corrents iguals
+resum: >-
+  Dos fils rectilinis paral·lels situats a x = ±3,0 cm amb corrents d'1,5 A en el mateix
+  sentit: camp magnètic resultant (mòdul, direcció i sentit) al punt mitjà x = 0 i en
+  x = 5,0 cm, amb esquemes justificatius.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi16sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi16sp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+paraules_clau: [fil rectilini, corrent elèctric, camp magnètic, superposició, regla de la mà dreta, fils paral·lels]
+tipus: [càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Superposició del camp de dos fils amb la fórmula donada: cal determinar el sentit de
+  cada contribució amb la regla de la mà dreta i sumar o restar mòduls.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Camp magnètic resultant en x = 0 i esquema.
+  - etiqueta: "b"
+    punts: 1
+    resum: Camp magnètic resultant en x = 5,0 cm i esquema.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Eixos x i y amb els dos fils verticals de corrent I = 1,5 A cap amunt separats 3,0 cm de l'eix y
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema dels dos fils amb els camps B1 i B2 en x = 0 (sentits oposats) i en x = 5,0 cm (tots dos cap endins)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha
+  repartit 1 punt per apartat, d'acord amb la pauta. A l'original la figura és al costat
+  del text. Al retall de la figura de la pauta s'ha escurçat una mica l'extrem inferior de
+  l'eix Y per no incloure-hi text de la fórmula del costat.

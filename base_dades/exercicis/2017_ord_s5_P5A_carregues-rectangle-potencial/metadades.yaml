@@ -1,0 +1,51 @@
+id: 2017_ord_s5_P5A_carregues-rectangle-potencial
+titol: Tres càrregues als vèrtexs d'un rectangle
+resum: >-
+  Forces elèctriques sobre una càrrega per efecte de dues altres situades als vèrtexs d'un
+  rectangle, esquema i mòdul de la força total; potencial elèctric al quart vèrtex i
+  energia potencial de la distribució de les tres càrregues.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [14]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [llei de Coulomb, superposició de forces, càrregues puntuals, rectangle, potencial elèctric, energia potencial d'una distribució]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Superposició de dues forces perpendiculars amb esquema vectorial, i suma de potencials i
+  d'energies potencials de parells de càrregues amb una distància diagonal.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Esquema de les forces sobre q1, força total i el seu mòdul.
+  - etiqueta: "b"
+    punts: 1
+    resum: Potencial elèctric al punt P i energia potencial de la distribució.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Rectangle amb q2 i P a dalt, q1 i q3 a baix, i les distàncies d1 (vertical) i d2 (horitzontal)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Forces F1,3 (cap a l'esquerra) i F1,2 (cap avall) sobre q1 i la força total F1
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada
+  apartat; els punts (1 + 1) són els de la pauta. A l'original la figura és al costat del
+  text introductori. La pauta no escriu l'etiqueta «a)» abans del primer apartat.

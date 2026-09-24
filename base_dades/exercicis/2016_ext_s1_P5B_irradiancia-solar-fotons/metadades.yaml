@@ -1,0 +1,43 @@
+id: 2016_ext_s1_P5B_irradiancia-solar-fotons
+titol: Fotons de la irradiància solar
+resum: >-
+  Longitud d'ona mitjana (en nm) de fotons solars de 2,20 eV i nombre de fotons que
+  arriben cada segon a 1,00 cm² amb una irradiància de 1 400 W/m².
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi16sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi16sp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - fotons i energia de la radiació
+paraules_clau: [irradiància solar, fotó, energia del fotó, longitud d'ona, electronvolt, potència, nombre de fotons]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Conversió eV–J i E = hc/λ, i després potència = irradiància × àrea per comptar fotons:
+  dos passos encadenats estàndard.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Longitud d'ona mitjana dels fotons en nm.
+  - etiqueta: "b"
+    punts: 1
+    resum: Nombre de fotons per segon sobre 1,00 cm².
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha
+  repartit 1 punt per apartat, d'acord amb la pauta. La pauta dona λ = 5,64·10⁻⁷ m (amb
+  l'energia sense arrodonir); amb E = 3,52·10⁻¹⁹ J surt 5,65·10⁻⁷ m. No s'ha corregit.

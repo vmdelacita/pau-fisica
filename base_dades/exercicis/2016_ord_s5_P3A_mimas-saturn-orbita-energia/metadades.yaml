@@ -1,0 +1,47 @@
+id: 2016_ord_s5_P3A_mimas-saturn-orbita-energia
+titol: Mimas, satèl·lit de Saturn en òrbita circular
+resum: >-
+  Altura de l'òrbita i velocitat orbital de Mimas a partir del seu període al voltant de
+  Saturn; energia mecànica del satèl·lit i significat del signe.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [10]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - energia mecànica orbital
+paraules_clau: [Saturn, Mimas, període orbital, radi orbital, altura de l'òrbita, velocitat orbital, energia mecànica, òrbita lligada]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema típic de satèl·lits: igualar la força gravitatòria a la centrípeta per obtenir
+  el radi, restar el radi del planeta, i calcular i interpretar l'energia mecànica.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Altura de l'òrbita de Mimas sobre Saturn i velocitat orbital.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia mecànica de Mimas i significat del signe.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Imatge de Mimas davant de Saturn i els seus anells
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. A l'original la imatge és a la dreta del text introductori i de
+  l'apartat a (maquetació a dues columnes); aquí s'ha col·locat després del text
+  introductori.

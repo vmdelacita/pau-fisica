@@ -1,0 +1,41 @@
+id: 2016_ord_s5_P4B_desintegracio-activitat-semivida
+titol: Llei de desintegració radioactiva, semivida i activitat
+resum: >-
+  Significat de les magnituds de la llei de desintegració N = N₀ e^(-0,0050t), període de
+  semidesintegració i activitat d'una mostra de 1,0·10²⁸ nuclis al cap de 4,0 hores.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [12]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+paraules_clau: [llei de desintegració, constant de desintegració, període de semidesintegració, activitat, nuclis radioactius]
+tipus: [càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Identificar la constant de desintegració a l'equació, calcular t½ = ln2/λ i aplicar
+  A = λN₀e^(-λt) amb el canvi d'hores a segons.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Significat de les magnituds de l'equació i període de semidesintegració.
+  - etiqueta: "b"
+    punts: 1
+    resum: Activitat de la mostra al cap de 4,0 hores.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. Els punts decimals de la pauta ("0.005") s'han passat a coma.

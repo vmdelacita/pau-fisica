@@ -1,0 +1,51 @@
+id: 2016_ord_s3_P1_forat-negre-estrella-orbita
+titol: Estrella en òrbita al voltant del forat negre A0620-00
+resum: >-
+  Deducció del radi d'una òrbita circular a partir de la massa del cos central i del
+  període i càlcul del radi de l'òrbita d'una estrella al voltant del forat negre
+  A0620-00; velocitat lineal i acceleració centrípeta de l'estrella i representació dels
+  dos vectors.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - lleis de Kepler
+paraules_clau: [forat negre, A0620-00, estrella, òrbita circular, tercera llei de Kepler, període orbital, velocitat orbital, acceleració centrípeta]
+tipus: [deducció, càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Deducció estàndard de la tercera llei de Kepler a partir de la segona llei de Newton i
+  aplicació directa per calcular el radi, la velocitat i l'acceleració centrípeta.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Deduir R(G, M, T) per a una òrbita circular i calcular el radi de l'òrbita de l'estrella.
+  - etiqueta: "b"
+    punts: 1
+    resum: Velocitat lineal i acceleració centrípeta de l'estrella i representació dels vectors.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Estrella que gira en una òrbita circular discontínua al voltant d'un punt central amb un interrogant
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Òrbita circular amb els vectors velocitat (tangent) i acceleració (cap al centre) de l'estrella
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text introductori. A la pauta, a
+  la línia de la deducció hi ha dues puntuacions de 0,3 p (una a cada banda).

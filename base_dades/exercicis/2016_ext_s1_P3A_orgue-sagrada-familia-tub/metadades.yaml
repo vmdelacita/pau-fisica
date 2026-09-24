@@ -1,0 +1,48 @@
+id: 2016_ext_s1_P3A_orgue-sagrada-familia-tub
+titol: Tub d'orgue obert de la Sagrada Família
+resum: >-
+  Freqüències i longituds d'ona de les ones estacionàries en un tub d'orgue obert pels dos
+  extrems d'1,0 m de longitud ple d'aire, i freqüències si el tub estigués ple d'heli.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi16sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi16sp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ressonància i harmònics en tubs i cordes
+  - ones estacionàries
+paraules_clau: [orgue, Sagrada Família, tub obert, harmònics, freqüència fonamental, heli, velocitat del so]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació de la condició d'ona estacionària en un tub obert i de v = λf, repetida amb
+  una altra velocitat de propagació.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Freqüències i longituds d'ona permeses en el tub amb aire.
+  - etiqueta: "b"
+    punts: 1
+    resum: Freqüències permeses si el tub és ple d'heli.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Harmònic fonamental en un tub obert de l = 1,0 m (ventres als extrems i node al mig)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha
+  repartit 1 punt per apartat, d'acord amb la pauta. DUBTE: a la pauta, les longituds
+  d'ona permeses s'escriuen «λ_0(m) = 2l/n»; probablement hauria de ser λ_n. S'ha
+  transcrit tal com és.

@@ -1,0 +1,46 @@
+id: 2018_ord_s5_P5A_bobina-gir-fem-alterna
+titol: "Bobina que gira en un camp magnètic uniforme: fem alterna"
+resum: >-
+  Equació de la força electromotriu d'una bobina de 200 espires quadrades que gira a 10 voltes per segon en un camp magnètic uniforme i valor a t = 1,28 s; gràfica de la fem en funció del temps i valors màxim i eficaç.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [11]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+  - generadors, motors i transformadors
+paraules_clau: [bobina, espires, generador, corrent altern, força electromotriu induïda, llei de Faraday, valor eficaç, valor màxim]
+tipus: [càlcul, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal construir el flux en funció del temps, derivar-lo amb la llei de Faraday, avaluar-lo i representar la fem sinusoidal: problema PAU típic d'alternador.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Equació de la fem de la bobina i valor a t = 1,28 s."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Gràfica de la fem en funció del temps per a dos períodes i valors màxim i eficaç."
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: "Bobina quadrada en un camp magnètic uniforme entrant al paper amb l'eix de gir vertical (línia de punts)"
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: "Gràfica de la fem sinusoidal en funció del temps entre 0 i 0,20 s amb el valor màxim indicat"
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta la gràfica és a la dreta i porta «0,2 p» en vermell al costat: s'ha esborrat del retall i s'ha transcrit com a \punts{0,2}. DUBTE: la pauta escriu «ω = 2π rad» però fa servir ω = 20π rad/s (10 voltes per segon). DUBTE: la pauta dona ε(1,28 s) = 0,247 V, que correspon a calcular el sinus en graus; en radians ε = 0,251·sin(25,6π) ≈ −0,239 V. Transcrit tal com és.

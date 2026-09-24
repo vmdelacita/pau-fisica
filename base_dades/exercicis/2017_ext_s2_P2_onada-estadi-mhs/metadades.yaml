@@ -1,0 +1,49 @@
+id: 2017_ext_s2_P2_onada-estadi-mhs
+titol: L'onada del públic en un estadi
+resum: >-
+  L'onada que fa el públic d'un estadi modelitzada com una ona: tipus d'ona, longitud
+  d'ona i pulsació a partir de la distància entre espectadors que es mouen igual i del
+  període; equació del MHS d'un espectador que parteix de la posició mínima.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi17sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi17sp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones harmòniques i equació d'ona
+  - moviment harmònic simple
+paraules_clau: [onada, estadi, ona mecànica, ona transversal, longitud d'ona, pulsació, fase inicial, equació del moviment]
+tipus: [qualitativa, càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Identificació del tipus d'ona i lectura directa de λ i T; l'equació del MHS només
+  demana determinar l'amplitud i la fase inicial a partir de la posició mínima.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Tipus d'ona (mecànica i transversal), longitud d'ona i pulsació.
+  - etiqueta: "b"
+    punts: 1
+    resum: Equació del MHS d'un espectador que parteix de la posició mínima.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia del públic d'un estadi fent l'onada
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). A l'original la fotografia és a la dreta del text
+  introductori. A la pauta les puntuacions de l'apartat a van entre parèntesis dins
+  del text i els mots «mecànica», «transversal» i «λ = 50 m» estan subratllats.

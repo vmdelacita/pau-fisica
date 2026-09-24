@@ -1,0 +1,38 @@
+\begin{solapartat}
+\punts{0,2}
+$\left\{\begin{aligned}
+&A = 0,02\cdot 0,015 = 3\times 10^{-4}\ \mathrm{m^2}\\
+&\omega = 60\,\frac{\text{revol.}}{\text{min}}\times\frac{2\pi\,\mathrm{rad}}{1\,\text{revol.}}\times\frac{1\,\text{min}}{60\,\mathrm{s}} = 2\pi\ \mathrm{rad/s}
+\end{aligned}\right.$
+
+\medskip
+\punts{0,1} $\phi = BA\cos\theta = BA\cos\omega t$
+
+\medskip
+\punts{0,1} $\varepsilon = -N\dfrac{d\phi}{dt}$
+
+\medskip
+\punts{0,1} $\varepsilon = -N\omega BA\sin\omega t$
+
+\medskip
+% DUBTE: a la substitució numèrica desapareix el signe menys de l'expressió anterior; es transcriu tal com és.
+\punts{0,5}
+$\begin{aligned}[t]
+&\varepsilon = 300\cdot 2\pi\cdot 0,4\cdot 3\times 10^{-4}\,\sin(2\pi t) =\\
+&= 0,226\ \mathrm{V}\,\sin\left(2\pi\,\frac{\mathrm{rad}}{\mathrm{s}}\cdot t\right)
+\end{aligned}$
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,4} $I = \dfrac{\varepsilon}{R}$
+
+\medskip
+\punts{0,2} $I = \dfrac{0,226\cdot\sin(2\pi t)}{1,0} = 0,226\ \mathrm{A}\,\sin(2\pi t)$
+
+\medskip
+\punts{0,4}
+\begin{tabular}[t]{@{}l@{}}
+$I$ és màxim quan $\mathit{sin}(2\pi t) = 1$\\
+$I_{\max} = 0,226\ \mathrm{A}$
+\end{tabular}
+\end{solapartat}

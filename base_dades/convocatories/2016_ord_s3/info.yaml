@@ -1,0 +1,25 @@
+id: 2016_ord_s3
+any: 2016
+convocatoria: ordinaria
+serie: 3
+format: antic
+pdf_enunciat: examenes/pau_fisi16jl.pdf
+pdf_solucio: examenes/pau_fisi16jp.pdf
+# El PDF de l'enunciat conté les sèries 3 i 5: la sèrie 3 és a les pàgines 1-4.
+# El PDF de la pauta conté les sèries 3 i 5: la sèrie 3 és a les pàgines 1-8
+# (criteris generals a la pàgina 1).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2016_ord_s3_P1_forat-negre-estrella-orbita
+  - 2016_ord_s3_P2_molles-mhs-frequencia-doble
+  - 2016_ord_s3_P3A_ratpenats-ultrasons-eco
+  - 2016_ord_s3_P4A_cano-electronic-plaques
+  - 2016_ord_s3_P5A_fotoelectric-grafica-planck
+  - 2016_ord_s3_P3B_dipol-superficies-equipotencials
+  - 2016_ord_s3_P4B_potassi-40-desintegracio-beta
+  - 2016_ord_s3_P5B_espira-camp-magnetic-centre

@@ -1,0 +1,47 @@
+id: 2017_ext_s2_P5B_bobina-transformador-nucli-ferro
+titol: Bobina d'un transformador amb nucli de ferro
+resum: >-
+  Camp magnètic i flux a l'interior d'una bobina de 2 000 espires i 10 cm amb nucli de
+  ferro per la qual circulen 2 A; nombre d'electrons que circulen pel cable en un
+  minut.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi17sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi17sp.pdf
+  pagines_solucio: [9]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+  - flux magnètic i inducció (Faraday-Lenz)
+  - generadors, motors i transformadors
+paraules_clau: [bobina, solenoide, transformador, nucli de ferro, permeabilitat magnètica, flux magnètic, intensitat de corrent, nombre d'electrons]
+tipus: [càlcul]
+dificultat: 1
+justificacio_dificultat: >-
+  Aplicació directa de la fórmula del camp d'una bobina (donada a la nota) amb la
+  permeabilitat del ferro, de Φ = BA i de I = q/t.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Camp magnètic i flux magnètic a l'interior de la bobina amb nucli de ferro.
+  - etiqueta: "b"
+    punts: 1
+    resum: Nombre d'electrons que circulen pel cable en un minut.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). L'enunciat escriu la longitud com a «l» i la pauta
+  com a «L»; es respecten. L'apartat b (I = q/t) és de corrent elèctric bàsic, però
+  l'enunciat en dona el context i es considera actual.

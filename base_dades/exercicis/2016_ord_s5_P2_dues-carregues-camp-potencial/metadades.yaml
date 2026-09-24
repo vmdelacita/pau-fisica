@@ -1,0 +1,43 @@
+id: 2016_ord_s5_P2_dues-carregues-camp-potencial
+titol: Camp i potencial nul entre dues càrregues puntuals
+resum: >-
+  Camp elèctric (mòdul, direcció i sentit) en un punt entre dues càrregues de 3,0 μC i
+  −7,0 μC separades 15 cm, i punt entre les càrregues on el potencial és nul.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [9]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [càrregues puntuals, superposició, camp elèctric, potencial elèctric nul, llei de Coulomb]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Superposició de camps en una recta (sumen mòduls perquè les càrregues són de signe
+  contrari) i una equació lineal per trobar el punt de potencial nul.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Camp elèctric en un punt entre les càrregues (mòdul, direcció i sentit).
+  - etiqueta: "b"
+    punts: 1
+    resum: Punt entre les càrregues on el potencial és nul.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. La pauta fa els càlculs amb k = 9,0·10⁹ N m² C⁻² en lloc del valor
+  8,99·10⁹ que dona l'enunciat; s'ha transcrit tal com és.

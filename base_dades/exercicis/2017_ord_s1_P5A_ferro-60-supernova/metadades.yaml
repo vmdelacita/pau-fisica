@@ -1,0 +1,46 @@
+id: 2017_ord_s1_P5A_ferro-60-supernova
+titol: Ferro 60 d'una supernova propera
+resum: >-
+  Percentatge de ⁶⁰Fe (període de semidesintegració de 2,6 milions d'anys) que quedaria
+  des de la formació de la Terra i des d'una supernova de fa 13 milions d'anys;
+  equacions de les dues desintegracions β⁻ Fe → Co → Ni amb els antineutrins.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+paraules_clau: [ferro 60, supernova, període de semidesintegració, desintegració beta, antineutrí, cobalt, níquel, isòtops]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de la llei de desintegració amb un nombre enter de períodes i
+  escriptura de dues equacions de desintegració β⁻.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Percentatge de ⁶⁰Fe primordial i de ⁶⁰Fe d'una supernova de fa 13 milions d'anys que queda.
+  - etiqueta: "b"
+    punts: 1
+    resum: Equacions nuclears de les dues desintegracions β⁻ amb els antineutrins.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). A la pauta l'electró s'escriu «e^{-1}» amb índexs
+  0 i -1, i l'antineutrí amb un símbol que sembla una V barrada; s'ha transcrit com
+  \overline{\nu}. La penalització «Restarem 0.2 p» (en vermell a l'original) s'ha
+  marcat amb \destaca perquè no és una puntuació parcial.

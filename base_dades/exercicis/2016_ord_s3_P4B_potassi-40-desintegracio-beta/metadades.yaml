@@ -1,0 +1,49 @@
+id: 2016_ord_s3_P4B_potassi-40-desintegracio-beta
+titol: Desintegracions del potassi 40
+resum: >-
+  Equacions nuclears de les desintegracions beta menys i beta més del potassi 40, amb
+  neutrins i antineutrins; longitud d'ona i freqüència del fotó gamma emès en la captura
+  electrònica i disminució de massa corresponent.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - fotons i energia de la radiació
+  - reaccions nuclears i defecte de massa
+paraules_clau: [potassi 40, desintegració beta, neutrí, antineutrí, captura electrònica, raigs gamma, equivalència massa-energia]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Ajust de nombres atòmics i màssics en equacions nuclears i aplicació directa de E = h nu
+  i E = m c^2.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equacions nuclears de les desintegracions beta menys i beta més del potassi 40.
+  - etiqueta: "b"
+    punts: 1
+    resum: Longitud d'ona i freqüència del fotó gamma i disminució de massa de l'àtom.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. L'enunciat i la pauta diuen «1 460 MeV»; el raig gamma real del potassi 40
+  és d'1 460 keV (1,460 MeV), i amb 1 460 MeV la disminució de massa (2,60·10^-27 kg)
+  seria més gran que la massa d'un nucleó. Es transcriu tal com és (DUBTE a solucio.tex).
+  A la pauta, la penalització per no posar l'antineutrí s'escriu «-0-2p» i s'ha
+  transcrit com a -0,2 p. La pauta escriu els resultats de l'apartat b amb punt decimal i
+  s'han passat a coma.

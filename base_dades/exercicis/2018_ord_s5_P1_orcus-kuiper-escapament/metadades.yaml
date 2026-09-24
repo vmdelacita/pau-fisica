@@ -1,0 +1,44 @@
+id: 2018_ord_s5_P1_orcus-kuiper-escapament
+titol: "Orcus, objecte del cinturó de Kuiper: òrbita i velocitat d'escapament"
+resum: >-
+  Distància mitjana d'Orcus al Sol amb la tercera llei de Kepler comparant amb la Terra; deducció de la velocitat d'escapament per energies i intensitat del camp gravitatori a la superfície d'Orcus.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - lleis de Kepler
+  - velocitat d'escapament
+  - camp gravitatori i superposició
+paraules_clau: [Orcus, cinturó de Kuiper, planeta nan, tercera llei de Kepler, unitat astronòmica, velocitat d'escapament, intensitat del camp gravitatori]
+tipus: [càlcul, deducció]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de la tercera llei de Kepler en unitats terrestres i de les expressions de la velocitat d'escapament i de g a la superfície; la deducció per energies és estàndard.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Distància mitjana Orcus–Sol en UA amb la tercera llei de Kepler."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Deducció i càlcul de la velocitat d'escapament i intensitat del camp gravitatori a la superfície."
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: "Fotografia d'Orcus i altres objectes transneptunians (2005 FY9, Sedna, Quaoar, 2002 TX300, Varuna, Ixion, Vesta, Pallas, Hygiea) comparats amb la Terra"
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'original la fotografia és a la dreta del text; és decorativa (no cal per resoldre l'exercici).

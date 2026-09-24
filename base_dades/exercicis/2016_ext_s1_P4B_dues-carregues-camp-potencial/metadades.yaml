@@ -1,0 +1,52 @@
+id: 2016_ext_s1_P4B_dues-carregues-camp-potencial
+titol: Camp i potencial de dues càrregues en un triangle
+resum: >-
+  Camp elèctric (mòdul, direcció i sentit) i potencial en el vèrtex P d'un triangle isòsceles
+  creat per Q1 = 2,00 μC i Q2 = −4,00 μC separades 5,00 m; signe i relació de dues noves
+  càrregues perquè el camp s'anul·li sobre el segment a 1 m de Q1.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi16sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi16sp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [càrregues puntuals, camp elèctric, superposició, potencial elèctric, punt de camp nul, triangle isòsceles]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Superposició vectorial del camp en 2D amb descomposició en components i angles, més un
+  raonament sobre el signe de les càrregues per anul·lar el camp i una proporció.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Representació i càlcul del camp elèctric i del potencial en P.
+  - etiqueta: "b"
+    punts: 1
+    resum: Signe i relació entre dues càrregues perquè el camp s'anul·li a 1 m de Q1.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Càrregues Q1 i Q2 separades una distància x i punt P a distància d de cadascuna
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Camps E1, E2 i Etotal en el punt P amb els angles θ i φ
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha
+  repartit 1 punt per apartat, d'acord amb la pauta. A la pauta hi ha una «X» solta al
+  costat de l'etiqueta «a)», que no s'ha transcrit. «respectea» s'ha escrit «respecte a».
+  A l'original la figura és al costat del text.

@@ -1,0 +1,44 @@
+id: 2018_ext_s3_P5B_fotoelectric-llum-groga
+titol: Efecte fotoelèctric amb llum groga en un material alcalí
+resum: >-
+  Freqüència i energia dels fotons d'una llum groga de 500 nm i energia cinètica, en eV,
+  dels electrons extrets d'un material alcalí amb una funció de treball d'1,30 eV.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi18sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi18sp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - fotons i energia de la radiació
+  - efecte fotoelèctric
+paraules_clau: [efecte fotoelèctric, funció de treball, fotó, llum groga, freqüència, energia cinètica dels electrons, electronvolt]
+tipus: [càlcul]
+dificultat: 1
+justificacio_dificultat: >-
+  Aplicació directa de f = c/λ, E = hf i de l'equació d'Einstein de l'efecte
+  fotoelèctric amb un canvi d'unitats entre J i eV.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Freqüència i energia dels fotons de la llum groga.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia cinètica en eV dels electrons extrets.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta, el darrer 0,4 p de l'apartat a és a la
+  dreta del resultat, i el 0,4 p de l'apartat b és a sota del resultat de Ec a la dreta
+  de la clau. La massa de l'electró de les dades no es fa servir.

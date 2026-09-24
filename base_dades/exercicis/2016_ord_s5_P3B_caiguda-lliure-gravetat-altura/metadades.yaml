@@ -1,0 +1,46 @@
+id: 2016_ord_s5_P3B_caiguda-lliure-gravetat-altura
+titol: Salt en caiguda lliure des de 330 km d'altura
+resum: >-
+  Acceleració de la gravetat a 330 km i a 50 km d'altura, i velocitat a 80 km d'altura
+  d'un aventurer que es deixa caure des del repòs, per conservació de l'energia amb
+  l'energia potencial gravitatòria.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [12]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - camp gravitatori i superposició
+  - energia potencial i potencial gravitatori
+paraules_clau: [caiguda lliure, paracaigudista, rècord, intensitat del camp gravitatori, variació de g amb l'altura, conservació de l'energia]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació de g(h) = GM/(R+h)² i conservació de l'energia mecànica amb l'energia potencial
+  gravitatòria -GMm/r; dos passos estàndard.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Acceleració de la gravetat a l'inici del salt (330 km) i en obrir el paracaigudes (50 km).
+  - etiqueta: "b"
+    punts: 1
+    resum: Velocitat a 80 km d'altura per conservació de l'energia.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'un paracaigudista saltant des d'una càpsula a gran altura
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. A l'original la fotografia és després de les dades.

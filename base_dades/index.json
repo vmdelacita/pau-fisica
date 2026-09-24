@@ -1,6 +1,4845 @@
 {
  "exercicis": [
   {
+   "id": "2016_ext_s1_P1_curiosity-descens-mart",
+   "titol": "Descens del robot Curiosity a Mart",
+   "resum": "Increment de l'energia mecànica del Curiosity (899 kg) entre l'entrada a l'atmosfera de Mart a 125 km d'altura i 5 845 m/s i l'arribada a la superfície a 0,60 m/s; intensitat del camp gravitatori de Mart en el punt inicial del descens i força sobre el robot.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "extraordinaria",
+    "serie": 1,
+    "exercici": 1,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi16sl.pdf",
+    "pagines_enunciat": [
+     1
+    ],
+    "pdf_solucio": "examenes/pau_fisi16sp.pdf",
+    "pagines_solucio": [
+     1
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps gravitatoris",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "energia potencial i potencial gravitatori",
+    "energia mecànica orbital",
+    "camp gravitatori i superposició",
+    "llei de la gravitació universal"
+   ],
+   "paraules_clau": [
+    "Curiosity",
+    "Mart",
+    "càpsula d'entrada atmosfèrica",
+    "energia mecànica",
+    "energia potencial gravitatòria",
+    "intensitat de camp gravitatori",
+    "força gravitatòria",
+    "descens"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal plantejar l'energia mecànica amb l'energia potencial gravitatòria general (no mgh) en dos punts i fer-ne la diferència; el segon apartat és una aplicació directa de g = GM/r².",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Increment de l'energia mecànica del vehicle en el descens."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Mòdul del camp gravitatori a 125 km d'altura i força (mòdul, direcció i sentit) sobre el robot."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Fotografia del Curiosity al cràter Gale, a la superfície de Mart"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Esquema de Mart amb la trajectòria de descens des de h = 125 km i la velocitat a la superfície"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha repartit 1 punt per apartat, d'acord amb les puntuacions parcials de la pauta. A l'original la fotografia és al costat del text (maquetació a dues columnes) amb el peu «Imatge del Curiosity al cràter Gale, a la superfície de Mart (31 d'octubre de 2012)». La figura de la pauta conserva l'etiqueta «0.60 m/s» amb punt decimal.",
+   "carpeta": "base_dades/exercicis/2016_ext_s1_P1_curiosity-descens-mart"
+  },
+  {
+   "id": "2016_ext_s1_P2_dos-fils-paralels-camp",
+   "titol": "Camp magnètic de dos fils paral·lels amb corrents iguals",
+   "resum": "Dos fils rectilinis paral·lels situats a x = ±3,0 cm amb corrents d'1,5 A en el mateix sentit: camp magnètic resultant (mòdul, direcció i sentit) al punt mitjà x = 0 i en x = 5,0 cm, amb esquemes justificatius.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "extraordinaria",
+    "serie": 1,
+    "exercici": 2,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi16sl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi16sp.pdf",
+    "pagines_solucio": [
+     2
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp magnètic creat per corrents"
+   ],
+   "paraules_clau": [
+    "fil rectilini",
+    "corrent elèctric",
+    "camp magnètic",
+    "superposició",
+    "regla de la mà dreta",
+    "fils paral·lels"
+   ],
+   "tipus": [
+    "càlcul",
+    "diagrama"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Superposició del camp de dos fils amb la fórmula donada: cal determinar el sentit de cada contribució amb la regla de la mà dreta i sumar o restar mòduls.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Camp magnètic resultant en x = 0 i esquema."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Camp magnètic resultant en x = 5,0 cm i esquema."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Eixos x i y amb els dos fils verticals de corrent I = 1,5 A cap amunt separats 3,0 cm de l'eix y"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Esquema dels dos fils amb els camps B1 i B2 en x = 0 (sentits oposats) i en x = 5,0 cm (tots dos cap endins)"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha repartit 1 punt per apartat, d'acord amb la pauta. A l'original la figura és al costat del text. Al retall de la figura de la pauta s'ha escurçat una mica l'extrem inferior de l'eix Y per no incloure-hi text de la fórmula del costat.",
+   "carpeta": "base_dades/exercicis/2016_ext_s1_P2_dos-fils-paralels-camp"
+  },
+  {
+   "id": "2016_ext_s1_P3A_orgue-sagrada-familia-tub",
+   "titol": "Tub d'orgue obert de la Sagrada Família",
+   "resum": "Freqüències i longituds d'ona de les ones estacionàries en un tub d'orgue obert pels dos extrems d'1,0 m de longitud ple d'aire, i freqüències si el tub estigués ple d'heli.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "extraordinaria",
+    "serie": 1,
+    "exercici": 3,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi16sl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi16sp.pdf",
+    "pagines_solucio": [
+     3
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "ressonància i harmònics en tubs i cordes",
+    "ones estacionàries"
+   ],
+   "paraules_clau": [
+    "orgue",
+    "Sagrada Família",
+    "tub obert",
+    "harmònics",
+    "freqüència fonamental",
+    "heli",
+    "velocitat del so"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació de la condició d'ona estacionària en un tub obert i de v = λf, repetida amb una altra velocitat de propagació.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Freqüències i longituds d'ona permeses en el tub amb aire."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Freqüències permeses si el tub és ple d'heli."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Harmònic fonamental en un tub obert de l = 1,0 m (ventres als extrems i node al mig)"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha repartit 1 punt per apartat, d'acord amb la pauta. DUBTE: a la pauta, les longituds d'ona permeses s'escriuen «λ_0(m) = 2l/n»; probablement hauria de ser λ_n. S'ha transcrit tal com és.",
+   "carpeta": "base_dades/exercicis/2016_ext_s1_P3A_orgue-sagrada-familia-tub"
+  },
+  {
+   "id": "2016_ext_s1_P3B_boia-marina-ona-harmonica",
+   "titol": "Boia marina i equació de l'onatge",
+   "resum": "Una boia oscil·la amb amplitud 3,00 m i freqüència 0,10 Hz i l'ona es propaga a 0,50 m/s: longitud d'ona, nombre d'ona i equació de l'ona amb fase inicial zero.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "extraordinaria",
+    "serie": 1,
+    "exercici": 3,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi16sl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi16sp.pdf",
+    "pagines_solucio": [
+     5
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "ones harmòniques i equació d'ona"
+   ],
+   "paraules_clau": [
+    "boia marina",
+    "onatge",
+    "longitud d'ona",
+    "nombre d'ona",
+    "freqüència angular",
+    "equació d'ona",
+    "amplitud"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 1,
+   "justificacio_dificultat": "Aplicació directa de λ = v/f, k = 2π/λ i ω = 2πf per escriure l'equació d'una ona harmònica.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Longitud d'ona i nombre d'ona."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Equació de l'ona amb fase inicial zero."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha repartit 1 punt per apartat, d'acord amb la pauta.",
+   "carpeta": "base_dades/exercicis/2016_ext_s1_P3B_boia-marina-ona-harmonica"
+  },
+  {
+   "id": "2016_ext_s1_P4A_nuvol-gota-carregada",
+   "titol": "Gota d'aigua carregada sota un núvol",
+   "resum": "Camp elèctric uniforme entre un núvol carregat positivament a 4,7 km d'altura i el terra (ΔV = 2,3·10⁶ V); esquema de càrregues i camps, i càrrega (valor i signe) d'una gota d'1,3 mg que puja a velocitat constant.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "extraordinaria",
+    "serie": 1,
+    "exercici": 4,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi16sl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi16sp.pdf",
+    "pagines_solucio": [
+     3
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [
+    "Camps gravitatoris"
+   ],
+   "subtemes": [
+    "equilibri de càrregues en camps elèctrics",
+    "potencial i energia potencial elèctrica",
+    "camp elèctric i llei de Coulomb"
+   ],
+   "paraules_clau": [
+    "núvol",
+    "gota d'aigua",
+    "camp elèctric uniforme",
+    "diferència de potencial",
+    "velocitat constant",
+    "equilibri de forces",
+    "pes",
+    "càrrega negativa"
+   ],
+   "tipus": [
+    "càlcul",
+    "diagrama",
+    "qualitativa"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Relació E = ΔV/d en un camp uniforme i equilibri entre el pes i la força elèctrica (velocitat constant), amb un raonament senzill del signe de la càrrega.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Esquema de càrregues i camps i càlcul del camp elèctric (mòdul, direcció i sentit)."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Valor de la càrrega de la gota en nC i justificació del signe."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Núvol positiu, terra negatiu, camp elèctric cap avall i gota negativa amb velocitat cap amunt i pes cap avall"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha repartit 1 punt per apartat, d'acord amb la pauta. A la nota de la pauta «0.1 punts» s'ha passat a «0,1 punts».",
+   "carpeta": "base_dades/exercicis/2016_ext_s1_P4A_nuvol-gota-carregada"
+  },
+  {
+   "id": "2016_ext_s1_P4B_dues-carregues-camp-potencial",
+   "titol": "Camp i potencial de dues càrregues en un triangle",
+   "resum": "Camp elèctric (mòdul, direcció i sentit) i potencial en el vèrtex P d'un triangle isòsceles creat per Q1 = 2,00 μC i Q2 = −4,00 μC separades 5,00 m; signe i relació de dues noves càrregues perquè el camp s'anul·li sobre el segment a 1 m de Q1.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "extraordinaria",
+    "serie": 1,
+    "exercici": 4,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi16sl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi16sp.pdf",
+    "pagines_solucio": [
+     6
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp elèctric i llei de Coulomb",
+    "potencial i energia potencial elèctrica"
+   ],
+   "paraules_clau": [
+    "càrregues puntuals",
+    "camp elèctric",
+    "superposició",
+    "potencial elèctric",
+    "punt de camp nul",
+    "triangle isòsceles"
+   ],
+   "tipus": [
+    "càlcul",
+    "diagrama",
+    "qualitativa"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Superposició vectorial del camp en 2D amb descomposició en components i angles, més un raonament sobre el signe de les càrregues per anul·lar el camp i una proporció.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Representació i càlcul del camp elèctric i del potencial en P."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Signe i relació entre dues càrregues perquè el camp s'anul·li a 1 m de Q1."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Càrregues Q1 i Q2 separades una distància x i punt P a distància d de cadascuna"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Camps E1, E2 i Etotal en el punt P amb els angles θ i φ"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha repartit 1 punt per apartat, d'acord amb la pauta. A la pauta hi ha una «X» solta al costat de l'etiqueta «a)», que no s'ha transcrit. «respectea» s'ha escrit «respecte a». A l'original la figura és al costat del text.",
+   "carpeta": "base_dades/exercicis/2016_ext_s1_P4B_dues-carregues-camp-potencial"
+  },
+  {
+   "id": "2016_ext_s1_P5A_fluor18-tep-positro",
+   "titol": "Fluor 18 en la tomografia per emissió de positrons",
+   "resum": "Protons i neutrons del fluor 18, coeficients de l'equació de la desintegració β⁺, freqüència dels fotons gamma produïts en l'anihilació positró-electró i temps perquè quedi l'1 % dels nuclis inicials (període de 109,77 min).",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "extraordinaria",
+    "serie": 1,
+    "exercici": 5,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi16sl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi16sp.pdf",
+    "pagines_solucio": [
+     4
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "radioactivitat i llei de desintegració",
+    "aplicacions i riscos de la radioactivitat",
+    "física de partícules",
+    "fotons i energia de la radiació"
+   ],
+   "paraules_clau": [
+    "fluor 18",
+    "TEP",
+    "tomografia per emissió de positrons",
+    "positró",
+    "anihilació",
+    "fotons gamma",
+    "període de semidesintegració",
+    "radiofàrmac"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Combina l'ajust d'una equació nuclear, l'anihilació (E = mc² repartida en dos fotons) i la llei de desintegració amb el període; diversos passos però estàndard.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Protons i neutrons del ¹⁸F, coeficients A, B, C, D i freqüència dels fotons gamma."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Temps perquè quedi l'1 % dels nuclis de fluor 18."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Fotografia d'un aparell de tomografia amb un pacient i una sanitària"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha repartit 1 punt per apartat, d'acord amb la pauta. A l'original la fotografia és al costat del text. A la pauta, «109.77'» a l'exponent s'ha passat a coma; l'apòstrof indica minuts. El 0,2 p final de l'apartat b és a la dreta del resultat t = 729,30 min.",
+   "carpeta": "base_dades/exercicis/2016_ext_s1_P5A_fluor18-tep-positro"
+  },
+  {
+   "id": "2016_ext_s1_P5B_irradiancia-solar-fotons",
+   "titol": "Fotons de la irradiància solar",
+   "resum": "Longitud d'ona mitjana (en nm) de fotons solars de 2,20 eV i nombre de fotons que arriben cada segon a 1,00 cm² amb una irradiància de 1 400 W/m².",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "extraordinaria",
+    "serie": 1,
+    "exercici": 5,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi16sl.pdf",
+    "pagines_enunciat": [
+     4
+    ],
+    "pdf_solucio": "examenes/pau_fisi16sp.pdf",
+    "pagines_solucio": [
+     7
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "fotons i energia de la radiació"
+   ],
+   "paraules_clau": [
+    "irradiància solar",
+    "fotó",
+    "energia del fotó",
+    "longitud d'ona",
+    "electronvolt",
+    "potència",
+    "nombre de fotons"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Conversió eV–J i E = hc/λ, i després potència = irradiància × àrea per comptar fotons: dos passos encadenats estàndard.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Longitud d'ona mitjana dels fotons en nm."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Nombre de fotons per segon sobre 1,00 cm²."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha repartit 1 punt per apartat, d'acord amb la pauta. La pauta dona λ = 5,64·10⁻⁷ m (amb l'energia sense arrodonir); amb E = 3,52·10⁻¹⁹ J surt 5,65·10⁻⁷ m. No s'ha corregit.",
+   "carpeta": "base_dades/exercicis/2016_ext_s1_P5B_irradiancia-solar-fotons"
+  },
+  {
+   "id": "2016_ord_s3_P1_forat-negre-estrella-orbita",
+   "titol": "Estrella en òrbita al voltant del forat negre A0620-00",
+   "resum": "Deducció del radi d'una òrbita circular a partir de la massa del cos central i del període i càlcul del radi de l'òrbita d'una estrella al voltant del forat negre A0620-00; velocitat lineal i acceleració centrípeta de l'estrella i representació dels dos vectors.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 3,
+    "exercici": 1,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     1
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     2
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps gravitatoris",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "òrbites circulars i satèl·lits",
+    "lleis de Kepler"
+   ],
+   "paraules_clau": [
+    "forat negre",
+    "A0620-00",
+    "estrella",
+    "òrbita circular",
+    "tercera llei de Kepler",
+    "període orbital",
+    "velocitat orbital",
+    "acceleració centrípeta"
+   ],
+   "tipus": [
+    "deducció",
+    "càlcul",
+    "diagrama"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Deducció estàndard de la tercera llei de Kepler a partir de la segona llei de Newton i aplicació directa per calcular el radi, la velocitat i l'acceleració centrípeta.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Deduir R(G, M, T) per a una òrbita circular i calcular el radi de l'òrbita de l'estrella."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Velocitat lineal i acceleració centrípeta de l'estrella i representació dels vectors."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Estrella que gira en una òrbita circular discontínua al voltant d'un punt central amb un interrogant"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Òrbita circular amb els vectors velocitat (tangent) i acceleració (cap al centre) de l'estrella"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text introductori. A la pauta, a la línia de la deducció hi ha dues puntuacions de 0,3 p (una a cada banda).",
+   "carpeta": "base_dades/exercicis/2016_ord_s3_P1_forat-negre-estrella-orbita"
+  },
+  {
+   "id": "2016_ord_s3_P2_molles-mhs-frequencia-doble",
+   "titol": "Dues molles idèntiques oscil·lant amb freqüències diferents",
+   "resum": "Massa que cal penjar d'una molla idèntica perquè oscil·li amb freqüència doble; gràfica velocitat-temps de les dues oscil·lacions durant 2 s i instants en què la diferència de fase és de pi radians.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 3,
+    "exercici": 2,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     1
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     3
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment harmònic simple"
+   ],
+   "paraules_clau": [
+    "molla",
+    "oscil·lador harmònic",
+    "constant elàstica",
+    "freqüència angular",
+    "període",
+    "velocitat màxima",
+    "gràfica velocitat-temps",
+    "diferència de fase"
+   ],
+   "tipus": [
+    "càlcul",
+    "gràfic"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "El càlcul de la massa és directe, però cal construir amb escales la gràfica v(t) de dues oscil·lacions i interpretar-hi la diferència de fase.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Massa que cal penjar a la segona molla perquè oscil·li amb freqüència doble."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Gràfica velocitat-temps dels dos objectes durant 2 s i instants amb diferència de fase de pi rad."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Gràfica velocitat-temps dels objectes A i B entre 0 i 2 s, amb els instants 0,5 s i 1,5 s marcats"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt.",
+   "carpeta": "base_dades/exercicis/2016_ord_s3_P2_molles-mhs-frequencia-doble"
+  },
+  {
+   "id": "2016_ord_s3_P3A_ratpenats-ultrasons-eco",
+   "titol": "Ecolocalització dels ratpenats amb ultrasons",
+   "resum": "Longitud d'ona i període dels ultrasons d'un ratpenat i diferència de fase de l'eco d'un mosquit entre les dues orelles; quocient d'intensitats dels ecos a les dues orelles i diferència de nivells d'intensitat sonora en decibels.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 3,
+    "exercici": 3,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     4
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "ones harmòniques i equació d'ona",
+    "ones sonores i nivell d'intensitat"
+   ],
+   "paraules_clau": [
+    "ratpenat",
+    "ultrasons",
+    "eco",
+    "longitud d'ona",
+    "diferència de fase",
+    "intensitat sonora",
+    "nivell d'intensitat",
+    "decibels"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Combina la relació v = lambda f, la diferència de fase per diferència de camins i la llei de l'invers del quadrat amb la diferència de nivells en decibels.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Longitud d'ona i període dels ultrasons i diferència de fase de l'eco entre les dues orelles."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Quocient d'intensitats dels ecos a les dues orelles i diferència de nivells en dB."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Ratpenat que rep els ecos de dos mosquits amb raigs cap a cada orella"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text introductori. A la pauta, un subíndex s'escriu «dretra» (L_dretra), i així s'ha transcrit.",
+   "carpeta": "base_dades/exercicis/2016_ord_s3_P3A_ratpenats-ultrasons-eco"
+  },
+  {
+   "id": "2016_ord_s3_P3B_dipol-superficies-equipotencials",
+   "titol": "Superfícies equipotencials d'un dipol elèctric",
+   "resum": "Valors de potencial de les superfícies equipotencials d'un dipol a partir del potencial en un punt P i dibuix aproximat de les línies de camp; càlcul del valor de les càrregues a partir del potencial a P.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 3,
+    "exercici": 3,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     7
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "línies de camp i superfícies equipotencials",
+    "potencial i energia potencial elèctrica"
+   ],
+   "paraules_clau": [
+    "dipol elèctric",
+    "superfícies equipotencials",
+    "línies de camp",
+    "potencial elèctric",
+    "superposició",
+    "càrregues puntuals"
+   ],
+   "tipus": [
+    "diagrama",
+    "qualitativa",
+    "càlcul"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal interpretar la figura (pla mediador a 0 V i equipotencials equiespaiades) per assignar els potencials i aplicar la superposició amb la geometria del punt P.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Potencials de les superfícies equipotencials i línies de camp del dipol."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Valor de les càrregues a partir del potencial de +10 V al punt P."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Dipol amb les càrregues separades 1,00 cm, superfícies equipotencials i punt P a 0,50 cm per sobre de la càrrega positiva"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Figura del dipol amb els potencials anotats a mà (-15 V a 15 V) i les línies de camp dibuixades"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text. La figura de la pauta és una imatge amb anotacions a mà.",
+   "carpeta": "base_dades/exercicis/2016_ord_s3_P3B_dipol-superficies-equipotencials"
+  },
+  {
+   "id": "2016_ord_s3_P4A_cano-electronic-plaques",
+   "titol": "Canó electrònic i desviació entre plaques",
+   "resum": "Diferència de potencial entre les plaques d'un canó electrònic que accelera electrons fins a 2,00·10^6 m/s, placa de potencial més alt i línies de camp; acceleració dels electrons en un camp elèctric vertical de 500 N/C i components de la velocitat en sortir de les plaques.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 3,
+    "exercici": 4,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     5
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment de càrregues en camps elèctrics",
+    "potencial i energia potencial elèctrica",
+    "línies de camp i superfícies equipotencials"
+   ],
+   "paraules_clau": [
+    "canó electrònic",
+    "electró",
+    "plaques paral·leles",
+    "diferència de potencial",
+    "conservació de l'energia",
+    "camp elèctric uniforme",
+    "desviació",
+    "components de la velocitat"
+   ],
+   "tipus": [
+    "càlcul",
+    "diagrama"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal aplicar la conservació de l'energia amb el signe de la càrrega, dibuixar el camp i tractar el moviment de l'electró entre plaques com un tir horitzontal.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Diferència de potencial entre les plaques, placa de potencial més alt i línies de camp."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Acceleració de l'electró en el camp vertical i components de la velocitat a la sortida."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Figura 1, plaques A i B separades 4,00 cm amb l'electró que surt per l'orifici de B"
+    },
+    {
+     "fitxer": "fig2.png",
+     "true": "enunciat",
+     "descripcio": "Figura 2, electró que entra entre dues plaques horitzontals de 2,00 cm separades 1,00 cm amb camp E cap amunt"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Plaques A i B amb les línies de camp elèctric de B cap a A"
+    },
+    {
+     "fitxer": "sol_fig2.png",
+     "true": "solucio",
+     "descripcio": "Reproducció de la figura 2 de l'enunciat"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original les figures són a la dreta del text. A la pauta, el resultat V_A - V_B = -11,4 V i la notació «V_b > V_A» es transcriuen tal com són.",
+   "carpeta": "base_dades/exercicis/2016_ord_s3_P4A_cano-electronic-plaques"
+  },
+  {
+   "id": "2016_ord_s3_P4B_potassi-40-desintegracio-beta",
+   "titol": "Desintegracions del potassi 40",
+   "resum": "Equacions nuclears de les desintegracions beta menys i beta més del potassi 40, amb neutrins i antineutrins; longitud d'ona i freqüència del fotó gamma emès en la captura electrònica i disminució de massa corresponent.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 3,
+    "exercici": 4,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     8
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "radioactivitat i llei de desintegració",
+    "fotons i energia de la radiació",
+    "reaccions nuclears i defecte de massa"
+   ],
+   "paraules_clau": [
+    "potassi 40",
+    "desintegració beta",
+    "neutrí",
+    "antineutrí",
+    "captura electrònica",
+    "raigs gamma",
+    "equivalència massa-energia"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Ajust de nombres atòmics i màssics en equacions nuclears i aplicació directa de E = h nu i E = m c^2.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Equacions nuclears de les desintegracions beta menys i beta més del potassi 40."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Longitud d'ona i freqüència del fotó gamma i disminució de massa de l'àtom."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. L'enunciat i la pauta diuen «1 460 MeV»; el raig gamma real del potassi 40 és d'1 460 keV (1,460 MeV), i amb 1 460 MeV la disminució de massa (2,60·10^-27 kg) seria més gran que la massa d'un nucleó. Es transcriu tal com és (DUBTE a solucio.tex). A la pauta, la penalització per no posar l'antineutrí s'escriu «-0-2p» i s'ha transcrit com a -0,2 p. La pauta escriu els resultats de l'apartat b amb punt decimal i s'han passat a coma.",
+   "carpeta": "base_dades/exercicis/2016_ord_s3_P4B_potassi-40-desintegracio-beta"
+  },
+  {
+   "id": "2016_ord_s3_P5A_fotoelectric-grafica-planck",
+   "titol": "Constant de Planck a partir d'una gràfica de l'efecte fotoelèctric",
+   "resum": "Determinació de la constant de Planck a partir del pendent de la gràfica de l'energia cinètica màxima dels electrons en funció de la freqüència i càlcul del treball d'extracció en eV.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 3,
+    "exercici": 5,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     6
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "efecte fotoelèctric"
+   ],
+   "paraules_clau": [
+    "efecte fotoelèctric",
+    "constant de Planck",
+    "energia cinètica màxima",
+    "freqüència llindar",
+    "treball d'extracció",
+    "pendent",
+    "gràfica"
+   ],
+   "tipus": [
+    "gràfic",
+    "càlcul",
+    "experimental"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Lectura d'una gràfica lineal i interpretació del pendent i de la freqüència llindar amb l'equació d'Einstein de l'efecte fotoelèctric.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Constant de Planck a partir del pendent de la gràfica Ec-f."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Treball d'extracció mínim en eV a partir de la freqüència llindar."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Gràfica de l'energia cinètica màxima (eV) en funció de la freqüència (Hz), recta que talla l'eix a 1,0·10^15 Hz"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "La mateixa gràfica amb els punts (1,5·10^15, 2,07) i (1,0·10^15, 0) marcats"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la gràfica és a la dreta del text. A la pauta, els punts triats s'escriuen amb punt decimal i s'han passat a coma (les etiquetes dins de la figura de la pauta conserven el punt).",
+   "carpeta": "base_dades/exercicis/2016_ord_s3_P5A_fotoelectric-grafica-planck"
+  },
+  {
+   "id": "2016_ord_s3_P5B_espira-camp-magnetic-centre",
+   "titol": "Camp magnètic al centre d'una espira circular",
+   "resum": "Mòdul del camp magnètic al centre d'una espira circular de 5 cm de radi amb un corrent de 10 A a partir de l'expressió donada del camp a l'eix; sentit del corrent perquè el camp al centre tingui el sentit positiu de l'eix x.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 3,
+    "exercici": 5,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     4
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     8
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp magnètic creat per corrents"
+   ],
+   "paraules_clau": [
+    "espira circular",
+    "camp magnètic",
+    "centre de l'espira",
+    "regla de la mà dreta",
+    "sentit del corrent",
+    "microtesla"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 1,
+   "justificacio_dificultat": "Substitució directa a l'expressió donada (x = 0) i aplicació de la regla de la mà dreta.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Mòdul del camp magnètic al centre de l'espira en microtesla."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Sentit del corrent perquè el camp al centre vagi en el sentit positiu de l'eix x."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Espira circular de radi R en el pla YZ amb l'eix x perpendicular pel centre i els eixos de coordenades"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Espira amb el sentit del corrent I i el camp B al centre en el sentit positiu de l'eix x"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text.",
+   "carpeta": "base_dades/exercicis/2016_ord_s3_P5B_espira-camp-magnetic-centre"
+  },
+  {
+   "id": "2016_ord_s5_P1_piston-motor-mhs",
+   "titol": "Pistó d'un motor d'explosió amb moviment harmònic simple",
+   "resum": "Equació de moviment i velocitat màxima del pistó d'un motor que fa un MHS a partir del recorregut i de les revolucions per minut; força màxima sobre el pistó.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 1,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     5
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     9
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment harmònic simple"
+   ],
+   "paraules_clau": [
+    "pistó",
+    "motor d'explosió",
+    "revolucions per minut",
+    "amplitud",
+    "fase inicial",
+    "velocitat màxima",
+    "força recuperadora màxima"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació directa de l'equació del MHS: cal passar de rpm a freqüència angular, deduir l'amplitud i la fase inicial i calcular la força màxima amb k = mω².",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Equació de moviment i velocitat màxima del pistó."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Força màxima sobre el pistó de 200 g."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit.",
+   "carpeta": "base_dades/exercicis/2016_ord_s5_P1_piston-motor-mhs"
+  },
+  {
+   "id": "2016_ord_s5_P2_dues-carregues-camp-potencial",
+   "titol": "Camp i potencial nul entre dues càrregues puntuals",
+   "resum": "Camp elèctric (mòdul, direcció i sentit) en un punt entre dues càrregues de 3,0 μC i −7,0 μC separades 15 cm, i punt entre les càrregues on el potencial és nul.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 2,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     5
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     9
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp elèctric i llei de Coulomb",
+    "potencial i energia potencial elèctrica"
+   ],
+   "paraules_clau": [
+    "càrregues puntuals",
+    "superposició",
+    "camp elèctric",
+    "potencial elèctric nul",
+    "llei de Coulomb"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Superposició de camps en una recta (sumen mòduls perquè les càrregues són de signe contrari) i una equació lineal per trobar el punt de potencial nul.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Camp elèctric en un punt entre les càrregues (mòdul, direcció i sentit)."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Punt entre les càrregues on el potencial és nul."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. La pauta fa els càlculs amb k = 9,0·10⁹ N m² C⁻² en lloc del valor 8,99·10⁹ que dona l'enunciat; s'ha transcrit tal com és.",
+   "carpeta": "base_dades/exercicis/2016_ord_s5_P2_dues-carregues-camp-potencial"
+  },
+  {
+   "id": "2016_ord_s5_P3A_mimas-saturn-orbita-energia",
+   "titol": "Mimas, satèl·lit de Saturn en òrbita circular",
+   "resum": "Altura de l'òrbita i velocitat orbital de Mimas a partir del seu període al voltant de Saturn; energia mecànica del satèl·lit i significat del signe.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 3,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     6
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     10
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps gravitatoris",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "òrbites circulars i satèl·lits",
+    "energia mecànica orbital"
+   ],
+   "paraules_clau": [
+    "Saturn",
+    "Mimas",
+    "període orbital",
+    "radi orbital",
+    "altura de l'òrbita",
+    "velocitat orbital",
+    "energia mecànica",
+    "òrbita lligada"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Problema típic de satèl·lits: igualar la força gravitatòria a la centrípeta per obtenir el radi, restar el radi del planeta, i calcular i interpretar l'energia mecànica.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Altura de l'òrbita de Mimas sobre Saturn i velocitat orbital."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Energia mecànica de Mimas i significat del signe."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Imatge de Mimas davant de Saturn i els seus anells"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. A l'original la imatge és a la dreta del text introductori i de l'apartat a (maquetació a dues columnes); aquí s'ha col·locat després del text introductori.",
+   "carpeta": "base_dades/exercicis/2016_ord_s5_P3A_mimas-saturn-orbita-energia"
+  },
+  {
+   "id": "2016_ord_s5_P3B_caiguda-lliure-gravetat-altura",
+   "titol": "Salt en caiguda lliure des de 330 km d'altura",
+   "resum": "Acceleració de la gravetat a 330 km i a 50 km d'altura, i velocitat a 80 km d'altura d'un aventurer que es deixa caure des del repòs, per conservació de l'energia amb l'energia potencial gravitatòria.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 3,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     7
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     12
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps gravitatoris",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp gravitatori i superposició",
+    "energia potencial i potencial gravitatori"
+   ],
+   "paraules_clau": [
+    "caiguda lliure",
+    "paracaigudista",
+    "rècord",
+    "intensitat del camp gravitatori",
+    "variació de g amb l'altura",
+    "conservació de l'energia"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació de g(h) = GM/(R+h)² i conservació de l'energia mecànica amb l'energia potencial gravitatòria -GMm/r; dos passos estàndard.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Acceleració de la gravetat a l'inici del salt (330 km) i en obrir el paracaigudes (50 km)."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Velocitat a 80 km d'altura per conservació de l'energia."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Fotografia d'un paracaigudista saltant des d'una càpsula a gran altura"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. A l'original la fotografia és després de les dades.",
+   "carpeta": "base_dades/exercicis/2016_ord_s5_P3B_caiguda-lliure-gravetat-altura"
+  },
+  {
+   "id": "2016_ord_s5_P4A_electro-neutro-proto-camp-magnetic",
+   "titol": "Electró, neutró i protó en un camp magnètic i fil infinit",
+   "resum": "Força i tipus de moviment d'un electró, un neutró i un protó que entren amb la mateixa velocitat en un camp magnètic uniforme; corrent d'un fil infinit paral·lel a l'eix Y que anul·la el camp sobre el protó perquè segueixi una trajectòria rectilínia.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 4,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     6
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     10
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment de càrregues en camps magnètics",
+    "camp magnètic creat per corrents"
+   ],
+   "paraules_clau": [
+    "força de Lorentz",
+    "electró",
+    "neutró",
+    "protó",
+    "moviment circular",
+    "sentit de gir",
+    "fil infinit",
+    "anul·lació del camp magnètic"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal aplicar la força de Lorentz amb vectors i raonar el sentit de gir de cada partícula, i després imposar que el camp del fil anul·li el camp uniforme a la posició del protó.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Mòdul de la força sobre cada partícula i tipus de moviment."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Corrent del fil infinit que fa que el protó segueixi una trajectòria rectilínia."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. A la pauta de l'apartat a el resultat de la força s'escriu amb el signe ≡ en lloc de =, i a l'apartat b la unitat del camp del fil s'escriu en cursiva (T k̂); s'ha transcrit tal com és. Els punts decimals de la pauta s'han passat a coma.",
+   "carpeta": "base_dades/exercicis/2016_ord_s5_P4A_electro-neutro-proto-camp-magnetic"
+  },
+  {
+   "id": "2016_ord_s5_P4B_desintegracio-activitat-semivida",
+   "titol": "Llei de desintegració radioactiva, semivida i activitat",
+   "resum": "Significat de les magnituds de la llei de desintegració N = N₀ e^(-0,0050t), període de semidesintegració i activitat d'una mostra de 1,0·10²⁸ nuclis al cap de 4,0 hores.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 4,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     7
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     12
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "radioactivitat i llei de desintegració"
+   ],
+   "paraules_clau": [
+    "llei de desintegració",
+    "constant de desintegració",
+    "període de semidesintegració",
+    "activitat",
+    "nuclis radioactius"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Identificar la constant de desintegració a l'equació, calcular t½ = ln2/λ i aplicar A = λN₀e^(-λt) amb el canvi d'hores a segons.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Significat de les magnituds de l'equació i període de semidesintegració."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Activitat de la mostra al cap de 4,0 hores."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. Els punts decimals de la pauta (\"0.005\") s'han passat a coma.",
+   "carpeta": "base_dades/exercicis/2016_ord_s5_P4B_desintegracio-activitat-semivida"
+  },
+  {
+   "id": "2016_ord_s5_P5A_cellula-fotoelectrica-llum-verda",
+   "titol": "Cèl·lula fotoelèctrica il·luminada amb llum verda",
+   "resum": "Treball d'extracció i freqüència llindar del càtode d'una cèl·lula fotoelèctrica a partir de la longitud d'ona de la llum i del potencial de frenada; raonament de si hi ha efecte fotoelèctric per a longituds d'ona o freqüències per sobre del llindar.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 5,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     6
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     11
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "efecte fotoelèctric"
+   ],
+   "paraules_clau": [
+    "cèl·lula fotoelèctrica",
+    "llum verda",
+    "potencial de frenada",
+    "treball d'extracció",
+    "freqüència llindar",
+    "longitud d'ona llindar"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació directa del balanç d'energia de l'efecte fotoelèctric i raonament estàndard sobre el llindar.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Treball d'extracció i freqüència llindar del metall del càtode."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Si hi ha efecte fotoelèctric amb longitud d'ona més gran que la llindar o freqüència més gran que la llindar."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. La pauta fa servir q = 1,6·10⁻¹⁹ C i V = 0,95 V (arrodonits). En el càlcul de la freqüència llindar la pauta té una caixa de 0,2 p entre dos signes = (\"ν₀ = W₀/h = [0,2] = 3,06·10¹⁴ Hz [0,2]\"); s'ha transcrit igual.",
+   "carpeta": "base_dades/exercicis/2016_ord_s5_P5A_cellula-fotoelectrica-llum-verda"
+  },
+  {
+   "id": "2016_ord_s5_P5B_particula-alfa-camp-magnetic",
+   "titol": "Partícula alfa en un camp magnètic uniforme",
+   "resum": "Força magnètica sobre una partícula α que es mou perpendicularment a un camp magnètic, dibuix de la trajectòria i dels vectors i sentit de gir; radi de gir i freqüència del moviment circular.",
+   "font": {
+    "tipus": "examen",
+    "any": 2016,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 5,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+    "pagines_enunciat": [
+     7
+    ],
+    "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+    "pagines_solucio": [
+     12,
+     13
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment de càrregues en camps magnètics"
+   ],
+   "paraules_clau": [
+    "partícula alfa",
+    "força de Lorentz",
+    "producte vectorial",
+    "trajectòria circular",
+    "sentit de gir",
+    "radi de gir",
+    "freqüència ciclotrònica"
+   ],
+   "tipus": [
+    "càlcul",
+    "diagrama"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació directa de la força de Lorentz amb vectors unitaris i de la igualtat entre la força magnètica i la centrípeta; cal recordar que la càrrega de la partícula α és 2e.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Força magnètica, dibuix de la trajectòria i dels vectors, i sentit de gir."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Radi de gir i freqüència del moviment circular en MHz."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Trajectòria circular de la partícula α amb els vectors velocitat, camp magnètic (sortint) i força"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no indica la puntuació de cada apartat; s'ha posat 1 punt a cada apartat, que coincideix amb la suma de les puntuacions parcials de la pauta. A la pauta les puntuacions parcials apareixen en caixes darrere del pas que puntuen, i així s'han transcrit. La caixa de 0,3 p de l'apartat a és al costat del dibuix de la trajectòria. A la pauta hi ha l'errata «perpendicular a la la velocitat», que s'ha mantingut.",
+   "carpeta": "base_dades/exercicis/2016_ord_s5_P5B_particula-alfa-camp-magnetic"
+  },
+  {
+   "id": "2017_ext_s2_P1_energia-potencial-planeta-escapament",
+   "titol": "Gràfica de l'energia potencial en un planeta i velocitat d'escapament",
+   "resum": "A partir de la gràfica de l'energia potencial d'un cos de 2 kg en funció de l'altura sobre un planeta de 5 000 km de radi, càlcul de la gravetat superficial i de la massa del planeta; deducció i càlcul de la velocitat d'escapament.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "extraordinaria",
+    "serie": 2,
+    "exercici": 1,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi17sl.pdf",
+    "pagines_enunciat": [
+     1
+    ],
+    "pdf_solucio": "examenes/pau_fisi17sp.pdf",
+    "pagines_solucio": [
+     2
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps gravitatoris",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "energia potencial i potencial gravitatori",
+    "camp gravitatori i superposició",
+    "velocitat d'escapament"
+   ],
+   "paraules_clau": [
+    "energia potencial",
+    "gràfica",
+    "pendent",
+    "gravetat superficial",
+    "massa del planeta",
+    "velocitat d'escapament",
+    "conservació de l'energia"
+   ],
+   "tipus": [
+    "gràfic",
+    "càlcul",
+    "deducció"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal interpretar el pendent de la gràfica Ep(h) com a mg, relacionar g amb la massa del planeta i deduir la velocitat d'escapament per conservació de l'energia.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Acceleració de la gravetat a la superfície a partir del pendent de la gràfica i massa del planeta."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Deducció de la velocitat d'escapament per conservació de l'energia i càlcul."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Gràfica lineal de l'energia potencial Ep (J) en funció de l'altura h (m), de 0 a 120 J entre 0 i 30 m"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "La mateixa gràfica Ep(h) reproduïda a la pauta"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). A la pauta la gràfica és a la dreta del text introductori de l'apartat a, i les unitats són en cursiva (s'han posat en rodona).",
+   "carpeta": "base_dades/exercicis/2017_ext_s2_P1_energia-potencial-planeta-escapament"
+  },
+  {
+   "id": "2017_ext_s2_P2_onada-estadi-mhs",
+   "titol": "L'onada del públic en un estadi",
+   "resum": "L'onada que fa el públic d'un estadi modelitzada com una ona: tipus d'ona, longitud d'ona i pulsació a partir de la distància entre espectadors que es mouen igual i del període; equació del MHS d'un espectador que parteix de la posició mínima.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "extraordinaria",
+    "serie": 2,
+    "exercici": 2,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi17sl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi17sp.pdf",
+    "pagines_solucio": [
+     3
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "ones harmòniques i equació d'ona",
+    "moviment harmònic simple"
+   ],
+   "paraules_clau": [
+    "onada",
+    "estadi",
+    "ona mecànica",
+    "ona transversal",
+    "longitud d'ona",
+    "pulsació",
+    "fase inicial",
+    "equació del moviment"
+   ],
+   "tipus": [
+    "qualitativa",
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Identificació del tipus d'ona i lectura directa de λ i T; l'equació del MHS només demana determinar l'amplitud i la fase inicial a partir de la posició mínima.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Tipus d'ona (mecànica i transversal), longitud d'ona i pulsació."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Equació del MHS d'un espectador que parteix de la posició mínima."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Fotografia del públic d'un estadi fent l'onada"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). A l'original la fotografia és a la dreta del text introductori. A la pauta les puntuacions de l'apartat a van entre parèntesis dins del text i els mots «mecànica», «transversal» i «λ = 50 m» estan subratllats.",
+   "carpeta": "base_dades/exercicis/2017_ext_s2_P2_onada-estadi-mhs"
+  },
+  {
+   "id": "2017_ext_s2_P3A_particula-alfa-nucli-urani",
+   "titol": "Partícula alfa dirigida cap a un nucli d'urani",
+   "resum": "Comparació del mòdul del camp elèctric creat per un nucli d'urani a 0,008 nm i a 0,008 pm del centre; energia cinètica mínima que ha de tenir una partícula α en el punt més llunyà per arribar a la superfície del nucli.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "extraordinaria",
+    "serie": 2,
+    "exercici": 3,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi17sl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi17sp.pdf",
+    "pagines_solucio": [
+     4
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp elèctric i llei de Coulomb",
+    "potencial i energia potencial elèctrica",
+    "moviment de càrregues en camps elèctrics"
+   ],
+   "paraules_clau": [
+    "partícula alfa",
+    "nucli d'urani",
+    "camp elèctric",
+    "càrrega puntual",
+    "energia potencial elèctrica",
+    "conservació de l'energia",
+    "energia cinètica mínima"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Quocient de camps elèctrics a dues distàncies i aplicació de la conservació de l'energia amb l'energia potencial electrostàtica entre dues càrregues puntuals.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Relació entre els mòduls del camp elèctric del nucli als punts A i B."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Energia cinètica mínima de la partícula α a A per arribar a B."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Nucli d'urani de radi R = 0,008 pm amb el punt B a la superfície i el punt A a 0,008 nm del centre"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). A la pauta la conclusió de l'apartat a diu «es un milió» (sense accent), i s'ha deixat tal com és.",
+   "carpeta": "base_dades/exercicis/2017_ext_s2_P3A_particula-alfa-nucli-urani"
+  },
+  {
+   "id": "2017_ext_s2_P3B_iode-131-radioterapia",
+   "titol": "Iode 131 per a la radioteràpia de tiroide",
+   "resum": "Equacions de la desintegració β⁻ del ¹³¹I en xenó i de l'emissió γ posterior; percentatge de ¹³¹I que queda al cap de 24,06 dies (tres períodes de semidesintegració) i longitud d'ona dels fotons γ de 364 keV.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "extraordinaria",
+    "serie": 2,
+    "exercici": 3,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi17sl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi17sp.pdf",
+    "pagines_solucio": [
+     7
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "radioactivitat i llei de desintegració",
+    "fotons i energia de la radiació",
+    "aplicacions i riscos de la radioactivitat"
+   ],
+   "paraules_clau": [
+    "iode 131",
+    "radioteràpia",
+    "tiroide",
+    "desintegració beta",
+    "emissió gamma",
+    "xenó",
+    "període de semidesintegració",
+    "longitud d'ona del fotó"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Equacions nuclears senzilles, llei de desintegració amb un nombre enter de períodes i relació directa E = hc/λ per al fotó γ.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Equacions nuclears de l'emissió β⁻ i γ i percentatge de ¹³¹I que queda després de 24,06 dies."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Longitud d'ona dels fotons γ de 364 keV."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). A l'exponent de la pauta falta el signe de multiplicar («e^{−0,086424,06}» per 0,0864·24,06; vegeu el % DUBTE). La partícula β s'escriu a la pauta amb superíndex «−1» i l'antineutrí amb subíndex «e−»; es mantenen així, com els símbols dels nuclis en cursiva. A l'apartat b les dues expressions estan agrupades amb una clau que dona λ = 3,41·10⁻¹² m (0,6 p). Les dades de l'enunciat inclouen la massa de l'electró, que no cal per resoldre'l.",
+   "carpeta": "base_dades/exercicis/2017_ext_s2_P3B_iode-131-radioterapia"
+  },
+  {
+   "id": "2017_ext_s2_P4A_rado-222-224-desintegracio",
+   "titol": "Desintegració de dues mostres de radó 222 i radó 224",
+   "resum": "Equacions de la desintegració α del ²²²Rn i β⁻ del ²²⁴Rn; àtoms de ²²⁴Rn que queden quan la mostra de ²²²Rn s'ha reduït a 9,00·10⁻² mol; defecte de massa a partir de l'energia alliberada (5,590 MeV) en cada desintegració del ²²²Rn.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "extraordinaria",
+    "serie": 2,
+    "exercici": 4,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi17sl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi17sp.pdf",
+    "pagines_solucio": [
+     5
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "radioactivitat i llei de desintegració",
+    "reaccions nuclears i defecte de massa"
+   ],
+   "paraules_clau": [
+    "radó",
+    "desintegració alfa",
+    "desintegració beta",
+    "període de semidesintegració",
+    "constant de desintegració",
+    "nombre d'Avogadro",
+    "defecte de massa",
+    "poloni",
+    "franci"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal escriure dues equacions nuclears, trobar el temps amb la llei de desintegració d'un isòtop i aplicar-lo a l'altre, i relacionar energia i defecte de massa.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Equacions de les dues desintegracions i àtoms de ²²⁴Rn que queden quan resten 9,00·10⁻² mol de ²²²Rn."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Defecte de massa de la desintegració del ²²²Rn a partir de l'energia alliberada."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). Errades de la pauta transcrites tal com són (vegeu els % DUBTE): els subíndexs de les constants de desintegració diuen «Ra» en lloc de «Rn», i a l'equació ln(9,00·10⁻²/1,00·10⁻¹) = 7,56·10⁻³ t hi falta el signe menys (el resultat t = 13,9 h és correcte). La partícula β s'escriu a la pauta amb superíndex «−1» (β^{-1}) i l'antineutrí amb subíndex «e−»; es mantenen així. Els símbols dels nuclis són en cursiva a la pauta i es mantenen; les unitats s'han posat en rodona.",
+   "carpeta": "base_dades/exercicis/2017_ext_s2_P4A_rado-222-224-desintegracio"
+  },
+  {
+   "id": "2017_ext_s2_P4B_quatre-carregues-camp-forca",
+   "titol": "Quatre càrregues en un rectangle i camp elèctric a l'origen",
+   "resum": "Dues càrregues de 3,0 μC a (0, ±2) m i dues càrregues Q a (4, ±2) m: valor de Q perquè el camp a l'origen sigui 4,0·10³ N/C en el sentit positiu de l'eix x, i força sobre un protó a l'origen si Q = 2,0 μC.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "extraordinaria",
+    "serie": 2,
+    "exercici": 4,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi17sl.pdf",
+    "pagines_enunciat": [
+     4
+    ],
+    "pdf_solucio": "examenes/pau_fisi17sp.pdf",
+    "pagines_solucio": [
+     8
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp elèctric i llei de Coulomb"
+   ],
+   "paraules_clau": [
+    "càrregues puntuals",
+    "principi de superposició",
+    "camp elèctric",
+    "simetria",
+    "llei de Coulomb",
+    "força sobre un protó",
+    "components del camp"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Superposició vectorial de camps de quatre càrregues aprofitant la simetria; cal adonar-se que les càrregues de 3,0 μC no contribueixen i deduir el signe de Q.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Valor (i signe) de les càrregues Q a partir del camp a l'origen."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Força vectorial sobre un protó a l'origen si Q = 2,0 μC."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Rectangle amb les càrregues de 3,0 μC i Q, la distància l i els vectors E_x i F_x a l'origen"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). A la pauta la figura és a la dreta de l'apartat a, i una de les puntuacions de l'apartat a («(0.2 p)») va entre parèntesis dins del text. A l'apartat b la pauta diu «la càrrega Q (protó) és positiva», que es transcriu tal com és.",
+   "carpeta": "base_dades/exercicis/2017_ext_s2_P4B_quatre-carregues-camp-forca"
+  },
+  {
+   "id": "2017_ext_s2_P5A_bobina-rectangular-fem-induida",
+   "titol": "Força electromotriu induïda en una bobina rectangular que gira",
+   "resum": "Equació de la fem induïda en funció del temps en una bobina rectangular de 300 espires que gira a 60 rev/min en un camp magnètic uniforme de 0,4 T; corrent màxim si la bobina té una resistència d'1,0 Ω.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "extraordinaria",
+    "serie": 2,
+    "exercici": 5,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi17sl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi17sp.pdf",
+    "pagines_solucio": [
+     6
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "flux magnètic i inducció (Faraday-Lenz)",
+    "generadors, motors i transformadors"
+   ],
+   "paraules_clau": [
+    "bobina rectangular",
+    "espira giratòria",
+    "força electromotriu induïda",
+    "flux magnètic",
+    "llei de Faraday",
+    "alternador",
+    "corrent màxim"
+   ],
+   "tipus": [
+    "càlcul",
+    "deducció"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació estàndard de la llei de Faraday a una bobina que gira amb velocitat angular constant i de la llei d'Ohm per al corrent màxim.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Equació de la fem induïda en funció del temps."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Corrent màxim per la bobina amb R = 1,0 Ω."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). A la pauta falta l'etiqueta «a)» (només hi ha «b)»). A la substitució numèrica de la fem desapareix el signe menys de ε = −NωBA sin ωt (vegeu el % DUBTE); es transcriu tal com és. Unitats en rodona.",
+   "carpeta": "base_dades/exercicis/2017_ext_s2_P5A_bobina-rectangular-fem-induida"
+  },
+  {
+   "id": "2017_ext_s2_P5B_bobina-transformador-nucli-ferro",
+   "titol": "Bobina d'un transformador amb nucli de ferro",
+   "resum": "Camp magnètic i flux a l'interior d'una bobina de 2 000 espires i 10 cm amb nucli de ferro per la qual circulen 2 A; nombre d'electrons que circulen pel cable en un minut.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "extraordinaria",
+    "serie": 2,
+    "exercici": 5,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi17sl.pdf",
+    "pagines_enunciat": [
+     4
+    ],
+    "pdf_solucio": "examenes/pau_fisi17sp.pdf",
+    "pagines_solucio": [
+     9
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp magnètic creat per corrents",
+    "flux magnètic i inducció (Faraday-Lenz)",
+    "generadors, motors i transformadors"
+   ],
+   "paraules_clau": [
+    "bobina",
+    "solenoide",
+    "transformador",
+    "nucli de ferro",
+    "permeabilitat magnètica",
+    "flux magnètic",
+    "intensitat de corrent",
+    "nombre d'electrons"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 1,
+   "justificacio_dificultat": "Aplicació directa de la fórmula del camp d'una bobina (donada a la nota) amb la permeabilitat del ferro, de Φ = BA i de I = q/t.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Camp magnètic i flux magnètic a l'interior de la bobina amb nucli de ferro."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Nombre d'electrons que circulen pel cable en un minut."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). L'enunciat escriu la longitud com a «l» i la pauta com a «L»; es respecten. L'apartat b (I = q/t) és de corrent elèctric bàsic, però l'enunciat en dona el context i es considera actual.",
+   "carpeta": "base_dades/exercicis/2017_ext_s2_P5B_bobina-transformador-nucli-ferro"
+  },
+  {
+   "id": "2017_ord_s1_P1_exomars-schiaparelli-mart",
+   "titol": "ExoMars i la caiguda del mòdul Schiaparelli a Mart",
+   "resum": "Període d'un satèl·lit en òrbita circular a 400 km sobre Mart; acceleració de la gravetat a la superfície de Mart i velocitat d'impacte d'un mòdul que cau lliurement des de 3,7 km d'altura.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 1,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     1
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     2
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps gravitatoris",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "òrbites circulars i satèl·lits",
+    "camp gravitatori i superposició",
+    "llei de la gravitació universal"
+   ],
+   "paraules_clau": [
+    "ExoMars",
+    "Schiaparelli",
+    "Mart",
+    "període orbital",
+    "gravetat superficial",
+    "caiguda lliure",
+    "velocitat d'impacte"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació estàndard de la tercera llei de Kepler deduïda de la dinàmica circular i de g = GM/R², seguida d'un càlcul cinemàtic de caiguda lliure.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Període de l'ExoMars Trace Gas Orbiter en òrbita a 400 km d'altura."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Gravetat a la superfície de Mart i velocitat d'impacte després de caure 3,7 km."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Imatge de l'ExoMars Trace Gas Orbiter sobre la superfície de Mart"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). A l'original la foto és al costat del text introductori; aquí s'ha col·locat després.",
+   "carpeta": "base_dades/exercicis/2017_ord_s1_P1_exomars-schiaparelli-mart"
+  },
+  {
+   "id": "2017_ord_s1_P2_rele-bobina-imant",
+   "titol": "Relé amb bobina i imant",
+   "resum": "Sentit del corrent a la bobina d'un relé perquè atregui el pol nord d'un imant i dibuix de les línies de camp; efecte d'augmentar la intensitat, d'afegir un nucli ferromagnètic i de fer servir corrent altern.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 2,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     3
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp magnètic creat per corrents",
+    "imants, brúixoles i experiment d'Oersted"
+   ],
+   "paraules_clau": [
+    "relé",
+    "bobina",
+    "solenoide",
+    "imant",
+    "pols magnètics",
+    "material ferromagnètic",
+    "corrent altern",
+    "línies de camp magnètic"
+   ],
+   "tipus": [
+    "qualitativa",
+    "diagrama"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Raonament qualitatiu sobre el sentit del corrent en un solenoide (regla de la mà dreta) aplicat a un dispositiu real i justificació de tres modificacions.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Sentit del corrent a la bobina perquè s'activi el relé i dibuix de les línies de camp."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Efecte d'augmentar la intensitat, d'un nucli ferromagnètic i d'un corrent altern."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Esquema d'un relé amb bobina, imant, mecanisme amb pivot i contacte del circuit B"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Espira amb el corrent I en sentit horari vist des de dalt"
+    },
+    {
+     "fitxer": "sol_fig2.png",
+     "true": "solucio",
+     "descripcio": "Bobina amb el sentit del corrent I indicat amb fletxes"
+    },
+    {
+     "fitxer": "sol_fig3.png",
+     "true": "solucio",
+     "descripcio": "Línies del camp magnètic de la bobina, que entren per dalt i surten per baix, amb l'imant a sobre"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). A l'original la figura és al costat del text; a la pauta les figures són a la dreta del text i el «(0.2 p)» és al costat de l'espira.",
+   "carpeta": "base_dades/exercicis/2017_ord_s1_P2_rele-bobina-imant"
+  },
+  {
+   "id": "2017_ord_s1_P3A_vibrador-corda-ona",
+   "titol": "Ona transversal generada per un vibrador en una corda",
+   "resum": "A partir del gràfic elongació-temps d'un vibrador: període, amplitud, freqüència, velocitat de propagació (λ = 20,0 cm) i equació de l'ona; demostració que la velocitat màxima d'oscil·lació és Aω.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 3,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     4
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "ones harmòniques i equació d'ona",
+    "moviment harmònic simple"
+   ],
+   "paraules_clau": [
+    "ona transversal",
+    "corda",
+    "vibrador",
+    "gràfic elongació-temps",
+    "període",
+    "freqüència",
+    "velocitat de propagació",
+    "equació d'ona",
+    "velocitat màxima"
+   ],
+   "tipus": [
+    "càlcul",
+    "gràfic",
+    "deducció"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal llegir el període i l'amplitud d'un gràfic, calcular diverses magnituds, escriure l'equació d'ona amb la fase adequada i derivar-la per obtenir la velocitat màxima.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Període, amplitud, freqüència, velocitat de propagació i equació de l'ona."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Demostració que la velocitat màxima dels punts de la corda és Aω."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Gràfic elongació-temps del vibrador (x en cm, t en ms), amplitud 1,5 cm i període 1,25 ms"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "El mateix gràfic elongació-temps reproduït a la pauta"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). La pauta escriu «A =1.5 cm» i «1.5cm» amb punt decimal; s'ha passat a coma.",
+   "carpeta": "base_dades/exercicis/2017_ord_s1_P3A_vibrador-corda-ona"
+  },
+  {
+   "id": "2017_ord_s1_P3B_agulla-maquina-cosir-mhs",
+   "titol": "Agulla d'una màquina de cosir en MHS",
+   "resum": "Equació del moviment harmònic simple d'una agulla que oscil·la 15 mm d'extrem a extrem a 1 200 puntades per minut, partint de la posició més alta, i gràfica posició-temps de dos períodes; velocitat i acceleració màximes.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 3,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     7
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment harmònic simple"
+   ],
+   "paraules_clau": [
+    "màquina de cosir",
+    "agulla",
+    "moviment harmònic simple",
+    "amplitud",
+    "freqüència angular",
+    "fase inicial",
+    "gràfica posició-temps",
+    "velocitat màxima",
+    "acceleració màxima"
+   ],
+   "tipus": [
+    "càlcul",
+    "gràfic"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "MHS estàndard: amplitud, pulsació i fase inicial a partir de dades explícites, una gràfica senzilla i les expressions Aω i Aω².",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Equació del moviment amb la fase inicial i gràfica posició-temps durant dos períodes."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Velocitat i acceleració màximes de l'agulla."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Gràfica y(t) sinusoidal amb el màxim A a t = 0 i marques de 0,002 m i 0,02 s"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). A la pauta el càlcul de T = 0,05 s és a l'esquerra de la gràfica.",
+   "carpeta": "base_dades/exercicis/2017_ord_s1_P3B_agulla-maquina-cosir-mhs"
+  },
+  {
+   "id": "2017_ord_s1_P4A_sal-comuna-nacl-ions",
+   "titol": "Enllaç iònic de la sal comuna (NaCl)",
+   "resum": "Separació entre els ions Na⁺ i Cl⁻ a partir de l'energia potencial elèctrica del sistema; treball necessari per separar-los fins a 2 cm quan s'aplica un camp elèctric uniforme de 50,0 N/C a l'ió Na⁺.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 4,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     5
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "potencial i energia potencial elèctrica",
+    "camp elèctric i llei de Coulomb"
+   ],
+   "paraules_clau": [
+    "sal comuna",
+    "clorur de sodi",
+    "enllaç iònic",
+    "ions",
+    "energia potencial elèctrica",
+    "treball",
+    "camp elèctric uniforme"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "L'apartat a és directe; el b combina el treball contra l'atracció mútua amb el treball contra un camp extern i és ambigu (la pauta accepta dos sentits del camp).",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Separació entre els ions a partir de l'energia potencial elèctrica."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Treball per separar els ions fins a 2 cm amb un camp uniforme aplicat a Na⁺."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Fotografia d'un munt de sal comuna"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). Errates de la pauta transcrites tal com són (amb % DUBTE): a l'apartat b s'escriu «9,76·19^-19» en lloc de 9,76·10^-19 als dos treballs totals, i en el cas (*) el producte qEd de valors positius dona «-1,6·10^-19 J». També «8.16» i «0.236nm» amb punt decimal, passats a coma. Es respecta «força de atracció» i «(*) ó (**)» de l'original.",
+   "carpeta": "base_dades/exercicis/2017_ord_s1_P4A_sal-comuna-nacl-ions"
+  },
+  {
+   "id": "2017_ord_s1_P5A_ferro-60-supernova",
+   "titol": "Ferro 60 d'una supernova propera",
+   "resum": "Percentatge de ⁶⁰Fe (període de semidesintegració de 2,6 milions d'anys) que quedaria des de la formació de la Terra i des d'una supernova de fa 13 milions d'anys; equacions de les dues desintegracions β⁻ Fe → Co → Ni amb els antineutrins.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 5,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     6
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "radioactivitat i llei de desintegració"
+   ],
+   "paraules_clau": [
+    "ferro 60",
+    "supernova",
+    "període de semidesintegració",
+    "desintegració beta",
+    "antineutrí",
+    "cobalt",
+    "níquel",
+    "isòtops"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació directa de la llei de desintegració amb un nombre enter de períodes i escriptura de dues equacions de desintegració β⁻.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Percentatge de ⁶⁰Fe primordial i de ⁶⁰Fe d'una supernova de fa 13 milions d'anys que queda."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Equacions nuclears de les dues desintegracions β⁻ amb els antineutrins."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). A la pauta l'electró s'escriu «e^{-1}» amb índexs 0 i -1, i l'antineutrí amb un símbol que sembla una V barrada; s'ha transcrit com \\overline{\\nu}. La penalització «Restarem 0.2 p» (en vermell a l'original) s'ha marcat amb \\destaca perquè no és una puntuació parcial.",
+   "carpeta": "base_dades/exercicis/2017_ord_s1_P5A_ferro-60-supernova"
+  },
+  {
+   "id": "2017_ord_s1_P5B_nucli-radioactiu-activitat",
+   "titol": "Desintegració d'una mostra radioactiva",
+   "resum": "Constant de desintegració d'un nucli amb període de semidesintegració de 600 s i nombre de nuclis que queden d'una mostra de 10¹⁰ nuclis al cap d'una hora; activitat de la mostra al cap de dues hores.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 5,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     4
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     8
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "radioactivitat i llei de desintegració"
+   ],
+   "paraules_clau": [
+    "radioactivitat",
+    "període de semidesintegració",
+    "constant de desintegració",
+    "activitat",
+    "becquerel",
+    "llei de desintegració"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 1,
+   "justificacio_dificultat": "Aplicació directa de λ = ln2/t½, N = N₀e^(-λt) i A = λN amb dades explícites.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Constant de desintegració i nombre de nuclis al cap d'una hora."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Activitat de la mostra al cap de dues hores."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats; s'ha pres la de la pauta (1 + 1). Possible errada de la pauta, transcrita tal com és (amb % DUBTE): a l'apartat b el valor indicat sota la clau és 2,36·10^6, però 10^10·e^(-1,155·10^-3·7200) ≈ 2,44·10^6; el resultat final 2,82·10^3 Bq és coherent amb 2,44·10^6.",
+   "carpeta": "base_dades/exercicis/2017_ord_s1_P5B_nucli-radioactiu-activitat"
+  },
+  {
+   "id": "2017_ord_s5_P1_estrella-neutrons-escapament",
+   "titol": "Camp gravitatori i velocitat d'escapament d'una estrella de neutrons",
+   "resum": "Mòdul del camp gravitatori a la superfície d'una estrella de neutrons de massa i radi donats; deducció, a partir de la conservació de l'energia mecànica, i càlcul de la velocitat d'escapament des de la seva superfície.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 1,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     5
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     10
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps gravitatoris",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp gravitatori i superposició",
+    "velocitat d'escapament",
+    "energia potencial i potencial gravitatori"
+   ],
+   "paraules_clau": [
+    "estrella de neutrons",
+    "supernova",
+    "intensitat de camp gravitatori",
+    "velocitat d'escapament",
+    "conservació de l'energia mecànica",
+    "Zwicky i Baade"
+   ],
+   "tipus": [
+    "càlcul",
+    "deducció"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació directa de g = GM/R² i deducció estàndard de la velocitat d'escapament per conservació de l'energia mecànica.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Mòdul del camp gravitatori a la superfície de l'estrella de neutrons."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Deducció i càlcul de la velocitat d'escapament i principi de conservació en què es basa."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Imatge d'una estrella de neutrons (fotografia decorativa)"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada apartat; els punts (1 + 1) són els de la pauta. A l'original la fotografia és al costat del text introductori.",
+   "carpeta": "base_dades/exercicis/2017_ord_s5_P1_estrella-neutrons-escapament"
+  },
+  {
+   "id": "2017_ord_s5_P2_remer-barca-ones",
+   "titol": "Ones a l'aigua observades des d'una barca",
+   "resum": "Velocitat de propagació i equació d'una ona a l'aigua a partir del període, l'amplitud i la distància entre crestes; diferència de fase entre dos punts separats 4,00 m.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 2,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     5
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     11
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "ones harmòniques i equació d'ona"
+   ],
+   "paraules_clau": [
+    "ona a l'aigua",
+    "crestes",
+    "període",
+    "longitud d'ona",
+    "velocitat de propagació",
+    "equació d'ona",
+    "diferència de fase"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Identificació directa de T, A i λ a partir de l'enunciat, construcció de l'equació de l'ona i càlcul de la diferència de fase amb k·Δx.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Velocitat de propagació i equació de l'ona amb fase inicial zero."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Diferència de fase entre dos punts separats 4,00 m."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada apartat; els punts (1 + 1) són els de la pauta. Errades de la pauta transcrites tal com són (amb % DUBTE): la velocitat es dona en «m» en lloc de «m/s», i a la primera línia de la clau de l'apartat a falta el signe «=» («y(x,t)A sin(ωt − kx + φ0)»).",
+   "carpeta": "base_dades/exercicis/2017_ord_s5_P2_remer-barca-ones"
+  },
+  {
+   "id": "2017_ord_s5_P3A_microscopi-fotons-electrons",
+   "titol": "Poder de resolució dels microscopis òptic i electrònic",
+   "resum": "Energia i quantitat de moviment d'un fotó de 400 nm d'un microscopi òptic; longitud d'ona de De Broglie d'electrons amb una quantitat de moviment donada i comparació del poder de resolució dels microscopis electrònic i òptic.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 3,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     6
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     12
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "fotons i energia de la radiació",
+    "dualitat ona-partícula"
+   ],
+   "paraules_clau": [
+    "microscopi òptic",
+    "microscopi electrònic",
+    "poder de resolució",
+    "fotó",
+    "quantitat de moviment",
+    "longitud d'ona de De Broglie",
+    "constant de Planck"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació directa d'E = hf, p = E/c i λ = h/p, amb una comparació senzilla de longituds d'ona per decidir quin microscopi resol millor.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Energia i quantitat de moviment dels fotons de 400 nm."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Longitud d'ona dels electrons i relació entre els poders de resolució dels dos microscopis."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Fotografia d'un microscopi electrònic en un laboratori (decorativa)"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada apartat; els punts (1 + 1) són els de la pauta. A l'original la fotografia és al costat del text introductori. A la pauta, alguns resultats porten una segona puntuació a la dreta de la línia (0,2 p + 0,2 p, 0,3 p + 0,3 p), que s'ha transcrit al final de la línia.",
+   "carpeta": "base_dades/exercicis/2017_ord_s5_P3A_microscopi-fotons-electrons"
+  },
+  {
+   "id": "2017_ord_s5_P3B_tori-cadena-desintegracio",
+   "titol": "Cadena de desintegració del tori-232",
+   "resum": "Escriure les reaccions nuclears (desintegracions alfa i beta) de la cadena del tori-232 fins al plom-208 a partir de la llista d'isòtops intermedis; percentatge de tori-232 que queda sense desintegrar al cap de 2,0·10^10 anys.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 3,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     7
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     15
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "radioactivitat i llei de desintegració"
+   ],
+   "paraules_clau": [
+    "tori-232",
+    "plom-208",
+    "sèrie radioactiva",
+    "desintegració alfa",
+    "desintegració beta",
+    "antineutrí",
+    "període de semidesintegració",
+    "constant de desintegració"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal identificar el tipus de cada una de les deu desintegracions a partir dels canvis d'A i Z i aplicar la llei de desintegració exponencial amb el període de semidesintegració.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Reaccions de la cadena de desintegració del Th-232 fins al Pb-208."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Percentatge de Th-232 que roman sense desintegrar al cap de 2,0·10^10 anys."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada apartat; els punts (1 + 1) són els de la pauta. A la pauta, «es restaran 0,1 p» apareix en vermell (descompte, no puntuació parcial) i s'ha transcrit en vermell. A l'apartat b de la pauta hi ha unes marques espúries («10^{10.'}», «10^{10'}») a l'exponent, que no s'han transcrit.",
+   "carpeta": "base_dades/exercicis/2017_ord_s5_P3B_tori-cadena-desintegracio"
+  },
+  {
+   "id": "2017_ord_s5_P4A_selector-velocitats-heli",
+   "titol": "Selector de velocitats per a ions d'heli",
+   "resum": "Direcció i sentit del camp elèctric i de la força magnètica en un selector de velocitats que deixa passar ions He+ sense desviar-los i càlcul del camp magnètic; radi de l'òrbita dels ions si només hi actua el camp magnètic.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 4,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     6
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     13
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "selector de velocitats, espectròmetre i ciclotró",
+    "moviment de càrregues en camps magnètics"
+   ],
+   "paraules_clau": [
+    "selector de velocitats",
+    "ió heli",
+    "força de Lorentz",
+    "força elèctrica",
+    "camp magnètic",
+    "radi de l'òrbita",
+    "moviment circular"
+   ],
+   "tipus": [
+    "càlcul",
+    "diagrama",
+    "qualitativa"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal raonar vectorialment la direcció de la força magnètica i del camp elèctric, imposar l'equilibri qE = qvB i aplicar la dinàmica del moviment circular per obtenir el radi.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Direcció i sentit del camp elèctric i de la força magnètica, i mòdul del camp magnètic."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Radi de l'òrbita d'un ió He+ sotmès només al camp magnètic."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Camp magnètic entrant al paper i velocitat de l'ió cap a la dreta"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Selector amb la força magnètica cap amunt i el camp elèctric i la força elèctrica cap avall"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada apartat; els punts (1 + 1) són els de la pauta. A l'original la figura és al costat del text introductori; a la pauta la figura és a la dreta del primer paràgraf.",
+   "carpeta": "base_dades/exercicis/2017_ord_s5_P4A_selector-velocitats-heli"
+  },
+  {
+   "id": "2017_ord_s5_P4B_motor-faraday-imant",
+   "titol": "El motor elèctric de Faraday",
+   "resum": "Representació del vector camp magnètic d'un imant en un punt d'un fil conductor i justificació del sentit de gir del fil al voltant de l'imant a partir de la força magnètica; mòdul de la força sobre 1 cm de conductor amb B = 0,1 T i I = 10 A.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 4,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     7
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     16
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "força magnètica sobre corrents i entre fils",
+    "generadors, motors i transformadors",
+    "imants, brúixoles i experiment d'Oersted"
+   ],
+   "paraules_clau": [
+    "Faraday",
+    "motor elèctric",
+    "imant",
+    "línies de camp",
+    "força sobre un conductor",
+    "producte vectorial",
+    "mercuri",
+    "sentit de gir"
+   ],
+   "tipus": [
+    "diagrama",
+    "qualitativa",
+    "càlcul"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal interpretar un dispositiu històric poc habitual i aplicar el producte vectorial en 3D per deduir el sentit de la força; el càlcul de F = IlB és directe.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Vector camp magnètic al punt P i justificació del sentit de gir del fil."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Mòdul de la força magnètica sobre 1 cm de conductor centrat en P."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Fotografia del dispositiu experimental de Faraday (imant, fil conductor que gira i mercuri)"
+    },
+    {
+     "fitxer": "fig2.png",
+     "true": "enunciat",
+     "descripcio": "Esquema del circuit amb pila, imant vertical, fil amb corrent I cap avall, punt P, línies de camp i eixos x, y, z"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Esquema amb el camp B en direcció x al punt P i la força sobre el fil en direcció z"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada apartat; els punts (1 + 1) són els de la pauta. El peu «Dispositiu experimental de Faraday» s'ha escrit com a text sota la fotografia. A la pauta, «(0.2 p)» apareix entre parèntesis i s'ha transcrit així.",
+   "carpeta": "base_dades/exercicis/2017_ord_s5_P4B_motor-faraday-imant"
+  },
+  {
+   "id": "2017_ord_s5_P5A_carregues-rectangle-potencial",
+   "titol": "Tres càrregues als vèrtexs d'un rectangle",
+   "resum": "Forces elèctriques sobre una càrrega per efecte de dues altres situades als vèrtexs d'un rectangle, esquema i mòdul de la força total; potencial elèctric al quart vèrtex i energia potencial de la distribució de les tres càrregues.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 5,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     7
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     14
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp elèctric i llei de Coulomb",
+    "potencial i energia potencial elèctrica"
+   ],
+   "paraules_clau": [
+    "llei de Coulomb",
+    "superposició de forces",
+    "càrregues puntuals",
+    "rectangle",
+    "potencial elèctric",
+    "energia potencial d'una distribució"
+   ],
+   "tipus": [
+    "càlcul",
+    "diagrama"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Superposició de dues forces perpendiculars amb esquema vectorial, i suma de potencials i d'energies potencials de parells de càrregues amb una distància diagonal.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Esquema de les forces sobre q1, força total i el seu mòdul."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Potencial elèctric al punt P i energia potencial de la distribució."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Rectangle amb q2 i P a dalt, q1 i q3 a baix, i les distàncies d1 (vertical) i d2 (horitzontal)"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Forces F1,3 (cap a l'esquerra) i F1,2 (cap avall) sobre q1 i la força total F1"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada apartat; els punts (1 + 1) són els de la pauta. A l'original la figura és al costat del text introductori. La pauta no escriu l'etiqueta «a)» abans del primer apartat.",
+   "carpeta": "base_dades/exercicis/2017_ord_s5_P5A_carregues-rectangle-potencial"
+  },
+  {
+   "id": "2017_ord_s5_P5B_atom-hidrogen-classic",
+   "titol": "Model clàssic de l'àtom d'hidrogen",
+   "resum": "Força elèctrica sobre l'electró en una òrbita circular de 53 pm al voltant del protó, representació en dos punts de l'òrbita i camp elèctric del protó; energia mecànica del sistema protó-electró en eV.",
+   "font": {
+    "tipus": "examen",
+    "any": 2017,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 5,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+    "pagines_enunciat": [
+     8
+    ],
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     17
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [
+    "Física relativista, quàntica i nuclear"
+   ],
+   "subtemes": [
+    "camp elèctric i llei de Coulomb",
+    "potencial i energia potencial elèctrica",
+    "model de Bohr i espectres atòmics"
+   ],
+   "paraules_clau": [
+    "àtom d'hidrogen",
+    "model clàssic",
+    "electró",
+    "protó",
+    "força de Coulomb",
+    "camp elèctric",
+    "energia mecànica",
+    "electronvolt"
+   ],
+   "tipus": [
+    "càlcul",
+    "diagrama"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Llei de Coulomb i camp elèctric directes; l'energia mecànica requereix combinar la dinàmica del moviment circular (energia cinètica) amb l'energia potencial elèctrica.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Força elèctrica sobre l'electró, representació en dos punts de l'òrbita i camp elèctric del protó."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Energia mecànica del sistema protó-electró en eV."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Òrbita circular amb la força elèctrica dirigida cap al centre en dos punts separats 90°"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada apartat; els punts (1 + 1) són els de la pauta. A la pauta, alguns resultats porten una segona puntuació a la dreta de la línia, que s'ha transcrit al final de la línia.",
+   "carpeta": "base_dades/exercicis/2017_ord_s5_P5B_atom-hidrogen-classic"
+  },
+  {
+   "id": "2018_ext_s3_P1_ross128b-exoplaneta-densitat",
+   "titol": "Exoplaneta Ross 128 b, massa de l'estrella i gravetat superficial",
+   "resum": "Massa de l'estrella Ross 128 a partir del període i el radi de l'òrbita circular de l'exoplaneta Ross 128 b; radi de l'exoplaneta suposant la mateixa densitat que la Terra i intensitat del camp gravitatori a la seva superfície.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "extraordinaria",
+    "serie": 3,
+    "exercici": 1,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi18sl.pdf",
+    "pagines_enunciat": [
+     1
+    ],
+    "pdf_solucio": "examenes/pau_fisi18sp.pdf",
+    "pagines_solucio": [
+     2
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps gravitatoris",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "òrbites circulars i satèl·lits",
+    "llei de la gravitació universal",
+    "camp gravitatori i superposició"
+   ],
+   "paraules_clau": [
+    "exoplaneta",
+    "Ross 128 b",
+    "massa d'una estrella",
+    "període orbital",
+    "òrbita circular",
+    "densitat",
+    "radi planetari",
+    "intensitat del camp gravitatori"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Càlcul estàndard de la massa central amb la tercera llei de Kepler i un segon apartat que exigeix plantejar la igualtat de densitats per obtenir el radi abans de calcular g.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Massa de l'estrella Ross 128 a partir del període i el radi orbital."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Radi de l'exoplaneta amb la mateixa densitat que la Terra i g a la seva superfície."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Òrbita circular de l'exoplaneta Ross 128 b al voltant de l'estrella Ross 128"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A l'original la figura és al costat del text introductori. A la pauta de l'apartat b, el segon 0,1 p és a la dreta de la clau i el darrer 0,2 p és a la dreta del resultat final.",
+   "carpeta": "base_dades/exercicis/2018_ext_s3_P1_ross128b-exoplaneta-densitat"
+  },
+  {
+   "id": "2018_ext_s3_P2_grafica-mhs-ona-sonora",
+   "titol": "Gràfica d'un MHS i ona sonora generada",
+   "resum": "Amplitud, freqüència i equació x(t) d'un MHS a partir de la gràfica posició-temps i gràfica d'un MHS amb la meitat de freqüència; efecte de la reflexió, del canvi de medi i del moviment del focus (Doppler) sobre la freqüència i la longitud d'ona del so.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "extraordinaria",
+    "serie": 3,
+    "exercici": 2,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi18sl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi18sp.pdf",
+    "pagines_solucio": [
+     2
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment harmònic simple",
+    "reflexió i refracció",
+    "efecte Doppler",
+    "ones sonores i nivell d'intensitat"
+   ],
+   "paraules_clau": [
+    "gràfica posició-temps",
+    "amplitud",
+    "freqüència",
+    "equació del moviment",
+    "ona sonora",
+    "reflexió",
+    "canvi de medi",
+    "efecte Doppler"
+   ],
+   "tipus": [
+    "gràfic",
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Lectura directa de l'amplitud i el període d'una gràfica, dibuix d'una gràfica amb la meitat de freqüència i tres qüestions qualitatives estàndard sobre ones.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Amplitud, freqüència i equació x(t) i gràfica d'un MHS amb la meitat de freqüència."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Efecte de la reflexió, el pas a l'aigua i el moviment del focus sobre f i λ."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Gràfica posició-temps d'un MHS d'amplitud 0,02 m entre 0 i 0,08 s"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Gràfica x-t del MHS amb la mateixa amplitud i la meitat de freqüència"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A l'enunciat, l'apartat b té puntuacions per a cada canvi (0,3, 0,3 i 0,4 punts), que s'han escrit al final de cada element de la llista. Els rètols dels eixos del gràfic de la pauta són gairebé il·legibles a l'original.",
+   "carpeta": "base_dades/exercicis/2018_ext_s3_P2_grafica-mhs-ona-sonora"
+  },
+  {
+   "id": "2018_ext_s3_P3A_lluna-camp-electric-pols",
+   "titol": "Camp elèctric lunar i partícules de pols en suspensió",
+   "resum": "Relació càrrega/massa i signe de la càrrega perquè una partícula de pols estigui en equilibri a la cara il·luminada de la Lluna; força total sobre una partícula carregada a la cara fosca i temps que triga a recórrer 10 m partint del repòs.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "extraordinaria",
+    "serie": 3,
+    "exercici": 3,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi18sl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi18sp.pdf",
+    "pagines_solucio": [
+     3
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [
+    "Camps gravitatoris"
+   ],
+   "subtemes": [
+    "equilibri de càrregues en camps elèctrics",
+    "moviment de càrregues en camps elèctrics",
+    "camp gravitatori i superposició"
+   ],
+   "paraules_clau": [
+    "Lluna",
+    "pols lunar",
+    "camp elèctric",
+    "equilibri de forces",
+    "relació càrrega/massa",
+    "força elèctrica",
+    "força gravitatòria",
+    "moviment uniformement accelerat"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Equilibri entre força elèctrica i pes amb raonament del signe de la càrrega, i superposició de forces amb sentits a interpretar a partir del dibuix, seguida d'un càlcul cinemàtic.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Relació q/m i signe de la càrrega per a l'equilibri a la cara il·luminada."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Força total sobre la partícula a la cara fosca i temps per recórrer 10 m."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Línies de camp elèctric a la cara il·luminada (cap enfora, 10 N/C) i a la cara fosca (cap endins, 1,0 N/C) de la Lluna"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A l'original la figura és al costat del primer paràgraf. A la pauta de l'apartat b el resultat de la força s'arrodoneix a 4,2×10⁻⁸ N però després es fa servir 4,24×10⁻⁸ N; s'ha transcrit tal com és.",
+   "carpeta": "base_dades/exercicis/2018_ext_s3_P3A_lluna-camp-electric-pols"
+  },
+  {
+   "id": "2018_ext_s3_P3B_nuvol-dues-carregues-camp",
+   "titol": "Model de dues càrregues puntuals en un núvol",
+   "resum": "Vector camp elèctric creat en un punt P per un núvol modelitzat com dues càrregues puntuals (+40 C a 10 km i -30 C a 4 km d'altura); energia potencial electrostàtica emmagatzemada en el núvol.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "extraordinaria",
+    "serie": 3,
+    "exercici": 3,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi18sl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi18sp.pdf",
+    "pagines_solucio": [
+     5
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp elèctric i llei de Coulomb",
+    "potencial i energia potencial elèctrica"
+   ],
+   "paraules_clau": [
+    "núvol",
+    "tempesta",
+    "càrregues puntuals",
+    "camp elèctric",
+    "principi de superposició",
+    "components vectorials",
+    "energia potencial electrostàtica"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Superposició vectorial de dos camps en dues dimensions, amb descomposició a 45° a partir de la geometria de la figura, i càlcul directe de l'energia potencial.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Vector camp elèctric creat pel núvol en el punt P."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Energia potencial electrostàtica emmagatzemada en el núvol."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Núvol amb una càrrega positiva a 10 km i una de negativa a 4 km d'altura i el punt P a 6 km horitzontals de la positiva"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Mateix esquema amb els vectors camp E1 (horitzontal) i E2 (cap a la càrrega negativa) al punt P"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A l'original la figura de l'enunciat és al costat del text. A la figura de la pauta l'etiqueta del vector E1 surt deformada a l'original. A la pauta de l'apartat a, el segon 0,2 p és a la dreta del resultat de E2; l'angle β es dona sense signe.",
+   "carpeta": "base_dades/exercicis/2018_ext_s3_P3B_nuvol-dues-carregues-camp"
+  },
+  {
+   "id": "2018_ext_s3_P4A_particula-camp-magnetic-radi",
+   "titol": "Partícula carregada en un camp magnètic uniforme",
+   "resum": "Dibuix de la força magnètica inicial i velocitat d'una partícula negativa que descriu una circumferència de 0,30 m en un camp magnètic de 0,50 T; període, velocitat angular i energia cinètica a l'entrada i després d'una volta.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "extraordinaria",
+    "serie": 3,
+    "exercici": 4,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi18sl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi18sp.pdf",
+    "pagines_solucio": [
+     4
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment de càrregues en camps magnètics"
+   ],
+   "paraules_clau": [
+    "força de Lorentz",
+    "camp magnètic uniforme",
+    "trajectòria circular",
+    "radi de la trajectòria",
+    "període",
+    "velocitat angular",
+    "energia cinètica",
+    "moviment circular uniforme"
+   ],
+   "tipus": [
+    "càlcul",
+    "diagrama",
+    "qualitativa"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació directa de qvB = mv²/r, del període i de l'energia cinètica, amb el dibuix de la força (càrrega negativa) i una justificació qualitativa de la conservació de Ec.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Dibuix de la força magnètica inicial i càlcul de la velocitat."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Període, velocitat angular i energia cinètica a l'entrada i després d'una volta."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Partícula que entra amb velocitat v cap a la dreta en una regió de camp magnètic entrant al paper"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Trajectòria circular amb la velocitat cap a la dreta i la força magnètica cap avall, amb eixos x, y, z"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A la pauta el 0,4 p de l'apartat a correspon al dibuix de la força i és a l'esquerra de la figura; s'ha esborrat del retall i s'ha escrit com a text. A l'original la figura de l'enunciat és al costat del text.",
+   "carpeta": "base_dades/exercicis/2018_ext_s3_P4A_particula-camp-magnetic-radi"
+  },
+  {
+   "id": "2018_ext_s3_P4B_espira-quadrada-flux-fem",
+   "titol": "Flux i fem induïda en una espira quadrada",
+   "resum": "Expressió del flux magnètic en funció del temps a través d'una espira quadrada de 5 cm de costat sotmesa a un camp magnètic perpendicular sinusoidal i valor màxim; expressió de la força electromotriu induïda.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "extraordinaria",
+    "serie": 3,
+    "exercici": 4,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi18sl.pdf",
+    "pagines_enunciat": [
+     4
+    ],
+    "pdf_solucio": "examenes/pau_fisi18sp.pdf",
+    "pagines_solucio": [
+     5
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "flux magnètic i inducció (Faraday-Lenz)"
+   ],
+   "paraules_clau": [
+    "espira quadrada",
+    "flux magnètic",
+    "camp magnètic variable",
+    "llei de Faraday",
+    "força electromotriu induïda",
+    "valor màxim"
+   ],
+   "tipus": [
+    "càlcul",
+    "deducció"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació directa de Φ = BA cos φ amb un camp sinusoidal i derivació de l'expressió del flux per obtenir la fem amb la llei de Faraday.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Expressió del flux magnètic en funció del temps i valor màxim."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Expressió de la força electromotriu induïda."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Espira quadrada i sistema d'eixos x, y, z"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A l'original la figura és al costat del text. A la pauta de l'apartat b el darrer 0,3 p és a la dreta del resultat final.",
+   "carpeta": "base_dades/exercicis/2018_ext_s3_P4B_espira-quadrada-flux-fem"
+  },
+  {
+   "id": "2018_ext_s3_P5A_carboni14-datacio-momia",
+   "titol": "Carboni 14, formació, desintegració i datació d'una mòmia",
+   "resum": "Completar la reacció de formació del carboni 14 a partir del nitrogen 14 i la seva desintegració beta menys; percentatge de carboni 14 que queda en una mòmia de 4000 anys coneixent el període de semidesintegració.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "extraordinaria",
+    "serie": 3,
+    "exercici": 5,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi18sl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi18sp.pdf",
+    "pagines_solucio": [
+     4
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "reaccions nuclears i defecte de massa",
+    "radioactivitat i llei de desintegració",
+    "aplicacions i riscos de la radioactivitat"
+   ],
+   "paraules_clau": [
+    "carboni 14",
+    "datació radiomètrica",
+    "desintegració beta",
+    "neutró",
+    "antineutrí",
+    "període de semidesintegració",
+    "constant de desintegració",
+    "mòmia"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Conservació del nombre màssic i atòmic en dues reaccions i aplicació directa de la llei de desintegració radioactiva amb la constant obtinguda del període de semidesintegració.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Reacció de formació del carboni 14 i reacció de desintegració beta menys."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Percentatge de carboni 14 que queda al cap de 4000 anys."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A la pauta de l'apartat b el darrer 0,2 p és a la dreta del resultat final.",
+   "carpeta": "base_dades/exercicis/2018_ext_s3_P5A_carboni14-datacio-momia"
+  },
+  {
+   "id": "2018_ext_s3_P5B_fotoelectric-llum-groga",
+   "titol": "Efecte fotoelèctric amb llum groga en un material alcalí",
+   "resum": "Freqüència i energia dels fotons d'una llum groga de 500 nm i energia cinètica, en eV, dels electrons extrets d'un material alcalí amb una funció de treball d'1,30 eV.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "extraordinaria",
+    "serie": 3,
+    "exercici": 5,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi18sl.pdf",
+    "pagines_enunciat": [
+     4
+    ],
+    "pdf_solucio": "examenes/pau_fisi18sp.pdf",
+    "pagines_solucio": [
+     6
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "fotons i energia de la radiació",
+    "efecte fotoelèctric"
+   ],
+   "paraules_clau": [
+    "efecte fotoelèctric",
+    "funció de treball",
+    "fotó",
+    "llum groga",
+    "freqüència",
+    "energia cinètica dels electrons",
+    "electronvolt"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 1,
+   "justificacio_dificultat": "Aplicació directa de f = c/λ, E = hf i de l'equació d'Einstein de l'efecte fotoelèctric amb un canvi d'unitats entre J i eV.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Freqüència i energia dels fotons de la llum groga."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Energia cinètica en eV dels electrons extrets."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A la pauta, el darrer 0,4 p de l'apartat a és a la dreta del resultat, i el 0,4 p de l'apartat b és a sota del resultat de Ec a la dreta de la clau. La massa de l'electró de les dades no es fa servir.",
+   "carpeta": "base_dades/exercicis/2018_ext_s3_P5B_fotoelectric-llum-groga"
+  },
+  {
+   "id": "2018_ord_s1_P1_bohr-hidrogen-forca-potencial",
+   "titol": "Àtom d'hidrogen de Bohr, força elèctrica i potencial",
+   "resum": "Força elèctrica entre el protó i l'electró de l'àtom d'hidrogen en el model de Bohr i acceleració de l'electró; potencial elèctric creat pel protó a la distància de l'òrbita i energia potencial del sistema en eV.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 1,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     1
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     2
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [
+    "Física relativista, quàntica i nuclear"
+   ],
+   "subtemes": [
+    "camp elèctric i llei de Coulomb",
+    "potencial i energia potencial elèctrica",
+    "model de Bohr i espectres atòmics"
+   ],
+   "paraules_clau": [
+    "àtom d'hidrogen",
+    "model de Bohr",
+    "llei de Coulomb",
+    "força elèctrica",
+    "acceleració",
+    "potencial elèctric",
+    "energia potencial",
+    "electronvolt"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació directa de la llei de Coulomb, la segona llei de Newton i les expressions del potencial i l'energia potencial, amb conversió a eV.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Mòdul de la força elèctrica del protó sobre l'electró i acceleració que li provoca."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Potencial elèctric a la distància r del protó i energia potencial (en eV) del sistema."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Electró en òrbita circular al voltant del protó, amb la força F, la velocitat v i el radi r"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A l'original la figura és a la dreta del text. A la pauta els punts decimals («0.3 p», «27.1V», «-27.1eV») s'han passat a coma; a l'apartat a el darrer «0.2 p» apareix darrere del resultat de l'acceleració.",
+   "carpeta": "base_dades/exercicis/2018_ord_s1_P1_bohr-hidrogen-forca-potencial"
+  },
+  {
+   "id": "2018_ord_s1_P2_forat-negre-michell-escapament",
+   "titol": "Forat negre de Michell i velocitat d'escapament",
+   "resum": "Massa d'un cos esfèric amb la densitat del Sol i 500 vegades el seu radi i velocitat d'escapament des de la seva superfície (comparada amb la de la llum); intensitat del camp gravitatori a la superfície i força sobre una massa d'1 µg.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 2,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     2
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps gravitatoris",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "velocitat d'escapament",
+    "camp gravitatori i superposició",
+    "llei de la gravitació universal"
+   ],
+   "paraules_clau": [
+    "forat negre",
+    "John Michell",
+    "ones gravitatòries",
+    "densitat",
+    "velocitat d'escapament",
+    "conservació de l'energia",
+    "intensitat del camp gravitatori",
+    "pes"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal relacionar la massa amb el radi mitjançant la densitat, aplicar la conservació de l'energia per obtenir la velocitat d'escapament i calcular el camp i la força a la superfície indicant-ne direcció i sentit.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Massa del cos amb la densitat del Sol i 500 vegades el seu radi i velocitat d'escapament des de la superfície."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Intensitat del camp gravitatori a la superfície del cos i força sobre 1 µg."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Il·lustració de dos forats negres en col·lisió que generen ones gravitatòries"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A l'original la imatge és a la dreta del primer paràgraf; aquí s'ha col·locat després. A la pauta els punts decimals («0.2 p») s'han passat a coma; a l'apartat b el «0.3 p» apareix darrere del valor de g.",
+   "carpeta": "base_dades/exercicis/2018_ord_s1_P2_forat-negre-michell-escapament"
+  },
+  {
+   "id": "2018_ord_s1_P3A_proto-espectrometre-camp-magnetic",
+   "titol": "Protó i electró en un espectròmetre de masses",
+   "resum": "Força magnètica (vector) sobre un protó que entra en un espectròmetre de masses amb velocitat i camp magnètic donats; camp magnètic (mòdul, direcció i sentit) necessari perquè un electró amb la mateixa velocitat segueixi la mateixa trajectòria.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 3,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     2
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     3
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment de càrregues en camps magnètics",
+    "selector de velocitats, espectròmetre i ciclotró"
+   ],
+   "paraules_clau": [
+    "protó",
+    "electró",
+    "espectròmetre de masses",
+    "força de Lorentz",
+    "producte vectorial",
+    "radi de la trajectòria",
+    "camp magnètic"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal calcular una força amb el producte vectorial i raonar, igualant els radis de les trajectòries, el mòdul i el sentit del camp per a una partícula de càrrega oposada.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Força (mòdul, direcció i sentit) sobre el protó."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Camp magnètic perquè un electró amb la mateixa velocitat segueixi la mateixa trajectòria que el protó."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A la pauta els punts decimals («0.2 p») s'han passat a coma. L'enunciat dona la constant k com a dada, tot i que no cal per resoldre'l.",
+   "carpeta": "base_dades/exercicis/2018_ord_s1_P3A_proto-espectrometre-camp-magnetic"
+  },
+  {
+   "id": "2018_ord_s1_P3B_bacteri-magnetotactic-fils-paralels",
+   "titol": "Bacteris magnetotàctics i fils conductors paral·lels",
+   "resum": "Distància a una línia submarina de 100 A a partir de la qual el camp magnètic és inferior al 5 % del terrestre; esquema del camp creat per un fil en la posició d'un altre fil paral·lel i de la força entre tots dos, i mòdul de la força sobre 2,00 m de conductor.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 3,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     5
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp magnètic creat per corrents",
+    "força magnètica sobre corrents i entre fils"
+   ],
+   "paraules_clau": [
+    "bacteri magnetotàctic",
+    "magnetosomes",
+    "camp magnètic terrestre",
+    "fil infinit",
+    "línia submarina",
+    "fils paral·lels",
+    "força entre corrents",
+    "regla de la mà dreta"
+   ],
+   "tipus": [
+    "càlcul",
+    "diagrama"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Aplicació del camp d'un fil infinit en context, i esquema vectorial del camp i de la força entre dos fils amb corrents paral·lels abans de calcular-ne el mòdul.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Distància a la línia submarina a partir de la qual el camp no afecta els bacteris."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Esquema del camp creat pel fil 2 a la posició 1 i de la força sobre el fil 1, i mòdul de la força sobre 2,00 m."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Micrografia del bacteri Aquaspirillum magnetotacticum amb la cadena de magnetosomes"
+    },
+    {
+     "fitxer": "fig2.png",
+     "true": "enunciat",
+     "descripcio": "Dos fils perpendiculars al paper als punts 1 i 2 amb corrent cap endins"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Esquema del camp B del conductor 2 a la posició 1 (cap amunt) i de la força sobre 1 (cap a 2)"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A l'original el text de l'enunciat comença directament amb l'apartat a, amb la foto a la dreta i el peu «Aquaspirillum magnetotacticum» (escrit aquí com a text); la figura dels dos fils és a la dreta del text de l'apartat b. A la pauta els punts decimals s'han passat a coma i el «0.3 p» final abasta les dues línies del càlcul de la força.",
+   "carpeta": "base_dades/exercicis/2018_ord_s1_P3B_bacteri-magnetotactic-fils-paralels"
+  },
+  {
+   "id": "2018_ord_s1_P4A_vaixell-onades-mhs",
+   "titol": "Vaixell a la deriva moguda per les ones (MHS)",
+   "resum": "Equació del moviment harmònic simple vertical d'un vaixell que es mou 2,00 m del punt més alt al més baix cada 6,28 s, partint del punt més alt; velocitat i acceleració inicials.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 4,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     4
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment harmònic simple"
+   ],
+   "paraules_clau": [
+    "vaixell",
+    "onades",
+    "moviment harmònic simple",
+    "amplitud",
+    "període",
+    "freqüència angular",
+    "fase inicial",
+    "velocitat",
+    "acceleració"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Cal extreure l'amplitud i el període de l'enunciat, escriure l'equació amb la fase adequada i avaluar-ne la velocitat i l'acceleració a t = 0.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Equació del moviment del vaixell, amb unitats, partint del punt més alt."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Velocitat i acceleració inicials del vaixell."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A la pauta els punts decimals («0.1 p», «6.28 s») s'han passat a coma. La nota (*) de la pauta, que admet interpretar que el període és 6,28 s, és al final del problema i s'ha deixat al final de la solució de l'apartat b.",
+   "carpeta": "base_dades/exercicis/2018_ord_s1_P4A_vaixell-onades-mhs"
+  },
+  {
+   "id": "2018_ord_s1_P4B_gos-borda-nivell-intensitat",
+   "titol": "Nivell d'intensitat sonora d'un gos que borda",
+   "resum": "Nivell d'intensitat sonora a 5,00 m d'un gos que borda amb una potència de 2,00 mW, suposant propagació uniforme; nivell d'intensitat si borden dos gossos alhora.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 4,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     4
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     5
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "ones sonores i nivell d'intensitat"
+   ],
+   "paraules_clau": [
+    "so",
+    "gos",
+    "potència sonora",
+    "intensitat",
+    "ona esfèrica",
+    "nivell d'intensitat sonora",
+    "decibels",
+    "suma de fonts"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Intensitat d'una font puntual i nivell en dB; a l'apartat b cal veure que les intensitats se sumen i el nivell augmenta 10 log 2.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Nivell d'intensitat sonora a 5,00 m del gos."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Nivell d'intensitat sonora amb dos gossos bordant alhora."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. L'enunciat diu «Dada:» en singular. A la pauta els punts decimals s'han passat a coma.",
+   "carpeta": "base_dades/exercicis/2018_ord_s1_P4B_gos-borda-nivell-intensitat"
+  },
+  {
+   "id": "2018_ord_s1_P5A_poloni-210-desintegracio-alfa",
+   "titol": "Desintegració alfa del poloni-210",
+   "resum": "Reacció de desintegració alfa del poloni-210 que dona un isòtop del plom; massa de poloni que queda en una mostra de 10,0 g al cap de 69 dies, coneixent el període de semidesintegració.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 5,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     3
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     4
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "radioactivitat i llei de desintegració",
+    "reaccions nuclears i defecte de massa"
+   ],
+   "paraules_clau": [
+    "poloni-210",
+    "partícula alfa",
+    "plom",
+    "desintegració radioactiva",
+    "període de semidesintegració",
+    "constant de desintegració",
+    "llei de desintegració"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Escriure una reacció nuclear conservant nombre màssic i atòmic i aplicar directament la llei de desintegració amb la constant obtinguda del període de semidesintegració.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Reacció de desintegració alfa del poloni-210."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Massa de poloni-210 que queda en una mostra de 10,0 g després de 69 dies."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A la pauta els símbols dels nuclis i les unitats (dies, g) apareixen en cursiva.",
+   "carpeta": "base_dades/exercicis/2018_ord_s1_P5A_poloni-210-desintegracio-alfa"
+  },
+  {
+   "id": "2018_ord_s1_P5B_fotoelectric-metall-alcali",
+   "titol": "Efecte fotoelèctric en un metall alcalí",
+   "resum": "Energia en eV d'un fotó de llum de 300 nm i treball d'extracció d'un metall alcalí si els fotoelectrons surten amb una energia cinètica màxima de 2,00 eV.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 1,
+    "exercici": 5,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     4
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     6
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "efecte fotoelèctric",
+    "fotons i energia de la radiació"
+   ],
+   "paraules_clau": [
+    "efecte fotoelèctric",
+    "metall alcalí",
+    "fotó",
+    "energia del fotó",
+    "treball d'extracció",
+    "energia cinètica màxima",
+    "electronvolt"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 1,
+   "justificacio_dificultat": "Aplicació directa de E = hc/λ i de l'equació d'Einstein de l'efecte fotoelèctric, amb conversió entre joules i electronvolts.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Energia en eV d'un fotó de la llum incident."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Treball d'extracció del metall en eV."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A la pauta els punts decimals s'han passat a coma; el darrer «0.2 p» de cada apartat apareix darrere del resultat en eV.",
+   "carpeta": "base_dades/exercicis/2018_ord_s1_P5B_fotoelectric-metall-alcali"
+  },
+  {
+   "id": "2018_ord_s5_P1_orcus-kuiper-escapament",
+   "titol": "Orcus, objecte del cinturó de Kuiper: òrbita i velocitat d'escapament",
+   "resum": "Distància mitjana d'Orcus al Sol amb la tercera llei de Kepler comparant amb la Terra; deducció de la velocitat d'escapament per energies i intensitat del camp gravitatori a la superfície d'Orcus.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 1,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     5
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     8
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps gravitatoris",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "lleis de Kepler",
+    "velocitat d'escapament",
+    "camp gravitatori i superposició"
+   ],
+   "paraules_clau": [
+    "Orcus",
+    "cinturó de Kuiper",
+    "planeta nan",
+    "tercera llei de Kepler",
+    "unitat astronòmica",
+    "velocitat d'escapament",
+    "intensitat del camp gravitatori"
+   ],
+   "tipus": [
+    "càlcul",
+    "deducció"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació directa de la tercera llei de Kepler en unitats terrestres i de les expressions de la velocitat d'escapament i de g a la superfície; la deducció per energies és estàndard.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Distància mitjana Orcus–Sol en UA amb la tercera llei de Kepler."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Deducció i càlcul de la velocitat d'escapament i intensitat del camp gravitatori a la superfície."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Fotografia d'Orcus i altres objectes transneptunians (2005 FY9, Sedna, Quaoar, 2002 TX300, Varuna, Ixion, Vesta, Pallas, Hygiea) comparats amb la Terra"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A l'original la fotografia és a la dreta del text; és decorativa (no cal per resoldre l'exercici).",
+   "carpeta": "base_dades/exercicis/2018_ord_s5_P1_orcus-kuiper-escapament"
+  },
+  {
+   "id": "2018_ord_s5_P2_tecneci-99m-radiotracador",
+   "titol": "Tecneci-99m com a radiotraçador en medicina",
+   "resum": "Nombre màssic, atòmic i de neutrons del tecneci-99m i reacció de desintegració gamma; massa que queda d'una dosi de 2 ng al cap de 24 hores amb un període de semidesintegració de 6 hores.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 2,
+    "opcio": null,
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     5
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     9
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Física relativista, quàntica i nuclear",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "radioactivitat i llei de desintegració",
+    "aplicacions i riscos de la radioactivitat"
+   ],
+   "paraules_clau": [
+    "tecneci-99m",
+    "radiotraçador",
+    "medicina nuclear",
+    "isòtop metaestable",
+    "desintegració gamma",
+    "període de semidesintegració",
+    "nombre màssic",
+    "neutrons"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Composició d'un nucli i reacció gamma directes; la llei de desintegració amb un temps que és un múltiple exacte del període de semidesintegració.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Nombre màssic, nombre atòmic i nombre de neutrons; reacció de desintegració gamma."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Massa d'isòtop que queda al cos passades 24 hores."
+    }
+   ],
+   "figures": [],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual.",
+   "carpeta": "base_dades/exercicis/2018_ord_s5_P2_tecneci-99m-radiotracador"
+  },
+  {
+   "id": "2018_ord_s5_P3A_vareta-esfera-mhs-hooke",
+   "titol": "Esfera d'acer en una vareta elàstica que oscil·la",
+   "resum": "Constant elàstica d'una vareta que obeeix la llei de Hooke; deducció de la freqüència d'oscil·lació a partir de la segona llei de Newton i càlcul del període; deducció i càlcul de l'acceleració màxima del MHS.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 3,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     6
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     10
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment harmònic simple"
+   ],
+   "paraules_clau": [
+    "vareta elàstica",
+    "esfera d'acer",
+    "llei de Hooke",
+    "constant elàstica",
+    "segona llei de Newton",
+    "període d'oscil·lació",
+    "acceleració màxima"
+   ],
+   "tipus": [
+    "càlcul",
+    "deducció"
+   ],
+   "dificultat": 2,
+   "justificacio_dificultat": "Aplicació directa de la llei de Hooke i de les expressions del MHS; les deduccions demanades (ω = √(k/m) i a_max = Aω²) són les estàndard.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Constant elàstica, deducció de la freqüència amb la segona llei de Newton i període d'oscil·lació."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Deducció de l'acceleració màxima a partir de l'equació del MHS i càlcul."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Vareta vertical clavada a una base amb l'esfera desplaçada 4 cm a cada costat i la força de 8 N"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual.",
+   "carpeta": "base_dades/exercicis/2018_ord_s5_P3A_vareta-esfera-mhs-hooke"
+  },
+  {
+   "id": "2018_ord_s5_P3B_espectre-harmonics-instrument",
+   "titol": "Espectre d'harmònics del so d'un instrument musical",
+   "resum": "Interpretació de l'espectre de freqüències d'un instrument: so complex, freqüència fonamental a partir del segon harmònic (880 Hz) i freqüència del novè harmònic; relació d'intensitats entre dos pics a partir dels nivells d'intensitat en dB.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 3,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     7
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     12
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Vibracions i ones",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "ressonància i harmònics en tubs i cordes",
+    "ones sonores i nivell d'intensitat"
+   ],
+   "paraules_clau": [
+    "espectre de freqüències",
+    "instrument musical",
+    "harmònics",
+    "freqüència fonamental",
+    "so complex",
+    "to pur",
+    "nivell d'intensitat sonora",
+    "decibels"
+   ],
+   "tipus": [
+    "gràfic",
+    "qualitativa",
+    "càlcul"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal interpretar un espectre real per identificar els harmònics i la fonamental, i aplicar la definició de nivell d'intensitat per comparar dues intensitats.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "So pur o complex; pic de la freqüència fonamental i el seu valor; freqüència del pic següent (I)."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Quantes vegades és més gran la intensitat del pic C (87 dB) que la del pic F (60 dB)."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Espectre de freqüències del so amb els pics A–H i el nivell d'intensitat en dB"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Espectre de freqüències del so amb els pics A–H (versió en color de la pauta)"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. La pauta té errates d'accentuació («Es un so», «esta format», «es el pic A», «te una») que s'han transcrit tal com són. A la pauta, «0,4 p» de l'apartat b apareix sol en una línia, just abans del càlcul del quocient d'intensitats; la gràfica és a la dreta dels càlculs.",
+   "carpeta": "base_dades/exercicis/2018_ord_s5_P3B_espectre-harmonics-instrument"
+  },
+  {
+   "id": "2018_ord_s5_P4A_quatre-carregues-quadrat-camp",
+   "titol": "Quatre càrregues als vèrtexs d'un quadrat: camp i potencial",
+   "resum": "Representació i càlcul del vector camp elèctric al centre d'un quadrat amb quatre càrregues als vèrtexs; diferència de potencial entre el punt mitjà d'un costat i el centre.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 4,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     6
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     11
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "camp elèctric i llei de Coulomb",
+    "potencial i energia potencial elèctrica"
+   ],
+   "paraules_clau": [
+    "càrregues puntuals",
+    "quadrat",
+    "principi de superposició",
+    "vector camp elèctric",
+    "potencial elèctric",
+    "diferència de potencial"
+   ],
+   "tipus": [
+    "càlcul",
+    "diagrama"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Superposició vectorial de quatre camps amb components i simetria, i suma de potencials amb dues distàncies diferents: problema PAU típic.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Representació i càlcul del vector camp elèctric al centre C."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Diferència de potencial entre els punts A i C."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Quadrat de 4 m de costat amb les càrregues Q1, Q2, Q3 i Q4 als vèrtexs i els punts A i C"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Camps E1, E2, E3 i E4 creats per cada càrrega al centre C i camp resultant E_C cap a l'esquerra"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A la pauta la figura és a la dreta dels càlculs de l'apartat a i porta «(0,2 p)» en vermell dins del requadre: s'ha esborrat del retall i s'ha transcrit com a \\punts{0,2}. A la pauta falta el signe «=» a l'expressió final del vector camp elèctric (transcrit tal com és).",
+   "carpeta": "base_dades/exercicis/2018_ord_s5_P4A_quatre-carregues-quadrat-camp"
+  },
+  {
+   "id": "2018_ord_s5_P4B_electro-camp-electric-desviacio",
+   "titol": "Electró desviat per un camp elèctric uniforme",
+   "resum": "Comparació entre la força elèctrica i la força gravitatòria sobre un electró en un camp elèctric uniforme; desviació vertical de l'electró després de recórrer 1 cm en la direcció perpendicular al camp.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 4,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     8
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     13
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "moviment de càrregues en camps elèctrics"
+   ],
+   "paraules_clau": [
+    "electró",
+    "camp elèctric uniforme",
+    "força elèctrica",
+    "força gravitatòria",
+    "desviació",
+    "moviment parabòlic",
+    "acceleració"
+   ],
+   "tipus": [
+    "càlcul"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Combina la comparació de forces amb una cinemàtica de tipus tir horitzontal (MRU en x i MRUA en y): problema PAU típic.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Quantes vegades és més gran la força elèctrica que la gravitatòria sobre l'electró."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Desviació vertical de l'electró després de recórrer 1,0 cm en la direcció x."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Electró amb velocitat inicial v0 horitzontal que entra en un camp elèctric E vertical cap avall"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. La pauta fa servir g = 9,80 m/s² (l'enunciat dona 9,81 m s⁻²); el resultat 3,6×10^13 no canvia. A la pauta la figura és a la dreta de l'apartat a.",
+   "carpeta": "base_dades/exercicis/2018_ord_s5_P4B_electro-camp-electric-desviacio"
+  },
+  {
+   "id": "2018_ord_s5_P5A_bobina-gir-fem-alterna",
+   "titol": "Bobina que gira en un camp magnètic uniforme: fem alterna",
+   "resum": "Equació de la força electromotriu d'una bobina de 200 espires quadrades que gira a 10 voltes per segon en un camp magnètic uniforme i valor a t = 1,28 s; gràfica de la fem en funció del temps i valors màxim i eficaç.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 5,
+    "opcio": "A",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     7
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     11
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "flux magnètic i inducció (Faraday-Lenz)",
+    "generadors, motors i transformadors"
+   ],
+   "paraules_clau": [
+    "bobina",
+    "espires",
+    "generador",
+    "corrent altern",
+    "força electromotriu induïda",
+    "llei de Faraday",
+    "valor eficaç",
+    "valor màxim"
+   ],
+   "tipus": [
+    "càlcul",
+    "gràfic"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal construir el flux en funció del temps, derivar-lo amb la llei de Faraday, avaluar-lo i representar la fem sinusoidal: problema PAU típic d'alternador.",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Equació de la fem de la bobina i valor a t = 1,28 s."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Gràfica de la fem en funció del temps per a dos períodes i valors màxim i eficaç."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Bobina quadrada en un camp magnètic uniforme entrant al paper amb l'eix de gir vertical (línia de punts)"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Gràfica de la fem sinusoidal en funció del temps entre 0 i 0,20 s amb el valor màxim indicat"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A la pauta la gràfica és a la dreta i porta «0,2 p» en vermell al costat: s'ha esborrat del retall i s'ha transcrit com a \\punts{0,2}. DUBTE: la pauta escriu «ω = 2π rad» però fa servir ω = 20π rad/s (10 voltes per segon). DUBTE: la pauta dona ε(1,28 s) = 0,247 V, que correspon a calcular el sinus en graus; en radians ε = 0,251·sin(25,6π) ≈ −0,239 V. Transcrit tal com és.",
+   "carpeta": "base_dades/exercicis/2018_ord_s5_P5A_bobina-gir-fem-alterna"
+  },
+  {
+   "id": "2018_ord_s5_P5B_generador-espira-circular-flux",
+   "titol": "Generador simplificat: espira circular que gira en un camp magnètic",
+   "resum": "Flux magnètic a través d'una espira circular que gira a 300 rpm en un camp de 60 mT en tres posicions separades 45°; instant en què la fem és zero i fem induïda en les altres dues posicions.",
+   "font": {
+    "tipus": "examen",
+    "any": 2018,
+    "convocatoria": "ordinaria",
+    "serie": 5,
+    "exercici": 5,
+    "opcio": "B",
+    "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+    "pagines_enunciat": [
+     8
+    ],
+    "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+    "pagines_solucio": [
+     14
+    ]
+   },
+   "format": "antic",
+   "curriculum": "actual",
+   "bloc": "Camps electromagnètics",
+   "blocs_secundaris": [],
+   "subtemes": [
+    "flux magnètic i inducció (Faraday-Lenz)",
+    "generadors, motors i transformadors"
+   ],
+   "paraules_clau": [
+    "generador",
+    "espira circular",
+    "flux magnètic",
+    "força electromotriu induïda",
+    "llei de Faraday",
+    "revolucions per minut",
+    "velocitat angular"
+   ],
+   "tipus": [
+    "càlcul",
+    "qualitativa"
+   ],
+   "dificultat": 3,
+   "justificacio_dificultat": "Cal interpretar les tres vistes de l'espira per obtenir l'angle entre camp i superfície i relacionar la fem amb el sinus d'aquest angle (fem nul·la quan el flux és màxim).",
+   "punts_total": 2,
+   "apartats": [
+    {
+     "etiqueta": "a",
+     "punts": 1,
+     "resum": "Flux magnètic a les situacions a, b i c."
+    },
+    {
+     "etiqueta": "b",
+     "punts": 1,
+     "resum": "Instant en què la fem és zero i fem induïda en els altres dos instants."
+    }
+   ],
+   "figures": [
+    {
+     "fitxer": "fig1.png",
+     "true": "enunciat",
+     "descripcio": "Vista de perfil de l'espira en les situacions a, b i c (girada 0°, 45° i 90°) amb les línies de camp magnètic verticals"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Les mateixes tres situacions (a), (b) i (c) de l'espira en el camp magnètic"
+    }
+   ],
+   "solucio_oficial": true,
+   "revisat": false,
+   "notes": "PDF escanejat: transcripció visual. A la pauta la figura apareix al començament del problema, abans de l'apartat a.",
+   "carpeta": "base_dades/exercicis/2018_ord_s5_P5B_generador-espira-circular-flux"
+  },
+  {
    "id": "2019_ext_s5_P1_oscillador-energia-ona-corda",
    "titol": "Oscil·lador harmònic a partir de la gràfica de l'energia potencial",
    "resum": "A partir de la gràfica de l'energia potencial elàstica en funció del quadrat de l'elongació, càlcul de la constant elàstica, el període i l'energia cinètica màxima d'un oscil·lador; equació de l'ona que genera en una corda.",
@@ -10077,8 +14916,10 @@
     "pagines_enunciat": [
      7
     ],
-    "pdf_solucio": "documents oficials/02_pau25_fisica_QuestionsExperiments.pdf",
-    "pagines_solucio": []
+    "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+    "pagines_solucio": [
+     8
+    ]
    },
    "format": "nou",
    "curriculum": "actual",
@@ -10104,16 +14945,16 @@
    ],
    "dificultat": 2,
    "justificacio_dificultat": "Aplicació directa de E = ΔV/d i W = qΔV en un muntatge experimental senzill, amb un dibuix qualitatiu de les equipotencials.",
-   "punts_total": 2.5,
+   "punts_total": 2,
    "apartats": [
     {
      "etiqueta": "a",
-     "punts": 1.25,
+     "punts": 1,
      "resum": "Camp elèctric entre les plaques (mòdul, direcció, sentit) i dibuix de les equipotencials amb el seu potencial."
     },
     {
      "etiqueta": "b",
-     "punts": 1.25,
+     "punts": 1,
      "resum": "Treball d'una força externa per portar 0,1 µC d'un punt a 7,0 V fins a la placa positiva."
     }
    ],
@@ -10122,11 +14963,16 @@
      "fitxer": "fig1.png",
      "true": "enunciat",
      "descripcio": "Càpsula de Petri amb dues plaques paral·leles a 0 V i 12 V i una sonda connectada al voltímetre"
+    },
+    {
+     "fitxer": "sol_fig1.png",
+     "true": "solucio",
+     "descripcio": "Plaques a 0 V i 12 V amb les superfícies equipotencials de 3 V, 6 V i 9 V i les línies de camp dirigides cap a l'esquerra"
     }
    ],
-   "solucio_oficial": false,
+   "solucio_oficial": true,
    "revisat": false,
-   "notes": "Segon dels \"dos exemples de preguntes\" del document \"Qüestions d'interpretació i anàlisi d'experiments\" (apartat Reconeixement de línies de camp elèctric i superfícies equipotencials). El document l'identifica com a \"PAU 2017 JUNY OPCIÓ B P4\" (és una imatge escanejada de l'examen); pot estar duplicat amb l'exercici de la convocatòria 2017 si s'ha transcrit. Allà sí que hi hauria pauta oficial i puntuació. Aquí no es dona puntuació ni solució: s'han repartit 2,5 punts a parts iguals (1,25 + 1,25).",
+   "notes": "És el problema P4 de l'opció B de la PAU de Física de juny de 2017 (sèrie 1, examenes/pau_fisi17jl.pdf, pàgina 4). La pauta és l'oficial d'aquella convocatòria (examenes/pau_fisi17jp.pdf, pàgina 8) i no s'ha duplicat a la base de dades: a la convocatòria 2017_ord_s1 aquest exercici ocupa la posició del P4B. El document \"Qüestions d'interpretació i anàlisi d'experiments\" el reprodueix com a segon exemple (apartat Reconeixement de línies de camp elèctric i superfícies equipotencials) i l'identifica com a \"PAU 2017 JUNY OPCIÓ B P4\"; el text coincideix amb el de 2017. Els punts dels apartats (1 + 1, total 2) són els oficials de 2017. A la pauta, la figura de la solució està retallada pel marge dret a l'original.",
    "carpeta": "base_dades/exercicis/2025_mostra_experiments_Q5_capsula-petri-equipotencials"
   },
   {
@@ -12062,6 +16908,186 @@
   }
  ],
  "convocatories": [
+  {
+   "id": "2016_ext_s1",
+   "any": 2016,
+   "convocatoria": "extraordinaria",
+   "serie": 1,
+   "format": "antic",
+   "pdf_enunciat": "examenes/pau_fisi16sl.pdf",
+   "pdf_solucio": "examenes/pau_fisi16sp.pdf",
+   "instruccions": "L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.",
+   "exercicis": [
+    "2016_ext_s1_P1_curiosity-descens-mart",
+    "2016_ext_s1_P2_dos-fils-paralels-camp",
+    "2016_ext_s1_P3A_orgue-sagrada-familia-tub",
+    "2016_ext_s1_P4A_nuvol-gota-carregada",
+    "2016_ext_s1_P5A_fluor18-tep-positro",
+    "2016_ext_s1_P3B_boia-marina-ona-harmonica",
+    "2016_ext_s1_P4B_dues-carregues-camp-potencial",
+    "2016_ext_s1_P5B_irradiancia-solar-fotons"
+   ]
+  },
+  {
+   "id": "2016_ord_s3",
+   "any": 2016,
+   "convocatoria": "ordinaria",
+   "serie": 3,
+   "format": "antic",
+   "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+   "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+   "instruccions": "L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.",
+   "exercicis": [
+    "2016_ord_s3_P1_forat-negre-estrella-orbita",
+    "2016_ord_s3_P2_molles-mhs-frequencia-doble",
+    "2016_ord_s3_P3A_ratpenats-ultrasons-eco",
+    "2016_ord_s3_P4A_cano-electronic-plaques",
+    "2016_ord_s3_P5A_fotoelectric-grafica-planck",
+    "2016_ord_s3_P3B_dipol-superficies-equipotencials",
+    "2016_ord_s3_P4B_potassi-40-desintegracio-beta",
+    "2016_ord_s3_P5B_espira-camp-magnetic-centre"
+   ]
+  },
+  {
+   "id": "2016_ord_s5",
+   "any": 2016,
+   "convocatoria": "ordinaria",
+   "serie": 5,
+   "format": "antic",
+   "pdf_enunciat": "examenes/pau_fisi16jl.pdf",
+   "pdf_solucio": "examenes/pau_fisi16jp.pdf",
+   "instruccions": "L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.",
+   "exercicis": [
+    "2016_ord_s5_P1_piston-motor-mhs",
+    "2016_ord_s5_P2_dues-carregues-camp-potencial",
+    "2016_ord_s5_P3A_mimas-saturn-orbita-energia",
+    "2016_ord_s5_P4A_electro-neutro-proto-camp-magnetic",
+    "2016_ord_s5_P5A_cellula-fotoelectrica-llum-verda",
+    "2016_ord_s5_P3B_caiguda-lliure-gravetat-altura",
+    "2016_ord_s5_P4B_desintegracio-activitat-semivida",
+    "2016_ord_s5_P5B_particula-alfa-camp-magnetic"
+   ]
+  },
+  {
+   "id": "2017_ext_s2",
+   "any": 2017,
+   "convocatoria": "extraordinaria",
+   "serie": 2,
+   "format": "antic",
+   "pdf_enunciat": "examenes/pau_fisi17sl.pdf",
+   "pdf_solucio": "examenes/pau_fisi17sp.pdf",
+   "instruccions": "L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.",
+   "exercicis": [
+    "2017_ext_s2_P1_energia-potencial-planeta-escapament",
+    "2017_ext_s2_P2_onada-estadi-mhs",
+    "2017_ext_s2_P3A_particula-alfa-nucli-urani",
+    "2017_ext_s2_P4A_rado-222-224-desintegracio",
+    "2017_ext_s2_P5A_bobina-rectangular-fem-induida",
+    "2017_ext_s2_P3B_iode-131-radioterapia",
+    "2017_ext_s2_P4B_quatre-carregues-camp-forca",
+    "2017_ext_s2_P5B_bobina-transformador-nucli-ferro"
+   ]
+  },
+  {
+   "id": "2017_ord_s1",
+   "any": 2017,
+   "convocatoria": "ordinaria",
+   "serie": 1,
+   "format": "antic",
+   "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+   "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+   "instruccions": "L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.",
+   "exercicis": [
+    "2017_ord_s1_P1_exomars-schiaparelli-mart",
+    "2017_ord_s1_P2_rele-bobina-imant",
+    "2017_ord_s1_P3A_vibrador-corda-ona",
+    "2017_ord_s1_P4A_sal-comuna-nacl-ions",
+    "2017_ord_s1_P5A_ferro-60-supernova",
+    "2017_ord_s1_P3B_agulla-maquina-cosir-mhs",
+    "2025_mostra_experiments_Q5_capsula-petri-equipotencials",
+    "2017_ord_s1_P5B_nucli-radioactiu-activitat"
+   ]
+  },
+  {
+   "id": "2017_ord_s5",
+   "any": 2017,
+   "convocatoria": "ordinaria",
+   "serie": 5,
+   "format": "antic",
+   "pdf_enunciat": "examenes/pau_fisi17jl.pdf",
+   "pdf_solucio": "examenes/pau_fisi17jp.pdf",
+   "instruccions": "L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.",
+   "exercicis": [
+    "2017_ord_s5_P1_estrella-neutrons-escapament",
+    "2017_ord_s5_P2_remer-barca-ones",
+    "2017_ord_s5_P3A_microscopi-fotons-electrons",
+    "2017_ord_s5_P4A_selector-velocitats-heli",
+    "2017_ord_s5_P5A_carregues-rectangle-potencial",
+    "2017_ord_s5_P3B_tori-cadena-desintegracio",
+    "2017_ord_s5_P4B_motor-faraday-imant",
+    "2017_ord_s5_P5B_atom-hidrogen-classic"
+   ]
+  },
+  {
+   "id": "2018_ext_s3",
+   "any": 2018,
+   "convocatoria": "extraordinaria",
+   "serie": 3,
+   "format": "antic",
+   "pdf_enunciat": "examenes/pau_fisi18sl.pdf",
+   "pdf_solucio": "examenes/pau_fisi18sp.pdf",
+   "instruccions": "L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.",
+   "exercicis": [
+    "2018_ext_s3_P1_ross128b-exoplaneta-densitat",
+    "2018_ext_s3_P2_grafica-mhs-ona-sonora",
+    "2018_ext_s3_P3A_lluna-camp-electric-pols",
+    "2018_ext_s3_P4A_particula-camp-magnetic-radi",
+    "2018_ext_s3_P5A_carboni14-datacio-momia",
+    "2018_ext_s3_P3B_nuvol-dues-carregues-camp",
+    "2018_ext_s3_P4B_espira-quadrada-flux-fem",
+    "2018_ext_s3_P5B_fotoelectric-llum-groga"
+   ]
+  },
+  {
+   "id": "2018_ord_s1",
+   "any": 2018,
+   "convocatoria": "ordinaria",
+   "serie": 1,
+   "format": "antic",
+   "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+   "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+   "instruccions": "L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.",
+   "exercicis": [
+    "2018_ord_s1_P1_bohr-hidrogen-forca-potencial",
+    "2018_ord_s1_P2_forat-negre-michell-escapament",
+    "2018_ord_s1_P3A_proto-espectrometre-camp-magnetic",
+    "2018_ord_s1_P4A_vaixell-onades-mhs",
+    "2018_ord_s1_P5A_poloni-210-desintegracio-alfa",
+    "2018_ord_s1_P3B_bacteri-magnetotactic-fils-paralels",
+    "2018_ord_s1_P4B_gos-borda-nivell-intensitat",
+    "2018_ord_s1_P5B_fotoelectric-metall-alcali"
+   ]
+  },
+  {
+   "id": "2018_ord_s5",
+   "any": 2018,
+   "convocatoria": "ordinaria",
+   "serie": 5,
+   "format": "antic",
+   "pdf_enunciat": "examenes/pau_fisi18jl.pdf",
+   "pdf_solucio": "examenes/pau_fisi18jp.pdf",
+   "instruccions": "L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.",
+   "exercicis": [
+    "2018_ord_s5_P1_orcus-kuiper-escapament",
+    "2018_ord_s5_P2_tecneci-99m-radiotracador",
+    "2018_ord_s5_P3A_vareta-esfera-mhs-hooke",
+    "2018_ord_s5_P4A_quatre-carregues-quadrat-camp",
+    "2018_ord_s5_P5A_bobina-gir-fem-alterna",
+    "2018_ord_s5_P3B_espectre-harmonics-instrument",
+    "2018_ord_s5_P4B_electro-camp-electric-desviacio",
+    "2018_ord_s5_P5B_generador-espira-circular-flux"
+   ]
+  },
   {
    "id": "2019_ext_s5",
    "any": 2019,

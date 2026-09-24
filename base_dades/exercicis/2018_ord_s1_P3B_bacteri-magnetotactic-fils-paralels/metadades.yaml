@@ -1,0 +1,56 @@
+id: 2018_ord_s1_P3B_bacteri-magnetotactic-fils-paralels
+titol: Bacteris magnetotàctics i fils conductors paral·lels
+resum: >-
+  Distància a una línia submarina de 100 A a partir de la qual el camp magnètic és inferior
+  al 5 % del terrestre; esquema del camp creat per un fil en la posició d'un altre fil
+  paral·lel i de la força entre tots dos, i mòdul de la força sobre 2,00 m de conductor.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+  - força magnètica sobre corrents i entre fils
+paraules_clau: [bacteri magnetotàctic, magnetosomes, camp magnètic terrestre, fil infinit, línia submarina, fils paral·lels, força entre corrents, regla de la mà dreta]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Aplicació del camp d'un fil infinit en context, i esquema vectorial del camp i de la
+  força entre dos fils amb corrents paral·lels abans de calcular-ne el mòdul.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Distància a la línia submarina a partir de la qual el camp no afecta els bacteris.
+  - etiqueta: "b"
+    punts: 1
+    resum: Esquema del camp creat pel fil 2 a la posició 1 i de la força sobre el fil 1, i mòdul de la força sobre 2,00 m.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Micrografia del bacteri Aquaspirillum magnetotacticum amb la cadena de magnetosomes
+  - fitxer: fig2.png
+    on: enunciat
+    descripcio: Dos fils perpendiculars al paper als punts 1 i 2 amb corrent cap endins
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema del camp B del conductor 2 a la posició 1 (cap amunt) i de la força sobre 1 (cap a 2)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'original el text de l'enunciat comença
+  directament amb l'apartat a, amb la foto a la dreta i el peu «Aquaspirillum
+  magnetotacticum» (escrit aquí com a text); la figura dels dos fils és a la dreta del text
+  de l'apartat b. A la pauta els punts decimals s'han passat a coma i el «0.3 p» final
+  abasta les dues línies del càlcul de la força.

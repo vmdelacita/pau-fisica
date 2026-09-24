@@ -1,0 +1,46 @@
+id: 2017_ord_s5_P3B_tori-cadena-desintegracio
+titol: Cadena de desintegració del tori-232
+resum: >-
+  Escriure les reaccions nuclears (desintegracions alfa i beta) de la cadena del tori-232
+  fins al plom-208 a partir de la llista d'isòtops intermedis; percentatge de tori-232 que
+  queda sense desintegrar al cap de 2,0·10^10 anys.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [15]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+paraules_clau: [tori-232, plom-208, sèrie radioactiva, desintegració alfa, desintegració beta, antineutrí, període de semidesintegració, constant de desintegració]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal identificar el tipus de cada una de les deu desintegracions a partir dels canvis
+  d'A i Z i aplicar la llei de desintegració exponencial amb el període de semidesintegració.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Reaccions de la cadena de desintegració del Th-232 fins al Pb-208.
+  - etiqueta: "b"
+    punts: 1
+    resum: Percentatge de Th-232 que roman sense desintegrar al cap de 2,0·10^10 anys.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada
+  apartat; els punts (1 + 1) són els de la pauta. A la pauta, «es restaran 0,1 p» apareix
+  en vermell (descompte, no puntuació parcial) i s'ha transcrit en vermell. A l'apartat b
+  de la pauta hi ha unes marques espúries («10^{10.'}», «10^{10'}») a l'exponent, que no
+  s'han transcrit.

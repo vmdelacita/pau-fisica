@@ -1,0 +1,47 @@
+id: 2016_ord_s3_P3A_ratpenats-ultrasons-eco
+titol: Ecolocalització dels ratpenats amb ultrasons
+resum: >-
+  Longitud d'ona i període dels ultrasons d'un ratpenat i diferència de fase de l'eco
+  d'un mosquit entre les dues orelles; quocient d'intensitats dels ecos a les dues orelles
+  i diferència de nivells d'intensitat sonora en decibels.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones harmòniques i equació d'ona
+  - ones sonores i nivell d'intensitat
+paraules_clau: [ratpenat, ultrasons, eco, longitud d'ona, diferència de fase, intensitat sonora, nivell d'intensitat, decibels]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Combina la relació v = lambda f, la diferència de fase per diferència de camins i la
+  llei de l'invers del quadrat amb la diferència de nivells en decibels.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Longitud d'ona i període dels ultrasons i diferència de fase de l'eco entre les dues orelles.
+  - etiqueta: "b"
+    punts: 1
+    resum: Quocient d'intensitats dels ecos a les dues orelles i diferència de nivells en dB.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Ratpenat que rep els ecos de dos mosquits amb raigs cap a cada orella
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text introductori. A la pauta, un
+  subíndex s'escriu «dretra» (L_dretra), i així s'ha transcrit.

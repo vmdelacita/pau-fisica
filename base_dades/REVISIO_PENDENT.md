@@ -188,3 +188,55 @@ Afegit el 2026-09-23. 19 exercicis amb comentaris `% DUBTE:`. Els altres detalls
 ## 2022_ord_s5_P5_residus-radioactius-semidesintegracio
 
 - pauta: a la via alternativa, la pauta original dona els temps t1 i t2 en segons ("s"), però els valors (60, 330, 600...) són en realitat minuts, tal com surten a la taula de l'enunciat, i tal com fa falta perquè lambda surti en min^-1. Es transcriu la unitat "s" tal com apareix a l'original.
+
+# Lot 2a: exàmens de 2016–2018
+
+Afegit el 2026-09-24. 11 exercicis amb comentaris `% DUBTE:`. Els altres detalls (errates menors de redacció, figures recol·locades, punts decimals passats a coma) són a les `notes` de cada exercici.
+
+## 2016_ext_s1_P3A_orgue-sagrada-familia-tub
+
+- pauta: s'escriu «λ_0(m) = 2l/n» on hauria de ser «λ_n(m)».
+
+## 2016_ord_s3_P4B_potassi-40-desintegracio-beta
+
+- enunciat i pauta: el fotó gamma és «de 1 460 MeV» (comprovat a l'original). El raig gamma real del potassi 40 és d'1 460 keV (1,460 MeV). Amb MeV, la disminució de massa de la pauta (2,60·10⁻²⁷ kg) és més gran que la massa d'un nucleó. **Error de l'enunciat original**: potser convé editar-lo.
+
+## 2016_ord_s5_P5B_particula-alfa-camp-magnetic
+
+- pauta: errata «perpendicular a la la velocitat».
+
+## 2017_ext_s2_P3B_iode-131-radioterapia
+
+- pauta: a l'exponent falta el signe de multiplicar («e^{−0,086424,06}» per 0,0864·24,06).
+
+## 2017_ext_s2_P4A_rado-222-224-desintegracio
+
+- pauta: els subíndexs de les constants de desintegració diuen «Ra» en lloc de «Rn».
+- pauta: falta el signe menys a ln(9,00·10⁻²/1,00·10⁻¹) = −7,56·10⁻³ t. El resultat t = 13,9 h és correcte.
+
+## 2017_ext_s2_P5A_bobina-rectangular-fem-induida
+
+- pauta: a la substitució numèrica desapareix el signe menys de ε = −NωBA sin ωt.
+
+## 2017_ord_s1_P4A_sal-comuna-nacl-ions
+
+- pauta: «9,76·19⁻¹⁹» en lloc de 9,76·10⁻¹⁹ (dues vegades).
+- pauta: «qEd = 1,6·10⁻¹⁹·50·0,02 = −1,6·10⁻¹⁹ J», un producte de valors positius amb resultat negatiu.
+
+## 2017_ord_s1_P5B_nucli-radioactiu-activitat
+
+- pauta: el valor sota la clau és 2,36·10⁶, però el càlcul dona 2,44·10⁶. El resultat final (2,82·10³ Bq) és coherent amb 2,44·10⁶.
+
+## 2017_ord_s5_P2_remer-barca-ones
+
+- pauta: la velocitat es dona en «m» en lloc de «m/s».
+- pauta: a la primera línia de la clau falta el signe «=»: «y(x,t)A sin(…)».
+
+## 2018_ord_s5_P5A_bobina-gir-fem-alterna
+
+- pauta: «ω = 2π rad», però als càlculs fa servir ω = 20π rad/s (10 voltes per segon).
+- pauta: ε(1,28 s) = 0,247 V surt de calcular el sinus en graus. En radians, ε = 0,251·sin(25,6π) ≈ −0,239 V.
+
+## 2025_mostra_experiments_Q5_capsula-petri-equipotencials
+
+- No és un dubte: ara té la pauta oficial del P4B de juny de 2017 (sèrie 1) i els punts oficials (1 + 1 = 2 punts, abans 1,25 + 1,25 inventats). Vegeu `RESUM_LOT2A.md`.

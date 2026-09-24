@@ -13,8 +13,8 @@ font:
   opcio: null
   pdf_enunciat: documents oficials/02_pau25_fisica_QuestionsExperiments.pdf
   pagines_enunciat: [7]
-  pdf_solucio: documents oficials/02_pau25_fisica_QuestionsExperiments.pdf
-  pagines_solucio: []
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [8]
 format: nou
 curriculum: actual
 bloc: Camps electromagnètics
@@ -28,24 +28,30 @@ dificultat: 2
 justificacio_dificultat: >-
   Aplicació directa de E = ΔV/d i W = qΔV en un muntatge experimental senzill, amb un
   dibuix qualitatiu de les equipotencials.
-punts_total: 2.5
+punts_total: 2
 apartats:
   - etiqueta: "a"
-    punts: 1.25
+    punts: 1
     resum: Camp elèctric entre les plaques (mòdul, direcció, sentit) i dibuix de les equipotencials amb el seu potencial.
   - etiqueta: "b"
-    punts: 1.25
+    punts: 1
     resum: Treball d'una força externa per portar 0,1 µC d'un punt a 7,0 V fins a la placa positiva.
 figures:
   - fitxer: fig1.png
     on: enunciat
     descripcio: Càpsula de Petri amb dues plaques paral·leles a 0 V i 12 V i una sonda connectada al voltímetre
-solucio_oficial: false
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Plaques a 0 V i 12 V amb les superfícies equipotencials de 3 V, 6 V i 9 V i les línies de camp dirigides cap a l'esquerra
+solucio_oficial: true
 revisat: false
 notes: >-
-  Segon dels "dos exemples de preguntes" del document "Qüestions d'interpretació i anàlisi
-  d'experiments" (apartat Reconeixement de línies de camp elèctric i superfícies
-  equipotencials). El document l'identifica com a "PAU 2017 JUNY OPCIÓ B P4" (és una imatge
-  escanejada de l'examen); pot estar duplicat amb l'exercici de la convocatòria 2017 si
-  s'ha transcrit. Allà sí que hi hauria pauta oficial i puntuació. Aquí no es dona puntuació
-  ni solució: s'han repartit 2,5 punts a parts iguals (1,25 + 1,25).
+  És el problema P4 de l'opció B de la PAU de Física de juny de 2017 (sèrie 1,
+  examenes/pau_fisi17jl.pdf, pàgina 4). La pauta és l'oficial d'aquella convocatòria
+  (examenes/pau_fisi17jp.pdf, pàgina 8) i no s'ha duplicat a la base de dades: a la
+  convocatòria 2017_ord_s1 aquest exercici ocupa la posició del P4B. El document
+  "Qüestions d'interpretació i anàlisi d'experiments" el reprodueix com a segon exemple
+  (apartat Reconeixement de línies de camp elèctric i superfícies equipotencials) i
+  l'identifica com a "PAU 2017 JUNY OPCIÓ B P4"; el text coincideix amb el de 2017. Els
+  punts dels apartats (1 + 1, total 2) són els oficials de 2017. A la pauta, la figura
+  de la solució està retallada pel marge dret a l'original.

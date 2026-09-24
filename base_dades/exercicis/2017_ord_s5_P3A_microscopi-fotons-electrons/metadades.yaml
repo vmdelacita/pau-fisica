@@ -1,0 +1,50 @@
+id: 2017_ord_s5_P3A_microscopi-fotons-electrons
+titol: Poder de resolució dels microscopis òptic i electrònic
+resum: >-
+  Energia i quantitat de moviment d'un fotó de 400 nm d'un microscopi òptic; longitud
+  d'ona de De Broglie d'electrons amb una quantitat de moviment donada i comparació del
+  poder de resolució dels microscopis electrònic i òptic.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [12]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - fotons i energia de la radiació
+  - dualitat ona-partícula
+paraules_clau: [microscopi òptic, microscopi electrònic, poder de resolució, fotó, quantitat de moviment, longitud d'ona de De Broglie, constant de Planck]
+tipus: [càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa d'E = hf, p = E/c i λ = h/p, amb una comparació senzilla de longituds
+  d'ona per decidir quin microscopi resol millor.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Energia i quantitat de moviment dels fotons de 400 nm.
+  - etiqueta: "b"
+    punts: 1
+    resum: Longitud d'ona dels electrons i relació entre els poders de resolució dels dos microscopis.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'un microscopi electrònic en un laboratori (decorativa)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat original no indica la puntuació de cada
+  apartat; els punts (1 + 1) són els de la pauta. A l'original la fotografia és al costat
+  del text introductori. A la pauta, alguns resultats porten una segona puntuació a la
+  dreta de la línia (0,2 p + 0,2 p, 0,3 p + 0,3 p), que s'ha transcrit al final de la
+  línia.

@@ -1,0 +1,49 @@
+id: 2018_ord_s1_P1_bohr-hidrogen-forca-potencial
+titol: Àtom d'hidrogen de Bohr, força elèctrica i potencial
+resum: >-
+  Força elèctrica entre el protó i l'electró de l'àtom d'hidrogen en el model de Bohr i
+  acceleració de l'electró; potencial elèctric creat pel protó a la distància de l'òrbita
+  i energia potencial del sistema en eV.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: ["Física relativista, quàntica i nuclear"]
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+  - model de Bohr i espectres atòmics
+paraules_clau: [àtom d'hidrogen, model de Bohr, llei de Coulomb, força elèctrica, acceleració, potencial elèctric, energia potencial, electronvolt]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de la llei de Coulomb, la segona llei de Newton i les expressions del
+  potencial i l'energia potencial, amb conversió a eV.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Mòdul de la força elèctrica del protó sobre l'electró i acceleració que li provoca.
+  - etiqueta: "b"
+    punts: 1
+    resum: Potencial elèctric a la distància r del protó i energia potencial (en eV) del sistema.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Electró en òrbita circular al voltant del protó, amb la força F, la velocitat v i el radi r
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'original la figura és a la dreta del text. A la
+  pauta els punts decimals («0.3 p», «27.1V», «-27.1eV») s'han passat a coma; a l'apartat a
+  el darrer «0.2 p» apareix darrere del resultat de l'acceleració.

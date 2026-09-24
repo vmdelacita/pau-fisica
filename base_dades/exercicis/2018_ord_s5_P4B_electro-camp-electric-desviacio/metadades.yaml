@@ -1,0 +1,42 @@
+id: 2018_ord_s5_P4B_electro-camp-electric-desviacio
+titol: "Electró desviat per un camp elèctric uniforme"
+resum: >-
+  Comparació entre la força elèctrica i la força gravitatòria sobre un electró en un camp elèctric uniforme; desviació vertical de l'electró després de recórrer 1 cm en la direcció perpendicular al camp.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [13]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps elèctrics
+paraules_clau: [electró, camp elèctric uniforme, força elèctrica, força gravitatòria, desviació, moviment parabòlic, acceleració]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Combina la comparació de forces amb una cinemàtica de tipus tir horitzontal (MRU en x i MRUA en y): problema PAU típic.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Quantes vegades és més gran la força elèctrica que la gravitatòria sobre l'electró."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Desviació vertical de l'electró després de recórrer 1,0 cm en la direcció x."
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: "Electró amb velocitat inicial v0 horitzontal que entra en un camp elèctric E vertical cap avall"
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. La pauta fa servir g = 9,80 m/s² (l'enunciat dona 9,81 m s⁻²); el resultat 3,6×10^13 no canvia. A la pauta la figura és a la dreta de l'apartat a.

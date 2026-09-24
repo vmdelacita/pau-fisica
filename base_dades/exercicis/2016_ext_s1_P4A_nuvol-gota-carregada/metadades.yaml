@@ -1,0 +1,49 @@
+id: 2016_ext_s1_P4A_nuvol-gota-carregada
+titol: Gota d'aigua carregada sota un núvol
+resum: >-
+  Camp elèctric uniforme entre un núvol carregat positivament a 4,7 km d'altura i el terra
+  (ΔV = 2,3·10⁶ V); esquema de càrregues i camps, i càrrega (valor i signe) d'una gota
+  d'1,3 mg que puja a velocitat constant.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi16sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi16sp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: [Camps gravitatoris]
+subtemes:
+  - equilibri de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+  - camp elèctric i llei de Coulomb
+paraules_clau: [núvol, gota d'aigua, camp elèctric uniforme, diferència de potencial, velocitat constant, equilibri de forces, pes, càrrega negativa]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Relació E = ΔV/d en un camp uniforme i equilibri entre el pes i la força elèctrica
+  (velocitat constant), amb un raonament senzill del signe de la càrrega.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Esquema de càrregues i camps i càlcul del camp elèctric (mòdul, direcció i sentit).
+  - etiqueta: "b"
+    punts: 1
+    resum: Valor de la càrrega de la gota en nC i justificació del signe.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Núvol positiu, terra negatiu, camp elèctric cap avall i gota negativa amb velocitat cap amunt i pes cap avall
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona els punts de cada apartat; s'ha
+  repartit 1 punt per apartat, d'acord amb la pauta. A la nota de la pauta «0.1 punts»
+  s'ha passat a «0,1 punts».

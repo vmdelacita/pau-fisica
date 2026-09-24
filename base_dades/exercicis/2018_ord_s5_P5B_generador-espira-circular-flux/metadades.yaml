@@ -1,0 +1,46 @@
+id: 2018_ord_s5_P5B_generador-espira-circular-flux
+titol: "Generador simplificat: espira circular que gira en un camp magnètic"
+resum: >-
+  Flux magnètic a través d'una espira circular que gira a 300 rpm en un camp de 60 mT en tres posicions separades 45°; instant en què la fem és zero i fem induïda en les altres dues posicions.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [14]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+  - generadors, motors i transformadors
+paraules_clau: [generador, espira circular, flux magnètic, força electromotriu induïda, llei de Faraday, revolucions per minut, velocitat angular]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar les tres vistes de l'espira per obtenir l'angle entre camp i superfície i relacionar la fem amb el sinus d'aquest angle (fem nul·la quan el flux és màxim).
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Flux magnètic a les situacions a, b i c."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Instant en què la fem és zero i fem induïda en els altres dos instants."
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: "Vista de perfil de l'espira en les situacions a, b i c (girada 0°, 45° i 90°) amb les línies de camp magnètic verticals"
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: "Les mateixes tres situacions (a), (b) i (c) de l'espira en el camp magnètic"
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta la figura apareix al començament del problema, abans de l'apartat a.

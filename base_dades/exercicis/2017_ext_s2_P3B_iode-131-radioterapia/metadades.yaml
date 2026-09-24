@@ -1,0 +1,50 @@
+id: 2017_ext_s2_P3B_iode-131-radioterapia
+titol: Iode 131 per a la radioteràpia de tiroide
+resum: >-
+  Equacions de la desintegració β⁻ del ¹³¹I en xenó i de l'emissió γ posterior;
+  percentatge de ¹³¹I que queda al cap de 24,06 dies (tres períodes de
+  semidesintegració) i longitud d'ona dels fotons γ de 364 keV.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi17sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi17sp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - fotons i energia de la radiació
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [iode 131, radioteràpia, tiroide, desintegració beta, emissió gamma, xenó, període de semidesintegració, longitud d'ona del fotó]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Equacions nuclears senzilles, llei de desintegració amb un nombre enter de períodes
+  i relació directa E = hc/λ per al fotó γ.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equacions nuclears de l'emissió β⁻ i γ i percentatge de ¹³¹I que queda després de 24,06 dies.
+  - etiqueta: "b"
+    punts: 1
+    resum: Longitud d'ona dels fotons γ de 364 keV.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). A l'exponent de la pauta falta el signe de
+  multiplicar («e^{−0,086424,06}» per 0,0864·24,06; vegeu el % DUBTE). La partícula β
+  s'escriu a la pauta amb superíndex «−1» i l'antineutrí amb subíndex «e−»; es
+  mantenen així, com els símbols dels nuclis en cursiva. A l'apartat b les dues
+  expressions estan agrupades amb una clau que dona λ = 3,41·10⁻¹² m (0,6 p). Les
+  dades de l'enunciat inclouen la massa de l'electró, que no cal per resoldre'l.

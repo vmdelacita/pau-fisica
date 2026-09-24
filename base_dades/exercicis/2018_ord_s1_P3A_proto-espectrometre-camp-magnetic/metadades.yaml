@@ -1,0 +1,44 @@
+id: 2018_ord_s1_P3A_proto-espectrometre-camp-magnetic
+titol: Protó i electró en un espectròmetre de masses
+resum: >-
+  Força magnètica (vector) sobre un protó que entra en un espectròmetre de masses amb
+  velocitat i camp magnètic donats; camp magnètic (mòdul, direcció i sentit) necessari
+  perquè un electró amb la mateixa velocitat segueixi la mateixa trajectòria.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps magnètics
+  - selector de velocitats, espectròmetre i ciclotró
+paraules_clau: [protó, electró, espectròmetre de masses, força de Lorentz, producte vectorial, radi de la trajectòria, camp magnètic]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal calcular una força amb el producte vectorial i raonar, igualant els radis de les
+  trajectòries, el mòdul i el sentit del camp per a una partícula de càrrega oposada.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Força (mòdul, direcció i sentit) sobre el protó.
+  - etiqueta: "b"
+    punts: 1
+    resum: Camp magnètic perquè un electró amb la mateixa velocitat segueixi la mateixa trajectòria que el protó.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta els punts decimals («0.2 p») s'han passat
+  a coma. L'enunciat dona la constant k com a dada, tot i que no cal per resoldre'l.

@@ -1,0 +1,51 @@
+id: 2017_ord_s1_P4A_sal-comuna-nacl-ions
+titol: Enllaç iònic de la sal comuna (NaCl)
+resum: >-
+  Separació entre els ions Na⁺ i Cl⁻ a partir de l'energia potencial elèctrica del
+  sistema; treball necessari per separar-los fins a 2 cm quan s'aplica un camp elèctric
+  uniforme de 50,0 N/C a l'ió Na⁺.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi17jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi17jp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - potencial i energia potencial elèctrica
+  - camp elèctric i llei de Coulomb
+paraules_clau: [sal comuna, clorur de sodi, enllaç iònic, ions, energia potencial elèctrica, treball, camp elèctric uniforme]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  L'apartat a és directe; el b combina el treball contra l'atracció mútua amb el treball
+  contra un camp extern i és ambigu (la pauta accepta dos sentits del camp).
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Separació entre els ions a partir de l'energia potencial elèctrica.
+  - etiqueta: "b"
+    punts: 1
+    resum: Treball per separar els ions fins a 2 cm amb un camp uniforme aplicat a Na⁺.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'un munt de sal comuna
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). Errates de la pauta transcrites tal com són (amb
+  % DUBTE): a l'apartat b s'escriu «9,76·19^-19» en lloc de 9,76·10^-19 als dos
+  treballs totals, i en el cas (*) el producte qEd de valors positius dona «-1,6·10^-19
+  J». També «8.16» i «0.236nm» amb punt decimal, passats a coma. Es respecta «força de
+  atracció» i «(*) ó (**)» de l'original.

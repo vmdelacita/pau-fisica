@@ -1,0 +1,50 @@
+id: 2018_ext_s3_P4A_particula-camp-magnetic-radi
+titol: Partícula carregada en un camp magnètic uniforme
+resum: >-
+  Dibuix de la força magnètica inicial i velocitat d'una partícula negativa que descriu
+  una circumferència de 0,30 m en un camp magnètic de 0,50 T; període, velocitat angular
+  i energia cinètica a l'entrada i després d'una volta.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi18sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi18sp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps magnètics
+paraules_clau: [força de Lorentz, camp magnètic uniforme, trajectòria circular, radi de la trajectòria, període, velocitat angular, energia cinètica, moviment circular uniforme]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de qvB = mv²/r, del període i de l'energia cinètica, amb el dibuix
+  de la força (càrrega negativa) i una justificació qualitativa de la conservació de Ec.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Dibuix de la força magnètica inicial i càlcul de la velocitat.
+  - etiqueta: "b"
+    punts: 1
+    resum: Període, velocitat angular i energia cinètica a l'entrada i després d'una volta.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Partícula que entra amb velocitat v cap a la dreta en una regió de camp magnètic entrant al paper
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Trajectòria circular amb la velocitat cap a la dreta i la força magnètica cap avall, amb eixos x, y, z
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A la pauta el 0,4 p de l'apartat a correspon al
+  dibuix de la força i és a l'esquerra de la figura; s'ha esborrat del retall i s'ha
+  escrit com a text. A l'original la figura de l'enunciat és al costat del text.

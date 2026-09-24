@@ -1,0 +1,50 @@
+id: 2018_ord_s1_P2_forat-negre-michell-escapament
+titol: Forat negre de Michell i velocitat d'escapament
+resum: >-
+  Massa d'un cos esfèric amb la densitat del Sol i 500 vegades el seu radi i velocitat
+  d'escapament des de la seva superfície (comparada amb la de la llum); intensitat del camp
+  gravitatori a la superfície i força sobre una massa d'1 µg.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 1
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - velocitat d'escapament
+  - camp gravitatori i superposició
+  - llei de la gravitació universal
+paraules_clau: [forat negre, John Michell, ones gravitatòries, densitat, velocitat d'escapament, conservació de l'energia, intensitat del camp gravitatori, pes]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal relacionar la massa amb el radi mitjançant la densitat, aplicar la conservació de
+  l'energia per obtenir la velocitat d'escapament i calcular el camp i la força a la
+  superfície indicant-ne direcció i sentit.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Massa del cos amb la densitat del Sol i 500 vegades el seu radi i velocitat d'escapament des de la superfície.
+  - etiqueta: "b"
+    punts: 1
+    resum: Intensitat del camp gravitatori a la superfície del cos i força sobre 1 µg.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Il·lustració de dos forats negres en col·lisió que generen ones gravitatòries
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'original la imatge és a la dreta del primer
+  paràgraf; aquí s'ha col·locat després. A la pauta els punts decimals («0.2 p») s'han
+  passat a coma; a l'apartat b el «0.3 p» apareix darrere del valor de g.

@@ -1,0 +1,45 @@
+id: 2016_ord_s3_P2_molles-mhs-frequencia-doble
+titol: Dues molles idèntiques oscil·lant amb freqüències diferents
+resum: >-
+  Massa que cal penjar d'una molla idèntica perquè oscil·li amb freqüència doble;
+  gràfica velocitat-temps de les dues oscil·lacions durant 2 s i instants en què la
+  diferència de fase és de pi radians.
+font:
+  tipus: examen
+  any: 2016
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi16jl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi16jp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [molla, oscil·lador harmònic, constant elàstica, freqüència angular, període, velocitat màxima, gràfica velocitat-temps, diferència de fase]
+tipus: [càlcul, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  El càlcul de la massa és directe, però cal construir amb escales la gràfica v(t) de
+  dues oscil·lacions i interpretar-hi la diferència de fase.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Massa que cal penjar a la segona molla perquè oscil·li amb freqüència doble.
+  - etiqueta: "b"
+    punts: 1
+    resum: Gràfica velocitat-temps dels dos objectes durant 2 s i instants amb diferència de fase de pi rad.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica velocitat-temps dels objectes A i B entre 0 i 2 s, amb els instants 0,5 s i 1,5 s marcats
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt.

@@ -1,0 +1,52 @@
+id: 2018_ext_s3_P3B_nuvol-dues-carregues-camp
+titol: Model de dues càrregues puntuals en un núvol
+resum: >-
+  Vector camp elèctric creat en un punt P per un núvol modelitzat com dues càrregues
+  puntuals (+40 C a 10 km i -30 C a 4 km d'altura); energia potencial electrostàtica
+  emmagatzemada en el núvol.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: extraordinaria
+  serie: 3
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi18sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi18sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [núvol, tempesta, càrregues puntuals, camp elèctric, principi de superposició, components vectorials, energia potencial electrostàtica]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Superposició vectorial de dos camps en dues dimensions, amb descomposició a 45° a
+  partir de la geometria de la figura, i càlcul directe de l'energia potencial.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Vector camp elèctric creat pel núvol en el punt P.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia potencial electrostàtica emmagatzemada en el núvol.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Núvol amb una càrrega positiva a 10 km i una de negativa a 4 km d'altura i el punt P a 6 km horitzontals de la positiva
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Mateix esquema amb els vectors camp E1 (horitzontal) i E2 (cap a la càrrega negativa) al punt P
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. A l'original la figura de l'enunciat és al costat
+  del text. A la figura de la pauta l'etiqueta del vector E1 surt deformada a
+  l'original. A la pauta de l'apartat a, el segon 0,2 p és a la dreta del resultat de
+  E2; l'angle β es dona sense signe.

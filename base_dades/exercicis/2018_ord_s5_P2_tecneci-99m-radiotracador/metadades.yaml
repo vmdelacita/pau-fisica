@@ -1,0 +1,40 @@
+id: 2018_ord_s5_P2_tecneci-99m-radiotracador
+titol: "Tecneci-99m com a radiotraçador en medicina"
+resum: >-
+  Nombre màssic, atòmic i de neutrons del tecneci-99m i reacció de desintegració gamma; massa que queda d'una dosi de 2 ng al cap de 24 hores amb un període de semidesintegració de 6 hores.
+font:
+  tipus: examen
+  any: 2018
+  convocatoria: ordinaria
+  serie: 5
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi18jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi18jp.pdf
+  pagines_solucio: [9]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [tecneci-99m, radiotraçador, medicina nuclear, isòtop metaestable, desintegració gamma, període de semidesintegració, nombre màssic, neutrons]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Composició d'un nucli i reacció gamma directes; la llei de desintegració amb un temps que és un múltiple exacte del període de semidesintegració.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Nombre màssic, nombre atòmic i nombre de neutrons; reacció de desintegració gamma."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Massa d'isòtop que queda al cos passades 24 hores."
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual.

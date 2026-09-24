@@ -1,0 +1,49 @@
+id: 2017_ext_s2_P3A_particula-alfa-nucli-urani
+titol: Partícula alfa dirigida cap a un nucli d'urani
+resum: >-
+  Comparació del mòdul del camp elèctric creat per un nucli d'urani a 0,008 nm i a
+  0,008 pm del centre; energia cinètica mínima que ha de tenir una partícula α en el
+  punt més llunyà per arribar a la superfície del nucli.
+font:
+  tipus: examen
+  any: 2017
+  convocatoria: extraordinaria
+  serie: 2
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi17sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi17sp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+  - moviment de càrregues en camps elèctrics
+paraules_clau: [partícula alfa, nucli d'urani, camp elèctric, càrrega puntual, energia potencial elèctrica, conservació de l'energia, energia cinètica mínima]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Quocient de camps elèctrics a dues distàncies i aplicació de la conservació de
+  l'energia amb l'energia potencial electrostàtica entre dues càrregues puntuals.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Relació entre els mòduls del camp elèctric del nucli als punts A i B.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia cinètica mínima de la partícula α a A per arribar a B.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Nucli d'urani de radi R = 0,008 pm amb el punt B a la superfície i el punt A a 0,008 nm del centre
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació dels apartats;
+  s'ha pres la de la pauta (1 + 1). A la pauta la conclusió de l'apartat a diu «es un
+  milió» (sense accent), i s'ha deixat tal com és.
