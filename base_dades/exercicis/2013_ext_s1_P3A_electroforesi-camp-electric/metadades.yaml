@@ -1,0 +1,55 @@
+id: 2013_ext_s1_P3A_electroforesi-camp-electric
+titol: Camp elèctric uniforme en un aparell d'electroforesi
+resum: >-
+  Línies de camp i superfícies equipotencials entre dos elèctrodes a 300 V separats
+  20 cm, valor del camp elèctric i sentit del moviment de les partícules positives i
+  negatives; força elèctrica i força de fricció sobre una molècula de timina carregada que
+  es mou amb velocitat constant.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi13sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi13sp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - línies de camp i superfícies equipotencials
+  - potencial i energia potencial elèctrica
+  - moviment de càrregues en camps elèctrics
+paraules_clau: [electroforesi, camp elèctric uniforme, elèctrodes, superfícies equipotencials, diferència de potencial, timina, força de fricció, moviment rectilini uniforme]
+tipus: [diagrama, càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Camp uniforme E = ΔV/d, dibuix de línies de camp i equipotencials i equilibri de
+  forces en un moviment uniforme: passos estàndard en un context aplicat.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Dibuixar línies de camp i equipotencials amb els seus potencials, calcular el camp i indicar el moviment de les partícules positives i negatives.
+  - etiqueta: "b"
+    punts: 1
+    resum: Força elèctrica i força de fricció sobre una molècula de timina amb càrrega -1,60·10^-19 C.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Cubeta d'electroforesi entre dos elèctrodes connectats a una font de 300 V de corrent continu
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Línies de camp horitzontals de l'elèctrode positiu al negatiu i equipotencials verticals de 300 V, 200 V, 100 V i 0 V
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text.
+  A la pauta les puntuacions són en requadres, excepte la segona de l'apartat a, que és
+  entre claudàtors; la puntuació de 0,2 p del dibuix és al costat de la figura. Es
+  conserven les unitats en cursiva i «modul» sense accent de l'original.

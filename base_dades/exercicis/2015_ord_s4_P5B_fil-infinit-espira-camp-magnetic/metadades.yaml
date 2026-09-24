@@ -1,0 +1,45 @@
+id: 2015_ord_s4_P5B_fil-infinit-espira-camp-magnetic
+titol: Camp magnètic d'un fil infinit i d'una espira al centre de l'espira
+resum: >-
+  Vectors del camp magnètic creat al centre d'una espira circular pel fil infinit proper (2 A a 5 cm) i per la mateixa espira (500 mA, 2 cm de diàmetre); camp total i intensitat que ha de circular per l'espira perquè el camp total sigui nul.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [17, 18]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+paraules_clau: [fil infinit, espira circular, camp magnètic, superposició, regla de la mà dreta, camp nul, intensitat de corrent]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Aplicació de les expressions donades amb determinació del sentit de cada camp i superposició vectorial; després cal invertir el problema per trobar la intensitat.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Vector camp magnètic al centre de l'espira creat pel fil infinit i per la mateixa espira.
+  - etiqueta: "b"
+    punts: 1
+    resum: Camp magnètic total al centre i nova intensitat de l'espira perquè el camp total sigui nul.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fil vertical amb corrent I = 2 A cap amunt i espira circular a d = 5,0 cm amb corrent de 500 mA en sentit antihorari
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: El mateix esquema del fil i l'espira amb els eixos de coordenades x, y, z
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la figura de l'enunciat és a la dreta del text. A la pauta, la figura amb els eixos és al final de la pàgina 17, abans del títol del P5. A l'apartat b la pauta escriu B_total = B_espira − B_fil∞ en notació vectorial restant els mòduls (com a suma vectorial hauria de ser +, amb B_fil∞ negatiu); es transcriu tal com és amb % DUBTE.

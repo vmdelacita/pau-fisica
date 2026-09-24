@@ -1,0 +1,24 @@
+id: 2013_ord_s4
+any: 2013
+convocatoria: ordinaria
+serie: 4
+format: antic
+pdf_enunciat: examenes/pau_fisi13jl.pdf
+pdf_solucio: examenes/pau_fisi13jp.pdf
+# El PDF de l'enunciat conté les sèries 4 i 3: la sèrie 4 és a les pàgines 1-4.
+# El PDF de la pauta conté les sèries 4 i 3: la sèrie 4 és a les pàgines 1-5.
+# La pauta no té criteris generals d'avaluació (no hi ha criteris_generals.tex).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les opcions
+  (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2013_ord_s4_P1_ceres-planeta-nan
+  - 2013_ord_s4_P2_vibracions-molesties-mhs
+  - 2013_ord_s4_P3A_llentia-carregada-lamines
+  - 2013_ord_s4_P4A_americi-241-seaborg
+  - 2013_ord_s4_P5A_espira-circular-flux-fem
+  - 2013_ord_s4_P3B_quadrat-dues-carregues
+  - 2013_ord_s4_P4B_datacio-potassi-argo
+  - 2013_ord_s4_P5B_espira-triangular-fem

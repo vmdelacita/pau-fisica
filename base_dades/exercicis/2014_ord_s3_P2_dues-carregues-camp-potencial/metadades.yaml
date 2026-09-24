@@ -1,0 +1,50 @@
+id: 2014_ord_s3_P2_dues-carregues-camp-potencial
+titol: Camp i potencial de dues càrregues puntuals
+resum: >-
+  Camp elèctric i potencial en un punt creat per dues càrregues puntuals situades als
+  eixos, amb un esquema dels camps; treball fet pel camp en traslladar una càrrega entre
+  dos punts.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [1]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [càrregues puntuals, principi de superposició, camp elèctric, potencial elèctric, treball del camp elèctric, diferència de potencial]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Superposició vectorial de dos camps en 2D amb descomposició en components, més càlcul de
+  potencials i treball; problema PAU típic.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Camp i potencial en el punt A (4, 0) m i esquema dels camps."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Treball del camp elèctric per portar 1 C de A a B (4, 3) m."
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema de les càrregues q1 i q2 i dels camps E1, E2 i ET en el punt A
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta, les distàncies d(q2, A) i d(q1, B)
+  s'escriuen com a √(3² + 4⁴) = 5 m: errata evident (hauria de ser 4²), transcrita tal com
+  és amb % DUBTE. A la pauta hi ha «7.19» i «−5.75» amb punt decimal (passats a coma). La
+  pauta anomena les càrregues q1 i q2 (Q1 i Q2 a l'enunciat).

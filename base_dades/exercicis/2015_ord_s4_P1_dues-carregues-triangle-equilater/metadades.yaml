@@ -1,0 +1,43 @@
+id: 2015_ord_s4_P1_dues-carregues-triangle-equilater
+titol: Camp i potencial de dues càrregues oposades en el vèrtex d'un triangle equilàter
+resum: >-
+  Representació i càlcul del camp elèctric i del potencial creats per dues càrregues de 0,03 μC de signe contrari separades 40 cm en el tercer vèrtex del triangle equilàter; variació de l'energia potencial elèctrica del sistema en duplicar la distància entre les càrregues.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [11]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [dipol elèctric, càrregues de signe contrari, triangle equilàter, superposició, camp elèctric, potencial elèctric, energia potencial elèctrica]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Superposició vectorial de camps amb la simetria del triangle, potencial nul i variació de l'energia potencial amb raonament del signe: problema PAU típic.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Representar i calcular el camp elèctric en el tercer vèrtex del triangle equilàter i el potencial en aquest punt.
+  - etiqueta: "b"
+    punts: 1
+    resum: Variació de l'energia potencial elèctrica en duplicar la distància i si augmenta o disminueix.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Triangle equilàter amb les càrregues q+ i q- a la base i els vectors E+, E- i el camp resultant EP horitzontal en el vèrtex P
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la pauta, E_P = 1687 N/C (el càlcul dona 1686 N/C) i U_i = -2,03·10^-5 J (el càlcul dona -2,02·10^-5 J); es transcriu tal com és amb % DUBTE. A l'original la figura de la pauta és a la dreta del text de l'apartat a.

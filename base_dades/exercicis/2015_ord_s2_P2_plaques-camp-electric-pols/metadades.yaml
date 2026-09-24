@@ -1,0 +1,53 @@
+id: 2015_ord_s2_P2_plaques-camp-electric-pols
+titol: Partícules de pols entre dues plaques carregades
+resum: >-
+  Esquema de dues plaques paral·leles que creen un camp elèctric uniforme cap amunt, signe
+  de les càrregues i diferència de potencial; càrrega de dues partícules de pols, una en
+  equilibri i una altra que baixa amb una acceleració donada.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [2, 3]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - potencial i energia potencial elèctrica
+  - línies de camp i superfícies equipotencials
+  - equilibri de càrregues en camps elèctrics
+  - moviment de càrregues en camps elèctrics
+paraules_clau: [plaques paral·leles, camp elèctric uniforme, diferència de potencial, línies de camp, partícula de pols, equilibri, càrrega elèctrica, segona llei de Newton]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic: relació ΔV = Ed amb justificació del signe i aplicació de la segona
+  llei de Newton a dues partícules per deduir el valor i el signe de la càrrega.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Esquema amb el signe de les plaques i les línies de camp; diferència de potencial i el seu signe.
+  - etiqueta: "b"
+    punts: 1
+    resum: Càrrega de la partícula en equilibri i de la que baixa amb acceleració de 14,7 m/s².
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Dues plaques paral·leles horitzontals (negativa a dalt, positiva a baix) amb línies de camp E cap amunt
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Diagrames de forces de les partícules A (qE cap amunt i mg cap avall) i B (qE i mg cap avall)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. La pauta fa servir g = 9,8 m/s² tot i que
+  l'enunciat dona 9,81 (s'ha transcrit tal com és).

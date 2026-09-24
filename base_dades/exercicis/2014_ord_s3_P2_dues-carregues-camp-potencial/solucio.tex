@@ -1,0 +1,32 @@
+\begin{solapartat}
+Esquema dels camps elèctrics: \punts{0,1}
+\figura[0.4]{sol_fig1.png}
+% DUBTE: a l'original diu «\sqrt{3^2 + 4^4}» (errata per 3^2 + 4^2); es transcriu tal com és.
+\[ d(q_1, A) = 4\ \mathrm{m},\quad d(q_2, A) = \sqrt{3^2 + 4^4} = 5\ \mathrm{m} \]
+\[ \cos(\alpha) = \frac{4}{5},\quad \sin(\alpha) = \frac{3}{5} \]
+Calculem el camp elèctric:
+\[ \vec{E}_1 = \frac{1}{4\pi\epsilon_0}\,\frac{|q_1|}{d(q_1, A)^2}\,\vec{\imath} \ \text{\punts{0,1}} = 5,62\,\vec{\imath}\ \mathrm{N/C} \ \text{\punts{0,1}} \]
+\[ |\vec{E}_2| = \frac{1}{4\pi\epsilon_0}\,\frac{|q_2|}{d(q_2, A)^2} = 7,19\ \mathrm{N/C} \ \text{\punts{0,1}} \]
+\begin{align*}
+\vec{E}_2 &= |\vec{E}_2|\bigl(-\cos(\alpha)\vec{\imath} + \sin(\alpha)\vec{\jmath}\bigr) \ \text{\punts{0,1}} = 7,19\left(-\frac{4}{5}\vec{\imath} + \frac{3}{5}\vec{\jmath}\right)\\
+&= (-5,75\,\vec{\imath} + 4,31\,\vec{\jmath})\ \mathrm{N/C} \ \text{\punts{0,1}}
+\end{align*}
+\[ \vec{E}_T = (-0,14\,\vec{\imath} + 4,31\,\vec{\jmath})\ \mathrm{N/C} \ \text{\punts{0,1}} \]
+Ara calculem el potencial elèctric:
+\begin{align*}
+V_A = V_1 + V_2 &= \frac{1}{4\pi\epsilon_0}\left\{\frac{q_1}{d(q_1, A)} + \frac{q_2}{d(q_2, A)}\right\} \ \text{\punts{0,2}}\\
+&= 8,99\cdot 10^{9}\left\{\frac{1\cdot 10^{-8}}{4} + \frac{-2\cdot 10^{-8}}{5}\right\} = -13,5\ \mathrm{V} \ \text{\punts{0,1}}
+\end{align*}
+\end{solapartat}
+
+\begin{solapartat}
+Calculem el potencial en el punt B:
+% DUBTE: a l'original diu «\sqrt{3^2 + 4^4}» (errata per 3^2 + 4^2); es transcriu tal com és.
+\[ d(q_1, B) = \sqrt{3^2 + 4^4} = 5\ \mathrm{m},\quad d(q_2, B) = 4\ \mathrm{m} \]
+\begin{align*}
+V_B = V_1 + V_2 &= \frac{1}{4\pi\epsilon_0}\left\{\frac{q_1}{d(q_1, B)} + \frac{q_2}{d(q_2, B)}\right\} \ \text{\punts{0,2}}\\
+&= 8,99\cdot 10^{9}\left\{\frac{1\cdot 10^{-8}}{5} + \frac{-2\cdot 10^{-8}}{4}\right\} = -27\ \mathrm{V} \ \text{\punts{0,2}}
+\end{align*}
+El treball fet pel camp serà:
+\[ W = -(V_B - V_A)q \ \text{\punts{0,5}} = -(-27 + 13,5)1 = 13,5\ \mathrm{J} \ \text{\punts{0,1}} \]
+\end{solapartat}

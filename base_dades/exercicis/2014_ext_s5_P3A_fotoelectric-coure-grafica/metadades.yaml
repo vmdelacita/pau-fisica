@@ -1,0 +1,50 @@
+id: 2014_ext_s5_P3A_fotoelectric-coure-grafica
+titol: Efecte fotoelèctric en el coure a partir d'una gràfica
+resum: >-
+  A partir de la gràfica de l'energia cinètica dels electrons en funció de la freqüència
+  de la llum que il·lumina una superfície de coure, explicació i càlcul de la freqüència
+  llindar; càlcul de la constant de Planck (pendent) i de la velocitat dels electrons
+  emesos per a una longitud d'ona de 1,2·10⁻⁷ m.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi14sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi14sp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [efecte fotoelèctric, coure, freqüència llindar, constant de Planck, pendent, energia cinètica, gràfica, velocitat dels electrons]
+tipus: [càlcul, gràfic, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar la gràfica Ec–f (que no arriba a tallar l'eix de freqüències als punts
+  marcats) per extrapolar la freqüència llindar i obtenir h del pendent, i després aplicar
+  l'equació d'Einstein per calcular la velocitat.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Definició de llindar de freqüència i càlcul del seu valor a partir de la gràfica.
+  - etiqueta: "b"
+    punts: 1
+    resum: Constant de Planck a partir del pendent i velocitat dels electrons per a λ = 1,2·10⁻⁷ m.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica de l'energia cinètica (eV) en funció de la freqüència (10¹⁵ Hz), recta que passa per (2; 3,72) i (3; 7,86)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta, «3.72» amb punt decimal s'ha passat
+  a coma; «per a què» i «ve donada» es mantenen com a l'original.

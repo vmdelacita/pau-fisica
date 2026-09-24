@@ -1,0 +1,43 @@
+id: 2013_ord_s3_P1_galileu-satellits-orbita-circular
+titol: Satèl·lits del sistema de navegació Galileu en òrbita circular
+resum: >-
+  Període de rotació i velocitat orbital dels satèl·lits del sistema de navegació europeu Galileu, que descriuen òrbites circulars a 2,36·10^4 km d'altura sobre la Terra.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - lleis de Kepler
+paraules_clau: [Galileu, sistema de navegació, satèl·lit, òrbita circular, període orbital, velocitat orbital, tercera llei de Kepler]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de la segona llei de Newton a una òrbita circular per obtenir el període i, a partir d'aquest, la velocitat orbital.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Període de rotació dels satèl·lits Galileu.
+  - etiqueta: "b"
+    punts: 1
+    resum: Velocitat orbital dels satèl·lits.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Imatge de l'ESA amb un satèl·lit Galileu i les òrbites al voltant de la Terra (amb el peu «Esquema de les òrbites dels satèl·lits Galileu»)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. Els punts decimals de la pauta es passen a coma. A l'original la imatge és a la dreta del text i el peu de figura s'escriu com a text sota la imatge.

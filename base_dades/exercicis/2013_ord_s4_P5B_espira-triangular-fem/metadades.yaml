@@ -1,0 +1,53 @@
+id: 2013_ord_s4_P5B_espira-triangular-fem
+titol: FEM induïda en una espira triangular que entra en un camp magnètic
+resum: >-
+  Espira en forma de triangle rectangle isòsceles de 4,0 m de costat que avança a
+  2,0 m/s cap a una regió amb camp magnètic: expressió de la FEM induïda en endinsar-s'hi,
+  valor de B a partir de la FEM a t = 4,0 s, gràfica E(t) entre 0 i 8 s i sentit del corrent.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [espira triangular, camp magnètic uniforme, flux magnètic, àrea variable, llei de Faraday, llei de Lenz, força electromotriu induïda, sentit del corrent, gràfica FEM-temps]
+tipus: [càlcul, gràfic, qualitativa]
+dificultat: 4
+justificacio_dificultat: >-
+  Cal modelitzar l'àrea que entra en el camp en funció del temps (creixement quadràtic),
+  derivar el flux, representar la FEM per trams i aplicar la llei de Lenz per al sentit
+  del corrent.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Expressió de la FEM induïda quan l'espira entra en el camp i valor de B.
+  - etiqueta: "b"
+    punts: 1
+    resum: Gràfica E(t) entre 0 i 8 s i sentit del corrent induït en cada tram.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Espira en forma de triangle rectangle de catets l = 4,0 m amb velocitat v = 2,0 m/s cap a la dreta, vèrtex A a d = 6,0 m de la frontera d'una regió amb camp magnètic cap endins
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica ε (V) en funció de t (s), nul·la fins a 3 s, recta creixent fins a 320 V a 5 s i nul·la després
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la figura de l'enunciat, a «v = 2,0 m s⁻¹» el
+  signe menys de l'exponent no es veu a l'escaneig. A la pauta es llegeix «una triangle»,
+  «isócels», «es» (per «és»), «El enunciat», «del abast» i «ma dreta»; es transcriu tal
+  com és.

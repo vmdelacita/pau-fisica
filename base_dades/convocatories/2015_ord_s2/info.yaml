@@ -1,0 +1,26 @@
+id: 2015_ord_s2
+any: 2015
+convocatoria: ordinaria
+serie: 2
+format: antic
+pdf_enunciat: examenes/pau_fisi15jl.pdf
+pdf_solucio: examenes/pau_fisi15jp.pdf
+# El PDF de l'enunciat conté les sèries 2 i 4: la sèrie 2 és a les pàgines 1-4
+# (la pàgina 4 és en blanc).
+# El PDF de la pauta conté les sèries 2 i 4: la sèrie 2 és a les pàgines 1-9
+# (criteris generals a la pàgina 1).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2015_ord_s2_P1_teranyina-insecte-mhs
+  - 2015_ord_s2_P2_plaques-camp-electric-pols
+  - 2015_ord_s2_P3A_galatea-neptu-satellit
+  - 2015_ord_s2_P4A_tres-fils-quadrat-camp-forca
+  - 2015_ord_s2_P5A_urani-235-activitat-massa
+  - 2015_ord_s2_P3B_estacio-espacial-velocitat-escapament
+  - 2015_ord_s2_P4B_transformador-bobines-220-110
+  - 2015_ord_s2_P5B_cellula-fotoelectrica-llum-blava

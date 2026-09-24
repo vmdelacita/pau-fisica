@@ -1,0 +1,52 @@
+id: 2013_ext_s1_P4B_clarinet-tub-harmonic-decibels
+titol: Ones estacionàries en un clarinet i nivell d'intensitat sonora
+resum: >-
+  Llargària d'un clarinet, assimilat a un tub obert per un extrem i tancat per l'altre, a
+  partir de la figura del tercer mode de vibració i de la seva freqüència (637 Hz);
+  augment del nivell d'intensitat sonora en decibels quan la intensitat es duplica.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi13sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi13sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ressonància i harmònics en tubs i cordes
+  - ones estacionàries
+  - ones sonores i nivell d'intensitat
+paraules_clau: [clarinet, tub obert per un extrem, ones estacionàries, harmònics, longitud d'ona, nivell d'intensitat sonora, decibels, duplicar la intensitat]
+tipus: [càlcul, gràfic]
+dificultat: 2
+justificacio_dificultat: >-
+  Cal interpretar el dibuix del mode de vibració (L = 5λ/4) i aplicar v = λν; l'augment
+  de nivell sonor és una aplicació directa de la definició de decibel.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Llargària del clarinet a partir del mode representat i de la freqüència de 637 Hz.
+  - etiqueta: "b"
+    punts: 1
+    resum: Augment del nivell d'intensitat sonora en decibels si la intensitat es duplica.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Tub amb el perfil de l'ona estacionària del tercer mode (tres ventres i dos nodes interiors)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta les puntuacions són en requadres, la
+  de 0,2 p de l'apartat a és enmig de l'equació, els decimals amb punt (3.01) s'han passat
+  a coma i els productes s'escriuen amb un punt baix («5 . 340»). Es conserven les
+  errates de l'original («Per altre banda», «Per tan»). L'enunciat anomena «mode tercer
+  harmònic» el tercer mode de vibració, que correspon a L = 5λ/4 (cinquè harmònic).

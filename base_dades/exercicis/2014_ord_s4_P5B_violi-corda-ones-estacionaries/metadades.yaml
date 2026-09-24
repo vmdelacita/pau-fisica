@@ -1,0 +1,55 @@
+id: 2014_ord_s4_P5B_violi-corda-ones-estacionaries
+titol: Ones estacionàries en la corda d'un violí
+resum: >-
+  Corda de violí de 32 cm amb freqüència fonamental de 196 Hz: longitud d'ona del mode
+  fonamental, posició de nodes i ventres i velocitat de propagació; perfil del tercer i
+  del cinquè modes de vibració i les seves freqüències.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [9]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones estacionàries
+  - ressonància i harmònics en tubs i cordes
+paraules_clau: [violí, corda, ona estacionària, mode fonamental, harmònics, nodes i ventres, velocitat de propagació]
+tipus: [càlcul, qualitativa, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de la condició d'ona estacionària en una corda fixa pels dos
+  extrems i dibuix esquemàtic dels harmònics.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Longitud d'ona del mode fonamental, nodes i ventres i velocitat de propagació.
+  - etiqueta: "b"
+    punts: 1
+    resum: Perfil del tercer i del cinquè modes i les seves freqüències.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'un violí amb les cordes, el pont i les efes (decorativa)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Perfil del tercer harmònic d'una corda fixa pels extrems (tres ventres)
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Perfil del cinquè harmònic d'una corda fixa pels extrems (cinc ventres)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la pauta les puntuacions parcials són en caixes amb punt decimal (0.2) i s'han passat a coma. A l'original la fotografia és a la dreta del text. A la pauta diu «El node
+  fonamental» (errata per «mode»); es transcriu tal com és amb % DUBTE. Les puntuacions
+  de 0,3 p dels dibuixos són a la dreta, al peu de cada figura. Mateixes dades (32 cm,
+  196 Hz) que 2021_ext_s1_P3_corda-violi-harmonics, però amb preguntes diferents.

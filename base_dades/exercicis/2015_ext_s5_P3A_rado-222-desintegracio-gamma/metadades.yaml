@@ -1,0 +1,40 @@
+id: 2015_ext_s5_P3A_rado-222-desintegracio-gamma
+titol: Desintegració alfa del radó 222 i fotons gamma
+resum: >-
+  Equació nuclear de la desintegració alfa del radó 222; freqüència i longitud d'ona d'un fotó gamma de 5,50 MeV.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi15sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi15sp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - fotons i energia de la radiació
+paraules_clau: [radó 222, desintegració alfa, equació nuclear, raigs gamma, fotó, freqüència, longitud d'ona, radiacions ionitzants]
+tipus: [càlcul]
+dificultat: 1
+justificacio_dificultat: >-
+  Aplicació directa de les lleis de conservació en una desintegració alfa i de E = hf i c = λf amb dades explícites.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equació nuclear de la desintegració alfa del radó 222.
+  - etiqueta: "b"
+    punts: 1
+    resum: Freqüència i longitud d'ona d'un fotó gamma de 5,50 MeV.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt.

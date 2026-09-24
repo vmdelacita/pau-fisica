@@ -1,0 +1,50 @@
+id: 2015_ord_s2_P3B_estacio-espacial-velocitat-escapament
+titol: Estació Espacial Internacional i llançament d'un coet
+resum: >-
+  Velocitat orbital i període de l'Estació Espacial Internacional a 385 km d'altura;
+  velocitat addicional que cal donar a un coet llançat des de l'estació perquè escapi de
+  l'atracció terrestre.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - velocitat d'escapament
+  - energia mecànica orbital
+paraules_clau: [Estació Espacial Internacional, velocitat orbital, període orbital, velocitat d'escapament, coet, conservació de l'energia]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic: velocitat orbital i període, i velocitat d'escapament des de l'òrbita
+  per conservació de l'energia, amb la subtilesa de restar la velocitat que ja té l'estació.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Velocitat orbital de l'estació i temps entre dues visualitzacions consecutives (període).
+  - etiqueta: "b"
+    punts: 1
+    resum: Velocitat addicional que cal donar a un coet llançat des de l'estació per escapar de la Terra.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia de l'Estació Espacial Internacional amb la Terra al fons
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la fotografia és a la dreta del text.
+  A la pauta el 0,1 p de «PERÍODE» és dins del text; «es el PERÍODE» (sense accent) és com
+  a l'original.

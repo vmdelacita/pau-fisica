@@ -1,0 +1,44 @@
+id: 2014_ord_s3_P3A_fotoemissio-uv-funcio-treball
+titol: Espectroscòpia de fotoemissió ultraviolada
+resum: >-
+  Càlcul de la funció de treball d'un material a partir de la longitud d'ona de la
+  radiació UV i de l'energia cinètica màxima dels fotoelectrons; longitud d'ona llindar i
+  efecte de duplicar la potència del feix.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+paraules_clau: [espectroscòpia de fotoemissió, radiació ultraviolada, funció de treball, energia cinètica màxima, longitud d'ona llindar, potència del feix, fotoelectrons]
+tipus: [càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de l'equació d'Einstein de l'efecte fotoelèctric i una qüestió
+  conceptual estàndard sobre la independència del llindar respecte de la potència.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Funció de treball del material en J i en eV."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Longitud d'ona llindar i efecte de duplicar la potència del feix."
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta, «la potencia de la radiació» sense
+  accent (tal com és).

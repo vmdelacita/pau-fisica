@@ -59,8 +59,8 @@ Els lots són aproximats: es poden reajustar a l'inici de cada sessió. Els exà
 |---|---|---|---|
 | 1 ✓ | 2019–2022 | 8 (11 sèries, 88 exercicis) | ~104 (moltes són espai per respondre) |
 | 2a ✓ | 2016–2018 | 6 (9 sèries, 71 exercicis + la Q5 de 2025) | 24 |
-| 2b | 2013–2015 | 6 (9 sèries) | 24 |
-| 3 | 2009–2012 | 8 | ~92 |
+| 2b ✓ | 2013–2015 | 6 (9 sèries, 71 exercicis + P1 de 2014 enllaçat a una mostra) | 24 |
+| 3 | 2009–2012 (proposta: 2010–2012, 10 sèries; vegeu `RESUM_LOT2B.md`) | 8 | ~92 |
 | 4 | 2000–2008 | 19 | ~116 |
 
 Cada lot segueix el mètode de la Fase 2:
@@ -108,7 +108,8 @@ Decidit el 2026-09-23, a partir del consum mesurat al lot 1 i a la Fase 2.
 4. **PDF originals:** es pugen al repositori a mesura que s'incorporen, reanomenats amb el format actual (`pau_fisi15jl.pdf` per a l'examen i `pau_fisi15jp.pdf` per a la pauta, amb `s` en lloc de `j` per a setembre). Així la fitxa de cada exercici enllaça a l'original.
 5. **Ordre:** primer els 4 lots i després la Fase 4.
 6. **Exercicis repetits (2026-09-24):** si un exercici d'un examen antic ja és a la base de dades dins d'un examen de format nou (problemes de 2,5 punts), no es duplica. Es copia la pauta oficial a l'exercici existent, que manté els **2,5 punts**, i les puntuacions parcials es reescalen proporcionalment. Cas fet: la Q5 de les mostres de 2025 (P4B de juny de 2017).
-7. **Errors a l'enunciat original** (p. ex. 2016 juny S3 P4B, «1 460 MeV»): no es corregeixen. Es deixen a `REVISIO_PENDENT.md` perquè el professor els revisi a mà.
+7. **Exercicis gairebé repetits (2026-09-24):** si l'exercici de format nou afegeix preguntes que l'antic no té (P1 de setembre de 2014 = P4 de la mostra de moment angular de 2025), **només s'enllaça**: la convocatòria antiga apunta a l'exercici existent, que no es modifica (només s'hi afegeix una nota), i no es desa la pauta antiga.
+8. **Errors a l'enunciat original** (p. ex. 2016 juny S3 P4B, «1 460 MeV»): no es corregeixen. Es deixen a `REVISIO_PENDENT.md` perquè el professor els revisi a mà.
 
 ## 6. Tasca prèvia al lot 1: revisió només per al professor
 
@@ -126,4 +127,5 @@ Cal fer-la a l'inici de la propera sessió, abans de transcriure res.
 
 - **Secció 6 i lot 1 (2019–2022): fets** (2026-09-23). Vegeu `RESUM_LOT1.md`, que acaba amb els dubtes per al lot 2.
 - **Lot 2a (2016–2018): fet** (2026-09-24). Vegeu `RESUM_LOT2A.md`, que acaba amb els dubtes per al lot 2b. La Q5 de les mostres de 2025 ja té la pauta oficial de juny de 2017 (sèrie 1).
-- Següent: **lot 2b (2013–2015)**, 9 sèries. Vegeu la secció 4.1.
+- **Lot 2b (2013–2015): fet** (2026-09-24). Vegeu `RESUM_LOT2B.md`, que acaba amb els dubtes per al lot 3.
+- Següent: **lot 3**. Proposta: 2010–2012 (10 sèries, mateix format), i el 2009 (format antic) al lot 4.

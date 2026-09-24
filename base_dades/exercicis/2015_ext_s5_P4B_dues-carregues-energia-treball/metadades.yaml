@@ -1,0 +1,39 @@
+id: 2015_ext_s5_P4B_dues-carregues-energia-treball
+titol: Energia potencial de dues càrregues de signe contrari
+resum: >-
+  Energia potencial de dues càrregues puntuals d'1,00 µC de signe contrari separades 20,0 cm i treball necessari per separar-les fins a 50,0 cm.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi15sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi15sp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - potencial i energia potencial elèctrica
+paraules_clau: [càrregues puntuals, energia potencial elèctrica, treball extern, força elèctrica, separació de càrregues]
+tipus: [càlcul]
+dificultat: 1
+justificacio_dificultat: >-
+  Aplicació directa de U = kqq'/r en dues posicions i relació entre treball i variació d'energia potencial.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Energia potencial de la distribució de càrregues.
+  - etiqueta: "b"
+    punts: 1
+    resum: Treball per separar les càrregues de 20,0 cm a 50,0 cm.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt.

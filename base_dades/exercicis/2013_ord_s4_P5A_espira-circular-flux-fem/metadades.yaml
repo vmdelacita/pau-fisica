@@ -1,0 +1,47 @@
+id: 2013_ord_s4_P5A_espira-circular-flux-fem
+titol: Flux i FEM induïda en una espira circular amb camp decreixent
+resum: >-
+  Flux magnètic a través d'una espira circular de 4,0 cm de radi en un camp de 0,50 T que
+  forma 60° amb la normal i justificació que no s'indueix FEM si el camp és constant; FEM
+  induïda quan el camp disminueix linealment fins a zero en 100 ms (gràfica B-t).
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [espira circular, flux magnètic, angle amb la normal, llei de Faraday, força electromotriu induïda, camp magnètic variable, gràfica B-t]
+tipus: [càlcul, qualitativa, gràfic]
+dificultat: 2
+justificacio_dificultat: >-
+  Càlcul directe del flux amb l'angle respecte de la normal i aplicació de la llei de
+  Faraday llegint el pendent d'una gràfica lineal.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Flux magnètic a través de l'espira i justificació que no hi ha FEM induïda.
+  - etiqueta: "b"
+    punts: 1
+    resum: FEM induïda quan el camp disminueix segons la gràfica.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica B (T) en funció de t (ms), recta que baixa de 0,5 T a t = 0 fins a 0 T a t = 100 ms
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta, «0.5 π» s'ha passat a coma
+  decimal; es transcriu «es constant» i «en el enunciat» tal com són.

@@ -1,0 +1,52 @@
+id: 2014_ext_s5_P2_bohr-hidrogen-forca-frequencia
+titol: Força elèctrica, freqüència i energia de l'electró en el model de Bohr
+resum: >-
+  En l'òrbita mínima del model de Bohr de l'àtom d'hidrogen (r = 5,29·10⁻¹¹ m), càlcul de
+  la força elèctrica sobre l'electró i de la seva freqüència de gir; energia mecànica de
+  l'electró en aquesta òrbita.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi14sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi14sp.pdf
+  pagines_solucio: [1]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: ["Física relativista, quàntica i nuclear"]
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+  - model de Bohr i espectres atòmics
+paraules_clau: [àtom d'hidrogen, model de Bohr, Niels Bohr, llei de Coulomb, força elèctrica, freqüència de gir, acceleració centrípeta, energia mecànica]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Combina la llei de Coulomb amb la dinàmica del moviment circular per obtenir la
+  freqüència, i cal deduir l'energia mecànica com a suma de la cinètica (a partir de la
+  força centrípeta) i la potencial elèctrica.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Força elèctrica sobre l'electró i freqüència de gir en l'òrbita de Bohr.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia mecànica de l'electró en l'òrbita.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia de Niels Bohr (decorativa)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la fotografia és a la dreta del
+  text, amb el peu «Niels Bohr». A la pauta hi ha un doble signe «= =» abans del resultat
+  de la freqüència i «es» sense accent («aquesta força elèctrica es la que…»); s'han
+  transcrit tal com són.

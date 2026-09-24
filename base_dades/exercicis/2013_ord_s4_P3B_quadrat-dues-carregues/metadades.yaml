@@ -1,0 +1,48 @@
+id: 2013_ord_s4_P3B_quadrat-dues-carregues
+titol: Camp i treball amb dues càrregues en els vèrtexs d'un quadrat
+resum: >-
+  Camp elèctric al centre d'un quadrat de 2,00 m de costat amb càrregues de +9,00 µC i
+  −9,00 µC als vèrtexs de l'esquerra; treball de la força elèctrica sobre una càrrega de
+  7,00 µC traslladada del centre al vèrtex inferior dret.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp elèctric i llei de Coulomb
+  - potencial i energia potencial elèctrica
+paraules_clau: [càrregues puntuals, quadrat, principi de superposició, camp elèctric, potencial elèctric, treball de la força elèctrica, dipol]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Superposició vectorial del camp de dues càrregues amb geometria de quadrat i càlcul del
+  treball a partir de la diferència de potencial entre dos punts.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Camp elèctric al centre del quadrat.
+  - etiqueta: "b"
+    punts: 1
+    resum: Treball de la força elèctrica en traslladar Q3 del centre al vèrtex inferior dret.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Quadrat amb les càrregues Q1 al vèrtex superior esquerre i Q2 al vèrtex inferior esquerre
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text.
+  A la pauta es llegeix «resposta correcte» i «podem podem»; es transcriu tal com és.

@@ -1,0 +1,40 @@
+id: 2015_ord_s4_P3B_velocitat-escapament-lluna
+titol: Velocitat d'escapament i altura màxima a la Lluna
+resum: >-
+  Demostració de l'expressió de la velocitat d'escapament a partir de la conservació de l'energia mecànica; altura màxima que assoleix un objecte llançat verticalment des de la Lluna amb la meitat de la velocitat d'escapament.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [16]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - velocitat d'escapament
+  - energia potencial i potencial gravitatori
+paraules_clau: [velocitat d'escapament, Lluna, conservació de l'energia mecànica, llançament vertical, altura màxima, energia potencial gravitatòria]
+tipus: [deducció, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Deducció estàndard i aplicació de la conservació de l'energia amb l'energia potencial gravitatòria general (no mgh) per trobar l'altura.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Demostrar v_esc = sqrt(2GM/R) a partir de la conservació de l'energia mecànica.
+  - etiqueta: "b"
+    punts: 1
+    resum: Altura màxima d'un objecte llançat des de la Lluna amb la meitat de la velocitat d'escapament.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt.

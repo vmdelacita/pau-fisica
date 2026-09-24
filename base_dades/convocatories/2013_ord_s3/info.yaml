@@ -1,0 +1,24 @@
+id: 2013_ord_s3
+any: 2013
+convocatoria: ordinaria
+serie: 3
+format: antic
+pdf_enunciat: examenes/pau_fisi13jl.pdf
+pdf_solucio: examenes/pau_fisi13jp.pdf
+# El PDF de l'enunciat conté les sèries 4 i 3: la sèrie 3 és a les pàgines 5-8.
+# El PDF de la pauta conté les sèries 4 i 3: la sèrie 3 és a les pàgines 6-10.
+# La pauta no té criteris generals d'avaluació (comença directament amb la sèrie 4).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les opcions
+  (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2013_ord_s3_P1_galileu-satellits-orbita-circular
+  - 2013_ord_s3_P2_cambra-acceleradora-electrons
+  - 2013_ord_s3_P3A_fotoelectric-plom-constant-planck
+  - 2013_ord_s3_P4A_bobina-flux-grafica-fem
+  - 2013_ord_s3_P5A_guitarra-corda-nivell-sonor
+  - 2013_ord_s3_P3B_poloni-210-desintegracio-alfa
+  - 2013_ord_s3_P4B_molla-mhs-energies-equacio
+  - 2013_ord_s3_P5B_generador-bobina-transformador

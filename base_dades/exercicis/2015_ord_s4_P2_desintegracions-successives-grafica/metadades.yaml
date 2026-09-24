@@ -1,0 +1,45 @@
+id: 2015_ord_s4_P2_desintegracions-successives-grafica
+titol: Dues desintegracions successives a partir d'un gràfic N-Z
+resum: >-
+  Identificació, a partir d'un gràfic de nombre de neutrons en funció del nombre de protons, de dues desintegracions successives (beta menys del plom-212 i alfa del bismut-212) i escriptura de les equacions; temps perquè es desintegri el 10 % dels nuclis inicials amb un període de semidesintegració de 10,64 h.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [12]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+paraules_clau: [desintegració beta, desintegració alfa, gràfic N-Z, plom-212, bismut-212, tal·li-208, antineutrí, període de semidesintegració, llei de desintegració]
+tipus: [gràfic, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar el gràfic N-Z per deduir el tipus de desintegració i els nuclis i aplicar la llei de desintegració amb el període de semidesintegració.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equacions de les dues desintegracions, el seu nom i el nom, nombre atòmic i màssic de tots els elements i partícules.
+  - etiqueta: "b"
+    punts: 1
+    resum: Temps perquè es desintegri el 10 % dels nuclis del primer element (T1/2 = 10,64 h).
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfic del nombre de neutrons N (126-132) en funció del nombre de protons Z (80-84) amb dues fletxes, de (82, 130) a (83, 129) i de (83, 129) a (81, 127)
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: El mateix gràfic N-Z de l'enunciat amb els punts dels nuclis resultants marcats
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la figura de l'enunciat és a la dreta del text i la de la pauta a la dreta de les equacions de l'apartat a. A la pauta, «Descomptarem 0,1 per cada mancança» porta el 0,1 en una caixa vermella, però és un descompte, no una puntuació parcial.

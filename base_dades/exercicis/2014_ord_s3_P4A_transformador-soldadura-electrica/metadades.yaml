@@ -1,0 +1,44 @@
+id: 2014_ord_s3_P4A_transformador-soldadura-electrica
+titol: Transformador d'un aparell de soldadura elèctrica
+resum: >-
+  Tensió del circuit secundari d'un transformador de soldadura a partir del nombre
+  d'espires i de la tensió del primari; intensitat del primari i potència consumida
+  suposant un transformador ideal.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - generadors, motors i transformadors
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [transformador, soldadura elèctrica, bobina primària, bobina secundària, relació d'espires, tensió alterna, potència elèctrica]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de les relacions del transformador ideal per a tensions i per a
+  potències.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Tensió del circuit secundari amb 220 V al primari."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Intensitat del circuit primari i potència consumida."
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt.

@@ -1,0 +1,29 @@
+\begin{solapartat}
+% A l'original, el requadre «0,5 =» és a l'esquerra d'una clau que agrupa els tres
+% paràgrafs següents: la puntuació de 0,5 p és la suma de 0,1 + 0,1 + 0,3 p.
+\punts{0,5} $=$
+\begin{itemize}[label={}, leftmargin=2em]
+\item El flux magnètic es calcula a partir del producte escalar dels dos vectors, camp magnètic i vector superfície.
+
+$\phi = \vec{B}\cdot\vec{A}$ \punts{0,1}
+
+\item En aquest cas el vector superfície canvia amb el temps i el flux magnètic és: $\phi(t) = BA\cos(\omega t + \delta)$. Si en l'instant inicial el camp magnètic és perpendicular al pla de l'espira, el flux serà màxim en aquest instant $\Rightarrow \cos(\omega t + \delta) = 1 \Rightarrow \omega t + \delta = 0 \Rightarrow \delta = 0$ \punts{0,1}\\
+Per tant: $\phi(t) = BA\cos(\omega t)$ \punts{0,3}
+\end{itemize}
+
+\punts{0,1} $A = 2\times 10^{2}\ \mathrm{cm^2} = 2,0\times 10^{-2}\ \mathrm{m^2}$
+
+\punts{0,1} $\omega = 191\,\dfrac{\mathit{revol}}{\mathrm{min}}\times\dfrac{2\pi\ \mathit{rad}}{1\ \mathit{revol}}\times\dfrac{1\ \mathrm{min}}{60\ \mathrm{s}} = 20,0\ \mathrm{rad/s}$
+
+\punts{0,3} $\phi(t) = 8\times 10^{-3}\,(\mathrm{Wb})\cos(20t)$ \ ó \ $\phi(t) = 8\times 10^{-3}\cos(20t)\ \mathrm{Wb}$
+\end{solapartat}
+
+\begin{solapartat}
+\punts{0,2} $\varepsilon = -\dfrac{d\phi(t)}{dt}$
+
+\punts{0,2} $\varepsilon(t) = -(-BA\omega\sin\omega t) = BA\omega\sin\omega t$
+
+\punts{0,2} La FEM és màxima quan el sinus val 1; $\varepsilon_\mathrm{max} = BA\omega$
+
+\punts{0,4} $\varepsilon_\mathrm{max} = 0,40\times 2,0\times 10^{-2}\times 20,0 = 0,16\ \mathrm{V}$
+\end{solapartat}

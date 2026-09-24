@@ -1,0 +1,39 @@
+id: 2015_ord_s4_P5A_soprano-longitud-ona-nivell-sonor
+titol: Veu de soprano, longituds d'ona i potència sonora
+resum: >-
+  Longituds d'ona dels sons més greu (261,7 Hz) i més agut (1174,7 Hz) d'una soprano; potència sonora a partir d'un nivell d'intensitat de 80 dB percebut a 10 m.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [15]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones sonores i nivell d'intensitat
+paraules_clau: [soprano, so, longitud d'ona, freqüència, nivell d'intensitat sonora, decibels, potència sonora, ona esfèrica]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de λ = v/f i de la definició de nivell d'intensitat amb la intensitat d'una ona esfèrica.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Longituds d'ona dels sons més greu i més agut de la soprano.
+  - etiqueta: "b"
+    punts: 1
+    resum: Potència del so a partir de 80 dB a 10 m.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt.

@@ -1,0 +1,29 @@
+\begin{solapartat}
+L'energia de formació del sistema de càrregues la podem obtenir a partir de l'energia potencial de les diferents parelles presents. \punts{0,2}
+\[ E_{\textit{formació}} = K\left\{\frac{q_1\ q_2}{r_{12}} + \frac{q_1\ q_3}{r_{13}} + \frac{q_1\ q_4}{r_{14}} + \frac{q_2\ q_3}{r_{23}} + \frac{q_2\ q_4}{r_{24}} + \frac{q_3\ q_4}{r_{34}}\right\} \ \text{\punts{0,4}} \]
+Per altre banda: $r_{12} = r_{14} = r_{23} = r_{34} = \sqrt{2}\ \mathrm{m}$ i $r_{13} = r_{24} = 2\ \mathrm{m}$; per tan:
+\begin{align*}
+E_{\textit{formació}} &= 9\times 10^{9}\cdot 10^{-10}\left\{\frac{1}{\sqrt{2}} + \frac{1}{2} + \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{2}} + \frac{1}{2} + \frac{1}{\sqrt{2}}\right\}\\
+&= 0,9\left\{\frac{4}{\sqrt{2}} + 1\right\} = 3,45\ \mathrm{J} \ \text{\punts{0,4}}
+\end{align*}
+\end{solapartat}
+
+\begin{solapartat}
+Les quatre càrregues son iguals, per tant si trobem la càrrega que compensi la força d'una de les càrregues, per raons de simetria, quedaran compensades totes les forces del reste de càrregues. \punts{0,2} Ho farem per la càrrega $q_1$:
+
+\figura[0.4]{sol_fig1.png}
+\punts{0,2}
+
+A partir del gràfic veiem que, $l = \sqrt{2}\ \mathrm{m}$ i $d = 1\ \mathrm{m}$ i que:
+\[ \vec{F}_{q_1q_2} + \vec{F}_{q_1q_3} + \vec{F}_{q_1q_4} = \vec{F}_{q_1q} \ \text{\punts{0,2}} \]
+Igualem les diferents components dels vectors i tindrem:
+\begin{align*}
+&|\vec{F}_{q_1q_4}| + |\vec{F}_{q_1q_3}|\ \cos(45^o) = |\vec{F}_{q_1q}|\ \cos(45^o)\\
+&\text{o també } |\vec{F}_{q_1q_2}| + |\vec{F}_{q_1q_3}|\ \sin(45^o) = |\vec{F}_{q_1q}|\ \sin(45^o) \ \text{\punts{0,2}}
+\end{align*}
+per tan:
+\begin{gather*}
+K\frac{10^{-10}}{2} + K\frac{10^{-10}}{4}\ \frac{1}{\sqrt{2}} = K\frac{|q|\cdot 10^{-5}}{1}\ \frac{1}{\sqrt{2}} \Rightarrow\\
+|q| = 10^{-5}\ \sqrt{2}\ \left\{\frac{1}{2} + \frac{1}{4\sqrt{2}}\right\} = 9,57\times 10^{-6}\ \mathrm{C} = 9,57\mu C \ \text{\punts{0,2}}
+\end{gather*}
+\end{solapartat}

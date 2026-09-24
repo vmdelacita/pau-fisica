@@ -1,0 +1,43 @@
+id: 2013_ord_s3_P5B_generador-bobina-transformador
+titol: Petit generador de corrent altern i transformador
+resum: >-
+  Representació de la FEM generada per una bobina de 200 espires de 16 cm^2 que gira a 25 Hz en un camp de 2·10^-4 T; nombre de voltes del secundari d'un transformador i intensitat eficaç al primari.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [10]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - generadors, motors i transformadors
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [generador, corrent altern, bobina giratòria, força electromotriu, transformador, primari, secundari, valors eficaços]
+tipus: [càlcul, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal deduir la FEM sinusoïdal d'una bobina giratòria i representar-la amb els seus valors extrems, i aplicar les relacions del transformador ideal.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Representació gràfica de la FEM en funció del temps durant un període, amb els valors extrems.
+  - etiqueta: "b"
+    punts: 1
+    resum: Voltes del secundari per obtenir 2,5 V eficaços i intensitat eficaç al primari.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica de la FEM ε (V) en funció del temps t (s) durant un període de 0,04 s, amb màxim 0,01 V a 0,01 s i mínim −0,01 V a 0,03 s
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. Els punts decimals de la pauta es passen a coma. A la pauta, la puntuació de 0,3 p de la gràfica és a sota a la dreta de la figura. Es transcriuen tal com són «en al bobina» i «ε_P».

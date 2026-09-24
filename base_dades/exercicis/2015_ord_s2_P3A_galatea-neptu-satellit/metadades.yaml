@@ -1,0 +1,47 @@
+id: 2015_ord_s2_P3A_galatea-neptu-satellit
+titol: Galatea, satèl·lit de Neptú
+resum: >-
+  Velocitat orbital de Galatea a partir del període i el radi de l'òrbita i càlcul de la
+  massa de Neptú; intensitat del camp gravitatori a la superfície de Neptú.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - camp gravitatori i superposició
+paraules_clau: [Galatea, Neptú, Voyager 2, satèl·lit, velocitat orbital, massa del planeta, intensitat del camp gravitatori, superfície]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Càlculs encadenats estàndard: v = 2πR/T, massa del planeta igualant força gravitatòria i
+  centrípeta, i g = GM/R².
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Velocitat lineal orbital de Galatea i massa de Neptú.
+  - etiqueta: "b"
+    punts: 1
+    resum: Intensitat del camp gravitatori a la superfície de Neptú.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia de Galatea (taca clara allargada sobre fons negre) presa per la Voyager 2
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la fotografia i el seu peu són a la
+  dreta del text.

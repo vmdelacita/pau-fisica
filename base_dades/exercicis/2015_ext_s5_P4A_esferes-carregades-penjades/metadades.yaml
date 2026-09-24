@@ -1,0 +1,46 @@
+id: 2015_ext_s5_P4A_esferes-carregades-penjades
+titol: Dues esferes carregades penjades de fils
+resum: >-
+  Massa de dues esferes amb la mateixa càrrega que pengen de fils formant 30° amb la vertical, a partir de l'equilibri de forces; camp elèctric total (mòdul, direcció i sentit) al punt de suspensió.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi15sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi15sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - equilibri de càrregues en camps elèctrics
+  - camp elèctric i llei de Coulomb
+paraules_clau: [esferes carregades, pèndol elèctric, llei de Coulomb, equilibri de forces, tensió del fil, camp elèctric, superposició]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema PAU típic: cal plantejar l'equilibri de forces (tensió, pes i força elèctrica) amb geometria i després sumar vectorialment els camps de dues càrregues.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Massa de cada esfera a partir de l'equilibri.
+  - etiqueta: "b"
+    punts: 1
+    resum: Camp elèctric total al punt P (mòdul, direcció i sentit).
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Dues esferes penjades d'un punt P amb fils d'1,00 m que formen 30° amb la vertical
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Diagrama de forces sobre una esfera i camps elèctrics en el punt P
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la figura de la pauta s'ha esborrat un fragment de text de la fórmula del costat («F = 0») que quedava dins del retall.

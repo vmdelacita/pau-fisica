@@ -1,0 +1,51 @@
+id: 2014_ord_s4_P4A_vareta-forca-conductora-fem
+titol: Vareta que llisca sobre una forca conductora
+resum: >-
+  Vareta de 2 m que es mou a 6 m/s sobre una forca conductora en un camp magnètic
+  sortint de 0,25 T: força electromotriu induïda i sentit del corrent; intensitat (amb
+  una resistència de 30 Ω) i força que cal fer per mantenir la velocitat constant.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+  - força magnètica sobre corrents i entre fils
+paraules_clau: [vareta mòbil, forca conductora, força electromotriu induïda, llei de Faraday, llei de Lenz, sentit del corrent, força magnètica, llei d'Ohm]
+tipus: [càlcul, qualitativa, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema típic d'inducció: flux variable per l'àrea, llei de Faraday, sentit del
+  corrent per la llei de Lenz i força magnètica sobre la vareta per mantenir la
+  velocitat constant.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: FEM induïda i sentit raonat del corrent.
+  - etiqueta: "b"
+    punts: 1
+    resum: Intensitat del corrent i força (mòdul, direcció i sentit) necessària per mantenir la velocitat constant.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Forca conductora amb una vareta que es mou cap a la dreta amb velocitat v, camp B sortint (punts) i separació L = 2 m
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Forca i vareta amb el corrent induït I cap avall a la vareta, la força magnètica F cap a l'esquerra i la velocitat v cap a la dreta
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la pauta les puntuacions parcials són en caixes amb punt decimal (0.2) i s'han passat a coma. A la pauta, la puntuació de 0,2 p de l'esquema de l'apartat b és a la dreta, al
+  peu de la figura.

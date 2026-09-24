@@ -1,0 +1,54 @@
+id: 2013_ext_s1_P4A_molla-mhs-grafica-energia
+titol: Oscil·lador de molla a partir de la gràfica elongació-temps
+resum: >-
+  A partir de la gràfica elongació-temps d'un cos de 250 g unit a una molla, càlcul de
+  l'amplitud, la freqüència angular, el període i la fase inicial; equació del moviment i
+  energia mecànica total del sistema.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi13sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi13sp.pdf
+  pagines_solucio: [2, 3]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - energia del MHS
+paraules_clau: [molla, gràfica elongació-temps, amplitud, freqüència angular, període, fase inicial, equació del moviment, energia mecànica, constant elàstica]
+tipus: [gràfic, càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Lectura directa dels paràmetres del MHS a la gràfica i càlcul de la constant elàstica i
+  de l'energia mecànica amb fórmules estàndard.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Amplitud, freqüència angular, període i fase inicial a partir de la gràfica.
+  - etiqueta: "b"
+    punts: 1
+    resum: Equació del moviment i energia mecànica total del sistema.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica de l'elongació (cm) en funció del temps (s) d'un MHS d'amplitud 12 cm i període 6 s que comença a l'origen
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: La mateixa gràfica x(cm) en funció de t(s) reproduïda a la pauta
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta les puntuacions són en requadres i
+  els decimals amb punt (1.0, 0.0, 0.25, 1.9) s'han passat a coma. DUBTE: la pauta diu que
+  amb la funció cosinus la fase inicial és π/2 i dona l'equació alternativa
+  x(t) = 12 cos(πt/3 + π/2); amb x = A cos(ωt + φ0) la fase correcta seria -π/2. Es
+  transcriu tal com és.

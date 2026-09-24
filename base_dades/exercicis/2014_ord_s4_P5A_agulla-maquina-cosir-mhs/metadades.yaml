@@ -1,0 +1,46 @@
+id: 2014_ord_s4_P5A_agulla-maquina-cosir-mhs
+titol: Agulla d'una màquina de cosir en MHS
+resum: >-
+  Agulla d'una màquina de cosir que oscil·la en MHS entre dos punts separats 20 mm i fa
+  1 800 puntades per minut: freqüència en Hz i equació del moviment si comença a la
+  posició més alta; velocitat i acceleració màximes.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [màquina de cosir, agulla, moviment harmònic simple, freqüència, amplitud, equació del moviment, velocitat màxima, acceleració màxima]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Obtenció directa de la freqüència i l'amplitud a partir del context, tria de la fase
+  inicial i aplicació de les expressions de la velocitat i l'acceleració màximes.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Freqüència en Hz i equació del moviment amb l'agulla inicialment a la posició més alta.
+  - etiqueta: "b"
+    punts: 1
+    resum: Velocitat i acceleració màximes de l'agulla.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'una màquina de cosir cosint un teixit (decorativa)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la pauta les puntuacions parcials són en caixes amb punt decimal (0.2) i s'han passat a coma. A l'original la fotografia és a la dreta del text. «0.01» passat a coma. Exercici
+  semblant (amb altres dades i altres preguntes) a 2017_ord_s1_P3B_agulla-maquina-cosir-mhs.

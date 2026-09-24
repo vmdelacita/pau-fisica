@@ -1,0 +1,47 @@
+id: 2014_ord_s4_P3A_poloni-210-litvinenko
+titol: Enverinament de Litvinenko amb poloni 210
+resum: >-
+  Reacció de desintegració alfa del poloni 210 que dona un isòtop del plom; massa de
+  poloni que quedava a l'organisme vint dies després d'una dosi de 5 mg, amb un període
+  de semidesintegració efectiu de 37 dies.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [poloni 210, Litvinenko, desintegració alfa, plom, període de semidesintegració efectiu, llei de desintegració, enverinament, síndrome de radiació aguda]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Ajust de nombres màssic i atòmic en una desintegració alfa i aplicació directa de la
+  llei de desintegració exponencial.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Reacció de desintegració alfa del poloni 210.
+  - etiqueta: "b"
+    punts: 1
+    resum: Massa de poloni 210 a l'organisme vint dies després d'una dosi de 5 mg.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'Aleksandr Litvinenko (decorativa)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la pauta les puntuacions parcials són en caixes amb punt decimal (0.2) i s'han passat a coma. A l'original la fotografia és a la dreta del text, amb el peu «Aleksandr
+  Litvinenko».

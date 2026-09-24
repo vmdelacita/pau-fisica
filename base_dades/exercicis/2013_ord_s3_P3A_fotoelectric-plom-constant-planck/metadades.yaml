@@ -1,0 +1,40 @@
+id: 2013_ord_s3_P3A_fotoelectric-plom-constant-planck
+titol: Efecte fotoelèctric en una placa de plom i constant de Planck
+resum: >-
+  A partir dels potencials de frenada (4,01 V i 8,15 V) per a dues longituds d'ona ultraviolades, velocitat màxima dels fotoelectrons, funció de treball del plom i determinació de la constant de Planck.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [efecte fotoelèctric, plom, radiació ultraviolada, potencial de frenada, funció de treball, constant de Planck, velocitat dels fotoelectrons]
+tipus: [càlcul, deducció]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal plantejar l'equació d'Einstein per a dues longituds d'ona i resoldre el sistema per obtenir h i la funció de treball, més enllà de l'aplicació directa.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Velocitat màxima dels electrons per a cada longitud d'ona.
+  - etiqueta: "b"
+    punts: 1
+    resum: Funció de treball del plom i constant de Planck a partir de les dues mesures.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. Els punts decimals de la pauta es passen a coma.

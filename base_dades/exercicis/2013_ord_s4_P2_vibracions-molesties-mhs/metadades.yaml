@@ -1,0 +1,43 @@
+id: 2013_ord_s4_P2_vibracions-molesties-mhs
+titol: Vibracions molestes de 6 Hz i moviment harmònic simple
+resum: >-
+  Amplitud d'un moviment vibratori harmònic de 6,0 Hz amb una acceleració màxima de
+  6,0 m/s² (llindar de molèsties) i constant elàstica d'una molla perquè una massa de
+  85 kg oscil·li a 6,0 Hz.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [1]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [vibracions, confort, acceleració màxima, amplitud, freqüència, constant elàstica, molla, oscil·lador harmònic]
+tipus: [càlcul]
+dificultat: 1
+justificacio_dificultat: >-
+  Aplicació directa de a_max = Aω² i de k = mω² amb dades explícites.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Amplitud d'un MHS de 6,0 Hz amb acceleració màxima de 6,0 m/s².
+  - etiqueta: "b"
+    punts: 1
+    resum: Constant elàstica perquè una massa de 85 kg oscil·li a 6,0 Hz.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta, el parèntesi de «(també considerem
+  vàlida…» no es tanca; es transcriu tal com és.

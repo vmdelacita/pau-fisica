@@ -1,0 +1,50 @@
+id: 2014_ext_s5_P5A_molla-grafica-massa-periode
+titol: Constant elàstica d'una molla a partir de la gràfica massa–període al quadrat
+resum: >-
+  Càlcul de la constant elàstica d'una molla a partir de la gràfica de la massa penjada
+  en funció del quadrat del període i energia cinètica màxima per a una amplitud de
+  0,10 m; acceleració màxima d'una massa d'1,5 kg que oscil·la amb amplitud 0,20 m i
+  treball de la força de fregament que atura l'oscil·lació dins l'aigua.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi14sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi14sp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - energia del MHS
+paraules_clau: [molla, constant elàstica, període d'oscil·lació, gràfica massa-període, energia cinètica màxima, acceleració màxima, fregament, treball]
+tipus: [càlcul, gràfic, experimental]
+dificultat: 2
+justificacio_dificultat: >-
+  Lectura d'un punt de la gràfica i aplicació directa de T = 2π√(m/k), de l'energia del
+  MHS i de l'acceleració màxima; el treball del fregament és igual a l'energia inicial.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Constant elàstica a partir de la gràfica m–T² i energia cinètica màxima per a A = 0,10 m.
+  - etiqueta: "b"
+    punts: 1
+    resum: Acceleració màxima (k = 150 N/m, m = 1,5 kg, A = 0,20 m) i treball de la força de fregament que atura l'oscil·lació.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica de la massa (kg) en funció de T² (s²) sobre paper mil·limetrat, recta que passa per l'origen
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta el subíndex de l'acceleració
+  màxima és «maàxima» (errata de l'original, es manté amb un comentari DUBTE). «La
+  oscil·lació» i «ve donat» es mantenen com a l'original.

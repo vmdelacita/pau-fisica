@@ -1,0 +1,55 @@
+id: 2013_ext_s1_P2_electrons-camp-magnetic-trajectories
+titol: Dos electrons que entren en sentits contraris en un camp magnètic
+resum: >-
+  Força magnètica, trajectòries circulars i sentit de gir de dos electrons que entren amb
+  la mateixa rapidesa i sentits contraris en un camp magnètic dirigit cap a dins del paper;
+  orientació d'un nou camp magnètic perquè els electrons no es desviïn.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi13sl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi13sp.pdf
+  pagines_solucio: [1]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps magnètics
+paraules_clau: [electrons, força de Lorentz, camp magnètic, trajectòria circular, sentit de gir, camp paral·lel a la velocitat]
+tipus: [qualitativa, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació qualitativa de la força magnètica sobre una càrrega negativa (regla de la mà
+  dreta amb el signe de l'electró) i del fet que la força s'anul·la si B és paral·lel a v.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Dibuixar la força magnètica sobre cada electró, justificar i dibuixar les trajectòries i el sentit de gir.
+  - etiqueta: "b"
+    punts: 1
+    resum: Dibuixar un camp magnètic que no desviï els electrons i justificar-ho.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Regió rectangular amb camp magnètic cap a dins del paper i dos electrons que hi entren per costats oposats en sentits contraris
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Trajectòries semicirculars dels dos electrons dins la regió amb les forces i les velocitats a l'entrada
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Camp magnètic horitzontal paral·lel a les velocitats dels electrons
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text.
+  A la pauta les puntuacions són en requadres; a l'apartat a hi ha dues puntuacions de
+  0,2 p al costat del dibuix (una per electró) i a l'apartat b una de 0,4 p al costat del
+  dibuix. Es conserva l'errata de l'original «gira'n» (per «giren»).

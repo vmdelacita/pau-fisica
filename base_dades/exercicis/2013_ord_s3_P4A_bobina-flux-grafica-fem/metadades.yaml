@@ -1,0 +1,42 @@
+id: 2013_ord_s3_P4A_bobina-flux-grafica-fem
+titol: Flux i FEM en una bobina dins d'un camp magnètic variable (gràfica B-t)
+resum: >-
+  Bobina de 2 000 espires quadrades de 2,5 cm de costat en un camp magnètic perpendicular que varia segons una gràfica B(t); equació del flux en dos intervals i FEM induïda en tres intervals.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [7, 8]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [bobina, flux magnètic, inducció electromagnètica, llei de Faraday, força electromotriu, gràfica B(t), espires quadrades]
+tipus: [càlcul, gràfic]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal llegir la gràfica per trams, escriure el flux en funció del temps i aplicar la llei de Faraday a cada interval.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equació del flux magnètic en funció del temps en els intervals de 0 a 5 s i de 5 a 8 s.
+  - etiqueta: "b"
+    punts: 1
+    resum: FEM induïda en els intervals de 0 a 5 s, de 5 a 8 s i de 8 a 10 s.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica del camp magnètic (mT) en funció del temps (s), que puja linealment de 0 a 25 mT fins a 5 s, es manté fins a 8 s i baixa a 0 a 10 s
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. Els punts decimals de la pauta es passen a coma. A la pauta, «cos 0·» (probablement 0°) i «ε((t)» es transcriuen tal com són. Els intervals [0,5], [5,8] i [8,10] de la pauta s'escriuen amb espai després de la coma perquè no es llegeixin com a decimals.

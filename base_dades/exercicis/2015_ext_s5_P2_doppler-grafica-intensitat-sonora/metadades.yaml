@@ -1,0 +1,46 @@
+id: 2015_ext_s5_P2_doppler-grafica-intensitat-sonora
+titol: Efecte Doppler a partir d'una gràfica i intensitat sonora
+resum: >-
+  Identificació de l'efecte Doppler a partir d'una gràfica freqüència–velocitat de la font i canvi de freqüència quan la font passa pel costat; distància per a un nivell de 65 dB a partir d'una taula d'intensitats i potència de la font.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi15sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi15sp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - efecte Doppler
+  - ones sonores i nivell d'intensitat
+paraules_clau: [efecte Doppler, font de so en moviment, freqüència percebuda, gràfica, intensitat sonora, nivell d'intensitat, decibels, potència sonora]
+tipus: [càlcul, gràfic, experimental]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal llegir la gràfica per a velocitats +100 i -100 m/s i interpretar el canvi de freqüència, i combinar el nivell en decibels amb una taula de dades i la llei de l'invers del quadrat.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Nom del fenomen i canvi de freqüència quan la font passa pel costat de l'observador.
+  - etiqueta: "b"
+    punts: 1
+    resum: Distància a la qual el nivell és de 65 dB i potència de la font.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Gràfica de la freqüència percebuda en funció de la velocitat de la font
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Gràfica de la freqüència en funció de la velocitat reproduïda a la pauta
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la pauta, el resultat intermedi de l'apartat b té un requadre «0.1» a la dreta, transcrit com a 0,1 p (amb aquest subapartat la suma de l'apartat és 1).

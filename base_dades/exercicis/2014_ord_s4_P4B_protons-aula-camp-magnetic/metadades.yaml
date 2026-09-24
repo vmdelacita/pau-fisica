@@ -1,0 +1,42 @@
+id: 2014_ord_s4_P4B_protons-aula-camp-magnetic
+titol: Protons que entren en un camp magnètic dins l'aula
+resum: >-
+  Protons que entren a l'aula amb v = 2,00·10^6 i m/s en un camp magnètic horitzontal
+  B = 0,500 j T: força magnètica sobre els protons; radi de la trajectòria circular i si
+  impactaran contra les persones assegudes.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps magnètics
+paraules_clau: [protons, força de Lorentz, producte vectorial, camp magnètic uniforme, moviment circular uniforme, radi de la trajectòria, aula]
+tipus: [càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Càlcul vectorial directe de la força de Lorentz i aplicació de la condició de
+  moviment circular per obtenir el radi.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Força magnètica sobre els protons en entrar al camp.
+  - etiqueta: "b"
+    punts: 1
+    resum: Radi de la trajectòria circular i si els protons impactaran contra les persones.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la pauta les puntuacions parcials són en caixes amb punt decimal (0.2) i s'han passat a coma. «4.18·10^-2» de l'última frase passat a coma.

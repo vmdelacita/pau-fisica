@@ -1,0 +1,43 @@
+id: 2014_ord_s4_P3B_porta-fotoelectric-de-broglie
+titol: Porta automàtica amb dispositiu fotoelèctric
+resum: >-
+  Dispositiu fotoelèctric d'una porta amb radiació de 850 nm i funció de treball
+  d'1,20 eV: energia cinètica dels fotoelectrons i longitud d'ona de De Broglie
+  associada; longitud d'ona de la radiació que duplicaria l'energia cinètica.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - dualitat ona-partícula
+paraules_clau: [porta automàtica, cèl·lula fotoelèctrica, efecte fotoelèctric, funció de treball, energia cinètica dels fotoelectrons, longitud d'ona de De Broglie, infraroig]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació de l'equació d'Einstein de l'efecte fotoelèctric i de la relació de De
+  Broglie, amb canvis d'unitats d'eV a J.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Energia cinètica dels fotoelectrons i longitud d'ona de De Broglie associada.
+  - etiqueta: "b"
+    punts: 1
+    resum: Longitud d'ona de la radiació que duplicaria l'energia cinètica dels fotoelectrons.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la pauta les puntuacions parcials són en caixes amb punt decimal (0.2) i s'han passat a coma.

@@ -1,0 +1,50 @@
+id: 2013_ord_s4_P1_ceres-planeta-nan
+titol: Camp gravitatori, escapament i òrbita del planeta nan Ceres
+resum: >-
+  Intensitat del camp gravitatori a la superfície de Ceres, velocitat d'escapament i
+  energia mecànica mínima per escapar-ne; distància mitjana Ceres-Sol a partir del
+  període orbital i de les dades de l'òrbita terrestre (tercera llei de Kepler).
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [1]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - camp gravitatori i superposició
+  - velocitat d'escapament
+  - lleis de Kepler
+paraules_clau: [Ceres, planeta nan, cinturó d'asteroides, intensitat de camp gravitatori, velocitat d'escapament, energia mecànica, tercera llei de Kepler, distància mitjana al Sol]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicacions directes de g = GM/R², de la condició d'escapament (energia mecànica nul·la)
+  i de la tercera llei de Kepler comparant amb l'òrbita terrestre.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Camp gravitatori a la superfície de Ceres, velocitat d'escapament i energia mecànica mínima.
+  - etiqueta: "b"
+    punts: 1
+    resum: Distància mitjana Ceres-Sol amb la tercera llei de Kepler.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia de Ceres sobre fons negre (space.com)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la fotografia és a la dreta del text
+  introductori. A la pauta, a la primera fila del sistema de l'apartat b hi ha T_T on hauria
+  de ser T_C, i s'hi llegeix «Klepler»; es transcriu tal com és.

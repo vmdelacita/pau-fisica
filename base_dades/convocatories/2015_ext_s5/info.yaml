@@ -1,0 +1,24 @@
+id: 2015_ext_s5
+any: 2015
+convocatoria: extraordinaria
+serie: 5
+format: antic
+pdf_enunciat: examenes/pau_fisi15sl.pdf
+pdf_solucio: examenes/pau_fisi15sp.pdf
+# El PDF de l'enunciat només conté la sèrie 5: pàgines 1-4.
+# El PDF de la pauta només conté la sèrie 5: pàgines 1-9 (criteris generals a la pàgina 1).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2015_ext_s5_P1_curiosity-mart-deimos
+  - 2015_ext_s5_P2_doppler-grafica-intensitat-sonora
+  - 2015_ext_s5_P3A_rado-222-desintegracio-gamma
+  - 2015_ext_s5_P4A_esferes-carregades-penjades
+  - 2015_ext_s5_P5A_selector-velocitats-proto
+  - 2015_ext_s5_P3B_copernici-sintesi-desintegracio
+  - 2015_ext_s5_P4B_dues-carregues-energia-treball
+  - 2015_ext_s5_P5B_espira-giratoria-flux-fem

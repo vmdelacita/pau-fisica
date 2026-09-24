@@ -1,0 +1,49 @@
+id: 2015_ord_s2_P4B_transformador-bobines-220-110
+titol: Transformador reductor de 220 V a 110 V amb bobines
+resum: >-
+  Disseny raonat d'un transformador amb bobines de 1 000 i 500 espires per passar d'una
+  tensió eficaç de 220 V a 110 V, indicant el primari i el secundari; valors màxims de la
+  tensió i la intensitat al primari i intensitat al secundari.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - generadors, motors i transformadors
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [transformador, bobines, espires, primari, secundari, tensió eficaç, valor màxim, corrent altern, potència]
+tipus: [qualitativa, càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de la relació de transformació i de la conservació de la potència en un
+  transformador ideal, més la relació entre valors eficaços i màxims.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Esquema i explicació del muntatge del transformador indicant el primari i el secundari.
+  - etiqueta: "b"
+    punts: 1
+    resum: Valors màxims de la tensió i la intensitat al primari i intensitat al circuit de 110 V.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Transformador amb nucli de ferro, bobina primària N1 (ε1) i secundària N2 (ε2) i línies de camp B dins del nucli
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta la figura del transformador és a la
+  dreta de les equacions de Faraday, i algunes puntuacions (0,2 p, 0,3 p) són al final de
+  la línia o dins del text.

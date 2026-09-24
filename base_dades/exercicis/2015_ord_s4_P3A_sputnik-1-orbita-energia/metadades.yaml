@@ -1,0 +1,43 @@
+id: 2015_ord_s4_P3A_sputnik-1-orbita-energia
+titol: Òrbita i energia de posada en òrbita de l'Sputnik 1
+resum: >-
+  Raonament de per què l'Sputnik 1 (període de 96,2 min) no és geostacionari i càlcul de l'altura de la seva òrbita circular; energia que cal subministrar per situar-lo en òrbita des de Baikonur tenint en compte la velocitat deguda a la rotació terrestre.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [13]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - energia mecànica orbital
+paraules_clau: [Sputnik 1, satèl·lit geostacionari, òrbita circular, altura orbital, energia mecànica, rotació de la Terra, Baikonur, tercera llei de Kepler]
+tipus: [qualitativa, càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Càlcul de l'altura a partir del període i balanç d'energia mecànica entre la superfície (amb la velocitat de rotació) i l'òrbita: diversos passos estàndard.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Raonar si l'Sputnik 1 és geostacionari i calcular l'altura de l'òrbita circular.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia que cal subministrar per situar-lo en òrbita des d'un punt de la superfície amb v = 325 m/s.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'una rèplica de l'Sputnik 1, esfera metàl·lica amb quatre antenes llargues sobre fons negre
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la fotografia és a la dreta del text introductori. A la pauta, en el càlcul de E_m,orbital hi ha «5,97 × 0^24» (hi falta l'1 de 10^24): es transcriu tal com és amb % DUBTE.

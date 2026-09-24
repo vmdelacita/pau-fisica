@@ -1,0 +1,48 @@
+id: 2014_ord_s3_P4B_barra-mhs-forca-conductora
+titol: Barra en MHS sobre una forca conductora
+resum: >-
+  Flux magnètic a través del circuit format per una barra que oscil·la amb MHS sobre una
+  forca conductora dins un camp magnètic uniforme, en t = 0 i en funció del temps; força
+  electromotriu induïda i el seu valor màxim.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: ["Vibracions i ones"]
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+  - moviment harmònic simple
+paraules_clau: [barra lliscant, forca conductora, flux magnètic, llei de Faraday, força electromotriu induïda, moviment harmònic simple, camp magnètic uniforme]
+tipus: [càlcul, deducció]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal expressar l'àrea del circuit a partir de l'equació del MHS i derivar el flux per
+  obtenir la fem; combina inducció i MHS però de manera guiada.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Flux magnètic en t = 0 i expressió del flux en funció del temps."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Força electromotriu induïda en funció del temps i valor màxim."
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Forca conductora amb una barra a distància x0 de l'extrem tancat, amplada L = 2 m, dins un camp magnètic entrant
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta, «0.3 sin(32t)» amb punt decimal en
+  una de les expressions (passat a coma).

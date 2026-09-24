@@ -1,0 +1,43 @@
+id: 2015_ext_s5_P5A_selector-velocitats-proto
+titol: Selector de velocitats amb un protó
+resum: >-
+  Esquema dels camps i les forces sobre un protó en un selector de velocitats i velocitat per no desviar-se; radi de curvatura de la trajectòria quan s'interromp el camp elèctric.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi15sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi15sp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - selector de velocitats, espectròmetre i ciclotró
+  - moviment de càrregues en camps magnètics
+paraules_clau: [selector de velocitats, protó, camps creuats, força de Lorentz, gauss, radi de curvatura, trajectòria circular]
+tipus: [càlcul, diagrama]
+dificultat: 2
+justificacio_dificultat: >-
+  Dos passos estàndard i guiats: igualar força elèctrica i magnètica per obtenir v = E/B i aplicar R = mv/(qB), amb el canvi d'unitats de gauss a tesla.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Esquema de camps i forces i velocitat del protó que no es desvia.
+  - etiqueta: "b"
+    punts: 1
+    resum: Radi de curvatura de la trajectòria sense camp elèctric.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema del selector de velocitats amb el camp E, el camp B i les forces elèctrica i magnètica sobre el protó
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'apartat b la pauta dona R = 2,30×10^-2 m, però amb les dades (1,67×10^-27 · 6,67×10^5)/(1,60×10^-19 · 3,00×10^-1) surt 2,32×10^-2 m; s'ha transcrit tal com és (DUBTE).

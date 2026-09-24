@@ -1,0 +1,51 @@
+id: 2013_ord_s4_P4A_americi-241-seaborg
+titol: Obtenció de l'americi 241 a partir del plutoni
+resum: >-
+  Coeficients de les dues últimes reaccions de l'obtenció de l'americi 241 a partir del
+  Pu-240 (captura d'un neutró i desintegració beta) i percentatge de nuclis d'Am-241
+  desintegrats des del 1944.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - reaccions nuclears i defecte de massa
+  - radioactivitat i llei de desintegració
+paraules_clau: [americi 241, plutoni, Seaborg, captura de neutrons, desintegració beta, conservació del nombre màssic, període de semidesintegració, percentatge desintegrat]
+tipus: [càlcul, context-històric]
+dificultat: 2
+justificacio_dificultat: >-
+  Ajust de reaccions nuclears per conservació del nombre màssic i atòmic i aplicació
+  directa de la llei de desintegració amb el període de semidesintegració.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Coeficients a, b, c i d, partícula capturada pel Pu-240 i tipus de desintegració del Pu-241.
+  - etiqueta: "b"
+    punts: 1
+    resum: Percentatge de nuclis d'Am-241 desintegrats des del 1944.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Retrat de Glenn Theodore Seaborg
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la fotografia, amb el peu «Glenn
+  Theodore Seaborg», és a la dreta del text. L'apartat b diu «fins ara»: la pauta pren
+  l'any 2013 (69 anys); si es reutilitza l'exercici caldrà actualitzar el resultat. A la
+  pauta es llegeix «ha emes» i la partícula de la segona reacció s'escriu «y» (a l'enunciat
+  «Y»); es transcriu tal com és.

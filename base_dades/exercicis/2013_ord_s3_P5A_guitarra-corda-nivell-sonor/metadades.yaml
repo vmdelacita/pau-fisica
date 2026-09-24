@@ -1,0 +1,41 @@
+id: 2013_ord_s3_P5A_guitarra-corda-nivell-sonor
+titol: Ona estacionària en una corda de guitarra i nivell d'intensitat sonora
+resum: >-
+  Longitud d'ona del mode fonamental i velocitat de propagació en una corda de guitarra de 65,0 cm que vibra a 330 Hz; nivell d'intensitat sonora quan sonen tres guitarres idèntiques si una sola en dona 30 dB.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [8]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones estacionàries
+  - ressonància i harmònics en tubs i cordes
+  - ones sonores i nivell d'intensitat
+paraules_clau: [guitarra, corda, ona estacionària, mode fonamental, velocitat de propagació, nivell d'intensitat sonora, decibels, intensitat llindar]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Dos conceptes estàndard aplicats directament: λ = 2L per al fonamental i la suma d'intensitats en el nivell sonor.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Longitud d'ona del mode fonamental i velocitat de propagació de les ones a la corda.
+  - etiqueta: "b"
+    punts: 1
+    resum: Nivell d'intensitat sonora amb tres guitarres idèntiques.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. Els punts decimals de la pauta es passen a coma.

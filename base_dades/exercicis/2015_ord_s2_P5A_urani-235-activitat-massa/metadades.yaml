@@ -1,0 +1,44 @@
+id: 2015_ord_s2_P5A_urani-235-activitat-massa
+titol: Activitat i massa d'una mostra d'urani-235
+resum: >-
+  Constant de desintegració de l'urani-235 a partir del període de semidesintegració,
+  nombre de nuclis i activitat inicial d'una mostra d'1,000 g; massa que queda al cap de
+  10⁸ anys.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+paraules_clau: [urani-235, període de semidesintegració, constant de desintegració, activitat, becquerel, nombre d'Avogadro, llei de desintegració radioactiva]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació estàndard de λ = ln2/T, del nombre de nuclis a partir de la massa molar i de la
+  llei de desintegració exponencial, amb canvis d'unitats.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Activitat inicial d'una mostra d'1,000 g d'urani-235.
+  - etiqueta: "b"
+    punts: 1
+    resum: Massa d'urani-235 que queda al cap de 10⁸ anys.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. La pauta fa servir N_A = 6,02·10²³ i 1,00 g a
+  l'apartat a) (l'enunciat dona 6,022·10²³ i 1,000 g); s'ha transcrit tal com és.

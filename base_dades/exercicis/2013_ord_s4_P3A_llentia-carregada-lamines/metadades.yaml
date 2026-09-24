@@ -1,0 +1,52 @@
+id: 2013_ord_s4_P3A_llentia-carregada-lamines
+titol: Llentia carregada penjada d'un fil entre dues làmines
+resum: >-
+  Llentia metàl·lica carregada penjada d'un fil entre dues làmines amb un camp elèctric
+  uniforme: diagrama de forces i angle del fil amb la vertical en l'equilibri; diferència de
+  potencial entre la posició d'equilibri i la posició vertical.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 3
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - equilibri de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+paraules_clau: [pèndol elèctric, llentia carregada, làmines paral·leles, camp elèctric uniforme, equilibri, tensió del fil, angle, diferència de potencial]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal dibuixar les tres forces, plantejar l'equilibri per obtenir l'angle i relacionar la
+  diferència de potencial amb el desplaçament horitzontal de la llentia en el camp uniforme.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Diagrama de forces sobre la llentia i angle del fil amb la vertical en l'equilibri.
+  - etiqueta: "b"
+    punts: 1
+    resum: Diferència de potencial entre la posició d'equilibri i la vertical.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Dues làmines verticals (+ a l'esquerra, − a la dreta) amb una llentia penjada d'un fil al centre
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Llentia desviada cap a la làmina positiva amb les forces Mg, Eq i T, l'angle α, el camp E i el desplaçament Δr
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. L'enunciat no dona el valor de g. A la pauta,
+  5,68·10⁻¹ rad s'arrodoneix a 33° a l'apartat a però a l'apartat b es fa servir 32,5°;
+  a l'apartat b hi ha una caixa de 0,2 p entre dos signes «=»; es transcriu tal com és.

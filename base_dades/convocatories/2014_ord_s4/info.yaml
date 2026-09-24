@@ -1,0 +1,26 @@
+id: 2014_ord_s4
+any: 2014
+convocatoria: ordinaria
+serie: 4
+format: antic
+pdf_enunciat: examenes/pau_fisi14jl.pdf
+pdf_solucio: examenes/pau_fisi14jp.pdf
+# El PDF de l'enunciat conté les sèries 3 i 4: la sèrie 4 és a les pàgines 5-8.
+# El PDF de la pauta conté les sèries 3 i 4: la sèrie 4 és a les pàgines 5-9 (la
+# pàgina 10 és en blanc). La pauta no té criteris generals d'avaluació (comença
+# directament amb «SÈRIE 3»), per això no hi ha criteris_generals.tex.
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2014_ord_s4_P1_meteorit-lluna-energia-mecanica
+  - 2014_ord_s4_P2_motor-ionic-xeno-plaques
+  - 2014_ord_s4_P3A_poloni-210-litvinenko
+  - 2014_ord_s4_P4A_vareta-forca-conductora-fem
+  - 2014_ord_s4_P5A_agulla-maquina-cosir-mhs
+  - 2014_ord_s4_P3B_porta-fotoelectric-de-broglie
+  - 2014_ord_s4_P4B_protons-aula-camp-magnetic
+  - 2014_ord_s4_P5B_violi-corda-ones-estacionaries

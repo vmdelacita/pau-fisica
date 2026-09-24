@@ -1,0 +1,59 @@
+id: 2015_ord_s2_P4A_tres-fils-quadrat-camp-forca
+titol: Tres fils conductors als vèrtexs d'un quadrat
+resum: >-
+  Representació i càlcul del camp magnètic total creat per dos fils rectilinis infinits en
+  el vèrtex on hi ha un tercer fil; representació i mòdul de la força total sobre 2,00 m
+  del tercer conductor.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - camp magnètic creat per corrents
+  - força magnètica sobre corrents i entre fils
+paraules_clau: [fils conductors, fil infinit, quadrat, camp magnètic, superposició, força entre corrents, regla de la mà dreta, producte vectorial]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal determinar la direcció dels camps creats per dos fils, sumar-los vectorialment i
+  aplicar F = I l × B amb el camp total; problema PAU típic amb representació vectorial.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Esquema dels camps creats per A i B en C i del camp total; mòdul del camp total.
+  - etiqueta: "b"
+    punts: 1
+    resum: Esquema de la força total sobre el conductor C i mòdul de la força sobre 2,00 m.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Tres fils amb corrent cap a dins del paper (A, B, C) en tres vèrtexs d'un quadrat de 0,20 m de costat
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Repetició de l'esquema dels tres fils als vèrtexs del quadrat
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Camps B_A (cap a l'esquerra) i B_B (cap amunt) en C i el camp total B
+  - fitxer: sol_fig3.png
+    on: solucio
+    descripcio: Forces F_A (cap amunt) i F_B (cap a la dreta) sobre el fil C i la força total F
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text. A
+  la pauta el text inicial de l'apartat a) i la figura dels fils van un al costat de
+  l'altre. El resultat final de la pauta (2,55·10⁻⁷ N) correspon a fer servir B_total sense
+  arrodonir (0,30 × 2,0 × 4,2·10⁻⁷ donaria 2,52·10⁻⁷ N); s'ha transcrit tal com és.

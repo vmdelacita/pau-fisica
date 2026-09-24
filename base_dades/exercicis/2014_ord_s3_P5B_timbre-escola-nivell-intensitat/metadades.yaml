@@ -1,0 +1,43 @@
+id: 2014_ord_s3_P5B_timbre-escola-nivell-intensitat
+titol: Timbre d'una escola i nivell d'intensitat sonora
+resum: >-
+  Intensitat del so a partir del nivell d'intensitat sonora mesurat a 7,0 m d'un timbre;
+  potència del timbre com a emissor puntual i distància a partir de la qual deixa de
+  sentir-se.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones sonores i nivell d'intensitat
+paraules_clau: [timbre, nivell d'intensitat sonora, decibels, intensitat del so, potència sonora, emissor puntual, llindar d'audició, telèfon intel·ligent]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació encadenada de la definició de nivell d'intensitat i de la relació I = P/(4πr²)
+  per a un emissor puntual.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Intensitat del so on es fa la mesura (50 dB a 7,0 m)."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Potència del timbre i distància a partir de la qual no se sent."
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt.

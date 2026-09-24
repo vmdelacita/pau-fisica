@@ -1,0 +1,40 @@
+id: 2013_ord_s3_P4B_molla-mhs-energies-equacio
+titol: Massa i molla en MHS a partir de les energies inicials
+resum: >-
+  A partir de la posició, la velocitat i les energies cinètica i potencial inicials d'una massa lligada a una molla, constant de la molla, massa i energia mecànica; amplitud, freqüència angular, fase inicial i equació del moviment.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [8]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [9, 10]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - energia del MHS
+paraules_clau: [molla, moviment harmònic simple, energia cinètica, energia potencial elàstica, constant recuperadora, amplitud, fase inicial, equació del moviment]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema típic de MHS amb diversos passos encadenats; la fase inicial requereix combinar les condicions inicials de posició i velocitat.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Constant de la molla, massa del cos i energia mecànica total.
+  - etiqueta: "b"
+    punts: 1
+    resum: Amplitud, freqüència angular, fase inicial i equació del moviment.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. Els punts decimals de la pauta es passen a coma. A la pauta, «0.86» i «0,86» apareixen barrejats; es passen tots a coma.

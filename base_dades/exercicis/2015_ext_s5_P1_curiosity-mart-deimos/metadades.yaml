@@ -1,0 +1,44 @@
+id: 2015_ext_s5_P1_curiosity-mart-deimos
+titol: Mart, Deimos i el robot Curiosity
+resum: >-
+  Càlcul de la massa de Mart a partir de la gravetat superficial i el radi; radi de l'òrbita de Deimos a partir del seu període i velocitat d'escapament des de la superfície de Mart.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi15sl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi15sp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - camp gravitatori i superposició
+  - òrbites circulars i satèl·lits
+  - velocitat d'escapament
+paraules_clau: [Mart, Deimos, Fobos, Curiosity, massa d'un planeta, radi orbital, període orbital, velocitat d'escapament]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació de tres fórmules estàndard (g = GM/R², dinàmica de l'òrbita circular i velocitat d'escapament) amb dades explícites; només cal passar el període a segons.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Massa de Mart a partir de g i del radi del planeta.
+  - etiqueta: "b"
+    punts: 1
+    resum: Radi de l'òrbita de Deimos i velocitat d'escapament des de la superfície de Mart.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografies de Fobos i Deimos
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la fotografia és a la dreta del text introductori; les dades de massa de Deimos no calen per resoldre'l.

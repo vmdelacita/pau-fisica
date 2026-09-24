@@ -1,0 +1,50 @@
+id: 2013_ext_s1_P1_apollo-11-orbita-lluna
+titol: Mòdul Columbia de l'Apollo 11 en òrbita lunar
+resum: >-
+  A partir de l'altura i el període orbital del mòdul de comandament Columbia al voltant
+  de la Lluna, càlcul de la massa de la Lluna i de la intensitat del camp gravitatori a la
+  superfície lunar; velocitat d'escapament des de la superfície de la Lluna.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi13sl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi13sp.pdf
+  pagines_solucio: [1]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - òrbites circulars i satèl·lits
+  - camp gravitatori i superposició
+  - velocitat d'escapament
+paraules_clau: [Apollo 11, mòdul Columbia, Lluna, massa de la Lluna, òrbita circular, període orbital, gravetat superficial, velocitat d'escapament]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació estàndard de la segona llei de Newton a una òrbita circular per obtenir la
+  massa del cos central, seguida del camp a la superfície i de la velocitat d'escapament.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Massa de la Lluna a partir de l'òrbita del Columbia i intensitat del camp gravitatori a la superfície lunar.
+  - etiqueta: "b"
+    punts: 1
+    resum: Velocitat d'escapament des de la superfície lunar.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia del mòdul lunar sobre la superfície de la Lluna amb la Terra a l'horitzó
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la fotografia és a la dreta del
+  text. A la pauta les puntuacions són en requadres; els decimals amb punt (1.74, 6.67)
+  s'han passat a coma, i la massa m apareix ratllada (simplificada) a l'última equació.

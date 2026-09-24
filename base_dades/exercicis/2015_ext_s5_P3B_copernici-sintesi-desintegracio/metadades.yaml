@@ -1,0 +1,43 @@
+id: 2015_ext_s5_P3B_copernici-sintesi-desintegracio
+titol: Síntesi i sèrie radioactiva del copernici 277
+resum: >-
+  Reacció d'obtenció del copernici 277 bombardejant plom amb zinc i percentatge que queda al cap d'un minut; seqüència de desintegracions alfa fins al fermi 253.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi15sl.pdf
+  pagines_enunciat: [3, 4]
+  pdf_solucio: examenes/pau_fisi15sp.pdf
+  pagines_solucio: [7]
+format: antic
+curriculum: actual
+bloc: "Física relativista, quàntica i nuclear"
+blocs_secundaris: []
+subtemes:
+  - reaccions nuclears i defecte de massa
+  - radioactivitat i llei de desintegració
+paraules_clau: [copernici, elements superpesants, reacció nuclear, neutró, període de semidesintegració, sèrie radioactiva, desintegració alfa, GSI Darmstadt]
+tipus: [càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Conservació del nombre màssic i atòmic en la reacció i en una cadena de sis desintegracions alfa, i raonament directe amb el període de semidesintegració.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Reacció d'obtenció del copernici i percentatge que roman al cap d'un minut.
+  - etiqueta: "b"
+    punts: 1
+    resum: Sèrie radioactiva del copernici fins al fermi amb els símbols dels elements.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Retrat de Nicolau Copèrnic
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original el retrat és a la dreta del text introductori. A la pauta de l'apartat a es llegeix «c ==112» (doble signe d'igualtat), i així s'ha transcrit.

@@ -1,0 +1,45 @@
+id: 2015_ord_s4_P4A_particules-camp-magnetic-trajectories
+titol: Dues partícules carregades en un camp magnètic uniforme
+resum: >-
+  Signe de dues càrregues a partir del sentit de curvatura de les trajectòries en un camp magnètic que surt del paper i velocitat a partir de la força magnètica; radis de les trajectòries circulars i freqüència del moviment d'una de les partícules.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [14]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps magnètics
+paraules_clau: [força de Lorentz, camp magnètic uniforme, trajectòria circular, signe de la càrrega, radi de la trajectòria, freqüència, producte vectorial]
+tipus: [qualitativa, càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal raonar el signe de cada càrrega amb el producte vectorial a partir de la figura i encadenar la força magnètica, el radi i la freqüència.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Signe de cada càrrega raonat i velocitat de les càrregues.
+  - etiqueta: "b"
+    punts: 1
+    resum: Radis de les trajectòries de cada partícula i freqüència del moviment de Q2.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Zona amb camp magnètic B que surt del paper (punts encerclats) i dos arcs de trajectòria, Q1 corbant cap a l'esquerra i Q2 corbant cap avall
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema de les velocitats i les forces magnètiques F1 i F2 sobre q1 i q2 amb el camp B sortint del paper
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A l'original la figura de l'enunciat és a la dreta del text introductori.

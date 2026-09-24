@@ -1,0 +1,43 @@
+id: 2013_ord_s3_P2_cambra-acceleradora-electrons
+titol: Cambra acceleradora d'electrons
+resum: >-
+  Camp elèctric dins d'una cambra de 30,0 cm on els electrons tenen una acceleració d'1,20·10^13 m/s^2; diferència de potencial entre les parets, paret de potencial més alt i energia que guanya cada electró.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+paraules_clau: [cambra acceleradora, electró, MRUA, camp elèctric uniforme, diferència de potencial, energia, electronvolt]
+tipus: [càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Dos passos estàndard: segona llei de Newton amb la força elèctrica i relació entre camp uniforme, diferència de potencial i energia, amb atenció al signe de la càrrega.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Camp elèctric dins la cambra, amb direcció i sentit.
+  - etiqueta: "b"
+    punts: 1
+    resum: Diferència de potencial entre les parets, paret de potencial més alt i energia guanyada per cada electró.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Cambra acceleradora de 30 cm amb orificis a l'esquerra i a la dreta i un electró amb una fletxa cap a la dreta
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. Els punts decimals de la pauta es passen a coma. A la pauta es transcriuen tal com són «El potencial mes alt serà a la part dreta de la càmera» i la notació ΔE = Ω per al treball.

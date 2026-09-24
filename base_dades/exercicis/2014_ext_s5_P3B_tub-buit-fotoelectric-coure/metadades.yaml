@@ -1,0 +1,53 @@
+id: 2014_ext_s5_P3B_tub-buit-fotoelectric-coure
+titol: Tub de buit amb efecte fotoelèctric en un elèctrode de coure
+resum: >-
+  Fotons de 10 eV arrenquen electrons d'un elèctrode de coure en un tub de buit amb un
+  camp elèctric uniforme (3 V en 30 cm); els electrons arriben a l'altre elèctrode amb
+  2,3 eV. Freqüència i longitud d'ona de la radiació, camp elèctric, energia cinètica
+  d'emissió per conservació de l'energia i treball d'extracció del coure.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi14sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi14sp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: [Camps electromagnètics]
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+  - moviment de càrregues en camps elèctrics
+paraules_clau: [tub de buit, efecte fotoelèctric, coure, treball d'extracció, camp elèctric uniforme, diferència de potencial, conservació de l'energia, electronvolt]
+tipus: [càlcul]
+dificultat: 4
+justificacio_dificultat: >-
+  Combina l'efecte fotoelèctric amb el moviment d'electrons en un camp elèctric: cal
+  aplicar la conservació de l'energia amb el signe correcte de la diferència de
+  potencial per obtenir l'energia cinètica d'emissió abans del treball d'extracció.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Freqüència i longitud d'ona (nm) de la radiació incident i valor del camp elèctric.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia cinètica d'emissió dels electrons a l'elèctrode A i treball d'extracció del coure en eV.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Tub de buit amb els elèctrodes A (il·luminat per radiació) i B separats una distància d i camp elèctric E de A cap a B
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text
+  introductori. L'enunciat anomena «ànode» l'elèctrode A il·luminat que emet electrons i
+  «càtode» el B, al revés del que és habitual; es manté tal com és. Els punts decimals de
+  la pauta (1.602, 2.3, 5.3, 4.7) s'han passat a coma.

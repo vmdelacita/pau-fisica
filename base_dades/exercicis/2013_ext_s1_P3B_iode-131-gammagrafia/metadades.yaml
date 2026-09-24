@@ -1,0 +1,50 @@
+id: 2013_ext_s1_P3B_iode-131-gammagrafia
+titol: Iode 131 com a radiofàrmac per a gammagrafies
+resum: >-
+  Fracció de iode 131 (període de semidesintegració de 13,2 h) que resta al cos 24 hores
+  després d'injectar-lo; esquema del procés nuclear en què el iode 131 produeix xenó 131 i
+  identificació de la partícula emesa.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi13sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi13sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [iode 131, radiofàrmac, gammagrafia, període de semidesintegració, llei de desintegració radioactiva, desintegració beta, xenó 131]
+tipus: [càlcul, qualitativa]
+dificultat: 1
+justificacio_dificultat: >-
+  Aplicació directa de la llei de desintegració amb dades explícites i escriptura d'una
+  desintegració beta a partir de la conservació del nombre màssic i de la càrrega.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Fracció de iode 131 que resta al cos al cap de 24,0 hores.
+  - etiqueta: "b"
+    punts: 1
+    resum: Esquema del procés nuclear de iode 131 a xenó 131 i partícula emesa.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'una gammagrafia del tronc (columna vertebral, costelles i pelvis)
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la gammagrafia és a la dreta del
+  text, amb el peu «Exemple de gammagrafia». A la pauta les puntuacions són en requadres i
+  els decimals amb punt s'han passat a coma. La pauta escriu la desintegració beta sense
+  l'antineutrí.

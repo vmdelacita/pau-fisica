@@ -1,0 +1,43 @@
+id: 2015_ext_s5_P5B_espira-giratoria-flux-fem
+titol: Espira circular que gira en un camp magnètic
+resum: >-
+  Equació del flux magnètic que travessa una espira de 200 cm² que gira a 191 rpm en un camp de 0,40 T; força electromotriu màxima induïda.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi15sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi15sp.pdf
+  pagines_solucio: [9]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - flux magnètic i inducció (Faraday-Lenz)
+  - generadors, motors i transformadors
+paraules_clau: [espira giratòria, flux magnètic, llei de Faraday, força electromotriu, velocitat angular, rpm, generador]
+tipus: [càlcul, deducció]
+dificultat: 2
+justificacio_dificultat: >-
+  Dos passos estàndard: expressar el flux en funció del temps amb ω a partir de les rpm i derivar-lo per obtenir la FEM màxima BAω.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equació del flux magnètic en funció del temps.
+  - etiqueta: "b"
+    punts: 1
+    resum: Força electromotriu màxima induïda.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Espira circular que gira al voltant d'un eix dins d'un camp magnètic vertical B
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la pauta de l'apartat a, un requadre «0,5 =» agrupa amb una clau els tres primers passos (0,1 + 0,1 + 0,3 p); s'ha transcrit el requadre i els passos, de manera que la suma dels \punts{} de l'apartat dona 1,5 però la puntuació real és 1.

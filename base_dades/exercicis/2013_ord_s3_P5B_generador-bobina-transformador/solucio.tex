@@ -1,0 +1,17 @@
+\begin{solapartat}
+La superfície d'una espira és: $s_0 = 16\ \mathrm{cm^2} = 1,6\cdot 10^{-3}\ \mathrm{m^2}$, per tant la superfície total que genera el flux magnètic en al bobina és: $S_0 = 200\ s_0 = 3,2\cdot 10^{-1}\ \mathrm{m^2}$ \punts{0,1}. La superfície efectiva que travessa el camp magnètic és:
+\[ S(t) = S_0\ \cos(\omega\ t) = S_0\ \cos(2\pi\nu\ t)\ \text{\punts{0,1}} \]
+Per tant el flux que travessa la bobina en funció del temps serà:
+\[ \Phi = B\ S(t) = B\ S_0\cos(2\pi\nu\ t)\ \text{\punts{0,1}} \]
+La \textit{fem} generada serà:
+\[ \varepsilon(t) = -\frac{\mathrm{d}\Phi}{\mathrm{d}t}\ \text{\punts{0,1}} = 2\pi\nu\ B\ S_0\ \sin(2\pi\nu\ t)\ \text{\punts{0,1}} = 1,01\cdot 10^{-2}\ \sin(50\pi t)\ \mathrm{V}\ \text{\punts{0,2}} \]
+\figura[0.5]{sol_fig1.png}
+\aladreta{\punts{0,3}}
+\end{solapartat}
+
+\begin{solapartat}
+L'expressió que lliga les voltes del primari i el secundari amb les seves respectives diferencies de potencial és:
+\[ \frac{\varepsilon_p}{\varepsilon_s} = \frac{N_p}{N_s}\ \text{\punts{0,2}} \Rightarrow N_s = \frac{N_p\ \varepsilon_s}{\varepsilon_P} = \frac{10\cdot 2,5}{0,05} = 500\ \text{voltes}\ \text{\punts{0,3}} \]
+Per altre banda la potència transmesa en el primari ha de ser igual a la obtinguda al secundari, per tant:
+\[ \varepsilon_p\ \mathrm{i}_p = \varepsilon_s\ \mathrm{i}_s\ \text{\punts{0,2}} \Rightarrow \mathrm{i}_p = \frac{\mathrm{i}_s\cdot\varepsilon_s}{\varepsilon_p} = \frac{20\cdot 10^{-3}\cdot 2,5}{0,05} = 1,0\ \mathrm{A}\ \text{\punts{0,3}} \]
+\end{solapartat}

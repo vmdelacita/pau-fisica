@@ -1,0 +1,47 @@
+id: 2014_ord_s3_P5A_trompeta-ones-estacionaries
+titol: Ones estacionàries en una trompeta
+resum: >-
+  Longitud d'ona i freqüència dels tres primers modes estacionaris en un tub tancat per un
+  extrem que modelitza una trompeta; longitud efectiva de la cavitat quan es prem un pistó
+  i recorregut extra de l'aire.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [3]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ones estacionàries
+  - ressonància i harmònics en tubs i cordes
+paraules_clau: [trompeta, instrument de vent, tub tancat per un extrem, harmònics, modes de vibració, pistó, longitud efectiva, velocitat del so]
+tipus: [càlcul, deducció]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal establir la condició d'ones estacionàries en un tub obert per un extrem i
+  identificar correctament el segon mode (harmònic 3) per calcular la nova longitud.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Longitud d'ona i freqüència dels tres primers modes estacionaris per a l0 = 0,975 m."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Longitud efectiva de la cavitat per al segon mode a 247 Hz i recorregut extra Δl."
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta hi ha «87.2 Hz» amb punt decimal
+  (passat a coma) i algunes errates d'accents («estacionaries», «es a dir») transcrites
+  tal com són. A l'original els tres grups n = 0, 1, 2 són en una sola línia; aquí es
+  parteixen en dues línies perquè hi càpiguen.

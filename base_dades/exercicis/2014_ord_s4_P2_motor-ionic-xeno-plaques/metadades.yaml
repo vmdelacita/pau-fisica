@@ -1,0 +1,47 @@
+id: 2014_ord_s4_P2_motor-ionic-xeno-plaques
+titol: Motor iònic d'ions de xenó
+resum: >-
+  Acceleració d'ions Xe+ entre dues plaques separades 10 cm fins a 3,0·10^5 m/s en un
+  motor iònic: acceleració dels ions i camp elèctric a la cambra; diferència de potencial
+  entre les plaques i valor que caldria si estiguessin separades 6 cm.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 2
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [6]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - moviment de càrregues en camps elèctrics
+  - potencial i energia potencial elèctrica
+paraules_clau: [motor iònic, ions de xenó, nau espacial, camp elèctric uniforme, plaques paral·leles, diferència de potencial, teorema de les forces vives, unitat de massa atòmica]
+tipus: [càlcul, qualitativa]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació encadenada del teorema de l'energia cinètica, de la segona llei de Newton i
+  de la relació E = ΔV/d, amb un raonament breu sobre la independència de ΔV respecte
+  de la separació.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Acceleració dels ions i camp elèctric a la cambra d'acceleració.
+  - etiqueta: "b"
+    punts: 1
+    resum: Diferència de potencial entre les plaques i valor si la separació fos de 6 cm.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Esquema del motor iònic amb la cambra, les dues plaques (+ i −) separades 10 cm i els feixos d'ions sortint cap a la dreta
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la pauta les puntuacions parcials són en caixes amb punt decimal (0.2) i s'han passat a coma.

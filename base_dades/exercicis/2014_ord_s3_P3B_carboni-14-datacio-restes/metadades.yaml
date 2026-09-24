@@ -1,0 +1,46 @@
+id: 2014_ord_s3_P3B_carboni-14-datacio-restes
+titol: Datació de restes òssies amb carboni 14
+resum: >-
+  Antiguitat de restes òssies a partir del nombre d'àtoms de C-14 actual i inicial i del
+  període de semidesintegració; equació de la desintegració beta menys del C-14 amb
+  l'antineutrí i defecte de massa per nucleó.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 3
+  exercici: 3
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - reaccions nuclears i defecte de massa
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [carboni 14, datació radiomètrica, jaciment arqueològic, període de semidesintegració, desintegració beta, antineutrí, defecte de massa, nucleó]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  Aplicació de la llei de desintegració i escriptura d'una equació nuclear, més un càlcul
+  de defecte de massa que requereix comptar bé protons, neutrons i electrons de l'àtom.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: "Antiguitat de les restes amb t1/2 = 5 760 anys."
+  - etiqueta: "b"
+    punts: 1
+    resum: "Equació nuclear de la desintegració β⁻ del C-14 i defecte de massa per nucleó."
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta, 1.873·10⁻²⁸ i 1.338·10⁻²⁹ amb punt
+  decimal (passats a coma).

@@ -1,0 +1,26 @@
+id: 2015_ord_s4
+any: 2015
+convocatoria: ordinaria
+serie: 4
+format: antic
+pdf_enunciat: examenes/pau_fisi15jl.pdf
+pdf_solucio: examenes/pau_fisi15jp.pdf
+# El PDF de l'enunciat conté les sèries 2 i 4: la sèrie 4 és a les pàgines 5-8
+# (la pàgina 8 és en blanc).
+# El PDF de la pauta conté les sèries 2 i 4: la sèrie 4 és a les pàgines 10-18
+# (criteris generals a la pàgina 10).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2015_ord_s4_P1_dues-carregues-triangle-equilater
+  - 2015_ord_s4_P2_desintegracions-successives-grafica
+  - 2015_ord_s4_P3A_sputnik-1-orbita-energia
+  - 2015_ord_s4_P4A_particules-camp-magnetic-trajectories
+  - 2015_ord_s4_P5A_soprano-longitud-ona-nivell-sonor
+  - 2015_ord_s4_P3B_velocitat-escapament-lluna
+  - 2015_ord_s4_P4B_boia-marina-mhs-energia
+  - 2015_ord_s4_P5B_fil-infinit-espira-camp-magnetic

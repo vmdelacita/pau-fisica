@@ -1,0 +1,24 @@
+id: 2013_ext_s1
+any: 2013
+convocatoria: extraordinaria
+serie: 1
+format: antic
+pdf_enunciat: examenes/pau_fisi13sl.pdf
+pdf_solucio: examenes/pau_fisi13sp.pdf
+# El PDF de l'enunciat només conté la sèrie 1 (pàgines 1-4).
+# El PDF de la pauta només conté la sèrie 1 (pàgines 1-6); no té criteris generals
+# d'avaluació, per això no hi ha criteris_generals.tex.
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les opcions
+  (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val 2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2013_ext_s1_P1_apollo-11-orbita-lluna
+  - 2013_ext_s1_P2_electrons-camp-magnetic-trajectories
+  - 2013_ext_s1_P3A_electroforesi-camp-electric
+  - 2013_ext_s1_P4A_molla-mhs-grafica-energia
+  - 2013_ext_s1_P5A_fotoelectric-potassi-potencial-frenada
+  - 2013_ext_s1_P3B_iode-131-gammagrafia
+  - 2013_ext_s1_P4B_clarinet-tub-harmonic-decibels
+  - 2013_ext_s1_P5B_quatre-carregues-quadrat-energia

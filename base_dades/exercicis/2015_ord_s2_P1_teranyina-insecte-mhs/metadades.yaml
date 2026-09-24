@@ -1,0 +1,48 @@
+id: 2015_ord_s2_P1_teranyina-insecte-mhs
+titol: Vibració d'un insecte atrapat en una teranyina (MHS)
+resum: >-
+  Càlcul de la constant elàstica d'una teranyina a partir de la massa d'un insecte i la
+  freqüència de vibració; massa d'un altre insecte a partir del període i acceleració
+  màxima per a una amplitud donada.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 2
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [1]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+paraules_clau: [teranyina, aranya, insecte, MHS, constant elàstica, freqüència, període, acceleració màxima]
+tipus: [càlcul, deducció]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de k = mω² i de a_max = ω²A en dos passos encadenats, amb un context
+  senzill i guiat.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Constant elàstica de la teranyina a partir de la massa de l'insecte i la freqüència.
+  - etiqueta: "b"
+    punts: 1
+    resum: Massa d'un insecte amb període de 0,12 s i acceleració màxima per a una amplitud de 2,0 mm.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Fotografia d'una teranyina amb gotes de rosada i una aranya
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la fotografia és a la dreta del text
+  introductori. Context semblant (però amb dades i preguntes diferents) a
+  2020_ext_s4_P3_teranyina-aranya-mhs.

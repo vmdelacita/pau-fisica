@@ -1,0 +1,49 @@
+id: 2013_ext_s1_P5A_fotoelectric-potassi-potencial-frenada
+titol: Efecte fotoelèctric amb un elèctrode de potassi i un material desconegut
+resum: >-
+  Velocitat dels electrons arrancats d'un elèctrode de potassi il·luminat amb llum violada
+  de 400 nm; treball d'extracció d'un material desconegut a partir del potencial de frenada
+  i identificació de l'element amb una taula de valors.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 5
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi13sl.pdf
+  pagines_enunciat: [3]
+  pdf_solucio: examenes/pau_fisi13sp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - efecte fotoelèctric
+  - fotons i energia de la radiació
+paraules_clau: [efecte fotoelèctric, potassi, treball d'extracció, potencial de frenada, tub de buit, llum violada, velocitat dels electrons, identificació d'un element]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Aplicació directa de l'equació d'Einstein de l'efecte fotoelèctric en els dos apartats,
+  amb canvis d'unitats entre eV i J i lectura d'una taula.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Velocitat dels electrons arrancats del potassi amb llum de 400 nm.
+  - etiqueta: "b"
+    punts: 1
+    resum: Treball d'extracció del material desconegut a partir del potencial de frenada de 0,17 V i identificació de l'element.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Tub de buit amb els elèctrodes A i B separats una distància d i llum que incideix sobre l'elèctrode A
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la figura és entre els apartats a
+  i b. A la pauta les puntuacions són en requadres i els decimals amb punt s'han passat a
+  coma.

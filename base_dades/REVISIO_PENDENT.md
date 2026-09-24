@@ -240,3 +240,58 @@ Afegit el 2026-09-24. 11 exercicis amb comentaris `% DUBTE:`. Els altres detalls
 ## 2025_mostra_experiments_Q5_capsula-petri-equipotencials
 
 - No és un dubte: ara té la pauta oficial del P4B de juny de 2017 (sèrie 1). Es manté a 2,5 punts (1,25 + 1,25), com la resta de preguntes de format nou, i les puntuacions parcials de la pauta s'han reescalat ×1,25. Vegeu `RESUM_LOT2A.md`.
+
+# Lot 2b: exàmens de 2013–2015
+
+Afegit el 2026-09-24. 11 exercicis amb comentaris `% DUBTE:` (tots són errors de la pauta) i 3 enunciats per revisar. Els altres detalls (errates menors de redacció, punts decimals passats a coma) són a les `notes` de cada exercici.
+
+## Enunciats per revisar
+
+- **2013_ext_s1_P4B_clarinet-tub-harmonic-decibels:** l'enunciat anomena «mode tercer harmònic» un mode amb L = 5λ/4, que en un tub tancat per un extrem és el cinquè harmònic (el tercer mode possible).
+- **2013_ord_s4_P4A_americi-241-seaborg:** l'apartat b pregunta «des del 1944 fins ara»; la pauta calcula amb el 2013 (69 anys, 10,5 %). Si es reutilitza, cal actualitzar l'any o el resultat.
+- **2014_ext_s5_P3B_tub-buit-fotoelectric-coure:** l'enunciat anomena «ànode» l'elèctrode il·luminat que emet electrons i «càtode» l'altre, al revés del que és habitual.
+
+## 2013_ext_s1_P4A_molla-mhs-grafica-energia
+
+- pauta, apartat a: amb x = A cos(ωt + φ₀), la fase inicial hauria de ser −π/2, no π/2.
+- pauta, apartat b: 12 cos(πt/3 + π/2) = −12 sin(πt/3); l'expressió equivalent correcta seria 12 cos(πt/3 − π/2).
+
+## 2013_ord_s3_P4A_bobina-flux-grafica-fem
+
+- pauta: «cos 0·» (probablement 0°).
+
+## 2013_ord_s4_P1_ceres-planeta-nan
+
+- pauta, apartat b: a la primera fila escriu (2π/T_T)² en lloc de (2π/T_C)².
+
+## 2014_ext_s5_P5A_molla-grafica-massa-periode
+
+- pauta: el subíndex de l'acceleració màxima diu «maàxima».
+
+## 2014_ord_s3_P2_dues-carregues-camp-potencial
+
+- pauta, apartats a i b: √(3² + 4⁴) = 5 m (hauria de ser 4²).
+
+## 2014_ord_s4_P5B_violi-corda-ones-estacionaries
+
+- pauta: «node fonamental» (hauria de ser «mode fonamental»).
+
+## 2015_ext_s5_P5A_selector-velocitats-proto
+
+- pauta, apartat b: R = 2,30·10⁻² m; amb les dades surt 2,32·10⁻² m.
+
+## 2015_ord_s4_P1_dues-carregues-triangle-equilater
+
+- pauta: E_P = 1 687 N/C (el càlcul dona 1 686 N/C) i U_i = −2,03·10⁻⁵ J (el càlcul dona −2,02·10⁻⁵ J).
+
+## 2015_ord_s4_P3A_sputnik-1-orbita-energia
+
+- pauta: «5,97 × 0²⁴» (hi falta l'1 de 10²⁴).
+
+## 2015_ord_s4_P4B_boia-marina-mhs-energia
+
+- pauta: E_c = ½·1,5·(1,6)² = 1,85 J; amb 1,6 m/s surt 1,92 J (1,85 J correspon a v = 0,5π m/s sense arrodonir). A més, la pauta suposa que la boia és a la posició més alta a t = 0, cosa que l'enunciat no diu.
+
+## 2015_ord_s4_P5B_fil-infinit-espira-camp-magnetic
+
+- pauta, apartat b: escriu B_total = B_espira − B_fil en notació vectorial i hi resta els mòduls; com a suma vectorial hauria de ser +, perquè B_fil ja és negatiu.

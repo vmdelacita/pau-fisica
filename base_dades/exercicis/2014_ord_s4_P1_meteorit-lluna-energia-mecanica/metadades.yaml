@@ -1,0 +1,48 @@
+id: 2014_ord_s4_P1_meteorit-lluna-energia-mecanica
+titol: Meteorit que cau sobre la Lluna
+resum: >-
+  Velocitat amb què arriba a la superfície lunar un meteorit de 400 kg que cau
+  radialment i que a 10 000 km de la superfície va a 15 000 km/h, per conservació de
+  l'energia; energia mecànica del meteorit a aquesta altura i comparació amb la d'un cos
+  de la mateixa massa en òrbita circular a la mateixa altura.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 1
+  opcio: null
+  pdf_enunciat: examenes/pau_fisi14jl.pdf
+  pagines_enunciat: [5]
+  pdf_solucio: examenes/pau_fisi14jp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps gravitatoris
+blocs_secundaris: []
+subtemes:
+  - energia potencial i potencial gravitatori
+  - energia mecànica orbital
+  - òrbites circulars i satèl·lits
+paraules_clau: [meteorit, Lluna, conservació de l'energia, energia potencial gravitatòria, energia mecànica, òrbita circular, velocitat d'impacte]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal aplicar la conservació de l'energia mecànica amb l'energia potencial gravitatòria
+  (no la mgh) i conèixer l'expressió de l'energia mecànica d'una òrbita circular per
+  comparar-la amb la d'un cos no lligat.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Velocitat del meteorit en arribar a la superfície de la Lluna.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia mecànica del meteorit a 10 000 km i d'un cos en òrbita a la mateixa altura; quina és més gran.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. A la pauta les puntuacions parcials són en caixes amb punt decimal (0.2) i s'han passat a coma. A la pauta, la massa m del meteorit apareix ratllada (simplificada) a la primera
+  equació de l'apartat a, i al segon membre hi ha «M_l» (amb l minúscula) en lloc de
+  «M_L»; es transcriu tal com és. «3.31» passat a coma.

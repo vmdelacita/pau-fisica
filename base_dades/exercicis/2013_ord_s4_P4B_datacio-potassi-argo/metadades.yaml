@@ -1,0 +1,45 @@
+id: 2013_ord_s4_P4B_datacio-potassi-argo
+titol: Datació radiomètrica amb el rellotge potassi-argó
+resum: >-
+  Reacció de desintegració beta del potassi 40 en argó 40; massa de K-40 que quedarà al
+  cap de 5,00·10^9 anys i edat d'una roca que conté 10,0 g de K-40 i 10,0 g d'Ar-40.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi13jl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi13jp.pdf
+  pagines_solucio: [4]
+format: antic
+curriculum: actual
+bloc: Física relativista, quàntica i nuclear
+blocs_secundaris: []
+subtemes:
+  - radioactivitat i llei de desintegració
+  - reaccions nuclears i defecte de massa
+  - aplicacions i riscos de la radioactivitat
+paraules_clau: [potassi 40, argó 40, datació radiomètrica, desintegració beta, positró, període de semidesintegració, edat d'una roca, geologia]
+tipus: [càlcul]
+dificultat: 3
+justificacio_dificultat: >-
+  A més d'aplicar la llei de desintegració, cal deduir la massa inicial de K-40 a partir de
+  l'argó acumulat i identificar l'emissió β⁺ a partir dels nombres atòmics.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Reacció nuclear de la desintegració beta del K-40 en Ar-40.
+  - etiqueta: "b"
+    punts: 1
+    resum: Massa de K-40 al cap de 5,00·10^9 anys i edat de la roca.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta es llegeix «el enunciat», «tot el Ar»
+  i «prove»; es transcriu tal com és.

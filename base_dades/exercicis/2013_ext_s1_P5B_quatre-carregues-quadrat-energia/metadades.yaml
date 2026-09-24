@@ -1,0 +1,52 @@
+id: 2013_ext_s1_P5B_quatre-carregues-quadrat-energia
+titol: Quatre càrregues iguals als vèrtexs d'un quadrat
+resum: >-
+  Energia necessària per formar un sistema de quatre càrregues positives iguals situades
+  als vèrtexs d'un quadrat de costat √2 m; càrrega negativa que cal situar al centre
+  perquè la força electrostàtica sobre cada càrrega sigui nul·la.
+font:
+  tipus: examen
+  any: 2013
+  convocatoria: extraordinaria
+  serie: 1
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi13sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi13sp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - potencial i energia potencial elèctrica
+  - camp elèctric i llei de Coulomb
+  - equilibri de càrregues en camps elèctrics
+paraules_clau: [quatre càrregues, quadrat, energia de formació, energia potencial electrostàtica, llei de Coulomb, superposició de forces, equilibri, càrrega al centre]
+tipus: [càlcul, diagrama]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal sumar l'energia potencial de les sis parelles de càrregues i plantejar l'equilibri
+  vectorial de forces sobre una càrrega amb components a 45°, aprofitant la simetria.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Energia necessària per formar el sistema de quatre càrregues.
+  - etiqueta: "b"
+    punts: 1
+    resum: Càrrega negativa al centre del quadrat que anul·la la força sobre cada càrrega.
+figures:
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Quadrat amb les càrregues q1–q4 i la càrrega q al centre, amb les forces sobre q1 i les distàncies l i d
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. L'enunciat no té figura. A la pauta les
+  puntuacions són en requadres (la de 0,2 p del dibuix és al costat de la figura) i els
+  decimals amb punt s'han passat a coma. Es conserven les errates de l'original («son»,
+  «reste», «Per altre banda», «per tan»); a la pauta r24 surt escrit amb el 4 com a
+  subíndex del 2.

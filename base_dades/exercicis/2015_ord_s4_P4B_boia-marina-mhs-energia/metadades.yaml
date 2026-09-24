@@ -1,0 +1,40 @@
+id: 2015_ord_s4_P4B_boia-marina-mhs-energia
+titol: Boia marina amb moviment harmònic simple
+resum: >-
+  Equació del MHS d'una boia a partir de la diferència d'altura entre el punt més alt i el més baix de les ones (1,0 m) i del període (2,0 s); energia cinètica màxima d'una boia d'1,5 kg.
+font:
+  tipus: examen
+  any: 2015
+  convocatoria: ordinaria
+  serie: 4
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi15jl.pdf
+  pagines_enunciat: [7]
+  pdf_solucio: examenes/pau_fisi15jp.pdf
+  pagines_solucio: [17]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - moviment harmònic simple
+  - energia del MHS
+paraules_clau: [boia, onatge, moviment harmònic simple, amplitud, període, equació del moviment, velocitat màxima, energia cinètica]
+tipus: [càlcul]
+dificultat: 2
+justificacio_dificultat: >-
+  Obtenció directa de l'amplitud, la freqüència angular i la fase, i càlcul de la velocitat màxima i l'energia cinètica màxima.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Equació del moviment de la boia.
+  - etiqueta: "b"
+    punts: 1
+    resum: Energia cinètica màxima de la boia d'1,5 kg.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat; segons la pauta cada apartat val 1 punt. La pauta pren com a condició inicial que la boia és a la posició més alta a t = 0 (y(0) = A0), cosa que l'enunciat no diu explícitament. A la pauta, Ec = ½·1,5·(1,6)² = 1,85 J ≈ 1,9 J: amb 1,6 m/s surt 1,92 J (1,85 J correspon a v = 0,5π sense arrodonir); es transcriu tal com és amb % DUBTE.

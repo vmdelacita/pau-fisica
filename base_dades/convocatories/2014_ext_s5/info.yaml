@@ -1,0 +1,27 @@
+id: 2014_ext_s5
+any: 2014
+convocatoria: extraordinaria
+serie: 5
+format: antic
+pdf_enunciat: examenes/pau_fisi14sl.pdf
+pdf_solucio: examenes/pau_fisi14sp.pdf
+# El PDF de l'enunciat només conté la sèrie 5: pàgines 1-4.
+# El PDF de la pauta només conté la sèrie 5: pàgines 1-6 (no hi ha criteris generals).
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  # P1: és el mateix problema que el P4 de la mostra de moment angular de 2025 (la
+  # mostra hi afegeix el càlcul i la valoració del moment angular a P i A, i hi reparteix
+  # 1,25 + 1,25 punts). No s'ha duplicat. Enunciat de 2014: pàgina 1; pauta: pàgina 1.
+  - 2025_mostra_moment-angular_P4_satellit-canvi-orbita
+  - 2014_ext_s5_P2_bohr-hidrogen-forca-frequencia
+  - 2014_ext_s5_P3A_fotoelectric-coure-grafica
+  - 2014_ext_s5_P4A_fil-suspes-camp-magnetic-espira
+  - 2014_ext_s5_P5A_molla-grafica-massa-periode
+  - 2014_ext_s5_P3B_tub-buit-fotoelectric-coure
+  - 2014_ext_s5_P4B_selector-velocitats-electrons
+  - 2014_ext_s5_P5B_tub-ressonancia-diapaso-decibels

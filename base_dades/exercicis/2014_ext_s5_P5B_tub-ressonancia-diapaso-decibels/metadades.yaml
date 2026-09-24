@@ -1,0 +1,55 @@
+id: 2014_ext_s5_P5B_tub-ressonancia-diapaso-decibels
+titol: Tub de ressonància amb diapasó i nivell sonor
+resum: >-
+  Tub de ressonància amb aigua i un diapasó de 440 Hz amb ressonàncies a h = 19 cm i
+  h = 57 cm: esquema de les ones estacionàries i velocitat del so a l'aire; nivell
+  d'intensitat sonora a 3 m d'un diapasó que emet amb una potència de 0,01 W.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 5
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi14sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi14sp.pdf
+  pagines_solucio: [6]
+format: antic
+curriculum: actual
+bloc: Vibracions i ones
+blocs_secundaris: []
+subtemes:
+  - ressonància i harmònics en tubs i cordes
+  - ones estacionàries
+  - ones sonores i nivell d'intensitat
+paraules_clau: [tub de ressonància, diapasó, ona estacionària, ventre, node, velocitat del so, intensitat sonora, decibels]
+tipus: [càlcul, diagrama, experimental]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal interpretar les dues ressonàncies consecutives d'un tub tancat per un extrem
+  (diferència de longituds = λ/2), dibuixar les ones estacionàries i calcular el nivell
+  sonor amb la intensitat d'una ona esfèrica.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Esquema de les ones estacionàries a les dues ressonàncies i velocitat del so a l'aire.
+  - etiqueta: "b"
+    punts: 1
+    resum: Nivell d'intensitat sonora a 3 m del diapasó (P = 0,01 W).
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Tub de ressonància amb un dipòsit d'aigua comunicat, regle graduat, diapasó a l'extrem obert i altura h de la columna d'aire
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Esquema de les ones estacionàries en el tub per a la primera (λ/4) i la segona (3λ/4) ressonàncies
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A l'original la figura és a la dreta del text
+  introductori. A la pauta, la puntuació de 0,3 p del nivell sonor apareix entre dos signes
+  «=» (β = 10 log I/I₀ = [0,3] = 79 dB), i «nivell de só» porta accent (sic); es transcriu
+  tal com és.

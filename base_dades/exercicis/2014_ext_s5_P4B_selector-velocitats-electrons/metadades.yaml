@@ -1,0 +1,58 @@
+id: 2014_ext_s5_P4B_selector-velocitats-electrons
+titol: Selector de velocitats per a electrons i moviment circular en el camp magnètic
+resum: >-
+  Forces sobre un electró dins d'un selector de velocitats (B = 0,040 T cap avall, E =
+  250 V/m) i velocitat dels electrons que no es desvien; freqüència, radi, pla i sentit
+  de gir del moviment circular d'un electró de 1,25·10⁴ m/s quan es desactiva el camp
+  elèctric.
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 4
+  opcio: B
+  pdf_enunciat: examenes/pau_fisi14sl.pdf
+  pagines_enunciat: [4]
+  pdf_solucio: examenes/pau_fisi14sp.pdf
+  pagines_solucio: [5]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - selector de velocitats, espectròmetre i ciclotró
+  - moviment de càrregues en camps magnètics
+paraules_clau: [selector de velocitats, electrons, força elèctrica, força magnètica, força de Lorentz, moviment circular uniforme, radi de gir, freqüència de ciclotró]
+tipus: [càlcul, diagrama, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Problema típic de selector de velocitats: diagrama de forces en 3D, igualació de les
+  forces elèctrica i magnètica i càlcul del radi i la freqüència del moviment circular,
+  amb raonament sobre el pla i el sentit de gir.
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Diagrama de les forces sobre l'electró i velocitat dels electrons que no es desvien.
+  - etiqueta: "b"
+    punts: 1
+    resum: Freqüència, radi, pla i sentit de gir de l'electró quan es desactiva el camp elèctric.
+figures:
+  - fitxer: fig1.png
+    on: enunciat
+    descripcio: Selector de velocitats amb dues plaques carregades, camp magnètic B vertical cap avall, electró que es mou en la direcció x i eixos x, y, z
+  - fitxer: sol_fig1.png
+    on: solucio
+    descripcio: Reproducció del selector de velocitats amb els eixos de coordenades
+  - fitxer: sol_fig2.png
+    on: solucio
+    descripcio: Diagrama de forces amb la força elèctrica F_E i la força magnètica F_B de sentits oposats
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. A la pauta, el selector i el diagrama de forces
+  apareixen l'un al costat de l'altre, amb la puntuació (0,3 p) a sota a la dreta; s'han
+  retallat com a dues figures. Els punts decimals de la pauta (0.04, 1.78) s'han passat a
+  coma; «del electró», «es paral·lela» i «per tan» es mantenen com a l'original.

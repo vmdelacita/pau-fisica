@@ -1,0 +1,47 @@
+id: 2014_ext_s5_P4A_fil-suspes-camp-magnetic-espira
+titol: Fil conductor suspès per un camp magnètic i espira sense FEM induïda
+resum: >-
+  Mòdul, direcció i sentit del camp magnètic uniforme que manté suspès en l'aire un fil
+  rectilini de 5 m i 100 g pel qual circula un corrent de 0,3 A; FEM induïda en una
+  espira feta amb el fil, situada paral·lela al pla xy, per un camp variable contingut en
+  aquest pla (flux nul).
+font:
+  tipus: examen
+  any: 2014
+  convocatoria: extraordinaria
+  serie: 5
+  exercici: 4
+  opcio: A
+  pdf_enunciat: examenes/pau_fisi14sl.pdf
+  pagines_enunciat: [2]
+  pdf_solucio: examenes/pau_fisi14sp.pdf
+  pagines_solucio: [2]
+format: antic
+curriculum: actual
+bloc: Camps electromagnètics
+blocs_secundaris: []
+subtemes:
+  - força magnètica sobre corrents i entre fils
+  - flux magnètic i inducció (Faraday-Lenz)
+paraules_clau: [fil conductor, levitació magnètica, força de Lorentz sobre un corrent, producte vectorial, pes, espira circular, flux magnètic, FEM induïda]
+tipus: [càlcul, qualitativa]
+dificultat: 3
+justificacio_dificultat: >-
+  Cal determinar la direcció del camp amb el producte vectorial en 3D i igualar la força
+  magnètica al pes; el segon apartat és un raonament qualitatiu fi (el camp és paral·lel
+  al pla de l'espira i el flux és sempre nul).
+punts_total: 2
+apartats:
+  - etiqueta: "a"
+    punts: 1
+    resum: Mòdul, direcció i sentit del camp magnètic que manté el fil suspès.
+  - etiqueta: "b"
+    punts: 1
+    resum: FEM induïda en l'espira pel camp variable contingut en el pla xy.
+figures: []
+solucio_oficial: true
+revisat: false
+notes: >-
+  PDF escanejat: transcripció visual. L'enunciat no dona la puntuació de cada apartat;
+  segons la pauta cada apartat val 1 punt. «Suspés» (sic) i «es troba» es mantenen com a
+  la pauta original.

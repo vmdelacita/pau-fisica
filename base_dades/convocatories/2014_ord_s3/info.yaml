@@ -1,0 +1,27 @@
+id: 2014_ord_s3
+any: 2014
+convocatoria: ordinaria
+serie: 3
+format: antic
+pdf_enunciat: examenes/pau_fisi14jl.pdf
+pdf_solucio: examenes/pau_fisi14jp.pdf
+# El PDF de l'enunciat conté les sèries 3 i 4: la sèrie 3 és a les pàgines 1-4.
+# El PDF de la pauta conté les sèries 3 i 4: la sèrie 3 és a les pàgines 1-4 i la
+# sèrie 4 a les pàgines 5-9 (la pàgina 10 és en blanc). La pauta no té criteris
+# generals d'avaluació (comença directament amb «SÈRIE 3»), per això no hi ha
+# criteris_generals.tex.
+instruccions: >-
+  L'examen consta d'una part comuna (problemes P1 i P2), que heu de fer
+  obligatòriament, i d'una part optativa, de la qual heu d'escollir UNA de les dues
+  opcions (A o B) i fer els problemes P3, P4 i P5 corresponents. Cada problema val
+  2 punts.
+# Ordre de l'examen original (ids de base_dades/exercicis)
+exercicis:
+  - 2014_ord_s3_P1_meteosat-orbita-geostacionaria
+  - 2014_ord_s3_P2_dues-carregues-camp-potencial
+  - 2014_ord_s3_P3A_fotoemissio-uv-funcio-treball
+  - 2014_ord_s3_P4A_transformador-soldadura-electrica
+  - 2014_ord_s3_P5A_trompeta-ones-estacionaries
+  - 2014_ord_s3_P3B_carboni-14-datacio-restes
+  - 2014_ord_s3_P4B_barra-mhs-forca-conductora
+  - 2014_ord_s3_P5B_timbre-escola-nivell-intensitat
