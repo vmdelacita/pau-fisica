@@ -82,3 +82,12 @@ No n'hi ha cap de pendent. Possibles passos següents, si els vols:
 1. Continuar la **revisió** dels exercicis a `/admin/`.
 2. Recuperar els **exàmens antics** (lots 3 i 4), aparcats.
 3. Permetre **imatges pròpies** als exercicis propis. Ara només es poden afegir amb la carpeta .zip o amb Overleaf.
+
+## Correccions posteriors (2026-09-26)
+
+- **El PDF de Solucions no compilava** amb cap exercici des de la Fase 5. `generaTex` escriu sempre `\logocentre{…}`, i `solucions.tex` no el definia. Ara el defineix (buit). Les proves de la Fase 5 només havien compilat l'examen. S'ha tornat a compilar el solucionari dels 309 exercicis: 0 errors.
+- **Vista web (MathJax) de les fórmules** (`web/js/latex_html.js`, `preparaMath`):
+  - `\punts{…}` i `\text{\punts{…}}` dins d'una fórmula (~250 casos en 70 exercicis) es mostraven com a text cru. Ara surten en vermell i negreta, com fora de les fórmules. La base de dades no s'ha modificat.
+  - Dins de `\text{…}` ja no es converteix la «·» en `\cdot` ni la coma decimal en `{,}` («tal·li», 2015 juny S4 P2).
+  - `\textsuperscript` passa a ser un superíndex («3ª llei», 2013 juny S4 P1).
+  - Comprovat amb les 4 885 fórmules dels enunciats i les solucions: cap error de MathJax i cap comanda sense convertir.

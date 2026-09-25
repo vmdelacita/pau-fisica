@@ -27,9 +27,39 @@ function preparaMath(m) {
   // Les puntuacions es reserven abans de posar la coma decimal com a {,}, que dins del
   // text de \textbf es veuria tal qual.
   const punts = [];
-  return m.replace(RE_PUNTS_MATH, (_, a, b) => `\u0002${punts.push(a ?? b) - 1}\u0002`)
-    .replace(/(\d),(?=\d)/g, '$1{,}').replace(/·/g, '\\cdot ')
-    .replace(/\u0002(\d+)\u0002/g, (_, k) => `\\textcolor{#9c2a1f}{\\textbf{${punts[k]} p}}`);
+  m = m.replace(RE_PUNTS_MATH, (_, a, b) => `\u0002${punts.push(a ?? b) - 1}\u0002`);
+  // Dins de \text{…} MathJax no interpreta comandes: el text es deixa com és (la «l·l» i
+  // la coma, sense convertir) i \textsuperscript surt del text com a superíndex.
+  let out = '';
+  let i = 0;
+  while (i < m.length) {
+    const k = m.indexOf('\\text{', i);
+    const fi = k < 0 ? -1 : fiDeGrup(m, k + 5);
+    if (fi < 0) { out += preparaFormula(m.slice(i)); break; }
+    out += preparaFormula(m.slice(i, k));
+    const dins = m.slice(k + 6, fi)
+      .replace(/\\textsuperscript\{([^{}]*)\}/g, (_, x) => `}^{\\text{${x}}}\\text{`)
+      .replace(/\$([^$]*)\$/g, (_, f) => `$${preparaFormula(f)}$`);   // fórmules dins del text
+    out += `\\text{${dins}}`;
+    i = fi + 1;
+  }
+  return out.replace(/\u0002(\d+)\u0002/g, (_, k) => `\\textcolor{#9c2a1f}{\\textbf{${punts[k]} p}}`);
+}
+
+function preparaFormula(m) {
+  return m.replace(/(\d),(?=\d)/g, '$1{,}').replace(/·/g, '\\cdot ')
+    .replace(/\\textsuperscript\{([^{}]*)\}/g, (_, x) => `^{\\text{${x}}}`);
+}
+
+// Posició de la clau que tanca el grup que comença a s[i] === '{' (-1 si no es tanca).
+function fiDeGrup(s, i) {
+  let n = 0;
+  for (let j = i; j < s.length; j++) {
+    if (s[j] === '\\') { j++; continue; }
+    if (s[j] === '{') n++;
+    else if (s[j] === '}' && --n === 0) return j;
+  }
+  return -1;
 }
 
 // Separa les fórmules del text i les substitueix per marques \u0001N\u0001.
