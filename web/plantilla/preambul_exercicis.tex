@@ -65,7 +65,7 @@
   \refstepcounter{solapartat}%
   \par\medskip\noindent\textbf{\etiquetasolapartat}\par\nopagebreak\smallskip
 }{\par}
-% Puntuació parcial de la pauta: \punts{0,75}
-\newcommand{\punts}[1]{\textcolor{red!70!black}{\textbf{#1\,p}}\ }
+% Puntuació parcial de la pauta: \punts{0,75} (amb \mostrapuntsfalse no es mostra)
+\newcommand{\punts}[1]{\ifmostrapunts\textcolor{red!70!black}{\textbf{#1\,p}}\ \else\ignorespaces\fi}
 % Paraula destacada de la pauta ("Alternativament", "Nota"...)
 \newcommand{\destaca}[1]{\textcolor{blue!70!black}{\textbf{#1}}}

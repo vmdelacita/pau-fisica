@@ -2,6 +2,7 @@
 import { latexAHtml, latexAText } from './latex_html.js';
 import {
   generaTex, apartatsDe, sincronitzaApartats, puntsItem, formatPunts, llegeixPunts, descriuFont,
+  solucioItem, solucioBuida, plantillaSolucio, nSolapartats,
 } from './examen.js';
 import * as motor from './motor.js';
 
@@ -47,8 +48,10 @@ let estat = { examen: examenNou(), revisions: {} };
 const filtres = { q: '', blocs: new Set(), subtema: '', dificultats: new Set(), tipus: new Set(), anys: new Set(), fonts: new Set(), formats: new Set(), curriculums: new Set(), estats: new Set(), ordre: 'rellevancia' };
 let resultats = [];            // ids de l'última cerca
 let detall = { id: null, llista: [], pestanya: 'enunciat' };
-let ultimPdf = null;           // { tex, pdf, figures, nom }
-let pdfDesactualitzat = false;
+// Últim PDF generat de cada document: { tex, pdf, fitxers, nom, url }
+const documents = { examen: null, solucions: null };
+let mostrat = 'examen';        // document que es veu al visor
+const NOMS_DOCUMENT = { examen: 'Genera el PDF', solucions: 'Solucions' };
 let compilant = false;
 
 // Mode revisió (només per al professor): s'activa obrint la web amb ?revisio i el navegador
@@ -73,6 +76,7 @@ function examenNou(prev) {
     unitat: prev?.unitat ?? '',
     instruccions: prev?.instruccions ?? INSTRUCCIONS_DEFECTE,
     procedencia: prev?.procedencia ?? false,
+    enunciatsSolucions: prev?.enunciatsSolucions ?? false,
     nomFitxer: prev?.nomFitxer ?? 'examen',
     items: [],
   };
@@ -359,8 +363,9 @@ function commutaExamen(id) {
 }
 
 function marcaDesactualitzat() {
-  pdfDesactualitzat = true;
-  if (ultimPdf && !compilant) estatMotor('Hi ha canvis que encara no són al PDF: torna a prémer «Genera el PDF».');
+  for (const d of Object.values(documents)) if (d) d.desactualitzat = true;
+  const d = documents[mostrat];
+  if (d && !compilant) estatMotor(`Hi ha canvis que encara no són al PDF: torna a prémer «${NOMS_DOCUMENT[mostrat]}».`);
 }
 
 function canviExamen() {
@@ -480,6 +485,7 @@ function pintaExamen() {
   const camps = { '#e-departament': 'departament', '#e-trimestre': 'trimestre', '#e-unitat': 'unitat', '#e-instruccions': 'instruccions', '#e-nom': 'nomFitxer' };
   for (const [sel, camp] of Object.entries(camps)) if (document.activeElement !== $(sel)) $(sel).value = ex_[camp] ?? '';
   $('#e-procedencia').checked = !!ex_.procedencia;
+  $('#e-enunciats-solucions').checked = !!ex_.enunciatsSolucions;
   $('#reescala-caixa').hidden = ex_.tipus !== 'examen';
   pintaItems();
 }
@@ -506,7 +512,7 @@ function pintaItems() {
         <div class="num">${k + 1}.</div>
         <div>
           <div class="titol"><button data-accio="${e ? 'detall' : 'edita'}">${esc(titol)}</button>
-            ${item.text != null ? ' <span class="etiqueta modificat">editat</span>' : ''}</div>
+            ${etiquetesItem(item, e)}</div>
           <div class="origen">${e ? esc(etiquetaCurta(e)) + ' · ' + puntsDificultat(e.dificultat) : 'Exercici propi'}</div>
         </div>
         <div class="botons">
@@ -526,7 +532,20 @@ function pintaItems() {
   t.classList.toggle('avis', esExamen && ex_.items.length > 0 && Math.abs(total - 10) > 1e-9);
   t.title = t.classList.contains('avis') ? 'El total no és 10 punts' : '';
   $('#n-examen').textContent = ex_.items.length;
-  $('#genera-pdf').disabled = !ex_.items.length;
+  $('#genera-pdf').disabled = $('#genera-solucions').disabled = !ex_.items.length;
+}
+
+// Etiquetes d'un element de l'examen: què s'ha editat i si té solució.
+function etiquetesItem(item, e) {
+  const et = [];
+  if (e && item.text != null) et.push('<span class="etiqueta modificat">enunciat editat</span>');
+  if (e && item.solucio != null) et.push('<span class="etiqueta modificat">solució editada</span>');
+  if (!solucioItem(item, e)) {
+    et.push(`<button class="etiqueta avis" data-accio="edita-solucio" title="Escriu-ne la solució perquè surti al PDF de solucions">sense solució</button>`);
+  } else if (e && item.solucio == null && e.solucio_oficial === false) {
+    et.push('<span class="etiqueta avis" title="La base de dades no té la pauta oficial d\'aquest exercici">sense solució oficial</span>');
+  }
+  return et.join(' ');
 }
 
 function reescala(objectiu) {
@@ -545,15 +564,38 @@ function reescala(objectiu) {
 }
 
 // ---------------------------------------------------------------- editor
-let editant = null;
-function obreEditor(uid) {
+// Es treballa sobre una còpia (enunciat i solució) que només s'aplica en desar.
+let editant = null;            // { item, enunciat, solucio, pestanya }
+
+function originalEditor(item, pestanya) {
+  if (pestanya === 'enunciat') return item.id ? EX.get(item.id).enunciat : PLANTILLA_PROPI;
+  return item.id ? EX.get(item.id).solucio : null;
+}
+
+function obreEditor(uid, pestanya = 'enunciat') {
   const item = estat.examen.items.find(i => i.uid === uid);
   if (!item) return;
-  editant = item;
-  const original = item.id ? EX.get(item.id).enunciat : PLANTILLA_PROPI;
-  $('#ed-text').value = item.text ?? original;
-  $('#ed-restaura').hidden = !item.id;
+  editant = {
+    item,
+    enunciat: item.text ?? originalEditor(item, 'enunciat'),
+    solucio: item.solucio ?? originalEditor(item, 'solucio'),
+    pestanya: null,
+  };
   $('#editor').showModal();
+  mostraPestanyaEditor(pestanya);
+}
+
+function mostraPestanyaEditor(pestanya) {
+  if (editant.pestanya) editant[editant.pestanya] = $('#ed-text').value;
+  editant.pestanya = pestanya;
+  // Solució en blanc: una plantilla amb un apartat per cada apartat de l'enunciat.
+  if (pestanya === 'solucio' && editant.solucio == null) editant.solucio = plantillaSolucio(apartatsDe(editant.enunciat).length);
+  for (const b of $$('#editor [data-ed-pestanya]')) b.setAttribute('aria-selected', String(b.dataset.edPestanya === pestanya));
+  for (const d of $$('#editor [data-ajuda]')) d.hidden = d.dataset.ajuda !== pestanya;
+  $('#ed-etiqueta').textContent = pestanya === 'enunciat' ? 'LaTeX de l\'enunciat' : 'LaTeX de la solució';
+  $('#ed-text').value = editant[pestanya];
+  $('#ed-restaura').hidden = !editant.item.id;
+  $('#ed-restaura').textContent = pestanya === 'enunciat' ? 'Restaura l\'enunciat original' : 'Restaura la pauta original';
   previEditor();
 }
 
@@ -562,24 +604,39 @@ function previEditor() {
   clearTimeout(temporitzadorPrevi);
   temporitzadorPrevi = setTimeout(() => {
     const el = $('#ed-previ');
-    const id = editant?.id;
-    el.innerHTML = latexAHtml($('#ed-text').value, { figura: nom => id ? urlFigura(id, nom) : nom });
+    const id = editant?.item.id;
+    const text = $('#ed-text').value;
+    el.innerHTML = latexAHtml(text, { figura: nom => id ? urlFigura(id, nom) : nom });
     tipografia(el);
+    // Avís si la solució no té tants apartats com l'enunciat.
+    const avisEl = $('#ed-avis');
+    if (editant.pestanya === 'solucio') {
+      const nA = apartatsDe(editant.enunciat).length;
+      const nS = nSolapartats(text);
+      avisEl.hidden = nA === nS || solucioBuida(text);
+      avisEl.textContent = `L'enunciat té ${nA} ${nA === 1 ? 'apartat' : 'apartats'} i la solució ${nS}. Cada \\begin{solapartat} correspon a un apartat, en el mateix ordre.`;
+    } else {
+      avisEl.hidden = true;
+    }
   }, 250);
 }
 
 function desaEditor() {
-  const item = editant;
-  const text = $('#ed-text').value;
+  editant[editant.pestanya] = $('#ed-text').value;
+  const { item, enunciat, solucio } = editant;
   const original = item.id ? EX.get(item.id).enunciat : null;
   // Es conserven la selecció i els punts de cada apartat, excepte si s'han canviat al text.
   const anteriors = item.apartats || [];
   const abans = apartatsDe(item.text ?? original ?? '');
-  item.text = text === original ? null : text;
-  item.apartats = apartatsDe(text).map((a, k) => ({
+  item.text = enunciat === original ? null : enunciat;
+  item.apartats = apartatsDe(enunciat).map((a, k) => ({
     inclou: anteriors[k]?.inclou ?? true,
     punts: anteriors[k] && abans[k]?.punts === a.punts ? anteriors[k].punts : a.punts,
   }));
+  // Solució: null vol dir la de la base de dades (o cap, en un exercici propi).
+  const solOriginal = originalEditor(item, 'solucio');
+  item.solucio = solucio === solOriginal || (!item.id && solucioBuida(solucio)) ? null : solucio;
+  if (item.solucio === null) delete item.solucio;
   $('#editor').close();
   canviExamen();
 }
@@ -597,10 +654,10 @@ async function bytes(url) {
 }
 async function text(url) { return new TextDecoder().decode(await bytes(url)); }
 
-function nomFitxer() {
+function nomFitxer(document = 'examen') {
   const n = (estat.examen.nomFitxer || 'examen').trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^A-Za-z0-9._-]+/g, '-').replace(/^-+|-+$/g, '');
-  return n || 'examen';
+    .replace(/[^A-Za-z0-9._-]+/g, '-').replace(/^-+|-+$/g, '') || 'examen';
+  return document === 'solucions' ? `${n}-solucions` : n;
 }
 
 function estatMotor(html, error = false) {
@@ -609,18 +666,40 @@ function estatMotor(html, error = false) {
   el.classList.toggle('error', error);
 }
 
-async function generaPdf() {
+// Mostra al visor un dels documents generats (examen o solucions).
+function mostraDocument(clau) {
+  mostrat = clau;
+  const doc = documents[clau];
+  for (const b of $$('#tria-document [data-document]')) b.setAttribute('aria-pressed', String(b.dataset.document === clau));
+  $('#tria-document').hidden = !(documents.examen && documents.solucions);
+  $('#descarregues').hidden = !doc;
+  if (!doc) return;
+  $('#baixa-pdf').hidden = !doc.pdf;
+  $('#errors-latex').hidden = !doc.errors;
+  if (doc.errors) mostraErrors(doc.errors, doc.tex, doc.log);
+  const visor = $('#visor');
+  if (doc.url) {
+    if (visor.querySelector('iframe')?.src !== doc.url) visor.innerHTML = `<iframe title="PDF generat" src="${doc.url}"></iframe>`;
+  } else {
+    visor.innerHTML = '<div class="visor-buit"><p>No s\'ha pogut compilar aquest document.</p></div>';
+  }
+}
+
+// clau: 'examen' o 'solucions'
+async function generaPdf(clau = 'examen') {
   const examen = estat.examen;
   if (!examen.items.length) return;
-  const boto = $('#genera-pdf');
-  boto.disabled = true;
+  const solucions = clau === 'solucions';
+  const botons = [$('#genera-pdf'), $('#genera-solucions')];
+  for (const b of botons) b.disabled = true;
   compilant = true;
   $('#errors-latex').hidden = true;
   const inici = performance.now();
   try {
-    const [plantilla, preambul] = await Promise.all([text('plantilla/examen.tex'), text('plantilla/preambul_exercicis.tex')]);
-    const { tex, figures } = generaTex({ plantilla, preambul, examen, exercicis: new Map([...EX.keys()].map(id => [id, EX.get(id)])), urlFigura });
-    const fitxers = [
+    const [plantilla, preambul] = await Promise.all([
+      text(solucions ? 'plantilla/solucions.tex' : 'plantilla/examen.tex'), text('plantilla/preambul_exercicis.tex')]);
+    const { tex, figures } = generaTex({ plantilla, preambul, examen, exercicis: EX, urlFigura, solucions });
+    const fitxers = solucions ? [] : [
       { path: 'senyal_bn.png', content: await bytes('plantilla/senyal_bn.png') },
       { path: 'RCC.png', content: await bytes('plantilla/RCC.png') },
     ];
@@ -636,30 +715,32 @@ async function generaPdf() {
       estatMotor('<span class="spinner"></span>Compilant…');
     }
     await motor.prepara();
-    estatMotor('<span class="spinner"></span>Compilant…');
+    estatMotor(`<span class="spinner"></span>Compilant ${solucions ? 'les solucions' : 'l\'examen'}…`);
     const r = await motor.compila(tex, fitxers);
     const segons = ((performance.now() - inici) / 1000).toFixed(1).replace('.', ',');
-    ultimPdf = { tex, pdf: r.ok ? r.pdf : null, fitxers, nom: nomFitxer() };
-    pdfDesactualitzat = false;
-    $('#descarregues').hidden = false;
-    $('#baixa-pdf').hidden = !r.ok;
+    const anterior = documents[clau]?.url;
+    if (anterior) setTimeout(() => URL.revokeObjectURL(anterior), 5000);
+    documents[clau] = {
+      tex, fitxers, nom: nomFitxer(clau), log: r.log,
+      pdf: r.ok ? r.pdf : null,
+      url: r.ok ? URL.createObjectURL(new Blob([r.pdf], { type: 'application/pdf' })) : null,
+      errors: r.ok ? null : r.errors,
+      desactualitzat: false,
+    };
+    mostraDocument(clau);
     if (!r.ok) {
-      estatMotor(`No s'ha pogut compilar el document (${r.errors.length || 1} ${r.errors.length === 1 ? 'error' : 'errors'}). Pots descarregar el .tex o obrir-lo a Overleaf per corregir-lo.`, true);
-      mostraErrors(r.errors, tex, r.log);
+      estatMotor(`No s'ha pogut compilar ${solucions ? 'el document de solucions' : 'el document'} (${r.errors.length || 1} ${r.errors.length === 1 ? 'error' : 'errors'}). Pots descarregar el .tex o obrir-lo a Overleaf per corregir-lo.`, true);
       return;
     }
-    const url = URL.createObjectURL(new Blob([r.pdf], { type: 'application/pdf' }));
-    const visor = $('#visor');
-    const anterior = visor.querySelector('iframe')?.src;
-    visor.innerHTML = `<iframe title="PDF generat" src="${url}"></iframe>`;
-    if (anterior?.startsWith('blob:')) setTimeout(() => URL.revokeObjectURL(anterior), 5000);
-    estatMotor(`PDF generat en ${segons} s.`);
+    const sense = solucions ? examen.items.filter(i => !solucioItem(i, i.id ? EX.get(i.id) : null)).length : 0;
+    estatMotor(`${solucions ? 'Solucions generades' : 'PDF generat'} en ${segons} s.` +
+      (sense ? ` ${sense === 1 ? 'Un exercici no té' : `${sense} exercicis no tenen`} solució: escriu-la amb ✎ → Solució.` : ''));
   } catch (e) {
     console.error(e);
     estatMotor(`Error: ${esc(e.message || e)}`, true);
   } finally {
     compilant = false;
-    boto.disabled = !examen.items.length;
+    for (const b of botons) b.disabled = !examen.items.length;
   }
 }
 
@@ -684,6 +765,7 @@ function mostraErrors(errors, tex, log) {
 
 async function zip({ ambPdf, carpeta }) {
   if (!window.JSZip) throw new Error('No s\'ha pogut carregar la biblioteca de ZIP.');
+  const ultimPdf = documents[mostrat];
   const z = new window.JSZip();
   const p = carpeta ? `${ultimPdf.nom}/` : '';
   z.file(`${p}${ultimPdf.nom}.tex`, ultimPdf.tex);
@@ -693,6 +775,7 @@ async function zip({ ambPdf, carpeta }) {
 }
 
 async function obreOverleaf() {
+  const ultimPdf = documents[mostrat];
   const z = await zip({ ambPdf: false, carpeta: false });
   const b64 = await z.generateAsync({ type: 'base64' });
   const form = document.createElement('form');
@@ -848,6 +931,7 @@ function connecta() {
   const camps = { '#e-departament': 'departament', '#e-trimestre': 'trimestre', '#e-unitat': 'unitat', '#e-instruccions': 'instruccions', '#e-nom': 'nomFitxer' };
   for (const [sel, camp] of Object.entries(camps)) $(sel).addEventListener('input', ev => { estat.examen[camp] = ev.target.value; marcaDesactualitzat(); desa(); });
   $('#e-procedencia').onchange = ev => { estat.examen.procedencia = ev.target.checked; marcaDesactualitzat(); desa(); };
+  $('#e-enunciats-solucions').onchange = ev => { estat.examen.enunciatsSolucions = ev.target.checked; marcaDesactualitzat(); desa(); };
 
   // Examen: exercicis
   $('#items').addEventListener('click', ev => {
@@ -865,6 +949,7 @@ function connecta() {
       avis('Exercici tret de l\'examen', { text: 'Desfés', fes: () => { items.splice(k, 0, tret); canviExamen(); } });
     }
     if (accio === 'edita') obreEditor(items[k].uid);
+    if (accio === 'edita-solucio') obreEditor(items[k].uid, 'solucio');
     if (accio === 'detall') obreDetall(items[k].id, items.map(i => i.id).filter(Boolean));
   });
   $('#items').addEventListener('change', ev => {
@@ -908,19 +993,25 @@ function connecta() {
   // Editor
   $('#ed-text').addEventListener('input', previEditor);
   $('#ed-desa').onclick = desaEditor;
-  $('#ed-restaura').onclick = () => { $('#ed-text').value = EX.get(editant.id).enunciat; previEditor(); };
+  $('#ed-restaura').onclick = () => { $('#ed-text').value = originalEditor(editant.item, editant.pestanya); previEditor(); };
+  for (const b of $$('#editor [data-ed-pestanya]')) b.onclick = () => mostraPestanyaEditor(b.dataset.edPestanya);
 
   // Sortida
-  $('#genera-pdf').onclick = generaPdf;
-  $('#baixa-pdf').onclick = () => descarrega(`${ultimPdf.nom}.pdf`, ultimPdf.pdf, 'application/pdf');
+  $('#genera-pdf').onclick = () => generaPdf('examen');
+  $('#genera-solucions').onclick = () => generaPdf('solucions');
+  for (const b of $$('#tria-document [data-document]')) b.onclick = () => {
+    mostraDocument(b.dataset.document);
+    estatMotor(documents[mostrat].desactualitzat ? `Hi ha canvis que encara no són al PDF: torna a prémer «${NOMS_DOCUMENT[mostrat]}».` : '');
+  };
+  $('#baixa-pdf').onclick = () => descarrega(`${documents[mostrat].nom}.pdf`, documents[mostrat].pdf, 'application/pdf');
   $('#baixa-zip').onclick = async () => {
     try {
       const z = await zip({ ambPdf: true, carpeta: true });
-      descarrega(`${ultimPdf.nom}.zip`, await z.generateAsync({ type: 'blob' }));
+      descarrega(`${documents[mostrat].nom}.zip`, await z.generateAsync({ type: 'blob' }));
     } catch (e) { avis(e.message); }
   };
   $('#obre-overleaf').onclick = () => obreOverleaf().catch(e => avis(e.message));
-  $('#mostra-tex').onclick = () => { $('#codi-tex').textContent = ultimPdf.tex; $('#dialeg-tex').showModal(); };
+  $('#mostra-tex').onclick = () => { $('#codi-tex').textContent = documents[mostrat].tex; $('#dialeg-tex').showModal(); };
 
   // Revisió
   $('#r-filtre').addEventListener('click', ev => {

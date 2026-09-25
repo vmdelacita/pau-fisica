@@ -7,12 +7,21 @@ Web per cercar exercicis de les PAU de Física de Catalunya (2019–2026, examen
 ## Què fa la web
 
 - **Cerca**: per paraules (sense tenir en compte accents), bloc, subtema, dificultat, tipus de tasca, any, procedència, format, currículum i estat de revisió. Per a cada exercici es pot veure l'enunciat, la solució (pauta oficial) i els PDF originals. Els exercicis que un professor ha revisat porten l'etiqueta **«Revisat per un humà»**, i els que tracten temes que ja no són al currículum actual, **«Fora del currículum»** o **«Parcialment fora del currículum»**. Per defecte es mostren tots.
-- **Examen**: s'hi afegeixen exercicis i es poden reordenar, triar-ne els apartats, canviar els punts (o reescalar el total a 10) i editar-ne el LaTeX. Les edicions només afecten l'examen. També s'hi poden escriure exercicis propis. Els resultats possibles són:
+- **Examen**: s'hi afegeixen exercicis i es poden reordenar, triar-ne els apartats, canviar els punts (o reescalar el total a 10) i editar-ne el LaTeX, tant de l'enunciat com de la solució. Les edicions només afecten l'examen. També s'hi poden escriure exercicis propis, amb la seva solució. Els resultats possibles són:
   - el **PDF**;
+  - les **Solucions**: un PDF a part amb la pauta de correcció de cada exercici (vegeu més avall);
   - una **carpeta .zip** amb el `.tex`, les imatges i el PDF, per retocar-la amb qualsevol LaTeX;
   - un projecte nou a **Overleaf**.
 
   Els exàmens es poden desar i tornar a obrir en format `.json`.
+
+  **Solucions.** El botó *Solucions*, al costat de *Genera el PDF*, compon la pauta de correcció de l'examen:
+  - Porta el títol «Solucions» i, a sota, el departament, el trimestre i la unitat de l'examen. Es desa com a `<nom>-solucions.pdf`.
+  - Els apartats exclosos de l'examen s'ometen. Si s'han canviat els punts d'un apartat, les puntuacions parcials de la pauta (`\punts{…}`) es reescalen en la mateixa proporció.
+  - Als fulls d'exercicis no es mostra cap puntuació.
+  - Amb la casella *Inclou l'enunciat de cada exercici a les solucions*, cada solució va precedida del seu enunciat.
+  - Si un exercici no té solució (un exercici propi on encara no s'ha escrit), surt l'etiqueta «sense solució». Es pot escriure a l'editor (✎), a la pestanya **Solució**.
+  - Quan s'han generat tots dos documents, un selector *Examen / Solucions* canvia el que es veu. Les descàrregues (PDF, .zip, Overleaf, .tex) són sempre del document que es veu.
 - **Revisió** (només per al professor): vegeu la secció següent.
 
 ## Revisió de la base de dades
@@ -44,6 +53,7 @@ eines/          scripts de manteniment (Python 3 + PyYAML)
   motor_tex/           com s'ha construït el motor LaTeX reduït
 web/            la web estàtica (és el que es publica)
   plantilla/examen.tex plantilla del centre (editable)
+  plantilla/solucions.tex plantilla del solucionari (editable)
   motor/               LaTeX en WebAssembly (BusyTeX)
   dades/               GENERAT per construeix_web.py
 examenes/, documents oficials/   PDF originals

@@ -117,6 +117,7 @@
           <label class="ample">Instruccions <span class="suau">(una per línia; es poden escriure fórmules entre $…$)</span>
             <textarea id="e-instruccions" rows="5"></textarea></label>
           <label class="ample check"><input id="e-procedencia" type="checkbox"> Indica la procedència de cada exercici (p. ex. «PAU 2025, convocatòria ordinària…»)</label>
+          <label class="ample check"><input id="e-enunciats-solucions" type="checkbox"> Inclou l'enunciat de cada exercici a les solucions</label>
           <label>Nom del fitxer<input id="e-nom" type="text" spellcheck="false"></label>
         </div>
       </div>
@@ -148,7 +149,12 @@
       <div class="panell sortida">
         <div class="fila-botons">
           <button class="boto primari" id="genera-pdf">Genera el PDF</button>
+          <button class="boto secundari" id="genera-solucions" title="Genera un PDF a part amb la pauta de correcció de cada exercici">Solucions</button>
           <span id="estat-motor" class="estat" aria-live="polite"></span>
+        </div>
+        <div class="segmentat" id="tria-document" role="radiogroup" aria-label="Document que es mostra" hidden>
+          <button data-document="examen" aria-pressed="true">Examen</button>
+          <button data-document="solucions" aria-pressed="false">Solucions</button>
         </div>
         <div id="errors-latex" class="errors" hidden></div>
         <div class="fila-botons" id="descarregues" hidden>
@@ -159,7 +165,7 @@
         </div>
         <div class="visor" id="visor">
           <div class="visor-buit">
-            <p>Afegeix exercicis des de <strong>Cerca</strong> i prem <strong>Genera el PDF</strong>.</p>
+            <p>Afegeix exercicis des de <strong>Cerca</strong> i prem <strong>Genera el PDF</strong>. El botó <strong>Solucions</strong> genera la pauta de correcció en un PDF a part.</p>
             <p class="suau">El PDF es compila en aquest mateix navegador amb LaTeX i la plantilla del centre. La primera vegada cal descarregar el motor (uns 48 MB); després queda a la memòria cau.</p>
           </div>
         </div>
@@ -233,16 +239,28 @@
     </div>
     <button class="boto-icona" data-tanca aria-label="Tanca">✕</button>
   </div>
+  <div class="pestanyes-detall" role="tablist">
+    <button role="tab" data-ed-pestanya="enunciat" aria-selected="true">Enunciat</button>
+    <button role="tab" data-ed-pestanya="solucio" aria-selected="false">Solució</button>
+  </div>
   <div class="editor-cos">
     <div class="editor-font">
-      <label for="ed-text" class="suau">LaTeX de l'enunciat</label>
+      <label for="ed-text" class="suau" id="ed-etiqueta">LaTeX de l'enunciat</label>
       <textarea id="ed-text" spellcheck="false"></textarea>
-      <details class="ajuda-latex">
+      <div id="ed-avis" class="avis-editor" hidden></div>
+      <details class="ajuda-latex" data-ajuda="enunciat">
         <summary>Ajuda ràpida</summary>
         <pre>\begin{apartat}{1,25}  … \end{apartat}   apartat amb els seus punts
 \figura[0.4]{fig1.png}                  figura (amplada relativa)
 \dades{$G = 6,67\times 10^{-11}$ …}      bloc de dades
 \nota{…}                                nota final
+$…$  i  \[ … \]                         fórmules</pre>
+      </details>
+      <details class="ajuda-latex" data-ajuda="solucio" hidden>
+        <summary>Ajuda ràpida</summary>
+        <pre>\begin{solapartat} … \end{solapartat}   solució d'un apartat (un per apartat, en ordre)
+\punts{0,5}                             puntuació parcial (es reescala amb l'apartat)
+\destaca{Alternativament,}              text destacat
 $…$  i  \[ … \]                         fórmules</pre>
       </details>
     </div>

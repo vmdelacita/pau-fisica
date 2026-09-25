@@ -131,6 +131,8 @@ textarea { resize: vertical; }
 .etiqueta.antic { background: #f0ecf7; color: #5b4a86; }
 .etiqueta.fora { background: #fdecea; color: #a1322a; }
 .etiqueta.modificat { background: var(--primari-clar); color: var(--primari-fosc); }
+button.etiqueta { font-family: inherit; border: 0; cursor: pointer; }
+button.etiqueta:hover { text-decoration: underline; }
 .b0 { --c: var(--b0); --cc: var(--b0-clar); }
 .b1 { --c: var(--b1); --cc: var(--b1-clar); }
 .b2 { --c: var(--b2); --cc: var(--b2-clar); }
@@ -169,6 +171,8 @@ mark { background: #fff1a8; color: inherit; border-radius: 2px; }
 .item .titol { font-weight: 600; }
 .item .titol button { font: inherit; background: none; border: 0; padding: 0; color: inherit; cursor: pointer; text-align: left; }
 .item .titol button:hover { color: var(--primari); text-decoration: underline; }
+.item .titol button.etiqueta { font-size: .75rem; font-weight: normal; padding: .1rem .5rem; background: var(--avis-clar); color: var(--avis); }
+.item .titol button.etiqueta:hover { color: var(--avis); }
 .item .origen { font-size: .8rem; color: var(--suau); }
 .item .botons { display: flex; gap: .25rem; }
 .item .botons .boto-icona { width: 1.9rem; height: 1.9rem; font-size: .95rem; }
@@ -226,6 +230,8 @@ mark { background: #fff1a8; color: inherit; border-radius: 2px; }
 .editor-font textarea { flex: 1; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .85rem; line-height: 1.5; resize: none; }
 .ajuda-latex summary { cursor: pointer; color: var(--primari); font-size: .88rem; }
 .ajuda-latex pre { font-size: .78rem; background: var(--fons); padding: .5rem; border-radius: 6px; overflow: auto; }
+.avis-editor { background: var(--avis-clar); color: var(--avis); border-radius: 6px; padding: .4rem .6rem; font-size: .85rem; }
+#tria-document { justify-self: start; align-self: flex-start; }
 .editor-previ { overflow: auto; padding: 1rem 1.25rem; }
 .codi { margin: 0; padding: 1rem 1.25rem; overflow: auto; flex: 1; font-size: .8rem; background: #fafbfc; }
 

@@ -25,6 +25,8 @@ git add -A && git commit -m "Descripció del canvi" && git push
 4. S'hi inclouen els **criteris generals de correcció de la PAU**: els de la convocatòria original de cada exercici (`criteris_generals.tex`).
 5. **Editar la solució** dels exercicis editats o propis queda com a **treball futur**, per a una versió posterior.
 
+> **Actualització (2026-09-25):** el professor ha decidit no incorporar més exàmens antics de moment (els lots 3 i 4 queden aparcats; els PDF continuen a `examenes antiguos/`). La Fase 4 s'ha fet amb decisions noves, que substitueixen els punts 1, 4 i 5: títol simple sense taula, sense criteris generals i amb l'edició de solucions inclosa. Vegeu `RESUM_FASE4.md`.
+
 ## 3. Exàmens antics: inventari
 
 `examenes antiguos/` conté les **47 convocatòries** de juny i de setembre de 2000 a 2022, totes. Cadascuna té 2 PDF: l'examen i les respostes (la pauta de correcció).
@@ -129,3 +131,4 @@ Cal fer-la a l'inici de la propera sessió, abans de transcriure res.
 - **Lot 2a (2016–2018): fet** (2026-09-24). Vegeu `RESUM_LOT2A.md`, que acaba amb els dubtes per al lot 2b. La Q5 de les mostres de 2025 ja té la pauta oficial de juny de 2017 (sèrie 1).
 - **Lot 2b (2013–2015): fet** (2026-09-24). Vegeu `RESUM_LOT2B.md`, que acaba amb els dubtes per al lot 3.
 - Següent: **lot 3**. Proposta: 2010–2012 (10 sèries, mateix format), i el 2009 (format antic) al lot 4.
+- **2026-09-25:** els lots 3 i 4 queden aparcats per decisió del professor (els exàmens més antics aporten menys). Es passa a la Fase 4 (solucions, feta: `RESUM_FASE4.md`) i a la Fase 5 (versió per compartir amb altres centres).

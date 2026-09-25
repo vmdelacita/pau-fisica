@@ -77,10 +77,50 @@ function omple(plantilla, marca, text) {
   return plantilla.replace(new RegExp(`^%%${marca}%%$`, 'm'), () => text);
 }
 
-// examen: { tipus: 'examen'|'full', departament, trimestre, unitat, instruccions, procedencia, items }
+// Solució: \begin{solapartat} … \end{solapartat}, un per apartat i en el mateix ordre.
+const RE_SOLAPARTAT = /\\begin\{solapartat\}[\s\S]*?\\end\{solapartat\}/g;
+const RE_PUNTS = /\\punts\{([^}]*)\}/g;
+
+export function nSolapartats(text) {
+  return (text.match(RE_SOLAPARTAT) || []).length;
+}
+
+// Plantilla d'una solució en blanc amb n apartats.
+export function plantillaSolucio(n) {
+  return Array.from({ length: Math.max(1, n) }, () => '\\begin{solapartat}\n\n\\end{solapartat}').join('\n\n') + '\n';
+}
+
+// Una solució està buida si els apartats no tenen contingut (p. ex. la plantilla sense omplir).
+export function solucioBuida(text) {
+  return !String(text ?? '').replace(/^%.*$/gm, '').replace(/\\(begin|end)\{solapartat\}/g, '').trim();
+}
+
+// Solució que es fa servir per a un element de l'examen (null si no n'hi ha).
+export function solucioItem(item, ex) {
+  const t = item.solucio ?? ex?.solucio ?? null;
+  return t == null || solucioBuida(t) ? null : t;
+}
+
+// Aplica la selecció d'apartats a la solució i reescala les puntuacions parcials (\punts{…})
+// amb el mateix factor que el seu apartat: punts nous / punts originals de l'enunciat.
+export function aplicaSolucio(text, apartats, puntsOriginals) {
+  let k = 0;
+  return text.replace(RE_SOLAPARTAT, (tot) => {
+    const a = apartats[k];
+    const orig = puntsOriginals[k++];
+    if (a && !a.inclou) return '';
+    if (!a || !(orig > 0) || a.punts == null || Math.abs(a.punts - orig) < 1e-9) return tot;
+    const f = a.punts / orig;
+    return tot.replace(RE_PUNTS, (_, x) => `\\punts{${formatPunts(llegeixPunts(x) * f)}}`);
+  }).replace(/\n{3,}/g, '\n\n');
+}
+
+// examen: { tipus: 'examen'|'full', departament, trimestre, unitat, instruccions, procedencia,
+//           enunciatsSolucions, items }
 // exercicis: Map id -> exercici de la base de dades
+// solucions: true per generar el solucionari (plantilla/solucions.tex)
 // Retorna { tex, figures: [{ nom, url }] }
-export function generaTex({ plantilla, preambul, examen, exercicis, urlFigura }) {
+export function generaTex({ plantilla, preambul, examen, exercicis, urlFigura, solucions = false }) {
   const esExamen = examen.tipus === 'examen';
   const instruccions = (examen.instruccions || '').split('\n').map(l => l.trim()).filter(Boolean)
     .map(escapaText).join(' \\\\\n  ');
@@ -96,7 +136,15 @@ export function generaTex({ plantilla, preambul, examen, exercicis, urlFigura })
     const ex = item.id ? exercicis.get(item.id) : null;
     const text = item.text ?? ex?.enunciat ?? '';
     sincronitzaApartats(item, text);
-    let cos = aplicaApartats(text, item.apartats, esExamen);
+    let cos = '';
+    if (!solucions || examen.enunciatsSolucions) cos = aplicaApartats(text, item.apartats, esExamen).trim();
+    if (solucions) {
+      const sol = solucioItem(item, ex);
+      const solCos = sol
+        ? aplicaSolucio(sol, item.apartats, apartatsDe(text).map(a => a.punts)).trim()
+        : '\\sensesolucio';
+      cos = examen.enunciatsSolucions ? `${cos}\n\n\\titolsolucio\n${solCos}` : solCos;
+    }
     if (ex) {
       const prefix = prefixFigures(ex.id);
       for (const nom of new Set(figuresUsades(cos))) {
@@ -107,7 +155,7 @@ export function generaTex({ plantilla, preambul, examen, exercicis, urlFigura })
     const punts = esExamen ? `[${formatPunts(puntsItem(item))}]` : '';
     const origen = ex ? ex.id : 'exercici propi';
     const proc = examen.procedencia && ex ? `\\procedencia{${descriuFont(ex)}}\n` : '';
-    return `% ---- ${origen} ----\n\\begin{exercici}${punts}\n${proc}${cos.trim()}\n\\end{exercici}`;
+    return `% ---- ${origen} ----\n\\begin{exercici}${punts}\n${proc}${cos}\n\\end{exercici}`;
   });
 
   let tex = plantilla;
