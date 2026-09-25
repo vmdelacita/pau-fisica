@@ -18,9 +18,18 @@ function treuComentaris(s) {
   }).join('\n');
 }
 
+// Puntuació de la pauta dins d'una fórmula (\punts{0,2} o \text{\punts{0,2}}): MathJax no
+// coneix \punts, així que es passa a text en color (com .punts fora de les fórmules).
+const RE_PUNTS_MATH = /\\text\{\s*\\punts\{([^}]*)\}\s*\}|\\punts\{([^}]*)\}/g;
+
 // Retoca una fórmula perquè MathJax la mostri com LaTeX amb icomma.
 function preparaMath(m) {
-  return m.replace(/(\d),(?=\d)/g, '$1{,}').replace(/·/g, '\\cdot ');
+  // Les puntuacions es reserven abans de posar la coma decimal com a {,}, que dins del
+  // text de \textbf es veuria tal qual.
+  const punts = [];
+  return m.replace(RE_PUNTS_MATH, (_, a, b) => `\u0002${punts.push(a ?? b) - 1}\u0002`)
+    .replace(/(\d),(?=\d)/g, '$1{,}').replace(/·/g, '\\cdot ')
+    .replace(/\u0002(\d+)\u0002/g, (_, k) => `\\textcolor{#9c2a1f}{\\textbf{${punts[k]} p}}`);
 }
 
 // Separa les fórmules del text i les substitueix per marques \u0001N\u0001.

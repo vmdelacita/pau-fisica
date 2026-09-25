@@ -2,7 +2,7 @@
 % Plantilla del solucionari d'un examen o full d'exercicis.
 % La web hi substitueix les marques %%...%% (les mateixes que a examen.tex):
 %   %%PREAMBUL_EXERCICIS%%  macros dels exercicis (eines/preambul_exercicis.tex)
-%   %%CAPCALERA%%           \departament, \trimestre, \unitat (\instruccions no s'hi fa servir)
+%   %%CAPCALERA%%           \departament, \trimestre, \unitat (\instruccions i \logocentre no s'hi fan servir)
 %   %%OPCIONS%%             p. ex. \mostrapuntsfalse als fulls d'exercicis
 %   %%EXERCICIS%%           les solucions (i els enunciats, si s'ha demanat)
 % Es pot modificar lliurement mentre es mantinguin les marques.
@@ -40,6 +40,7 @@
 \newcommand{\trimestre}[1]{\def\@trimestre{#1}}
 \newcommand{\unitat}[1]{\def\@unitat{#1}}
 \newcommand{\instruccions}[1]{}
+\newcommand{\logocentre}[1]{}   % el solucionari no porta logos
 \departament{}\trimestre{}\unitat{}
 
 \newcommand{\crearcabecera}{%
