@@ -3,5 +3,6 @@ base_dades/_build/
 __pycache__/
 # Generat per eines/construeix_web.py
 web/dades/
+web/admin/
 # Exàmens 2000–2021 encara no incorporats a la base de dades (s'afegiran per lots)
 examenes antiguos/

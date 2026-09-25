@@ -119,8 +119,9 @@ export function aplicaSolucio(text, apartats, puntsOriginals) {
 //           enunciatsSolucions, items }
 // exercicis: Map id -> exercici de la base de dades
 // solucions: true per generar el solucionari (plantilla/solucions.tex)
+// logo: nom del fitxer del logo del centre ('' si no n'hi ha)
 // Retorna { tex, figures: [{ nom, url }] }
-export function generaTex({ plantilla, preambul, examen, exercicis, urlFigura, solucions = false }) {
+export function generaTex({ plantilla, preambul, examen, exercicis, urlFigura, solucions = false, logo = '' }) {
   const esExamen = examen.tipus === 'examen';
   const instruccions = (examen.instruccions || '').split('\n').map(l => l.trim()).filter(Boolean)
     .map(escapaText).join(' \\\\\n  ');
@@ -129,6 +130,7 @@ export function generaTex({ plantilla, preambul, examen, exercicis, urlFigura, s
     `\\trimestre{${escapaText(examen.trimestre || '')}}`,
     `\\unitat{${escapaText(examen.unitat || '')}}`,
     `\\instruccions{${instruccions ? '%\n  ' + instruccions + '}' : '}'}`,
+    `\\logocentre{${logo}}`,
   ].join('\n');
 
   const figures = [];

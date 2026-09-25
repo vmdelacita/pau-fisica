@@ -114,6 +114,20 @@
           <label>Departament / assignatura<input id="e-departament" type="text"></label>
           <label>Trimestre<input id="e-trimestre" type="text"></label>
           <label class="ample">Unitat<input id="e-unitat" type="text"></label>
+          <div class="ample camp-logo" data-nomes-public>
+            <div>Logo del centre <span class="suau">(opcional)</span></div>
+            <div class="fila-logo">
+              <div class="logo-previ" id="logo-previ"></div>
+              <div>
+                <div class="fila-botons">
+                  <label class="boto secundari">Tria una imatge…<input id="puja-logo" type="file" accept="image/png,image/jpeg,image/*" hidden></label>
+                  <button class="boto-text" id="treu-logo" hidden>Treu el logo</button>
+                </div>
+                <p class="ajuda">Surt a la dreta de la capçalera de l'examen, en una casella d'uns 2,3 × 2 cm. Format ideal: PNG o JPG, preferiblement amb fons transparent o blanc, de quadrat a apaïsat (fins a 3:2) i d'uns 600 px d'amplada. Si no n'hi poses cap, la casella queda buida.</p>
+                <p class="ajuda avis-logo" id="avis-logo" hidden></p>
+              </div>
+            </div>
+          </div>
           <label class="ample">Instruccions <span class="suau">(una per línia; es poden escriure fórmules entre $…$)</span>
             <textarea id="e-instruccions" rows="5"></textarea></label>
           <label class="ample check"><input id="e-procedencia" type="checkbox"> Indica la procedència de cada exercici (p. ex. «PAU 2025, convocatòria ordinària…»)</label>
@@ -179,7 +193,7 @@
       <h2>Revisió de la base de dades</h2>
       <p>Obre qualsevol exercici i, a la pestanya <strong>Revisió</strong>, marca'l com a revisat o corregeix-ne la dificultat, els subtemes, el tipus i les paraules clau. Els canvis es veuen de seguida a la cerca i es desen en aquest navegador.</p>
       <p>Per fer-los permanents: <strong>Exporta les revisions</strong> i, a l'ordinador del projecte, executa <code>python3 eines/aplica_revisions.py revisions.json</code> i publica els canvis (<code>git push</code>).</p>
-      <p class="suau">Aquesta pestanya només es veu en mode revisió (s'hi entra obrint la web amb <code>?revisio</code> i aquest navegador ho recorda). Els visitants només veuen l'etiqueta «Revisat per un humà» dels exercicis revisats a la base de dades publicada. <a href="?revisio=0">Surt del mode revisió</a>.</p>
+      <p class="suau">Aquesta pestanya només es veu a la versió d'administració (<code>/admin/</code>). A la versió pública només es veu l'etiqueta «Revisat per un humà» dels exercicis revisats a la base de dades publicada.</p>
       <div class="progres"><div class="barra-progres"><span id="progres-barra"></span></div><span id="progres-text"></span></div>
       <div class="fila-botons">
         <button class="boto primari" id="exporta-revisions">Exporta les revisions (.json)</button>
@@ -198,6 +212,7 @@
 </main>
 
 <footer class="peu">
+  <div>Web creada per Víctor Moreno · <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.ca" target="_blank" rel="noopener license">CC BY-NC 4.0</a>: es pot fer servir, copiar i adaptar lliurement sense finalitat lucrativa, citant-ne l'autor.</div>
   Enunciats i pautes: PAU de Física, Generalitat de Catalunya ·
   Motor LaTeX: <a href="https://github.com/TeXlyre/texlyre-busytex" target="_blank" rel="noopener">BusyTeX</a> (AGPL-3.0) amb TeX Live 2026 ·
   Fórmules: MathJax

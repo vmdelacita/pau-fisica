@@ -11,8 +11,14 @@ const $$ = (s, el = document) => [...el.querySelectorAll(s)];
 const esc = s => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const norm = s => String(s ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/·/g, '').toLowerCase();
 
-const CLAU_ESTAT = 'pau-fisica/estat-v1';
-const CLAU_MODE_REVISIO = 'pau-fisica/mode-revisio';
+// Versió d'administració (/admin/): logo de l'institut, valors per defecte del centre i
+// mode revisió. La versió pública (per compartir) no té logo propi (se'n pot pujar un),
+// té la capçalera en blanc i no mostra la revisió. No és cap contrasenya: només separa les dues.
+const ADMIN = window.PAU_VERSIO === 'admin';
+const CLAU_ESTAT_PUBLICA = 'pau-fisica/estat-v1';
+const CLAU_ESTAT = ADMIN ? 'pau-fisica/admin/estat-v1' : CLAU_ESTAT_PUBLICA;
+const LOGO_ADMIN = 'RCC.png';
+const LOGO_AMPLE_MAX = 800;     // px: els logos pujats es redueixen fins a aquesta amplada
 const INSTRUCCIONS_DEFECTE = [
   "Totes les respostes s'han de raonar i justificar. Un resultat erroni amb un raonament correcte es valora. Una resposta correcta sense raonament ni justificació pot ser valorada amb un 0.",
   "Un o més errors d'unitats o no posar-les (resultats intermedis i finals) en un problema es penalitzen amb un 20% del valor de l'exercici.",
@@ -54,27 +60,18 @@ let mostrat = 'examen';        // document que es veu al visor
 const NOMS_DOCUMENT = { examen: 'Genera el PDF', solucions: 'Solucions' };
 let compilant = false;
 
-// Mode revisió (només per al professor): s'activa obrint la web amb ?revisio i el navegador
-// ho recorda; ?revisio=0 el desactiva. Fora d'aquest mode no es veu la pestanya Revisió i
-// tot (etiquetes, filtres, cerca) reflecteix només la base de dades publicada.
-function llegeixModeRevisio() {
-  const p = new URLSearchParams(location.search);
-  const demanat = p.has('revisio') ? !['0', 'no'].includes(p.get('revisio')) : null;
-  try {
-    if (demanat === true) localStorage.setItem(CLAU_MODE_REVISIO, '1');
-    if (demanat === false) localStorage.removeItem(CLAU_MODE_REVISIO);
-    return localStorage.getItem(CLAU_MODE_REVISIO) === '1';
-  } catch { return !!demanat; }
-}
-const modeRevisio = llegeixModeRevisio();
+// Mode revisió: només a la versió d'administració. Fora d'aquest mode no es veu la pestanya
+// Revisió i tot (etiquetes, filtres, cerca) reflecteix només la base de dades publicada.
+const modeRevisio = ADMIN;
 
 function examenNou(prev) {
   return {
     tipus: prev?.tipus ?? 'examen',
-    departament: prev?.departament ?? 'Física 2n Batxillerat',
-    trimestre: prev?.trimestre ?? '1r Trimestre',
+    departament: prev?.departament ?? (ADMIN ? 'Física 2n Batxillerat' : ''),
+    trimestre: prev?.trimestre ?? (ADMIN ? '1r Trimestre' : ''),
     unitat: prev?.unitat ?? '',
-    instruccions: prev?.instruccions ?? INSTRUCCIONS_DEFECTE,
+    instruccions: prev?.instruccions ?? (ADMIN ? INSTRUCCIONS_DEFECTE : ''),
+    logo: prev?.logo ?? null,     // { nom, dades (data URL), ample, alt }: només a la versió pública
     procedencia: prev?.procedencia ?? false,
     enunciatsSolucions: prev?.enunciatsSolucions ?? false,
     nomFitxer: prev?.nomFitxer ?? 'examen',
@@ -84,7 +81,9 @@ function examenNou(prev) {
 
 function carregaEstat() {
   try {
-    const s = JSON.parse(localStorage.getItem(CLAU_ESTAT) || 'null');
+    // La primera vegada, la versió d'administració recupera l'examen i les revisions que
+    // hi havia a la versió pública (abans el mode revisió era a la mateixa adreça).
+    const s = JSON.parse(localStorage.getItem(CLAU_ESTAT) || (ADMIN && localStorage.getItem(CLAU_ESTAT_PUBLICA)) || 'null');
     if (s?.examen) estat.examen = { ...examenNou(), ...s.examen };
     if (s?.revisions) estat.revisions = s.revisions;
   } catch { /* sense emmagatzematge: es continua amb l'estat per defecte */ }
@@ -228,7 +227,8 @@ function mostraVista(v) {
   if (v === 'revisio' && !modeRevisio) v = 'cerca';
   for (const b of $$('.pestanyes [data-vista]')) b.setAttribute('aria-selected', String(b.dataset.vista === v));
   for (const s of $$('.vista')) s.hidden = s.id !== `vista-${v}`;
-  if (location.hash !== `#${v}`) history.replaceState(null, '', `#${v}`);
+  // URL absoluta: amb <base href="../"> (versió /admin/) un '#…' relatiu sortiria de /admin/.
+  if (location.hash !== `#${v}`) history.replaceState(null, '', `${location.pathname}${location.search}#${v}`);
   if (v === 'examen') { pintaExamen(); if (estat.examen.items.length) motor.prepara().catch(() => {}); }
   if (v === 'revisio') pintaRevisio();
   window.scrollTo(0, 0);
@@ -486,6 +486,7 @@ function pintaExamen() {
   for (const [sel, camp] of Object.entries(camps)) if (document.activeElement !== $(sel)) $(sel).value = ex_[camp] ?? '';
   $('#e-procedencia').checked = !!ex_.procedencia;
   $('#e-enunciats-solucions').checked = !!ex_.enunciatsSolucions;
+  if (!ADMIN) pintaLogo();
   $('#reescala-caixa').hidden = ex_.tipus !== 'examen';
   pintaItems();
 }
@@ -653,6 +654,37 @@ async function bytes(url) {
   return memoria.get(url);
 }
 async function text(url) { return new TextDecoder().decode(await bytes(url)); }
+const bytesDataUrl = url => Uint8Array.from(atob(url.split(',')[1]), c => c.charCodeAt(0));
+
+// ---------------------------------------------------------------- logo del centre (versió pública)
+// Es redueix a LOGO_AMPLE_MAX px i es desa com a data URL dins de l'examen (navegador i .json).
+async function llegeixLogo(fitxer) {
+  const url = URL.createObjectURL(fitxer);
+  try {
+    const img = new Image();
+    img.src = url;
+    await img.decode();
+    const f = Math.min(1, LOGO_AMPLE_MAX / img.naturalWidth);
+    const c = document.createElement('canvas');
+    c.width = Math.round(img.naturalWidth * f);
+    c.height = Math.round(img.naturalHeight * f);
+    c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+    const jpeg = /jpe?g/i.test(fitxer.type);
+    return { nom: jpeg ? 'logo.jpg' : 'logo.png', dades: c.toDataURL(jpeg ? 'image/jpeg' : 'image/png', 0.92), ample: img.naturalWidth, alt: img.naturalHeight };
+  } finally { URL.revokeObjectURL(url); }
+}
+
+function pintaLogo() {
+  const logo = estat.examen.logo;
+  $('#logo-previ').innerHTML = logo ? `<img src="${logo.dades}" alt="Logo del centre">` : '<span class="suau">Sense logo</span>';
+  $('#treu-logo').hidden = !logo;
+  const avisos = [];
+  if (logo && logo.ample < 300) avisos.push(`La imatge és petita (${logo.ample} px d'amplada) i pot sortir borrosa.`);
+  if (logo && logo.ample / logo.alt > 1.6) avisos.push('És molt apaïsada: sortirà petita dins de la casella.');
+  if (logo && logo.alt / logo.ample > 1.1) avisos.push('És més alta que ampla: sortirà estreta dins de la casella.');
+  $('#avis-logo').textContent = avisos.join(' ');
+  $('#avis-logo').hidden = !avisos.length;
+}
 
 function nomFitxer(document = 'examen') {
   const n = (estat.examen.nomFitxer || 'examen').trim().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
@@ -698,11 +730,12 @@ async function generaPdf(clau = 'examen') {
   try {
     const [plantilla, preambul] = await Promise.all([
       text(solucions ? 'plantilla/solucions.tex' : 'plantilla/examen.tex'), text('plantilla/preambul_exercicis.tex')]);
-    const { tex, figures } = generaTex({ plantilla, preambul, examen, exercicis: EX, urlFigura, solucions });
-    const fitxers = solucions ? [] : [
-      { path: 'senyal_bn.png', content: await bytes('plantilla/senyal_bn.png') },
-      { path: 'RCC.png', content: await bytes('plantilla/RCC.png') },
-    ];
+    const logo = solucions ? null : ADMIN
+      ? { nom: LOGO_ADMIN, content: await bytes(`plantilla/${LOGO_ADMIN}`) }
+      : examen.logo ? { nom: examen.logo.nom, content: bytesDataUrl(examen.logo.dades) } : null;
+    const { tex, figures } = generaTex({ plantilla, preambul, examen, exercicis: EX, urlFigura, solucions, logo: logo?.nom || '' });
+    const fitxers = solucions ? [] : [{ path: 'senyal_bn.png', content: await bytes('plantilla/senyal_bn.png') }];
+    if (logo) fitxers.push({ path: logo.nom, content: logo.content });
     const vistes = new Set();
     for (const f of figures) {
       if (vistes.has(f.nom)) continue;
@@ -830,6 +863,7 @@ function connecta() {
   // Pestanyes principals
   for (const b of $$('.pestanyes [data-vista]')) b.onclick = () => mostraVista(b.dataset.vista);
   for (const el of $$('[data-mode-revisio]')) el.hidden = !modeRevisio;
+  for (const el of $$('[data-nomes-public]')) el.hidden = ADMIN;
   document.addEventListener('click', ev => {
     const a = ev.target.closest('[data-vista-enllac]');
     if (a) { ev.preventDefault(); mostraVista(a.dataset.vistaEnllac); }
@@ -932,6 +966,16 @@ function connecta() {
   for (const [sel, camp] of Object.entries(camps)) $(sel).addEventListener('input', ev => { estat.examen[camp] = ev.target.value; marcaDesactualitzat(); desa(); });
   $('#e-procedencia').onchange = ev => { estat.examen.procedencia = ev.target.checked; marcaDesactualitzat(); desa(); };
   $('#e-enunciats-solucions').onchange = ev => { estat.examen.enunciatsSolucions = ev.target.checked; marcaDesactualitzat(); desa(); };
+  $('#puja-logo').onchange = async ev => {
+    const f = ev.target.files[0];
+    ev.target.value = '';
+    if (!f) return;
+    try {
+      estat.examen.logo = await llegeixLogo(f);
+      pintaLogo(); marcaDesactualitzat(); desa();
+    } catch { avis('No s\'ha pogut llegir la imatge. Prova amb un PNG o un JPG.'); }
+  };
+  $('#treu-logo').onclick = () => { estat.examen.logo = null; pintaLogo(); marcaDesactualitzat(); desa(); };
 
   // Examen: exercicis
   $('#items').addEventListener('click', ev => {

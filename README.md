@@ -4,6 +4,20 @@ Web per cercar exercicis de les PAU de Física de Catalunya (2019–2026, examen
 
 **Web:** <https://vmdelacita.github.io/pau-fisica/>
 
+## Dues versions
+
+| | Versió pública (per compartir) | Versió d'administració |
+|---|---|---|
+| Adreça | <https://vmdelacita.github.io/pau-fisica/> | <https://vmdelacita.github.io/pau-fisica/admin/> |
+| Logo de la dreta de la capçalera | el que pugi cada professor (opcional; si no n'hi ha, la casella queda buida) | el de l'institut (`web/plantilla/RCC.png`) |
+| Capçalera per defecte | en blanc | «Física 2n Batxillerat», «1r Trimestre» i les instruccions del centre |
+| Pestanya Revisió | no | sí |
+
+- Les dues comparteixen tots els fitxers. `web/admin/index.html` el genera `construeix_web.py` a partir de `web/index.html` (hi afegeix `<base href="../">` i `PAU_VERSIO = 'admin'`); no s'ha d'editar.
+- Cada versió desa el seu examen en curs per separat al navegador. La primera vegada, `/admin/` recupera l'examen i les revisions que hi havia a l'adreça pública.
+- `/admin/` no és secreta ni té contrasenya: qui en conegui l'adreça la pot obrir. No hi ha cap risc, perquè tot el que s'hi fa només afecta el navegador de qui la fa servir.
+- **Logo pujat (versió pública):** PNG o JPG, preferiblement amb fons transparent o blanc, de quadrat a apaïsat (fins a 3:2) i d'uns 600 px d'amplada. La casella fa uns 2,3 × 2 cm. La web el redueix a 800 px com a màxim i el desa al navegador i dins del projecte `.json`. També va dins de la carpeta .zip i del projecte d'Overleaf.
+
 ## Què fa la web
 
 - **Cerca**: per paraules (sense tenir en compte accents), bloc, subtema, dificultat, tipus de tasca, any, procedència, format, currículum i estat de revisió. Per a cada exercici es pot veure l'enunciat, la solució (pauta oficial) i els PDF originals. Els exercicis que un professor ha revisat porten l'etiqueta **«Revisat per un humà»**, i els que tracten temes que ja no són al currículum actual, **«Fora del currículum»** o **«Parcialment fora del currículum»**. Per defecte es mostren tots.
@@ -22,19 +36,17 @@ Web per cercar exercicis de les PAU de Física de Catalunya (2019–2026, examen
   - Amb la casella *Inclou l'enunciat de cada exercici a les solucions*, cada solució va precedida del seu enunciat.
   - Si un exercici no té solució (un exercici propi on encara no s'ha escrit), surt l'etiqueta «sense solució». Es pot escriure a l'editor (✎), a la pestanya **Solució**.
   - Quan s'han generat tots dos documents, un selector *Examen / Solucions* canvia el que es veu. Les descàrregues (PDF, .zip, Overleaf, .tex) són sempre del document que es veu.
-- **Revisió** (només per al professor): vegeu la secció següent.
+- **Revisió** (només a la versió d'administració): vegeu la secció següent.
 
 ## Revisió de la base de dades
 
-La pestanya **Revisió** és oculta per als visitants. Per veure-la, obre la web amb `?revisio` al final de l'adreça:
+La pestanya **Revisió** només es veu a la versió d'administració:
 
-<https://vmdelacita.github.io/pau-fisica/?revisio>
+<https://vmdelacita.github.io/pau-fisica/admin/>
 
-El navegador ho recorda: a partir d'aleshores la pestanya hi és sempre. Per sortir d'aquest mode, obre `?revisio=0` (també hi ha un enllaç a la mateixa pestanya).
+(Abans s'hi entrava amb `?revisio`; ara aquest paràmetre ja no fa res.) No hi ha cap risc: la pestanya només modifica el navegador de qui la fa servir, i la base de dades només canvia quan s'aplica `revisions.json` i es publica.
 
-Només és una manera d'amagar-la, no una contrasenya. No hi ha cap risc: la pestanya només modifica el navegador de qui la fa servir, i la base de dades només canvia quan s'aplica `revisions.json` i es publica.
-
-En mode revisió:
+A la versió d'administració:
 - A la fitxa de cada exercici hi ha la pestanya **Revisió**, per marcar-lo com a revisat i corregir-ne la dificultat, el currículum, el bloc, els subtemes, el tipus i les paraules clau. També s'hi poden afegir comentaris.
 - Els canvis es desen al navegador i es veuen de seguida a la cerca. Les revisions que encara no s'han aplicat surten com a **pendents** (p. ex. «Revisat per un humà (pendent)», amb vora discontínua).
 - Per fer-les permanents: **Exporta les revisions** → `python3 eines/aplica_revisions.py revisions.json` → `git push`.
@@ -52,7 +64,8 @@ eines/          scripts de manteniment (Python 3 + PyYAML)
   comprova.py, index.py, pagina.py   validació i extracció (fase 2)
   motor_tex/           com s'ha construït el motor LaTeX reduït
 web/            la web estàtica (és el que es publica)
-  plantilla/examen.tex plantilla del centre (editable)
+  admin/index.html     GENERAT: versió d'administració
+  plantilla/examen.tex plantilla del centre (editable; el logo de la dreta és \logocentre)
   plantilla/solucions.tex plantilla del solucionari (editable)
   motor/               LaTeX en WebAssembly (BusyTeX)
   dades/               GENERAT per construeix_web.py
@@ -88,6 +101,7 @@ La web és una carpeta de fitxers estàtics (`web/`) i es pot allotjar en qualse
 
 ## Llicències i crèdits
 
+- Web: **Víctor Moreno**, amb llicència [Creative Commons Reconeixement-NoComercial 4.0 (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/deed.ca). Es pot fer servir, copiar i adaptar lliurement sense finalitat lucrativa, citant-ne l'autor. Vegeu `LICENSE.md`.
 - Enunciats i pautes: PAU de Física, Generalitat de Catalunya (Departament de Recerca i Universitats).
 - Motor LaTeX: [BusyTeX / texlyre-busytex](https://github.com/TeXlyre/texlyre-busytex) (AGPL-3.0) amb TeX Live 2026.
 - Fórmules a la web: [MathJax](https://www.mathjax.org/). ZIP: [JSZip](https://stuk.github.io/jszip/).

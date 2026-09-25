@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Genera les dades de la web (web/dades/) a partir de la base de dades.
 
-  construeix_web.py              regenera web/dades/ i web/plantilla/preambul_exercicis.tex
+  construeix_web.py              regenera web/dades/, web/admin/index.html i
+                                 web/plantilla/preambul_exercicis.tex
 
 Cal executar-lo cada vegada que es modifica la base de dades (exercicis,
 metadades, taxonomia o preàmbul). La resta de la web (web/js, web/plantilla,
@@ -26,6 +27,23 @@ RE_DUBTE = re.compile(r"%\s*DUBTE:\s*(.*)")
 
 def dubtes(*textos):
     return [m.group(1).strip() for t in textos for m in RE_DUBTE.finditer(t)]
+
+
+def construeix_admin():
+    """Versió d'administració (web/admin/): la mateixa pàgina amb <base href="../"> perquè
+    comparteixi tots els fitxers, i PAU_VERSIO='admin' (logo de l'institut, valors per
+    defecte del centre i mode revisió)."""
+    html = (WEB / "index.html").read_text(encoding="utf-8")
+    marca = '<meta charset="utf-8">'
+    assert marca in html, "index.html ha de tenir <meta charset=\"utf-8\">"
+    html = html.replace(marca, marca + '\n<base href="../">\n'
+                        "<script>window.PAU_VERSIO = 'admin';</script>", 1)
+    html = html.replace("<title>Exercicis PAU Física</title>",
+                        "<title>Exercicis PAU Física (admin)</title>", 1)
+    (WEB / "admin").mkdir(exist_ok=True)
+    html = html.replace(marca, "<!-- GENERAT per eines/construeix_web.py a partir de web/index.html: "
+                        "no l'editis. -->\n" + marca, 1)
+    (WEB / "admin" / "index.html").write_text(html, encoding="utf-8")
 
 
 def main():
@@ -81,6 +99,7 @@ def main():
     (DADES / "base.json").write_text(json.dumps(base, ensure_ascii=False, separators=(",", ":")),
                                      encoding="utf-8")
     shutil.copy2(EINES / "preambul_exercicis.tex", WEB / "plantilla" / "preambul_exercicis.tex")
+    construeix_admin()
 
     n_fig = sum(len(e["fitxers_figures"]) for e in exercicis)
     print(f"{len(exercicis)} exercicis, {len(convocatories)} convocatòries, {n_fig} figures, "

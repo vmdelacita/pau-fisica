@@ -2,7 +2,7 @@
 % Plantilla dels exàmens i fulls d'exercicis (derivada de "tex ejemplo/main.tex").
 % La web hi substitueix les marques %%...%%:
 %   %%PREAMBUL_EXERCICIS%%  macros dels exercicis (eines/preambul_exercicis.tex)
-%   %%CAPCALERA%%           \departament, \trimestre, \unitat, \instruccions
+%   %%CAPCALERA%%           \departament, \trimestre, \unitat, \instruccions, \logocentre
 %   %%OPCIONS%%             p. ex. \mostrapuntsfalse als fulls d'exercicis
 %   %%EXERCICIS%%           els exercicis
 % Es pot modificar lliurement mentre es mantinguin les marques.
@@ -64,7 +64,9 @@
 \newcommand{\trimestre}[1]{\def\@trimestre{#1}}
 \newcommand{\unitat}[1]{\def\@unitat{#1}}
 \newcommand{\instruccions}[1]{\def\@instruccions{#1}}
-\departament{}\trimestre{}\unitat{}\instruccions{}
+% Logo del centre (fitxer d'imatge; si és buit, la casella queda buida)
+\newcommand{\logocentre}[1]{\def\@logocentre{#1}}
+\departament{}\trimestre{}\unitat{}\instruccions{}\logocentre{}
 
 % Fila d'instruccions (només si n'hi ha)
 \newcommand{\filainstruccions}{}
@@ -85,7 +87,8 @@
     \multirow{3}{*}{\includegraphics[width=\ca]{senyal_bn.png}}
      & \multirow{3}{\cb}{Generalitat de Catalunya\\ Departament d'Educació i\\ Formació Professional}
      & \multicolumn{3}{p{\colB}}{\textbf{\@departament}}
-     & \multirow{3}{*}{\includegraphics[width=\cf]{RCC.png}} \\
+     & \multirow{3}{*}{\ifx\@logocentre\@empty\else
+         \includegraphics[width=\cf,height=1.75cm,keepaspectratio]{\@logocentre}\fi} \\
      & & \multicolumn{3}{p{\colB}}{\@trimestre} & \\
      & & \multicolumn{3}{p{\colC}}{\textit{\@unitat}} & \\
     \hline
